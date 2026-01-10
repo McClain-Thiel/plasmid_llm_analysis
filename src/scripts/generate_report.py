@@ -26,6 +26,14 @@ def main(sm):
         else:
             images[f"fig{i}"] = ""
 
+    # Config
+    gen_config = sm.params.gen_config
+    config_html = "<ul>"
+    for k, v in gen_config.items():
+        if k == "prompts": continue # Skip raw prompts if too long, or summarize
+        config_html += f"<li><strong>{k}:</strong> {v}</li>"
+    config_html += "</ul>"
+
     # HTML Template
     html = f"""
     <!DOCTYPE html>
@@ -48,6 +56,11 @@ def main(sm):
     <body>
         <h1>PlasmidGPT Experiment Report</h1>
         <p><strong>Generated:</strong> {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}</p>
+
+        <div class="container">
+            <h2>Experiment Configuration</h2>
+            {config_html}
+        </div>
 
         <div class="container">
             <h2>1. Pass Rates & Diversity</h2>

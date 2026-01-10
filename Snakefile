@@ -24,6 +24,8 @@ rule report:
         metrics_plot = f"{OUT}/analysis/metrics_plots.png"
     output:
         html = f"{OUT}/analysis/report.html"
+    params:
+        gen_config = config["generation"]
     benchmark:
         f"{OUT}/benchmarks/report_rule.tsv"
     script:
