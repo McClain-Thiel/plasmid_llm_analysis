@@ -95,8 +95,13 @@ def js_divergence_from_dist(dist_a, dist_ref):
 def calculate_diversity_mash(seqs, k=21, n=1000):
     hashes = []
     for s in seqs:
+        # Clean sequence or use force=True
+        # Simple clean: remove non-ATGC
+        s_clean = "".join([c for c in s.upper() if c in "ATGC"])
+        if len(s_clean) < k: continue
+        
         mh = sourmash.MinHash(n=n, ksize=k)
-        mh.add_sequence(s)
+        mh.add_sequence(s_clean, force=True)
         hashes.append(mh)
     
     if len(hashes) < 2: return 0.0
@@ -122,17 +127,20 @@ def setup_local_plasmid_db(output_dir):
     
     # 1. Download (if empty)
     if not any(f.endswith(".fna.gz") for f in os.listdir(db_dir)):
-        print("Downloading from NCBI FTP...")
-        cmd = f"wget -q -P {db_dir} 'ftp://ftp.ncbi.nlm.nih.gov/refseq/release/plasmid/*.genomic.fna.gz'"
+        print(f"Downloading from NCBI to {db_dir}...", flush=True)
+        # Use wget with recursive no-parent to fetch matching files via HTTPS
+        cmd = f"wget -q -r -np -nd -A 'plasmid.*.genomic.fna.gz' -P {db_dir} https://ftp.ncbi.nlm.nih.gov/refseq/release/plasmid/"
+        print(f"Running: {cmd}", flush=True)
         try:
             subprocess.run(cmd, shell=True, check=True)
-        except:
-            print("wget failed, trying curl loop...")
-            # Fallback hardcoded loop if glob fails
-            base_url = "ftp://ftp.ncbi.nlm.nih.gov/refseq/release/plasmid"
-            files = [f"plasmid.{i}.{j}.genomic.fna.gz" for i in range(1, 10) for j in range(1, 3)]
-            for f in files:
-                subprocess.run(f"curl -s -o {db_dir}/{f} {base_url}/{f}", shell=True)
+        except Exception as e:
+            print(f"wget failed: {e}. Trying curl loop...", flush=True)
+            base_url = "https://ftp.ncbi.nlm.nih.gov/refseq/release/plasmid"
+            # Guessed range
+            for i in range(1, 10):
+                for j in range(1, 5):
+                    f = f"plasmid.{i}.{j}.genomic.fna.gz"
+                    subprocess.run(f"curl -s -f -o {db_dir}/{f} {base_url}/{f}", shell=True)
 
     # 2. Build DB
     print("Building BLAST DB...")

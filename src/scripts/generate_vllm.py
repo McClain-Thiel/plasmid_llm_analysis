@@ -31,7 +31,10 @@ def main():
     
     for i, output in enumerate(tqdm(outputs, desc="Saving FASTAs")):
         prompt = output.prompt.replace(" ", "").replace("\n", "").replace("\r", "")
-        comp = output.outputs[0].text.replace(" ", "").replace("\n", "").replace("\r", "")
+        raw_comp = output.outputs[0].text
+        # Sanitize: keep only ATGC, upper case
+        comp = "".join([c for c in raw_comp.upper() if c in "ATGC"])
+        
         full = prompt + comp
         records.append({"id": f"seq_{i}", "prompt": prompt, "full": full})
         
