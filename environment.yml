@@ -4,13 +4,12 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  - python>=3.10
+  - python=3.10
   - snakemake
   - pandas
   - biopython
   - seaborn
   - transformers
-  - pytorch
   - tqdm
   - blast
   - ncbi-amrfinderplus
@@ -23,3 +22,6 @@ dependencies:
   - pip
   - pip:
       - vllm
+      - torch
+      - torchvision
+      - torchaudio
