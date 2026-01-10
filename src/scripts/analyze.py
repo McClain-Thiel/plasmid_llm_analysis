@@ -166,7 +166,6 @@ def main(sm):
                 total = len(total_df)
                 model_sequences[model] = total_df['full'].tolist()
                 
-                # Subset for heavy metrics
                 if total > 0:
                     subset = total_df.groupby('prompt').apply(lambda x: x.sample(n=min(len(x), 10), random_state=42)).reset_index(drop=True)
                     for _, row in subset.iterrows():
@@ -190,8 +189,7 @@ def main(sm):
         ref_dist = kmer_distribution(real_concat, k=3)
 
         tasks = [(v[0], ref_dist, v[1], v[2], k) for k, v in blast_candidates.items()]
-        # Add real
-        tasks += [(s, ref_dist, "Real", "Real", f"Real_{i}") for i, s in enumerate(real_seqs)]
+        tasks += [(s, ref_dist, "Real", "Real", f"Real_{{i}}") for i, s in enumerate(real_seqs)]
 
         with multiprocessing.Pool(processes=min(16, multiprocessing.cpu_count())) as pool:
             results = list(tqdm(pool.imap(process_single_plasmid, tasks), total=len(tasks), desc="Metrics"))
@@ -203,13 +201,26 @@ def main(sm):
         pd.DataFrame(summary_rows).to_csv(sm.output.summary, index=False)
 
         print("[STATUS] Generating plots...", flush=True)
-        # Pass Rate Plot
+        # Pass Rate
         plt.figure(figsize=(8,6))
         sns.barplot(data=pd.DataFrame(summary_rows), x="Model", y="PassRate", order=ORDER, palette="viridis")
         save_plot(sm.output.plot)
         save_plot(f"{out_dir}/fig1_pass_rate.png")
 
-        # Metric Plots
+        # Diversity
+        plt.figure(figsize=(8,6))
+        sns.barplot(data=pd.DataFrame(summary_rows), x="Model", y="Diversity", order=ORDER, palette="magma")
+        save_plot(f"{out_dir}/fig10_diversity.png")
+
+        # Similarity
+        plt.figure(figsize=(8,6))
+        sim_counts = metrics_df[metrics_df['Model'] != 'Real'].groupby(['Model', 'Similarity']).size().reset_index(name='Count')
+        model_totals = metrics_df[metrics_df['Model'] != 'Real'].groupby('Model').size().reset_index(name='Total')
+        sim_counts = sim_counts.merge(model_totals, on='Model')
+        sim_counts['Percent'] = sim_counts['Count'] / sim_counts['Total'] * 100
+        sns.barplot(data=sim_counts, x="Model", y="Percent", hue="Similarity", order=ORDER)
+        save_plot(f"{out_dir}/fig11_similarity.png")
+
         metrics = [("Length", "Length (bp)", True), ("GC", "GC Content", False), ("Longest_ORF_ATG_both", "Longest ORF (aa)", True), ("Num_ORFs_>=100AA", "# ORFs >= 100aa", True), ("JS_3mer_vs_real", "3-mer Divergence", False), ("MFE_Density", "MFE Density", False)]
         for i, (col, title, log) in enumerate(metrics):
             plt.figure(figsize=(8,6))
@@ -219,7 +230,23 @@ def main(sm):
             plt.title(f"{title}{' (log10)' if log else ''}")
             save_plot(f"{out_dir}/fig{i+2}_{col.lower()}.png")
         
-        # Save placeholder for metrics_plot
+        # Benchmarks
+        try:
+            comp_df = pd.read_csv(sm.input.bench_comp); comp_df['Model'] = comp_df['Model'].map(MODEL_MAP)
+            plt.figure(figsize=(8,6)); sns.boxplot(data=comp_df, x="Model", y="AvgLogProb", order=ORDER, showfliers=False); save_plot(f"{out_dir}/fig8_completion.png")
+        except: pass
+        try:
+            surp_df = pd.read_csv(sm.input.bench_surp); surp_df['Model'] = surp_df['Model'].map(MODEL_MAP)
+            pivoted = surp_df.pivot_table(index=['Plasmid', 'PromoterStart'], columns='Model', values='MeanLogProb')
+            if 'Base' in pivoted.columns:
+                gap_data = []
+                for m in pivoted.columns:
+                    if m == 'Base': continue
+                    diff = pivoted[m] - pivoted['Base']
+                    for v in diff.dropna(): gap_data.append({"Model": m, "Gap": v})
+                plt.figure(figsize=(8,6)); sns.stripplot(data=pd.DataFrame(gap_data), x="Model", y="Gap", order=[m for m in ORDER if m != 'Base'], jitter=True, alpha=0.6); plt.axhline(0, color='black', linestyle='--'); save_plot(f"{out_dir}/fig9_surprisal.png")
+        except: pass
+
         plt.figure(); plt.plot([0,1],[0,1]); plt.savefig(sm.output.metrics_plot); plt.close()
 
     except Exception:
