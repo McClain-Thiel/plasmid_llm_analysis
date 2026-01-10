@@ -85,5 +85,64 @@ snakemake --cores 8 --resources gpu=1
 Results are stored in the `results/` directory:
 
 *   `results/analysis/model_comparison_summary.csv`: Pass rates and summary statistics.
-*   `results/analysis/metrics_plots.png`: Comparative boxplots of biological metrics (Length, GC, MFE, etc.).
+*   `results/analysis/report.html`: **Comprehensive HTML Report** containing:
+    *   Experiment Configuration (Prompts, Sampling Params).
+    *   Pass Rates & Diversity Scores (Mash Distance).
+    *   Biological Metrics (Length, GC, ORF, MFE, etc.).
+    *   Benchmarking Results (Completion Confidence, Surprisal Gap).
+    *   Similarity Classification against NCBI RefSeq Plasmids.
 *   `results/qc/{model}/passed.csv`: List of sequences passing all QC filters for each model.
+
+## Remote Execution (GPU Machine)
+
+For large-scale generation and analysis, execute on a GPU instance (e.g., `g6-big`).
+
+**Prerequisites:**
+1.  **Disk Space**: Ensure at least **50GB** free space (RefSeq Plasmid DB is ~15GB). Use NVMe storage if available (e.g., `/opt/dlami/nvme`).
+2.  **Hugging Face Token**: Required for gated models (e.g., `UCL-CSSB/PlasmidGPT-SFT`). Set `HF_TOKEN`.
+
+**Execution Command:**
+
+```bash
+# 1. Setup Directories on Large Drive
+export WORKDIR=/opt/dlami/nvme/plasmid_analysis
+mkdir -p $WORKDIR
+cd $WORKDIR
+
+# 2. Clone Repository
+git clone https://github.com/McClain-Thiel/plasmid_llm_analysis.git
+cd plasmid_llm_analysis
+
+# 3. Create Environment (Redirect cache to avoid root partition overflow)
+export TMPDIR=$WORKDIR/tmp
+export PIP_CACHE_DIR=$WORKDIR/pip_cache
+export HF_HOME=$WORKDIR/hf_cache
+export XDG_CACHE_HOME=$WORKDIR/xdg_cache
+mkdir -p $TMPDIR $PIP_CACHE_DIR $HF_HOME $XDG_CACHE_HOME
+
+conda env create -f environment.yml -p ./env
+
+# 4. Initialize AMR Database
+conda run -p ./env amrfinder -u
+
+# 5. Run Pipeline (Background)
+export HF_TOKEN="your_token_here"
+nohup conda run -p ./env snakemake --cores 32 --resources gpu=1 --rerun-incomplete > run.log 2>&1 &
+
+# 6. Monitor
+tail -f run.log
+```
+
+**Retrieving Results:**
+
+```bash
+scp g6-big:/opt/dlami/nvme/plasmid_analysis/plasmid_llm_analysis/results/analysis/report.html ~/Downloads/
+```
+
+## Analysis Details
+
+*   **Diversity**: Calculated using `sourmash` (MinHash) as `1 - mean_pairwise_jaccard_similarity`.
+*   **Similarity**: Sequences are BLASTed against the **NCBI RefSeq Plasmid** database (downloaded locally during analysis) to classify them as "Exact Match" (>99% ID), "Similar" (>80% ID), or "Novel".
+*   **Benchmarking**:
+    *   **Completion**: Log-probability of the next 100bp given a 400bp prefix from a held-out test set.
+    *   **Surprisal**: Log-probability gap (Model - Base) on specific Promoter→CDS transitions.
