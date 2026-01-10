@@ -16,6 +16,7 @@ generation:
   samples_per_prompt: 50
   gpu_utilization: 0.8
   temperature: 0.95
+  repetition_penalty: 1.0
 
 # QC and Benchmarking
 real_plasmids_dir: "assets/annotations"

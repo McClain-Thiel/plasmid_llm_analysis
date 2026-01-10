@@ -41,7 +41,8 @@ rule generate_vllm:
         prompts = config["generation"]["prompts"],
         samples = config["generation"]["samples_per_prompt"],
         gpu_util = config["generation"]["gpu_utilization"],
-        temp = config["generation"]["temperature"]
+        temp = config["generation"]["temperature"],
+        rep_pen = config["generation"]["repetition_penalty"]
     resources:
         gpu = 1
     shell:
@@ -51,6 +52,7 @@ rule generate_vllm:
             --output_dir {output.outdir} \
             --gpu_util {params.gpu_util} \
             --temperature {params.temp} \
+            --repetition_penalty {params.rep_pen} \
             --prompts \"{params.prompts}\" \
             --samples {params.samples}
         """

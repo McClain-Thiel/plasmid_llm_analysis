@@ -15,7 +15,7 @@ dependencies:
   - blast
   - ncbi-amrfinderplus
   - prodigal
-  - viennarna
+  - viennarna>=2.6
   - scipy
   - plotly
   - sourmash

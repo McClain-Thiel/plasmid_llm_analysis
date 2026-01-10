@@ -8,6 +8,7 @@ def parse_args():
     parser.add_argument("--output_dir", required=True)
     parser.add_argument("--gpu_util", type=float, default=0.8)
     parser.add_argument("--temperature", type=float, default=0.95)
+    parser.add_argument("--repetition_penalty", type=float, default=1.0)
     parser.add_argument("--prompts", required=True)
     parser.add_argument("--samples", type=int, default=50)
     return parser.parse_args()
@@ -22,7 +23,11 @@ def main():
     
     llm = LLM(model=args.model_path, gpu_memory_utilization=args.gpu_util)
     sampling_params = SamplingParams(
-        max_tokens=256, temperature=args.temperature, top_p=0.90, stop_token_ids=[2]
+        max_tokens=256, 
+        temperature=args.temperature, 
+        top_p=0.90, 
+        stop_token_ids=[2],
+        repetition_penalty=args.repetition_penalty
     )
     outputs = llm.generate(input_prompts, sampling_params)
     
