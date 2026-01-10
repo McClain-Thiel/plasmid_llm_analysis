@@ -16,6 +16,7 @@ dependencies:
   - ncbi-amrfinderplus
   - prodigal
   - viennarna>=2.6
+  - openblas
   - scipy
   - plotly
   - sourmash
