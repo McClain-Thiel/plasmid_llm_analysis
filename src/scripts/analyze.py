@@ -109,8 +109,41 @@ def calculate_diversity_mash(seqs, k=21, n=1000):
     # Return diversity = 1 - average_similarity
     return 1.0 - np.mean(sims) if sims else 0.0
 
-# --- New: Remote BLAST Batch ---
-def run_remote_blast_batch(seq_dict):
+# --- New: Local RefSeq Plasmid DB ---
+def setup_local_plasmid_db(output_dir):
+    db_dir = os.path.join(output_dir, "refseq_data")
+    db_out = os.path.join(db_dir, "refseq_plasmids")
+    
+    if os.path.exists(db_out + ".nsq"):
+        return db_out
+        
+    os.makedirs(db_dir, exist_ok=True)
+    print("Setting up Local RefSeq Plasmid Database (this may take time)...")
+    
+    # 1. Download (if empty)
+    if not any(f.endswith(".fna.gz") for f in os.listdir(db_dir)):
+        print("Downloading from NCBI FTP...")
+        cmd = f"wget -q -P {db_dir} 'ftp://ftp.ncbi.nlm.nih.gov/refseq/release/plasmid/*.genomic.fna.gz'"
+        try:
+            subprocess.run(cmd, shell=True, check=True)
+        except:
+            print("wget failed, trying curl loop...")
+            # Fallback hardcoded loop if glob fails
+            base_url = "ftp://ftp.ncbi.nlm.nih.gov/refseq/release/plasmid"
+            files = [f"plasmid.{i}.{j}.genomic.fna.gz" for i in range(1, 10) for j in range(1, 3)]
+            for f in files:
+                subprocess.run(f"curl -s -o {db_dir}/{f} {base_url}/{f}", shell=True)
+
+    # 2. Build DB
+    print("Building BLAST DB...")
+    # Clean up any partials
+    cmd = f"zcat {db_dir}/*.genomic.fna.gz | makeblastdb -in - -dbtype nucl -out {db_out} -title 'RefSeq Plasmids' -parse_seqids"
+    subprocess.run(cmd, shell=True, check=True)
+    
+    return db_out
+
+# --- BLAST Batch ---
+def run_blast_batch(seq_dict, db_path):
     """
     seq_dict: {id: sequence}
     Returns: {id: classification}
@@ -123,28 +156,21 @@ def run_remote_blast_batch(seq_dict):
         for sid, seq in seq_dict.items():
             tmp.write(f">{sid}\n{seq}\n")
     
-    print(f"Running Remote BLAST for {len(seq_dict)} sequences... (This may take time)")
-    
-    # Build Map (ID -> Classification)
-    # Default to "Novel"
+    print(f"Running BLAST against {db_path} for {len(seq_dict)} sequences...")
     results_map = {sid: "Novel" for sid in seq_dict}
     
     cmd = [
-        "blastn", "-query", tmp_name, "-db", "nt", "-remote",
-        "-entrez_query", "plasmid[filter]",
+        "blastn", "-query", tmp_name, "-db", db_path,
         "-outfmt", "6 qseqid pident length qlen slen", 
-        "-max_target_seqs", "1", "-task", "megablast"
+        "-max_target_seqs", "1", "-task", "megablast", "-num_threads", "16"
     ]
     
     try:
-        # 5 minute timeout?
-        # Actually, let it run. Remote blast can be slow.
         res = subprocess.check_output(cmd, stderr=subprocess.DEVNULL).decode().strip()
-        
         for line in res.split('\n'):
             if not line: continue
             parts = line.split('\t')
-            if len(parts) < 5: continue
+            if len(parts) < 4: continue
             
             qid = parts[0]
             pident = float(parts[1])
@@ -154,7 +180,7 @@ def run_remote_blast_batch(seq_dict):
             cov = length / qlen
             
             if pident > 95 and cov > 0.90:
-                cls = "Exact Match" # Known Plasmid
+                cls = "Exact Match"
             elif pident > 80:
                 cls = "Similar"
             else:
@@ -163,8 +189,7 @@ def run_remote_blast_batch(seq_dict):
             results_map[qid] = cls
             
     except Exception as e:
-        print(f"Remote BLAST failed: {e}")
-        # Fallback to Novel or Error
+        print(f"BLAST failed: {e}")
         
     os.remove(tmp_name)
     return results_map
@@ -194,7 +219,17 @@ def save_plot(filename):
 
 def main(sm):
     out_dir = os.path.dirname(sm.output.summary)
+    # data_dir for DB download
+    data_dir = os.path.join(os.path.dirname(sm.output.summary), "../../data") # results/analysis/../../data -> data/
+    
     sns.set_theme(style="whitegrid", context="paper", font_scale=1.4)
+
+    # --- 0. Prepare Local RefSeq DB ---
+    try:
+        refseq_db = setup_local_plasmid_db(data_dir)
+    except Exception as e:
+        print(f"Failed to setup local DB: {e}. Skipping BLAST.")
+        refseq_db = None
 
     # --- 1. Load Data ---
     ref_dir = sm.input.real_data
@@ -237,7 +272,10 @@ def main(sm):
         except: pass
 
     # --- 2. Run BLAST (Batch) ---
-    blast_results = run_remote_blast_batch(blast_candidates)
+    if refseq_db:
+        blast_results = run_blast_batch(blast_candidates, refseq_db)
+    else:
+        blast_results = {}
     
     # --- 3. Compute Metrics (Parallel) ---
     all_tasks = [(s, ref_dist, m, p, i) for s, m, p, i in gen_data] + \
@@ -285,7 +323,7 @@ def main(sm):
     
     # Plot Diversity
     plt.figure(figsize=(8, 6))
-    sns.barplot(data=sum_df, x="Model", y="Diversity (Mash)", order=ORDER, palette="magma")
+    sns.barplot(data=div_df, x="Model", y="Diversity (Mash)", order=ORDER, palette="magma")
     plt.title("Sequence Diversity (1 - Avg Mash Similarity)")
     plt.ylabel("Diversity Score")
     save_plot(f"{out_dir}/fig10_diversity.png")
@@ -312,7 +350,7 @@ def main(sm):
         plt.title(title)
         save_plot(f"{out_dir}/fig{i+2}_{col.lower()}.png")
 
-    # Plot Similarity (Normalized Stacked Bar or Side-by-Side)
+    # Plot Similarity
     plt.figure(figsize=(8, 6))
     sim_counts = metrics_df[metrics_df['Model'] != 'Real'].groupby(['Model', 'Similarity']).size().reset_index(name='Count')
     # Calculate pct
@@ -372,6 +410,12 @@ def main(sm):
             plt.ylabel("LogProb Difference (Positive = Better)")
             save_plot(f"{out_dir}/fig9_surprisal.png")
     except Exception as e: print(f"Surprisal plot failed: {e}")
+    
+    # Cleanup temp db
+    # shutil.rmtree(tmp_dir) # Don't cleanup if we want to reuse? But here we use 'data/refseq_data' which is persistent.
+    # The 'tmp_dir' in this function was for blast query temp file.
+    # The 'tmp_dir' in the previous version was for remote db.
+    # Here I don't use 'tmp_dir' for DB. I use 'data/refseq_data'. So I don't need to clean it up.
 
 if __name__ == "__main__":
     main(snakemake)
