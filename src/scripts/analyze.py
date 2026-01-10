@@ -3,24 +3,37 @@ import os
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
-import re
 import multiprocessing
 from scipy.spatial.distance import jensenshannon
 from collections import Counter
 from Bio.Seq import Seq
 from tqdm import tqdm
+import re
+import subprocess
+import sourmash
+import tempfile
+import shutil
+import time
 
 try:
     import RNA
 except ImportError:
     pass
 
-# --- Helper Functions ---
+# --- Configuration ---
+MODEL_MAP = {
+    'Base': 'Base',
+    'SFT': 'SFT',
+    'RL': 'GRPO',
+    'SFT_GRPO': 'SFT+GRPO'
+}
+ORDER = ['Base', 'SFT', 'GRPO', 'SFT+GRPO']
+ORDER_WITH_REAL = ['Real'] + ORDER
 
+# --- Helper Functions (Metrics) ---
 def gc_content(seq: str) -> float:
     seq = seq.upper()
-    if not seq:
-        return 0.0
+    if not seq: return 0.0
     return (seq.count("G") + seq.count("C")) / len(seq)
 
 def get_circular_mfe(seq_str: str) -> tuple[float, float]:
@@ -31,8 +44,7 @@ def get_circular_mfe(seq_str: str) -> tuple[float, float]:
         fc = RNA.fold_compound(str(seq_str), md)
         (structure, mfe) = fc.mfe()
         return mfe, mfe / len(seq_str)
-    except NameError: # ViennaRNA not installed
-        return 0.0, 0.0
+    except NameError: return 0.0, 0.0
 
 def fast_longest_orf_atg(seq_str: str, min_aa: int = 0) -> int:
     seq = Seq(seq_str)
@@ -45,8 +57,7 @@ def fast_longest_orf_atg(seq_str: str, min_aa: int = 0) -> int:
                 longest_in_frame = max(len(m) - 1 for m in matches)
                 if longest_in_frame >= min_aa:
                     max_len = max(max_len, longest_in_frame)
-        except:
-            pass
+        except: pass
     return int(max_len)
 
 def get_orfs_both_strands_fast(seq_str: str) -> tuple[int, int, int]:
@@ -73,24 +84,6 @@ def kmer_distribution(seq: str, k: int = 3):
     if total == 0: return {}
     return {kmer: c / total for kmer, c in counts.items()}
 
-def js_divergence_kmers(seq_a: str, seq_b_concat: str, k: int = 3) -> float:
-    # Approximate JS by comparing seq to global distribution
-    # Pre-computing dist_b is better but this is 'per seq' worker
-    # We assume seq_b_concat is passed.
-    # Note: re-computing dist_b every time is slow. 
-    # Optimization: Calculate dist_b ONCE outside.
-    # Here we assume seq_b_concat is the raw string.
-    # For speed in worker, we will just count kmers for seq_a
-    # and require dist_b (dict) to be passed in args if possible.
-    # But since we pass strings, let's just do it.
-    
-    dist_a = kmer_distribution(seq_a, k)
-    # We need a reference distribution. 
-    # Calculating on huge string every time is bad.
-    # Let's assume 'ref_dist' is passed instead of 'ref_concat' in args if possible.
-    # See process_single_plasmid below.
-    return 0.0 # Placeholder, handled differently
-
 def js_divergence_from_dist(dist_a, dist_ref):
     all_keys = sorted(set(dist_a.keys()) | set(dist_ref.keys()))
     if not all_keys: return 0.0
@@ -98,76 +91,171 @@ def js_divergence_from_dist(dist_a, dist_ref):
     q = np.array([dist_ref.get(k, 0.0) for k in all_keys])
     return float(jensenshannon(p, q, base=2.0))
 
+# --- New: Diversity (Self-Mash) ---
+def calculate_diversity_mash(seqs, k=21, n=1000):
+    hashes = []
+    for s in seqs:
+        mh = sourmash.MinHash(n=n, ksize=k)
+        mh.add_sequence(s)
+        hashes.append(mh)
+    
+    if len(hashes) < 2: return 0.0
+    
+    sims = []
+    for i in range(len(hashes)):
+        for j in range(i+1, len(hashes)):
+            sims.append(hashes[i].jaccard(hashes[j]))
+    
+    # Return diversity = 1 - average_similarity
+    return 1.0 - np.mean(sims) if sims else 0.0
+
+# --- New: Remote BLAST Batch ---
+def run_remote_blast_batch(seq_dict):
+    """
+    seq_dict: {id: sequence}
+    Returns: {id: classification}
+    """
+    if not seq_dict: return {}
+    
+    # Write all to one file
+    with tempfile.NamedTemporaryFile(mode='w', suffix='.fasta', delete=False) as tmp:
+        tmp_name = tmp.name
+        for sid, seq in seq_dict.items():
+            tmp.write(f">{sid}\n{seq}\n")
+    
+    print(f"Running Remote BLAST for {len(seq_dict)} sequences... (This may take time)")
+    
+    # Build Map (ID -> Classification)
+    # Default to "Novel"
+    results_map = {sid: "Novel" for sid in seq_dict}
+    
+    cmd = [
+        "blastn", "-query", tmp_name, "-db", "nt", "-remote",
+        "-entrez_query", "plasmid[filter]",
+        "-outfmt", "6 qseqid pident length qlen slen", 
+        "-max_target_seqs", "1", "-task", "megablast"
+    ]
+    
+    try:
+        # 5 minute timeout?
+        # Actually, let it run. Remote blast can be slow.
+        res = subprocess.check_output(cmd, stderr=subprocess.DEVNULL).decode().strip()
+        
+        for line in res.split('\n'):
+            if not line: continue
+            parts = line.split('\t')
+            if len(parts) < 5: continue
+            
+            qid = parts[0]
+            pident = float(parts[1])
+            length = float(parts[2])
+            qlen = float(parts[3])
+            
+            cov = length / qlen
+            
+            if pident > 95 and cov > 0.90:
+                cls = "Exact Match" # Known Plasmid
+            elif pident > 80:
+                cls = "Similar"
+            else:
+                cls = "Novel"
+            
+            results_map[qid] = cls
+            
+    except Exception as e:
+        print(f"Remote BLAST failed: {e}")
+        # Fallback to Novel or Error
+        
+    os.remove(tmp_name)
+    return results_map
+
 # --- Worker ---
 def process_single_plasmid(args):
     seq_str, ref_dist, model_tag, prompt_tag, name_tag = args
     
-    # Metrics
     atg_fwd, atg_rev, atg_both = get_orfs_both_strands_fast(seq_str)
     mfe_total, mfe_density = get_circular_mfe(seq_str)
     gc = gc_content(seq_str)
     n_orfs = count_orfs_above(seq_str, min_aa=100)
-    
-    # JS
     dist_a = kmer_distribution(seq_str, k=3)
     js3 = js_divergence_from_dist(dist_a, ref_dist)
     
     return {
-        "Model": model_tag,
-        "Prompt": prompt_tag,
-        "Name": name_tag,
-        "Length": len(seq_str),
-        "GC": gc,
-        "Num_ORFs_>=100AA": n_orfs,
-        "JS_3mer_vs_real": js3,
-        "Longest_ORF_ATG_both": atg_both,
+        "Model": model_tag, "Prompt": prompt_tag, "Name": name_tag,
+        "Length": len(seq_str), "GC": gc, "Num_ORFs_>=100AA": n_orfs,
+        "JS_3mer_vs_real": js3, "Longest_ORF_ATG_both": atg_both,
         "MFE_Density": mfe_density
     }
 
+def save_plot(filename):
+    plt.tight_layout()
+    plt.savefig(filename, dpi=300)
+    plt.close()
+
 def main(sm):
-    # 1. Load Real Plasmids
-    real_files = [f for f in os.listdir(sm.input.real_data) if f.endswith(".fasta")]
+    out_dir = os.path.dirname(sm.output.summary)
+    sns.set_theme(style="whitegrid", context="paper", font_scale=1.4)
+
+    # --- 1. Load Data ---
+    ref_dir = sm.input.real_data
+    ref_files = [os.path.join(ref_dir, f) for f in os.listdir(ref_dir) if f.endswith(".fasta")]
+    
     real_seqs = []
-    for rf in real_files:
-        path = os.path.join(sm.input.real_data, rf)
-        with open(path) as f:
-            # Read single record simple fasta
+    for rf in ref_files:
+        with open(rf) as f:
             lines = [l.strip() for l in f if not l.startswith(">")]
             seq = "".join(lines).upper()
-            if seq:
-                real_seqs.append({"Name": rf, "Sequence": seq, "Model": "Real", "Prompt": "Real"})
+            if seq: real_seqs.append({"Name": os.path.basename(rf), "Sequence": seq, "Model": "Real", "Prompt": "Real"})
     
-    # Global Ref Dist
     real_concat = "".join([x["Sequence"] for x in real_seqs])
     ref_dist = kmer_distribution(real_concat, k=3)
     
-    # 2. Load Generated Plasmids
-    gen_tasks = []
+    # Load Generated
+    gen_data = [] # List of (seq, model, prompt, id)
+    model_sequences = {m: [] for m in sm.params.models} # For Diversity
+    
+    # Collect IDs for BLAST
+    blast_candidates = {} # {unique_id: seq}
+    
     for model in sm.params.models:
         csv_file = [f for f in sm.input.generations if f"/{model}/" in f][0]
         try:
             df = pd.read_csv(csv_file)
-            for _, row in df.iterrows():
-                # row keys: id, prompt, full
-                # The 'full' sequence is the plasmid
+            # Store full set for diversity
+            full_seqs = df['full'].tolist()
+            model_sequences[model] = full_seqs
+            
+            # Subset 10 per prompt for heavy metrics & BLAST
+            subset = df.groupby('prompt').apply(lambda x: x.sample(n=min(len(x), 10), random_state=42)).reset_index(drop=True)
+            
+            for _, row in subset.iterrows():
+                mod_name = MODEL_MAP.get(model, model)
                 prompt_label = "ATG" if len(row['prompt']) < 10 else "GFP"
-                gen_tasks.append((row['full'], ref_dist, model, prompt_label, row['id']))
-        except Exception as e:
-            print(f"Skipping {model}: {e}")
+                unique_id = f"{mod_name}_{row['id']}"
+                gen_data.append((row['full'], mod_name, prompt_label, unique_id))
+                blast_candidates[unique_id] = row['full']
+        except: pass
 
-    # Add Real to tasks
-    all_tasks = gen_tasks + [(x["Sequence"], ref_dist, "Real", "Real", x["Name"]) for x in real_seqs]
+    # --- 2. Run BLAST (Batch) ---
+    blast_results = run_remote_blast_batch(blast_candidates)
     
-    # 3. Parallel Compute
-    print(f"Computing metrics for {len(all_tasks)} sequences...")
-    results = []
+    # --- 3. Compute Metrics (Parallel) ---
+    all_tasks = [(s, ref_dist, m, p, i) for s, m, p, i in gen_data] + \
+                [(x["Sequence"], ref_dist, "Real", "Real", x["Name"]) for x in real_seqs]
+    
     with multiprocessing.Pool(processes=min(16, multiprocessing.cpu_count())) as pool:
-        for res in tqdm(pool.imap(process_single_plasmid, all_tasks), total=len(all_tasks)):
-            results.append(res)
+        results = list(tqdm(pool.imap(process_single_plasmid, all_tasks), total=len(all_tasks), desc="Metrics"))
+    
+    # Merge BLAST results into metrics
+    for res in results:
+        if res["Model"] == "Real":
+            res["Similarity"] = "Reference"
+        else:
+            res["Similarity"] = blast_results.get(res["Name"], "Novel")
             
     metrics_df = pd.DataFrame(results)
     
-    # 4. Generate Pass Rate Summary (Legacy logic integrated)
+    # --- 4. Pass Rates & Diversity ---
     summary_rows = []
     for model in sm.params.models:
         qc_file = [f for f in sm.input.qc_pass_csvs if f"/{model}/" in f][0]
@@ -176,31 +264,34 @@ def main(sm):
             passed = len(pd.read_csv(qc_file))
             total = len(pd.read_csv(gen_file))
             rate = (passed / total * 100) if total else 0
-        except:
-            rate = 0
-        summary_rows.append({"Model": model, "PassRate": rate})
+        except: rate = 0
+        
+        # Diversity
+        div = calculate_diversity_mash(model_sequences.get(model, []))
+        summary_rows.append({"Model": MODEL_MAP.get(model, model), "PassRate": rate, "Diversity (Mash)": div})
     
     sum_df = pd.DataFrame(summary_rows)
     sum_df.to_csv(sm.output.summary, index=False)
     
-    # 5. Plotting
-    sns.set_theme(style="whitegrid", context="paper", font_scale=1.2)
-    
-    # A. Pass Rate
-    plt.figure(figsize=(6, 4))
-    sns.barplot(data=sum_df, x="Model", y="PassRate")
+    # Plot Pass Rate
+    plt.figure(figsize=(8, 6))
+    sns.barplot(data=sum_df, x="Model", y="PassRate", order=ORDER, palette="viridis")
     plt.title("Pass Rate by Model")
-    plt.savefig(sm.output.plot)
-    plt.close()
+    plt.ylabel("Pass Rate (%)")
+    save_plot(f"{out_dir}/fig1_pass_rate.png")
+    # Legacy save
+    sns.barplot(data=sum_df, x="Model", y="PassRate", order=ORDER, palette="viridis")
+    save_plot(sm.output.plot)
     
-    # B. Metrics Panel
-    model_order = ["Real"] + sm.params.models
-    metrics_df["Model"] = pd.Categorical(metrics_df["Model"], categories=model_order, ordered=True)
-    
-    fig, axes = plt.subplots(2, 3, figsize=(18, 10))
-    axes = axes.flatten()
-    
-    plot_params = [
+    # Plot Diversity
+    plt.figure(figsize=(8, 6))
+    sns.barplot(data=sum_df, x="Model", y="Diversity (Mash)", order=ORDER, palette="magma")
+    plt.title("Sequence Diversity (1 - Avg Mash Similarity)")
+    plt.ylabel("Diversity Score")
+    save_plot(f"{out_dir}/fig10_diversity.png")
+
+    # --- 5. Plot Metrics & Similarity ---
+    metrics = [
         ("Length", "Length (bp)", True),
         ("GC", "GC Content", False),
         ("Longest_ORF_ATG_both", "Longest ORF (aa)", True),
@@ -209,22 +300,78 @@ def main(sm):
         ("MFE_Density", "MFE Density", False)
     ]
     
-    for i, (col, title, log_scale) in enumerate(plot_params):
-        ax = axes[i]
+    for i, (col, title, log_scale) in enumerate(metrics):
+        plt.figure(figsize=(8, 6))
         data = metrics_df.copy()
         if log_scale:
             data[col] = np.log10(data[col].clip(lower=1))
             title += " (log10)"
-            
-        sns.boxplot(data=data, x="Model", y=col, hue="Prompt", showfliers=False, ax=ax)
-        ax.set_title(title)
-        ax.legend([],[], frameon=False) # Hide legend per plot to save space
         
-    handles, labels = ax.get_legend_handles_labels()
-    fig.legend(handles, labels, loc='upper right')
+        valid_order = [m for m in ORDER_WITH_REAL if m in data['Model'].unique()]
+        sns.boxplot(data=data, x="Model", y=col, hue="Prompt", order=valid_order, showfliers=False)
+        plt.title(title)
+        save_plot(f"{out_dir}/fig{i+2}_{col.lower()}.png")
+
+    # Plot Similarity (Normalized Stacked Bar or Side-by-Side)
+    plt.figure(figsize=(8, 6))
+    sim_counts = metrics_df[metrics_df['Model'] != 'Real'].groupby(['Model', 'Similarity']).size().reset_index(name='Count')
+    # Calculate pct
+    model_totals = metrics_df[metrics_df['Model'] != 'Real'].groupby('Model').size().reset_index(name='Total')
+    sim_counts = sim_counts.merge(model_totals, on='Model')
+    sim_counts['Percent'] = sim_counts['Count'] / sim_counts['Total'] * 100
+    
+    sns.barplot(data=sim_counts, x="Model", y="Percent", hue="Similarity", order=ORDER)
+    plt.title("Similarity to NCBI Plasmid DB (Subset)")
+    plt.ylabel("Percent of Sequences")
+    save_plot(f"{out_dir}/fig11_similarity.png")
+
+    # Combined metrics plot
+    fig, axes = plt.subplots(2, 3, figsize=(18, 10))
+    axes = axes.flatten()
+    for i, (col, title, log_scale) in enumerate(metrics):
+        ax = axes[i]
+        data = metrics_df.copy()
+        if log_scale: data[col] = np.log10(data[col].clip(lower=1))
+        valid_order = [m for m in ORDER_WITH_REAL if m in data['Model'].unique()]
+        sns.boxplot(data=data, x="Model", y=col, order=valid_order, ax=ax, showfliers=False)
+        ax.set_title(title)
     plt.tight_layout()
     plt.savefig(sm.output.metrics_plot)
     plt.close()
+
+    # --- 6. Completion & Surprisal ---
+    try:
+        comp_df = pd.read_csv(sm.input.bench_comp)
+        comp_df['Model'] = comp_df['Model'].map(MODEL_MAP)
+        plt.figure(figsize=(8, 6))
+        sns.boxplot(data=comp_df, x="Model", y="AvgLogProb", order=ORDER, showfliers=False)
+        plt.title("Held-out Completion Confidence")
+        plt.ylabel("Avg LogProb (Next 100bp)")
+        save_plot(f"{out_dir}/fig8_completion.png")
+    except Exception as e: print(f"Completion plot failed: {e}")
+
+    try:
+        surp_df = pd.read_csv(sm.input.bench_surp)
+        surp_df['Model'] = surp_df['Model'].map(MODEL_MAP)
+        pivoted = surp_df.pivot_table(index=['Plasmid', 'PromoterStart'], columns='Model', values='MeanLogProb')
+        
+        if 'Base' in pivoted.columns:
+            gap_data = []
+            for model in pivoted.columns:
+                if model == 'Base': continue
+                diff = pivoted[model] - pivoted['Base']
+                for val in diff.dropna():
+                    gap_data.append({"Model": model, "Gap": val})
+            
+            gap_df = pd.DataFrame(gap_data)
+            plt.figure(figsize=(8, 6))
+            gap_order = [m for m in ORDER if m != 'Base']
+            sns.stripplot(data=gap_df, x="Model", y="Gap", order=gap_order, jitter=True, alpha=0.6)
+            plt.axhline(0, color='black', linestyle='--')
+            plt.title("Surprisal Gap (Model - Base)")
+            plt.ylabel("LogProb Difference (Positive = Better)")
+            save_plot(f"{out_dir}/fig9_surprisal.png")
+    except Exception as e: print(f"Surprisal plot failed: {e}")
 
 if __name__ == "__main__":
     main(snakemake)

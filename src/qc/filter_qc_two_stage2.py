@@ -10,6 +10,13 @@ This script implements a hierarchical filtering strategy for generated plasmids:
 2. Stage B (Validation): Enforces strict identity and coverage thresholds (default >99%).
 3. Structural Integrity: Filters sequences containing exact repeats exceeding a specified length.
 """
+import argparse
+from pathlib import Path
+import pandas as pd
+import numpy as np
+import re
+
+# ---------- ID normalization (robust across files/headers/paths) ----------
 _EXT_RE = re.compile(r"\.(fa|fasta|fna|fas|gbk|gb|fa\.gz|fasta\.gz|fna\.gz|fas\.gz)$", re.IGNORECASE)
 
 def _basename_no_ext(x: str) -> str:

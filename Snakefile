@@ -9,7 +9,25 @@ rule all:
         f"{OUT}/analysis/completion_benchmark.csv",
         f"{OUT}/analysis/surprisal_benchmark.csv",
         f"{OUT}/analysis/pass_rate.png",
-        f"{OUT}/analysis/metrics_plots.png"
+        f"{OUT}/analysis/metrics_plots.png",
+        f"{OUT}/analysis/report.html"
+
+# ... (existing rules) ...
+
+# --- 5. Reporting ---
+rule report:
+    input:
+        summary = f"{OUT}/analysis/model_comparison_summary.csv",
+        completion = f"{OUT}/analysis/completion_benchmark.csv",
+        surprisal = f"{OUT}/analysis/surprisal_benchmark.csv",
+        pass_plot = f"{OUT}/analysis/pass_rate.png",
+        metrics_plot = f"{OUT}/analysis/metrics_plots.png"
+    output:
+        html = f"{OUT}/analysis/report.html"
+    benchmark:
+        f"{OUT}/benchmarks/report_rule.tsv"
+    script:
+        "src/scripts/generate_report.py"
 
 # --- 1. Generation ---
 rule generate_vllm:
@@ -100,6 +118,8 @@ rule benchmarks:
         models = config["models"]
     resources:
         gpu = 1
+    benchmark:
+        f"{OUT}/benchmarks/benchmarks_rule.tsv"
     script:
         "src/scripts/benchmarks.py"
 
@@ -108,12 +128,16 @@ rule analyze:
     input:
         qc_pass_csvs = expand(f"{OUT}/qc/{{model}}/passed.csv", model=MODELS),
         generations = expand(f"{OUT}/generations/{{model}}/outputs.csv", model=MODELS),
-        real_data = config["real_plasmids_dir"]
+        real_data = config["real_plasmids_dir"],
+        bench_comp = f"{OUT}/analysis/completion_benchmark.csv",
+        bench_surp = f"{OUT}/analysis/surprisal_benchmark.csv"
     output:
         summary = f"{OUT}/analysis/model_comparison_summary.csv",
         plot = f"{OUT}/analysis/pass_rate.png",
         metrics_plot = f"{OUT}/analysis/metrics_plots.png"
     params:
         models = MODELS
+    benchmark:
+        f"{OUT}/benchmarks/analyze_rule.tsv"
     script:
         "src/scripts/analyze.py"

@@ -18,6 +18,7 @@ dependencies:
   - viennarna
   - scipy
   - plotly
+  - sourmash
   - pip
   - pip:
       - vllm
