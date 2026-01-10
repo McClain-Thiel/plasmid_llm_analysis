@@ -1,0 +1,13 @@
+# Ignored directories
+results/
+.snakemake/
+__pycache__/
+.DS_Store
+.idea/
+.vscode/
+
+# Keep assets but ignore large/temp files if any (though currently we want to keep the DB)
+# assets/ is tracked
+
+# BLAST DB files generated in data/
+data/oridb_nucl*

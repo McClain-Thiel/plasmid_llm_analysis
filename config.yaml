@@ -1,0 +1,28 @@
+# Configuration for PlasmidGPT Pipeline
+
+# Paths
+output_dir: "results"
+
+models:
+  Base: "UCL-CSSB/PlasmidGPT"
+  SFT: "UCL-CSSB/PlasmidGPT-SFT"
+  RL: "UCL-CSSB/PlasmidGPT-GRPO"
+  SFT_GRPO: "McClain/PlasmidGPT-RL"
+
+generation:
+  prompts:
+    - "ATG"
+    - "tttacggctagctcagtcctaggtatagtgctagcTACTagagaaagaggagaaatactaAATGatgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagatcacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataaAGGTccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata"
+  samples_per_prompt: 50
+  gpu_utilization: 0.8
+  temperature: 0.95
+
+# QC and Benchmarking
+real_plasmids_dir: "assets/annotations"
+oridb_ref: "assets/oriV_refs.fasta"
+oridb_prefix: "data/oridb_nucl"
+
+qc:
+  threads: 8
+  ori_strict_id: 99.0
+  amr_strict_id: 100.0

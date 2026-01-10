@@ -1,0 +1,23 @@
+name: plasmidgpt
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python>=3.10
+  - snakemake
+  - pandas
+  - biopython
+  - seaborn
+  - transformers
+  - pytorch
+  - tqdm
+  - blast
+  - ncbi-amrfinderplus
+  - prodigal
+  - viennarna
+  - scipy
+  - plotly
+  - pip
+  - pip:
+      - vllm
