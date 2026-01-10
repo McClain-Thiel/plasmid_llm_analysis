@@ -201,23 +201,20 @@ def main(sm):
         pd.DataFrame(summary_rows).to_csv(sm.output.summary, index=False)
 
         print("[STATUS] Generating plots...", flush=True)
-        # Pass Rate
         plt.figure(figsize=(8,6))
         sns.barplot(data=pd.DataFrame(summary_rows), x="Model", y="PassRate", order=ORDER, palette="viridis")
         save_plot(sm.output.plot)
         save_plot(f"{out_dir}/fig1_pass_rate.png")
 
-        # Diversity
         plt.figure(figsize=(8,6))
         sns.barplot(data=pd.DataFrame(summary_rows), x="Model", y="Diversity", order=ORDER, palette="magma")
         save_plot(f"{out_dir}/fig10_diversity.png")
 
-        # Similarity
-        plt.figure(figsize=(8,6))
         sim_counts = metrics_df[metrics_df['Model'] != 'Real'].groupby(['Model', 'Similarity']).size().reset_index(name='Count')
         model_totals = metrics_df[metrics_df['Model'] != 'Real'].groupby('Model').size().reset_index(name='Total')
         sim_counts = sim_counts.merge(model_totals, on='Model')
         sim_counts['Percent'] = sim_counts['Count'] / sim_counts['Total'] * 100
+        plt.figure(figsize=(8,6))
         sns.barplot(data=sim_counts, x="Model", y="Percent", hue="Similarity", order=ORDER)
         save_plot(f"{out_dir}/fig11_similarity.png")
 
@@ -230,7 +227,6 @@ def main(sm):
             plt.title(f"{title}{' (log10)' if log else ''}")
             save_plot(f"{out_dir}/fig{i+2}_{col.lower()}.png")
         
-        # Benchmarks
         try:
             comp_df = pd.read_csv(sm.input.bench_comp); comp_df['Model'] = comp_df['Model'].map(MODEL_MAP)
             plt.figure(figsize=(8,6)); sns.boxplot(data=comp_df, x="Model", y="AvgLogProb", order=ORDER, showfliers=False); save_plot(f"{out_dir}/fig8_completion.png")
