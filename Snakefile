@@ -38,7 +38,7 @@ rule generate_vllm:
         csv = f"{OUT}/generations/{{model}}/outputs.csv"
     params:
         model_path = lambda w: config["models"][w.model],
-        prompts = config["generation"]["prompts"],
+        prompts_json = lambda w: __import__('json').dumps(config["generation"]["prompts"]),
         samples = config["generation"]["samples_per_prompt"],
         gpu_util = config["generation"]["gpu_utilization"],
         temp = config["generation"]["temperature"],
@@ -53,7 +53,7 @@ rule generate_vllm:
             --gpu_util {params.gpu_util} \
             --temperature {params.temp} \
             --repetition_penalty {params.rep_pen} \
-            --prompts \"{params.prompts}\" \
+            --prompts '{params.prompts_json}' \
             --samples {params.samples}
         """
 

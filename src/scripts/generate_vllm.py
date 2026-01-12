@@ -1,4 +1,4 @@
-import argparse, os, pandas as pd
+import argparse, os, json, pandas as pd
 from vllm import LLM, SamplingParams
 from tqdm import tqdm
 
@@ -9,18 +9,33 @@ def parse_args():
     parser.add_argument("--gpu_util", type=float, default=0.8)
     parser.add_argument("--temperature", type=float, default=0.95)
     parser.add_argument("--repetition_penalty", type=float, default=1.0)
-    parser.add_argument("--prompts", required=True)
+    parser.add_argument("--prompts", required=True, help="JSON array of prompts")
     parser.add_argument("--samples", type=int, default=50)
     return parser.parse_args()
 
 def main():
     args = parse_args()
-    try: raw_prompts = eval(args.prompts)
-    except: raw_prompts = [args.prompts]
-    
+    print(f"Loading model: {args.model_path}")
+
+    # Parse prompts as JSON array
+    try:
+        raw_prompts = json.loads(args.prompts)
+        if not isinstance(raw_prompts, list):
+            raw_prompts = [raw_prompts]
+    except json.JSONDecodeError:
+        # Fallback: try eval for backwards compatibility
+        try:
+            raw_prompts = eval(args.prompts)
+        except:
+            raw_prompts = [args.prompts]
+
+    print(f"Parsed {len(raw_prompts)} unique prompts")
+    for i, p in enumerate(raw_prompts):
+        print(f"  Prompt {i}: {p[:50]}{'...' if len(p) > 50 else ''} (len={len(p)})")
+
     input_prompts = [p.upper() for p in raw_prompts * args.samples]
-    print(f"Generating {len(input_prompts)} sequences...")
-    
+    print(f"Generating {len(input_prompts)} sequences with model: {args.model_path}")
+
     llm = LLM(model=args.model_path, gpu_memory_utilization=args.gpu_util)
     sampling_params = SamplingParams(
         max_tokens=256, 
@@ -41,7 +56,7 @@ def main():
         comp = "".join([c for c in raw_comp.upper() if c in "ATGC"])
         
         full = prompt + comp
-        records.append({"id": f"seq_{i}", "prompt": prompt, "full": full})
+        records.append({"id": f"seq_{i}", "prompt": prompt, "full": full, "model": args.model_path})
         
         with open(os.path.join(args.output_dir, f"seq_{i}.fasta"), "w") as f:
             f.write(f">seq_{i}\n{full}\n")
