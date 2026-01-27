@@ -1,0 +1,4 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=2445;seqhdr="seq_74"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="21|Haloquadratum_walsbyi_DSM_16790|A|47.9|11|0";gc_cont=47.90;transl_table=11;uses_sd=0
+seq_74	Prodigal_v2.6.3	CDS	62	598	59.8	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=4bp;gc_cont=0.376;conf=100.00;score=59.76;cscore=49.46;sscore=10.31;rscore=7.06;uscore=-1.02;tscore=4.27;

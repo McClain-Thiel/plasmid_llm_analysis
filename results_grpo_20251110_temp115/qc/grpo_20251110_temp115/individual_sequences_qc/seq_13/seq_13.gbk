@@ -1,0 +1,19 @@
+DEFINITION  seqnum=1;seqlen=9910;seqhdr="seq_13";version=Prodigal.v2.6.3;run_type=Metagenomic;model="21|Haloquadratum_walsbyi_DSM_16790|A|47.9|11|0";gc_cont=47.90;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             62..598
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=4bp;gc_cont=0.376;conf=100.00;score=59.76;cscore=49.46;sscore=10.31;rscore=7.06;uscore=-1.02;tscore=4.27;"
+     CDS             1305..2114
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=7bp;gc_cont=0.437;conf=100.00;score=65.03;cscore=57.64;sscore=7.39;rscore=4.35;uscore=-0.58;tscore=4.27;"
+     CDS             2648..2836
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=6bp;gc_cont=0.434;conf=72.59;score=4.24;cscore=-0.44;sscore=4.68;rscore=3.24;uscore=-0.58;tscore=3.17;"
+     CDS             4018..4317
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.477;conf=76.28;score=5.08;cscore=2.34;sscore=2.74;rscore=-0.25;uscore=-0.62;tscore=4.27;"
+     CDS             4437..5045
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.466;conf=90.13;score=9.62;cscore=8.13;sscore=1.49;rscore=-0.25;uscore=-2.53;tscore=4.27;"
+     CDS             7028..7594
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.483;conf=91.69;score=10.44;cscore=8.44;sscore=2.00;rscore=-0.25;uscore=-1.37;tscore=4.27;"
+     CDS             8381..8755
+                     /note="ID=1_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.464;conf=61.50;score=2.04;cscore=-0.11;sscore=2.15;rscore=-0.25;uscore=-0.72;tscore=4.27;"
+     CDS             8821..9069
+                     /note="ID=1_8;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=7bp;gc_cont=0.510;conf=59.29;score=1.64;cscore=-4.59;sscore=6.22;rscore=4.28;uscore=-1.76;tscore=4.20;"
+//

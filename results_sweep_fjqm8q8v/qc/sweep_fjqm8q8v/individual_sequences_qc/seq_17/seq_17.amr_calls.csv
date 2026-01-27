@@ -1,0 +1,7 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_17,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,1003,1791,+,100.0,100.0
+seq_17,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,5173,5964,+,99.62,100.0
+seq_17,aph(3')-IIIa,aminoglycoside O-phosphotransferase APH(3')-IIIa,7995,8786,-,100.0,100.0
+seq_17,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,10454,11245,+,99.62,100.0
+seq_17,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,14351,15142,+,99.62,100.0
+seq_17,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,22645,23436,+,100.0,100.0

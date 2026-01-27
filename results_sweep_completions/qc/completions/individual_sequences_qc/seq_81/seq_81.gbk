@@ -1,0 +1,5 @@
+DEFINITION  seqnum=1;seqlen=1478;seqhdr="seq_81";version=Prodigal.v2.6.3;run_type=Metagenomic;model="30|Mycobacterium_leprae_TN|B|57.8|11|1";gc_cont=57.80;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             complement(239..412)
+                     /note="ID=1_1;partial=00;start_type=GTG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.397;conf=52.27;score=0.40;cscore=-5.15;sscore=5.55;rscore=5.44;uscore=1.36;tscore=-0.75;"
+//

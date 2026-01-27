@@ -1,0 +1,12 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=12035;seqhdr="seq_76"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="40|Rothia_dentocariosa_ATCC_17931|B|53.7|11|1";gc_cont=53.70;transl_table=11;uses_sd=1
+seq_76	Prodigal_v2.6.3	CDS	184	363	9.0	-	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.522;conf=87.10;score=8.31;cscore=-1.09;sscore=9.39;rscore=7.54;uscore=0.48;tscore=2.53;
+seq_76	Prodigal_v2.6.3	CDS	1520	2380	73.5	-	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.489;conf=100.00;score=72.81;cscore=55.89;sscore=16.92;rscore=10.64;uscore=3.35;tscore=3.58;
+seq_76	Prodigal_v2.6.3	CDS	2766	3548	16.3	+	0	ID=1_3;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.527;conf=97.69;score=16.29;cscore=11.28;sscore=5.01;rscore=1.61;uscore=-0.18;tscore=3.58;
+seq_76	Prodigal_v2.6.3	CDS	3590	3799	3.6	-	0	ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.571;conf=66.34;score=2.95;cscore=4.50;sscore=-1.55;rscore=-7.17;uscore=3.32;tscore=2.96;
+seq_76	Prodigal_v2.6.3	CDS	3960	4739	63.5	+	0	ID=1_5;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.529;conf=100.00;score=63.54;cscore=58.30;sscore=5.24;rscore=6.02;uscore=2.00;tscore=-2.78;
+seq_76	Prodigal_v2.6.3	CDS	6063	6983	64.9	-	0	ID=1_6;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.566;conf=100.00;score=64.29;cscore=66.40;sscore=-2.10;rscore=-5.94;uscore=0.91;tscore=3.58;
+seq_76	Prodigal_v2.6.3	CDS	8182	8976	72.4	+	0	ID=1_7;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.594;conf=100.00;score=72.39;cscore=62.14;sscore=10.25;rscore=6.02;uscore=0.65;tscore=3.58;
+seq_76	Prodigal_v2.6.3	CDS	10830	11375	23.1	+	0	ID=1_8;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.549;conf=99.43;score=22.45;cscore=24.19;sscore=-1.74;rscore=1.61;uscore=0.08;tscore=-2.78;
+seq_76	Prodigal_v2.6.3	CDS	11220	11996	69.5	-	0	ID=1_9;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.625;conf=100.00;score=69.49;cscore=78.68;sscore=-9.19;rscore=-5.94;uscore=-0.47;tscore=-2.78;

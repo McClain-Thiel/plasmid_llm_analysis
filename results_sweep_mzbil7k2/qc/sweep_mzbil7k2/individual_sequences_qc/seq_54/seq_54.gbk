@@ -1,0 +1,15 @@
+DEFINITION  seqnum=1;seqlen=7824;seqhdr="seq_54";version=Prodigal.v2.6.3;run_type=Metagenomic;model="25|Marinobacter_aquaeolei_VT8|B|57.3|11|1";gc_cont=57.30;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             complement(534..650)
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.547;conf=51.28;score=0.22;cscore=-6.14;sscore=6.36;rscore=6.44;uscore=-0.67;tscore=1.75;"
+     CDS             922..2013
+                     /note="ID=1_2;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.562;conf=100.00;score=98.90;cscore=103.49;sscore=-4.59;rscore=1.44;uscore=-1.71;tscore=-4.32;"
+     CDS             complement(2220..2693)
+                     /note="ID=1_3;partial=00;start_type=GTG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.544;conf=63.26;score=2.36;cscore=-2.21;sscore=4.57;rscore=8.62;uscore=1.43;tscore=-4.32;"
+     CDS             3888..4748
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.491;conf=99.83;score=27.82;cscore=12.44;sscore=15.38;rscore=8.62;uscore=2.93;tscore=3.83;"
+     CDS             5501..6328
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.622;conf=100.00;score=167.90;cscore=162.06;sscore=5.84;rscore=3.18;uscore=-0.52;tscore=3.83;"
+     CDS             6390..7109
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.618;conf=100.00;score=176.09;cscore=163.80;sscore=12.29;rscore=10.97;uscore=-2.51;tscore=3.83;"
+//

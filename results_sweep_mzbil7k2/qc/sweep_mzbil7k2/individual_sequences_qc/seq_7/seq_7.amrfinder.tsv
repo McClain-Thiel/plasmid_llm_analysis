@@ -1,0 +1,4 @@
+Protein id	Contig id	Start	Stop	Strand	Element symbol	Element name	Scope	Type	Subtype	Class	Subclass	Method	Target length	Reference sequence length	% Coverage of reference	% Identity to reference	Alignment length	Closest reference accession	Closest reference name	HMM accession	HMM description
+NA	seq_7	2635	3492	+	blaTEM-116	broad-spectrum class A beta-lactamase TEM-116	core	AMR	AMR	BETA-LACTAM	BETA-LACTAM	ALLELEX	286	286	100.00	100.00	286	WP_000027050.1	broad-spectrum class A beta-lactamase TEM-116	NA	NA
+NA	seq_7	6145	6936	+	aph(3')-IIa	aminoglycoside O-phosphotransferase APH(3')-IIa	core	AMR	AMR	AMINOGLYCOSIDE	KANAMYCIN	EXACTX	264	264	100.00	100.00	264	WP_000572405.1	aminoglycoside O-phosphotransferase APH(3')-IIa	NA	NA
+NA	seq_7	11809	12666	-	blaTEM-116	broad-spectrum class A beta-lactamase TEM-116	core	AMR	AMR	BETA-LACTAM	BETA-LACTAM	ALLELEX	286	286	100.00	100.00	286	WP_000027050.1	broad-spectrum class A beta-lactamase TEM-116	NA	NA

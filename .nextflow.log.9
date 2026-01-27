@@ -1,0 +1,319 @@
+Jan-09 23:23:30.756 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf -c run_working_models.config -profile local,docker -resume
+Jan-09 23:23:30.863 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 25.10.2
+Jan-09 23:23:30.882 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/ubuntu/.nextflow/plugins; core-plugins: nf-amazon@3.4.2,nf-azure@1.20.2,nf-cloudcache@0.5.0,nf-codecommit@0.5.0,nf-console@1.3.0,nf-google@1.23.3,nf-k8s@1.2.2,nf-tower@1.17.3,nf-wave@1.16.1
+Jan-09 23:23:30.913 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jan-09 23:23:30.914 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jan-09 23:23:30.917 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Jan-09 23:23:30.933 [main] DEBUG nextflow.util.RetryConfig - Missing nextflow session - using default retry config
+Jan-09 23:23:31.083 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jan-09 23:23:31.109 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/ubuntu/plasmid_llm_analysis/nextflow.config
+Jan-09 23:23:31.113 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /home/ubuntu/plasmid_llm_analysis/run_working_models.config
+Jan-09 23:23:31.114 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/ubuntu/plasmid_llm_analysis/nextflow.config
+Jan-09 23:23:31.115 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/ubuntu/plasmid_llm_analysis/run_working_models.config
+Jan-09 23:23:31.141 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `local,docker`
+Jan-09 23:23:32.181 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `local,docker`
+Jan-09 23:23:32.207 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [standard, test, singularity, aws, local, docker]
+Jan-09 23:23:32.236 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jan-09 23:23:32.237 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jan-09 23:23:32.261 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/ubuntu/.nextflow/secrets/store.json
+Jan-09 23:23:32.264 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@64387c17] - activable => nextflow.secret.LocalSecretsProvider@64387c17
+Jan-09 23:23:32.275 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Jan-09 23:23:32.290 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [backstabbing_cajal] DSL2 - revision: adf54427b8
+Jan-09 23:23:32.335 [main] DEBUG nextflow.Session - Session UUID: ce9b50f2-01ba-42f6-b535-1e44ad545df0
+Jan-09 23:23:32.336 [main] DEBUG nextflow.Session - Run name: backstabbing_cajal
+Jan-09 23:23:32.336 [main] DEBUG nextflow.Session - Executor pool size: 16
+Jan-09 23:23:32.344 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jan-09 23:23:32.348 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=48; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Jan-09 23:23:32.370 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 25.10.2 build 10555
+  Created: 28-11-2025 19:24 UTC 
+  System: Linux 6.14.0-1014-aws
+  Runtime: Groovy 4.0.28 on OpenJDK 64-Bit Server VM 21.0.8+9-LTS
+  Encoding: UTF-8 (UTF-8)
+  Process: 2024195@ip-172-31-90-236 [172.31.90.236]
+  CPUs: 16 - Mem: 60.5 GB (30.3 GB) - Swap: 0 (0)
+Jan-09 23:23:32.401 [main] DEBUG nextflow.Session - Work-dir: /home/ubuntu/plasmid_llm_analysis/work [ext2/ext3]
+Jan-09 23:23:32.427 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jan-09 23:23:32.436 [main] DEBUG nextflow.Session - Observer factory (v2): LinObserverFactory
+Jan-09 23:23:32.438 [main] DEBUG nextflow.Session - Observer factory (v2): DefaultObserverFactory
+Jan-09 23:23:32.485 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jan-09 23:23:32.494 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 17; maxThreads: 1000
+Jan-09 23:23:32.572 [main] DEBUG nextflow.Session - Session start
+Jan-09 23:23:32.578 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: ./results/pipeline_info/trace_2026-01-09_23-23-32.txt
+Jan-09 23:23:32.851 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jan-09 23:23:33.928 [main] INFO  nextflow.Nextflow - 
+    ╔═══════════════════════════════════════════════════════════════╗
+    ║           P L A S M I D   A N A L Y T I C S                   ║
+    ║                                                               ║
+    ║   Generation • Quality Control • Evaluation                   ║
+    ╚═══════════════════════════════════════════════════════════════╝
+
+    Mode        : full
+    Output      : ./results
+    
+Jan-09 23:23:33.929 [main] INFO  nextflow.Nextflow - 
+    Models      : UCL-CSSB/PlasmidGPT, McClain/PlasmidGPT-RL
+    Prompts     : ATG, GFP_cassette
+    Samples     : 50 per model/prompt
+        
+Jan-09 23:23:33.930 [main] INFO  nextflow.Nextflow - ───────────────────────────────────────────────────────────────
+Jan-09 23:23:33.988 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_low` matches labels `process_low` for process with name GENERATE:PREPARE_PROMPTS
+Jan-09 23:23:33.990 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:PREPARE_PROMPTS` matches process GENERATE:PREPARE_PROMPTS
+Jan-09 23:23:33.998 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Jan-09 23:23:33.998 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-09 23:23:34.006 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Jan-09 23:23:34.013 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=16; memory=60.5 GB; capacity=16; pollInterval=100ms; dumpInterval=5m
+Jan-09 23:23:34.015 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Jan-09 23:23:34.035 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'GENERATE:PREPARE_PROMPTS': maxForks=0; fair=false; array=0
+Jan-09 23:23:34.073 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_gpu` matches labels `process_gpu` for process with name GENERATE:SAMPLE_MODEL
+Jan-09 23:23:34.074 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:SAMPLE_MODEL` matches process GENERATE:SAMPLE_MODEL
+Jan-09 23:23:34.077 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Jan-09 23:23:34.077 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-09 23:23:34.078 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'GENERATE:SAMPLE_MODEL': maxForks=0; fair=false; array=0
+Jan-09 23:23:34.094 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_low` matches labels `process_low` for process with name QC:PRODIGAL
+Jan-09 23:23:34.095 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:PRODIGAL` matches process QC:PRODIGAL
+Jan-09 23:23:34.096 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:PRODIGAL|MOB_TYPER|BLAST_ORI|MAKE_BLAST_DB|AMRFINDER|FIND_REPEATS|FILTER_QC|AGGREGATE_ORI|AGGREGATE_AMR|AGGREGATE_REPEATS|BLAST_SIMILARITY` matches process QC:PRODIGAL
+Jan-09 23:23:34.099 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Jan-09 23:23:34.099 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-09 23:23:34.100 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'QC:PRODIGAL': maxForks=0; fair=false; array=0
+Jan-09 23:23:34.105 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name QC:MOB_TYPER
+Jan-09 23:23:34.106 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:MOB_TYPER` matches process QC:MOB_TYPER
+Jan-09 23:23:34.107 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:PRODIGAL|MOB_TYPER|BLAST_ORI|MAKE_BLAST_DB|AMRFINDER|FIND_REPEATS|FILTER_QC|AGGREGATE_ORI|AGGREGATE_AMR|AGGREGATE_REPEATS|BLAST_SIMILARITY` matches process QC:MOB_TYPER
+Jan-09 23:23:34.109 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Jan-09 23:23:34.109 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-09 23:23:34.110 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'QC:MOB_TYPER': maxForks=0; fair=false; array=0
+Jan-09 23:23:34.113 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_low` matches labels `process_low` for process with name QC:MAKE_BLAST_DB
+Jan-09 23:23:34.114 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:PRODIGAL|MOB_TYPER|BLAST_ORI|MAKE_BLAST_DB|AMRFINDER|FIND_REPEATS|FILTER_QC|AGGREGATE_ORI|AGGREGATE_AMR|AGGREGATE_REPEATS|BLAST_SIMILARITY` matches process QC:MAKE_BLAST_DB
+Jan-09 23:23:34.117 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Jan-09 23:23:34.117 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-09 23:23:34.118 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'QC:MAKE_BLAST_DB': maxForks=0; fair=false; array=0
+Jan-09 23:23:34.125 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name QC:BLAST_ORI
+Jan-09 23:23:34.127 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:BLAST_ORI` matches process QC:BLAST_ORI
+Jan-09 23:23:34.128 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:PRODIGAL|MOB_TYPER|BLAST_ORI|MAKE_BLAST_DB|AMRFINDER|FIND_REPEATS|FILTER_QC|AGGREGATE_ORI|AGGREGATE_AMR|AGGREGATE_REPEATS|BLAST_SIMILARITY` matches process QC:BLAST_ORI
+Jan-09 23:23:34.132 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Jan-09 23:23:34.132 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-09 23:23:34.133 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'QC:BLAST_ORI': maxForks=0; fair=false; array=0
+Jan-09 23:23:34.138 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name QC:AMRFINDER
+Jan-09 23:23:34.139 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:AMRFINDER` matches process QC:AMRFINDER
+Jan-09 23:23:34.142 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:PRODIGAL|MOB_TYPER|BLAST_ORI|MAKE_BLAST_DB|AMRFINDER|FIND_REPEATS|FILTER_QC|AGGREGATE_ORI|AGGREGATE_AMR|AGGREGATE_REPEATS|BLAST_SIMILARITY` matches process QC:AMRFINDER
+Jan-09 23:23:34.145 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Jan-09 23:23:34.145 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-09 23:23:34.146 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'QC:AMRFINDER': maxForks=0; fair=false; array=0
+Jan-09 23:23:34.151 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_low` matches labels `process_low` for process with name QC:FIND_REPEATS
+Jan-09 23:23:34.152 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:FIND_REPEATS` matches process QC:FIND_REPEATS
+Jan-09 23:23:34.152 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:PRODIGAL|MOB_TYPER|BLAST_ORI|MAKE_BLAST_DB|AMRFINDER|FIND_REPEATS|FILTER_QC|AGGREGATE_ORI|AGGREGATE_AMR|AGGREGATE_REPEATS|BLAST_SIMILARITY` matches process QC:FIND_REPEATS
+Jan-09 23:23:34.155 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Jan-09 23:23:34.156 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-09 23:23:34.157 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'QC:FIND_REPEATS': maxForks=0; fair=false; array=0
+Jan-09 23:23:34.175 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_low` matches labels `process_low` for process with name QC:AGGREGATE_ORI
+Jan-09 23:23:34.177 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:PRODIGAL|MOB_TYPER|BLAST_ORI|MAKE_BLAST_DB|AMRFINDER|FIND_REPEATS|FILTER_QC|AGGREGATE_ORI|AGGREGATE_AMR|AGGREGATE_REPEATS|BLAST_SIMILARITY` matches process QC:AGGREGATE_ORI
+Jan-09 23:23:34.181 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Jan-09 23:23:34.181 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-09 23:23:34.182 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'QC:AGGREGATE_ORI': maxForks=0; fair=false; array=0
+Jan-09 23:23:34.185 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_low` matches labels `process_low` for process with name QC:AGGREGATE_AMR
+Jan-09 23:23:34.187 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:PRODIGAL|MOB_TYPER|BLAST_ORI|MAKE_BLAST_DB|AMRFINDER|FIND_REPEATS|FILTER_QC|AGGREGATE_ORI|AGGREGATE_AMR|AGGREGATE_REPEATS|BLAST_SIMILARITY` matches process QC:AGGREGATE_AMR
+Jan-09 23:23:34.189 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Jan-09 23:23:34.189 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-09 23:23:34.190 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'QC:AGGREGATE_AMR': maxForks=0; fair=false; array=0
+Jan-09 23:23:34.193 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_low` matches labels `process_low` for process with name QC:AGGREGATE_REPEATS
+Jan-09 23:23:34.194 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:PRODIGAL|MOB_TYPER|BLAST_ORI|MAKE_BLAST_DB|AMRFINDER|FIND_REPEATS|FILTER_QC|AGGREGATE_ORI|AGGREGATE_AMR|AGGREGATE_REPEATS|BLAST_SIMILARITY` matches process QC:AGGREGATE_REPEATS
+Jan-09 23:23:34.197 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Jan-09 23:23:34.197 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-09 23:23:34.198 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'QC:AGGREGATE_REPEATS': maxForks=0; fair=false; array=0
+Jan-09 23:23:34.210 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_low` matches labels `process_low` for process with name QC:FILTER_QC
+Jan-09 23:23:34.211 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:PRODIGAL|MOB_TYPER|BLAST_ORI|MAKE_BLAST_DB|AMRFINDER|FIND_REPEATS|FILTER_QC|AGGREGATE_ORI|AGGREGATE_AMR|AGGREGATE_REPEATS|BLAST_SIMILARITY` matches process QC:FILTER_QC
+Jan-09 23:23:34.214 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Jan-09 23:23:34.214 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-09 23:23:34.215 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'QC:FILTER_QC': maxForks=0; fair=false; array=0
+Jan-09 23:23:34.227 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_low` matches labels `process_low` for process with name EVAL:COMPUTE_METRICS
+Jan-09 23:23:34.228 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:COMPUTE_METRICS|KMER_DIVERGENCE|MFE_CIRCULAR|COMPARE_MODELS|AGGREGATE_METRICS` matches process EVAL:COMPUTE_METRICS
+Jan-09 23:23:34.231 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Jan-09 23:23:34.231 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-09 23:23:34.232 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'EVAL:COMPUTE_METRICS': maxForks=0; fair=false; array=0
+Jan-09 23:23:34.236 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_low` matches labels `process_low` for process with name EVAL:KMER_DIVERGENCE
+Jan-09 23:23:34.237 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:COMPUTE_METRICS|KMER_DIVERGENCE|MFE_CIRCULAR|COMPARE_MODELS|AGGREGATE_METRICS` matches process EVAL:KMER_DIVERGENCE
+Jan-09 23:23:34.239 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Jan-09 23:23:34.239 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-09 23:23:34.240 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'EVAL:KMER_DIVERGENCE': maxForks=0; fair=false; array=0
+Jan-09 23:23:34.243 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_low` matches labels `process_low` for process with name EVAL:MFE_CIRCULAR
+Jan-09 23:23:34.244 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:MFE_CIRCULAR` matches process EVAL:MFE_CIRCULAR
+Jan-09 23:23:34.244 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:COMPUTE_METRICS|KMER_DIVERGENCE|MFE_CIRCULAR|COMPARE_MODELS|AGGREGATE_METRICS` matches process EVAL:MFE_CIRCULAR
+Jan-09 23:23:34.246 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Jan-09 23:23:34.247 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-09 23:23:34.248 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'EVAL:MFE_CIRCULAR': maxForks=0; fair=false; array=0
+Jan-09 23:23:34.252 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name EVAL:BLAST_SIMILARITY
+Jan-09 23:23:34.253 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:PRODIGAL|MOB_TYPER|BLAST_ORI|MAKE_BLAST_DB|AMRFINDER|FIND_REPEATS|FILTER_QC|AGGREGATE_ORI|AGGREGATE_AMR|AGGREGATE_REPEATS|BLAST_SIMILARITY` matches process EVAL:BLAST_SIMILARITY
+Jan-09 23:23:34.255 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Jan-09 23:23:34.255 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-09 23:23:34.256 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'EVAL:BLAST_SIMILARITY': maxForks=0; fair=false; array=0
+Jan-09 23:23:34.262 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_low` matches labels `process_low` for process with name EVAL:AGGREGATE_METRICS
+Jan-09 23:23:34.263 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:COMPUTE_METRICS|KMER_DIVERGENCE|MFE_CIRCULAR|COMPARE_MODELS|AGGREGATE_METRICS` matches process EVAL:AGGREGATE_METRICS
+Jan-09 23:23:34.266 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Jan-09 23:23:34.266 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-09 23:23:34.267 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'EVAL:AGGREGATE_METRICS': maxForks=0; fair=false; array=0
+Jan-09 23:23:34.271 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_low` matches labels `process_low` for process with name EVAL:COMPARE_MODELS
+Jan-09 23:23:34.272 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:COMPUTE_METRICS|KMER_DIVERGENCE|MFE_CIRCULAR|COMPARE_MODELS|AGGREGATE_METRICS` matches process EVAL:COMPARE_MODELS
+Jan-09 23:23:34.274 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Jan-09 23:23:34.274 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-09 23:23:34.275 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'EVAL:COMPARE_MODELS': maxForks=0; fair=false; array=0
+Jan-09 23:23:34.282 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: AGGREGATE_ORI, AGGREGATE_METRICS, QC:AGGREGATE_ORI, EVAL:COMPARE_MODELS, QC:AGGREGATE_REPEATS, QC:AMRFINDER, EVAL:AGGREGATE_METRICS, QC:FILTER_QC, COMPARE_MODELS, QC:MOB_TYPER, EVAL:MFE_CIRCULAR, QC:MAKE_BLAST_DB, AGGREGATE_AMR, GENERATE:SAMPLE_MODEL, COMPUTE_METRICS, QC:BLAST_ORI, EVAL:COMPUTE_METRICS, QC:AGGREGATE_AMR, EVAL:KMER_DIVERGENCE, KMER_DIVERGENCE, MOB_TYPER, QC:PRODIGAL, GENERATE:PREPARE_PROMPTS, PRODIGAL, QC:FIND_REPEATS, EVAL:BLAST_SIMILARITY, MFE_CIRCULAR, PREPARE_PROMPTS, MAKE_BLAST_DB, FILTER_QC, BLAST_SIMILARITY, AGGREGATE_REPEATS, AMRFINDER, SAMPLE_MODEL, FIND_REPEATS, BLAST_ORI
+Jan-09 23:23:34.290 [main] DEBUG nextflow.Session - Igniting dataflow network (25)
+Jan-09 23:23:34.296 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > GENERATE:PREPARE_PROMPTS
+Jan-09 23:23:34.296 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > GENERATE:SAMPLE_MODEL
+Jan-09 23:23:34.297 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > QC:PRODIGAL
+Jan-09 23:23:34.297 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > QC:MOB_TYPER
+Jan-09 23:23:34.297 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > QC:MAKE_BLAST_DB
+Jan-09 23:23:34.297 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > QC:BLAST_ORI
+Jan-09 23:23:34.297 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > QC:AMRFINDER
+Jan-09 23:23:34.297 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > QC:FIND_REPEATS
+Jan-09 23:23:34.297 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > QC:AGGREGATE_ORI
+Jan-09 23:23:34.298 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > QC:AGGREGATE_AMR
+Jan-09 23:23:34.298 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > QC:AGGREGATE_REPEATS
+Jan-09 23:23:34.298 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > QC:FILTER_QC
+Jan-09 23:23:34.298 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > EVAL:COMPUTE_METRICS
+Jan-09 23:23:34.298 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > EVAL:KMER_DIVERGENCE
+Jan-09 23:23:34.298 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > EVAL:MFE_CIRCULAR
+Jan-09 23:23:34.298 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > EVAL:BLAST_SIMILARITY
+Jan-09 23:23:34.298 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > EVAL:AGGREGATE_METRICS
+Jan-09 23:23:34.299 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > EVAL:COMPARE_MODELS
+Jan-09 23:23:34.300 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_5040b5fde9a7a202: /home/ubuntu/plasmid_llm_analysis/workflows/eval.nf
+  Script_804401fed548fe6e: /home/ubuntu/plasmid_llm_analysis/modules/qc/mob_typer.nf
+  Script_3261aff50001171b: /home/ubuntu/plasmid_llm_analysis/workflows/qc.nf
+  Script_c18765522ba5b60b: /home/ubuntu/plasmid_llm_analysis/main.nf
+  Script_c3c08078e2b1126b: /home/ubuntu/plasmid_llm_analysis/modules/generate/sample_model.nf
+  Script_a7e884244f566af3: /home/ubuntu/plasmid_llm_analysis/modules/qc/amrfinder.nf
+  Script_0cbcad079809e5dd: /home/ubuntu/plasmid_llm_analysis/modules/qc/repeats.nf
+  Script_da80cea58f6d846b: /home/ubuntu/plasmid_llm_analysis/modules/qc/filter.nf
+  Script_628181a7117962e3: /home/ubuntu/plasmid_llm_analysis/modules/qc/prodigal.nf
+  Script_f793df79edea8561: /home/ubuntu/plasmid_llm_analysis/modules/eval/metrics.nf
+  Script_f8c91c1c73a4ad27: /home/ubuntu/plasmid_llm_analysis/workflows/generate.nf
+  Script_7369518df8be6855: /home/ubuntu/plasmid_llm_analysis/modules/eval/compare.nf
+  Script_5dd8f6e0c2ac9368: /home/ubuntu/plasmid_llm_analysis/modules/eval/similarity.nf
+  Script_74fe848b95b64296: /home/ubuntu/plasmid_llm_analysis/modules/qc/blast_ori.nf
+Jan-09 23:23:34.301 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Jan-09 23:23:34.301 [main] DEBUG nextflow.Session - Session await
+Jan-09 23:23:34.388 [Actor Thread 18] INFO  nextflow.processor.TaskProcessor - [skipping] Stored process > QC:MAKE_BLAST_DB (1)
+Jan-09 23:23:34.557 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:23:34.559 [Task submitter] INFO  nextflow.Session - [86/be52a1] Submitted process > GENERATE:PREPARE_PROMPTS (GFP_cassette)
+Jan-09 23:23:34.579 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:23:34.580 [Task submitter] INFO  nextflow.Session - [dc/a3376f] Submitted process > GENERATE:PREPARE_PROMPTS (ATG)
+Jan-09 23:23:35.182 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: GENERATE:PREPARE_PROMPTS (GFP_cassette); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/86/be52a10b401b8f84f4e9b71c75da41]
+Jan-09 23:23:35.183 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=48; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Jan-09 23:23:35.184 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: GENERATE:PREPARE_PROMPTS (ATG); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/dc/a3376fcd0dbe000a3975c4b4e6b508]
+Jan-09 23:23:35.243 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:23:35.244 [Task submitter] INFO  nextflow.Session - [1a/480a8e] Submitted process > GENERATE:SAMPLE_MODEL (McClain_PlasmidGPT_RL_ATG)
+Jan-09 23:23:35.250 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:23:35.251 [Task submitter] INFO  nextflow.Session - [68/27478b] Submitted process > GENERATE:SAMPLE_MODEL (UCL_CSSB_PlasmidGPT_GFP_cassette)
+Jan-09 23:23:35.258 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:23:35.259 [Task submitter] INFO  nextflow.Session - [cc/2b3528] Submitted process > GENERATE:SAMPLE_MODEL (UCL_CSSB_PlasmidGPT_ATG)
+Jan-09 23:23:41.007 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: GENERATE:SAMPLE_MODEL (UCL_CSSB_PlasmidGPT_ATG); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/cc/2b352894c87e337aca9385f98a67a6]
+Jan-09 23:23:41.012 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:23:41.013 [Task submitter] INFO  nextflow.Session - [8d/938457] Submitted process > GENERATE:SAMPLE_MODEL (McClain_PlasmidGPT_RL_GFP_cassette)
+Jan-09 23:23:41.024 [TaskFinalizer-3] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=48; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Jan-09 23:23:41.028 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:23:41.029 [Task submitter] INFO  nextflow.Session - [00/fa9c32] Submitted process > EVAL:MFE_CIRCULAR (UCL_CSSB_PlasmidGPT_ATG)
+Jan-09 23:23:41.043 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:23:41.043 [Task submitter] INFO  nextflow.Session - [0a/ea1db5] Submitted process > EVAL:COMPUTE_METRICS (UCL_CSSB_PlasmidGPT_ATG)
+Jan-09 23:23:42.635 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: EVAL:MFE_CIRCULAR (UCL_CSSB_PlasmidGPT_ATG); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/00/fa9c323e24b4c43cdf411f7b7b3276]
+Jan-09 23:23:42.636 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 11; name: EVAL:COMPUTE_METRICS (UCL_CSSB_PlasmidGPT_ATG); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/0a/ea1db556c63b2e58fb05ec2007216e]
+Jan-09 23:23:42.642 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:23:42.642 [Task submitter] INFO  nextflow.Session - [05/ba7e99] Submitted process > QC:PRODIGAL (UCL_CSSB_PlasmidGPT_ATG)
+Jan-09 23:23:42.649 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:23:42.649 [Task submitter] INFO  nextflow.Session - [7e/67fee8] Submitted process > QC:FIND_REPEATS (UCL_CSSB_PlasmidGPT_ATG)
+Jan-09 23:23:43.278 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 12; name: QC:PRODIGAL (UCL_CSSB_PlasmidGPT_ATG); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/05/ba7e996f79b8983574b6724f1a3ccf]
+Jan-09 23:23:43.283 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:23:43.284 [Task submitter] INFO  nextflow.Session - [0d/93dddf] Submitted process > EVAL:KMER_DIVERGENCE (UCL_CSSB_PlasmidGPT_ATG)
+Jan-09 23:23:44.150 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 16; name: QC:FIND_REPEATS (UCL_CSSB_PlasmidGPT_ATG); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/7e/67fee8a24a8339d7866be21872da2b]
+Jan-09 23:23:44.771 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 10; name: EVAL:KMER_DIVERGENCE (UCL_CSSB_PlasmidGPT_ATG); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/0d/93dddf6435a1aadc15c70430461b15]
+Jan-09 23:23:44.775 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:23:44.776 [Task submitter] INFO  nextflow.Session - [d8/75365f] Submitted process > QC:AMRFINDER (UCL_CSSB_PlasmidGPT_ATG)
+Jan-09 23:23:45.476 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 14; name: QC:AMRFINDER (UCL_CSSB_PlasmidGPT_ATG); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/d8/75365f7419ed6436afea2657a46bcd]
+Jan-09 23:23:45.480 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:23:45.481 [Task submitter] INFO  nextflow.Session - [8b/500417] Submitted process > QC:MOB_TYPER (UCL_CSSB_PlasmidGPT_ATG)
+Jan-09 23:23:52.098 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 13; name: QC:MOB_TYPER (UCL_CSSB_PlasmidGPT_ATG); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/8b/500417fe800eab5b850c044232b4da]
+Jan-09 23:23:52.100 [TaskFinalizer-10] DEBUG n.processor.TaskFileCollector - Process `QC:MOB_TYPER (UCL_CSSB_PlasmidGPT_ATG)` is unable to find [UnixPath]: `/home/ubuntu/plasmid_llm_analysis/work/8b/500417fe800eab5b850c044232b4da/UCL_CSSB_PlasmidGPT_ATG_mobtyper_contig_report.txt` (pattern: `UCL_CSSB_PlasmidGPT_ATG_mobtyper_contig_report.txt`)
+Jan-09 23:23:52.104 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:23:52.104 [Task submitter] INFO  nextflow.Session - [a6/3d190f] Submitted process > QC:BLAST_ORI (UCL_CSSB_PlasmidGPT_ATG)
+Jan-09 23:23:52.154 [TaskFinalizer-10] DEBUG nextflow.processor.TaskProcessor - Process QC:MOB_TYPER > Skipping output binding because one or more optional files are missing: fileoutparam<1:1>
+Jan-09 23:23:52.750 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 15; name: QC:BLAST_ORI (UCL_CSSB_PlasmidGPT_ATG); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/a6/3d190f0aa0290e5b345293fbff7d42]
+Jan-09 23:23:52.782 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:23:52.782 [Task submitter] INFO  nextflow.Session - [ba/4ebcca] Submitted process > QC:AGGREGATE_ORI
+Jan-09 23:23:53.731 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 17; name: QC:AGGREGATE_ORI; status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/ba/4ebcca1d389a13209d97b4d70b92ea]
+Jan-09 23:24:03.119 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: GENERATE:SAMPLE_MODEL (UCL_CSSB_PlasmidGPT_GFP_cassette); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/68/27478b58c0ab5a72f04cbe6676f1bc]
+Jan-09 23:24:03.135 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:03.136 [Task submitter] INFO  nextflow.Session - [46/ecd936] Submitted process > EVAL:COMPUTE_METRICS (UCL_CSSB_PlasmidGPT_GFP_cassette)
+Jan-09 23:24:03.141 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:03.142 [Task submitter] INFO  nextflow.Session - [02/0665b6] Submitted process > QC:AMRFINDER (UCL_CSSB_PlasmidGPT_GFP_cassette)
+Jan-09 23:24:03.147 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:03.149 [Task submitter] INFO  nextflow.Session - [37/bbe164] Submitted process > EVAL:MFE_CIRCULAR (UCL_CSSB_PlasmidGPT_GFP_cassette)
+Jan-09 23:24:03.186 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: GENERATE:SAMPLE_MODEL (McClain_PlasmidGPT_RL_ATG); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/1a/480a8e6fdc01306a24603e7bf6beaf]
+Jan-09 23:24:03.191 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:03.192 [Task submitter] INFO  nextflow.Session - [30/6487c9] Submitted process > QC:MOB_TYPER (UCL_CSSB_PlasmidGPT_GFP_cassette)
+Jan-09 23:24:05.200 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 19; name: EVAL:COMPUTE_METRICS (UCL_CSSB_PlasmidGPT_GFP_cassette); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/46/ecd936395c5591815b9452399e558d]
+Jan-09 23:24:05.204 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:05.205 [Task submitter] INFO  nextflow.Session - [2b/71b6b9] Submitted process > QC:PRODIGAL (UCL_CSSB_PlasmidGPT_GFP_cassette)
+Jan-09 23:24:06.301 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 21; name: QC:PRODIGAL (UCL_CSSB_PlasmidGPT_GFP_cassette); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/2b/71b6b973689157f5e562c38615caba]
+Jan-09 23:24:06.306 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:06.307 [Task submitter] INFO  nextflow.Session - [b4/0501c9] Submitted process > QC:FIND_REPEATS (UCL_CSSB_PlasmidGPT_GFP_cassette)
+Jan-09 23:24:07.200 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: GENERATE:SAMPLE_MODEL (McClain_PlasmidGPT_RL_GFP_cassette); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/8d/938457079261633fee0a745a16661c]
+Jan-09 23:24:07.205 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:07.205 [Task submitter] INFO  nextflow.Session - [5c/332ed6] Submitted process > QC:MOB_TYPER (McClain_PlasmidGPT_RL_ATG)
+Jan-09 23:24:14.399 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 23; name: QC:AMRFINDER (UCL_CSSB_PlasmidGPT_GFP_cassette); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/02/0665b619050c855ce7f8235c5c72b4]
+Jan-09 23:24:14.404 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:14.405 [Task submitter] INFO  nextflow.Session - [6a/513e2f] Submitted process > EVAL:MFE_CIRCULAR (McClain_PlasmidGPT_RL_ATG)
+Jan-09 23:24:14.411 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:14.411 [Task submitter] INFO  nextflow.Session - [a1/65d473] Submitted process > QC:FIND_REPEATS (McClain_PlasmidGPT_RL_ATG)
+Jan-09 23:24:16.959 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 20; name: QC:MOB_TYPER (UCL_CSSB_PlasmidGPT_GFP_cassette); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/30/6487c9a6ed3fd3455aa30ff8246874]
+Jan-09 23:24:16.962 [TaskFinalizer-9] DEBUG n.processor.TaskFileCollector - Process `QC:MOB_TYPER (UCL_CSSB_PlasmidGPT_GFP_cassette)` is unable to find [UnixPath]: `/home/ubuntu/plasmid_llm_analysis/work/30/6487c9a6ed3fd3455aa30ff8246874/UCL_CSSB_PlasmidGPT_GFP_cassette_mobtyper_contig_report.txt` (pattern: `UCL_CSSB_PlasmidGPT_GFP_cassette_mobtyper_contig_report.txt`)
+Jan-09 23:24:16.963 [TaskFinalizer-9] DEBUG nextflow.processor.TaskProcessor - Process QC:MOB_TYPER > Skipping output binding because one or more optional files are missing: fileoutparam<1:1>
+Jan-09 23:24:16.964 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:16.965 [Task submitter] INFO  nextflow.Session - [74/565fb0] Submitted process > QC:AMRFINDER (McClain_PlasmidGPT_RL_ATG)
+Jan-09 23:24:17.138 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 22; name: QC:FIND_REPEATS (UCL_CSSB_PlasmidGPT_GFP_cassette); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/b4/0501c93702be2e57f257f0afbfbbd4]
+Jan-09 23:24:17.142 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:17.143 [Task submitter] INFO  nextflow.Session - [c2/1d7242] Submitted process > QC:PRODIGAL (McClain_PlasmidGPT_RL_ATG)
+Jan-09 23:24:19.004 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 27; name: QC:PRODIGAL (McClain_PlasmidGPT_RL_ATG); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/c2/1d724232ddbd173b0eaf16f7f8cf68]
+Jan-09 23:24:19.008 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:19.009 [Task submitter] INFO  nextflow.Session - [ff/83af98] Submitted process > EVAL:COMPUTE_METRICS (McClain_PlasmidGPT_RL_ATG)
+Jan-09 23:24:19.555 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 28; name: QC:MOB_TYPER (McClain_PlasmidGPT_RL_ATG); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/5c/332ed62868b138bd31345639efb396]
+Jan-09 23:24:19.557 [TaskFinalizer-2] DEBUG n.processor.TaskFileCollector - Process `QC:MOB_TYPER (McClain_PlasmidGPT_RL_ATG)` is unable to find [UnixPath]: `/home/ubuntu/plasmid_llm_analysis/work/5c/332ed62868b138bd31345639efb396/McClain_PlasmidGPT_RL_ATG_mobtyper_contig_report.txt` (pattern: `McClain_PlasmidGPT_RL_ATG_mobtyper_contig_report.txt`)
+Jan-09 23:24:19.558 [TaskFinalizer-2] DEBUG nextflow.processor.TaskProcessor - Process QC:MOB_TYPER > Skipping output binding because one or more optional files are missing: fileoutparam<1:1>
+Jan-09 23:24:19.559 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:19.559 [Task submitter] INFO  nextflow.Session - [2f/869919] Submitted process > EVAL:COMPUTE_METRICS (McClain_PlasmidGPT_RL_GFP_cassette)
+Jan-09 23:24:19.565 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:19.565 [Task submitter] INFO  nextflow.Session - [8c/43de37] Submitted process > QC:PRODIGAL (McClain_PlasmidGPT_RL_GFP_cassette)
+Jan-09 23:24:21.128 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 24; name: EVAL:COMPUTE_METRICS (McClain_PlasmidGPT_RL_ATG); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/ff/83af985dfd666c2f41aed634ff637f]
+Jan-09 23:24:21.132 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:21.132 [Task submitter] INFO  nextflow.Session - [79/103f70] Submitted process > EVAL:MFE_CIRCULAR (McClain_PlasmidGPT_RL_GFP_cassette)
+Jan-09 23:24:21.466 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 31; name: QC:PRODIGAL (McClain_PlasmidGPT_RL_GFP_cassette); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/8c/43de37b545ef8e877c31b927278ad5]
+Jan-09 23:24:21.474 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:21.474 [Task submitter] INFO  nextflow.Session - [42/5937a5] Submitted process > QC:FIND_REPEATS (McClain_PlasmidGPT_RL_GFP_cassette)
+Jan-09 23:24:21.792 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 32; name: EVAL:COMPUTE_METRICS (McClain_PlasmidGPT_RL_GFP_cassette); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/2f/86991910684d7154d89a8242e14989]
+Jan-09 23:24:22.798 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:22.799 [Task submitter] INFO  nextflow.Session - [80/1a3463] Submitted process > EVAL:AGGREGATE_METRICS
+Jan-09 23:24:23.859 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 26; name: QC:FIND_REPEATS (McClain_PlasmidGPT_RL_ATG); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/a1/65d473e4270abf941e92268461572b]
+Jan-09 23:24:23.963 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 36; name: EVAL:AGGREGATE_METRICS; status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/80/1a346343cb87fc624c94bd3fae5ec8]
+Jan-09 23:24:23.968 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:23.968 [Task submitter] INFO  nextflow.Session - [71/d08813] Submitted process > QC:MOB_TYPER (McClain_PlasmidGPT_RL_GFP_cassette)
+Jan-09 23:24:28.259 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 29; name: QC:AMRFINDER (McClain_PlasmidGPT_RL_ATG); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/74/565fb020b041b61429a2e95f5ef181]
+Jan-09 23:24:28.263 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:28.263 [Task submitter] INFO  nextflow.Session - [e2/eed7b6] Submitted process > QC:AMRFINDER (McClain_PlasmidGPT_RL_GFP_cassette)
+Jan-09 23:24:32.200 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 35; name: QC:FIND_REPEATS (McClain_PlasmidGPT_RL_GFP_cassette); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/42/5937a5eae3cbcff7f752302f9903cb]
+Jan-09 23:24:32.214 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:32.214 [Task submitter] INFO  nextflow.Session - [88/310484] Submitted process > QC:AGGREGATE_REPEATS
+Jan-09 23:24:33.469 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 37; name: QC:AGGREGATE_REPEATS; status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/88/310484907f21e623b1afe6acbc6073]
+Jan-09 23:24:37.089 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 34; name: QC:MOB_TYPER (McClain_PlasmidGPT_RL_GFP_cassette); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/71/d0881382bdf605c559825615e87061]
+Jan-09 23:24:37.091 [TaskFinalizer-1] DEBUG n.processor.TaskFileCollector - Process `QC:MOB_TYPER (McClain_PlasmidGPT_RL_GFP_cassette)` is unable to find [UnixPath]: `/home/ubuntu/plasmid_llm_analysis/work/71/d0881382bdf605c559825615e87061/McClain_PlasmidGPT_RL_GFP_cassette_mobtyper_contig_report.txt` (pattern: `McClain_PlasmidGPT_RL_GFP_cassette_mobtyper_contig_report.txt`)
+Jan-09 23:24:37.092 [TaskFinalizer-1] DEBUG nextflow.processor.TaskProcessor - Process QC:MOB_TYPER > Skipping output binding because one or more optional files are missing: fileoutparam<1:1>
+Jan-09 23:24:40.456 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 33; name: QC:AMRFINDER (McClain_PlasmidGPT_RL_GFP_cassette); status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/e2/eed7b6591679e31a38a7b2ec71c0a7]
+Jan-09 23:24:40.470 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:40.470 [Task submitter] INFO  nextflow.Session - [6d/dd203b] Submitted process > QC:AGGREGATE_AMR
+Jan-09 23:24:41.444 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 38; name: QC:AGGREGATE_AMR; status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/6d/dd203be0fa5c5d463519c59740e05d]
+Jan-09 23:24:41.488 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:41.488 [Task submitter] INFO  nextflow.Session - [fa/9a61e6] Submitted process > QC:FILTER_QC
+Jan-09 23:24:42.994 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 39; name: QC:FILTER_QC; status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/fa/9a61e6dc08a29aae58e05e648a555c]
+Jan-09 23:24:43.007 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-09 23:24:43.008 [Task submitter] INFO  nextflow.Session - [b4/7e8ef0] Submitted process > EVAL:COMPARE_MODELS
+Jan-09 23:24:44.563 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 40; name: EVAL:COMPARE_MODELS; status: COMPLETED; exit: 0; error: -; workDir: /home/ubuntu/plasmid_llm_analysis/work/b4/7e8ef0e767a3258501264318f699aa]
+Jan-09 23:24:44.564 [TaskFinalizer-4] DEBUG n.processor.TaskFileCollector - Process `EVAL:COMPARE_MODELS` is unable to find [UnixPath]: `/home/ubuntu/plasmid_llm_analysis/work/b4/7e8ef0e767a3258501264318f699aa/pairwise_tests.csv` (pattern: `pairwise_tests.csv`)
+Jan-09 23:24:44.565 [TaskFinalizer-4] DEBUG nextflow.processor.TaskProcessor - Process EVAL:COMPARE_MODELS > Skipping output binding because one or more optional files are missing: fileoutparam<2>

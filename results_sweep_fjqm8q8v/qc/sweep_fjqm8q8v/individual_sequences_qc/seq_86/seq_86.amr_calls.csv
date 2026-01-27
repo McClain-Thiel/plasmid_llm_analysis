@@ -1,0 +1,5 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_86,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,4182,5039,+,100.0,100.0
+seq_86,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,8070,8927,-,100.0,100.0
+seq_86,blaTEM-181,class A beta-lactamase TEM-181,12214,13071,+,100.0,100.0
+seq_86,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,17087,17944,-,100.0,100.0

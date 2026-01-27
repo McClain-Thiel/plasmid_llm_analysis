@@ -1,0 +1,11 @@
+DEFINITION  seqnum=1;seqlen=5822;seqhdr="seq_13";version=Prodigal.v2.6.3;run_type=Metagenomic;model="33|Pelotomaculum_thermopropionicum_SI|B|53.0|11|1";gc_cont=53.00;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             1099..1320
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.586;conf=99.70;score=25.21;cscore=26.14;sscore=-0.93;rscore=-0.68;uscore=-2.62;tscore=2.37;"
+     CDS             1816..2718
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.595;conf=100.00;score=163.44;cscore=165.69;sscore=-2.25;rscore=-2.06;uscore=-2.24;tscore=2.70;"
+     CDS             2956..3651
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.391;conf=77.23;score=5.31;cscore=9.89;sscore=-4.58;rscore=-11.04;uscore=4.42;tscore=2.70;"
+     CDS             complement(4584..4721)
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.514;conf=72.24;score=4.16;cscore=0.80;sscore=3.36;rscore=0.28;uscore=1.62;tscore=1.46;"
+//

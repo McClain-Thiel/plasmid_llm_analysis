@@ -1,0 +1,4 @@
+Protein id	Contig id	Start	Stop	Strand	Element symbol	Element name	Scope	Type	Subtype	Class	Subclass	Method	Target length	Reference sequence length	% Coverage of reference	% Identity to reference	Alignment length	Closest reference accession	Closest reference name	HMM accession	HMM description
+NA	seq_80	42	533	+	aadA21	ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA21	core	AMR	AMR	AMINOGLYCOSIDE	STREPTOMYCIN	PARTIALX	164	263	62.36	96.34	164	WP_063840435.1	ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA21	NA	NA
+NA	seq_80	3446	4303	+	blaTEM-116	broad-spectrum class A beta-lactamase TEM-116	core	AMR	AMR	BETA-LACTAM	BETA-LACTAM	ALLELEX	286	286	100.00	100.00	286	WP_000027050.1	broad-spectrum class A beta-lactamase TEM-116	NA	NA
+NA	seq_80	6898	7755	-	blaTEM-116	broad-spectrum class A beta-lactamase TEM-116	core	AMR	AMR	BETA-LACTAM	BETA-LACTAM	ALLELEX	286	286	100.00	100.00	286	WP_000027050.1	broad-spectrum class A beta-lactamase TEM-116	NA	NA

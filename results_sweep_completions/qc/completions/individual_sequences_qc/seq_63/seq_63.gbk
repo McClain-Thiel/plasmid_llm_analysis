@@ -1,0 +1,5 @@
+DEFINITION  seqnum=1;seqlen=1545;seqhdr="seq_63";version=Prodigal.v2.6.3;run_type=Metagenomic;model="11|Candidatus_Amoebophilus_asiaticus_5a2|B|35.0|11|0";gc_cont=35.00;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             218..1489
+                     /note="ID=1_1;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.355;conf=100.00;score=144.88;cscore=156.40;sscore=-11.52;rscore=-4.87;uscore=-1.69;tscore=-4.96;"
+//

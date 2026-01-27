@@ -1,0 +1,21 @@
+DEFINITION  seqnum=1;seqlen=19050;seqhdr="seq_50";version=Prodigal.v2.6.3;run_type=Metagenomic;model="33|Pelotomaculum_thermopropionicum_SI|B|53.0|11|1";gc_cont=53.00;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             complement(408..878)
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.539;conf=95.09;score=12.90;cscore=4.64;sscore=8.25;rscore=2.12;uscore=4.08;tscore=2.70;"
+     CDS             1223..1375
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.562;conf=65.25;score=2.74;cscore=0.49;sscore=2.25;rscore=3.76;uscore=-3.12;tscore=1.62;"
+     CDS             1389..1541
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.529;conf=60.74;score=1.90;cscore=1.78;sscore=0.12;rscore=-3.43;uscore=0.80;tscore=1.62;"
+     CDS             3121..3981
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.491;conf=98.79;score=19.16;cscore=13.45;sscore=5.71;rscore=0.52;uscore=3.14;tscore=2.70;"
+     CDS             6159..7016
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.437;conf=99.62;score=24.24;cscore=13.39;sscore=10.86;rscore=12.15;uscore=-3.34;tscore=2.70;"
+     CDS             7905..8744
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.725;conf=100.00;score=82.75;cscore=87.02;sscore=-4.27;rscore=-2.06;uscore=-4.26;tscore=2.70;"
+     CDS             10266..11126
+                     /note="ID=1_7;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.491;conf=98.79;score=19.16;cscore=13.45;sscore=5.71;rscore=0.52;uscore=3.14;tscore=2.70;"
+     CDS             13304..14161
+                     /note="ID=1_8;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.437;conf=99.62;score=24.24;cscore=13.39;sscore=10.86;rscore=12.15;uscore=-3.34;tscore=2.70;"
+     CDS             14742..18968
+                     /note="ID=1_9;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.557;conf=99.99;score=912.43;cscore=923.57;sscore=-11.14;rscore=-11.04;uscore=-2.15;tscore=2.70;"
+//

@@ -1,0 +1,15 @@
+DEFINITION  seqnum=1;seqlen=11792;seqhdr="seq_88";version=Prodigal.v2.6.3;run_type=Metagenomic;model="4|Akkermansia_muciniphila_ATCC_BAA_835|B|55.8|11|0";gc_cont=55.80;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             146..472
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.563;conf=94.04;score=12.00;cscore=4.93;sscore=7.07;rscore=1.53;uscore=1.96;tscore=3.58;"
+     CDS             1835..2629
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.594;conf=99.99;score=39.54;cscore=33.80;sscore=5.74;rscore=1.53;uscore=1.28;tscore=3.58;"
+     CDS             3842..4552
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.561;conf=94.98;score=12.79;cscore=9.20;sscore=3.59;rscore=1.53;uscore=-0.87;tscore=3.58;"
+     CDS             5110..5916
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.597;conf=100.00;score=173.48;cscore=166.38;sscore=7.10;rscore=1.53;uscore=2.65;tscore=3.58;"
+     CDS             6600..6812
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.610;conf=50.69;score=0.12;cscore=1.96;sscore=-1.84;rscore=1.29;uscore=-5.48;tscore=3.00;"
+     CDS             8159..8662
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.603;conf=94.71;score=12.55;cscore=5.19;sscore=7.37;rscore=1.53;uscore=2.91;tscore=3.58;"
+//

@@ -1,0 +1,17 @@
+DEFINITION  seqnum=1;seqlen=14644;seqhdr="seq_75";version=Prodigal.v2.6.3;run_type=Metagenomic;model="8|Bacteroides_fragilis_NCTC_9343|B|43.2|11|0";gc_cont=43.20;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             1968..2693
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=TAA;rbs_spacer=4bp;gc_cont=0.468;conf=99.14;score=20.66;cscore=14.38;sscore=6.28;rscore=0.97;uscore=1.19;tscore=4.12;"
+     CDS             complement(3179..3655)
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=TAAAA;rbs_spacer=14bp;gc_cont=0.392;conf=97.07;score=15.22;cscore=7.06;sscore=8.16;rscore=6.09;uscore=-1.40;tscore=4.12;"
+     CDS             5329..5859
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=TAA;rbs_spacer=12bp;gc_cont=0.591;conf=98.32;score=17.70;cscore=8.67;sscore=9.03;rscore=8.35;uscore=-3.44;tscore=4.12;"
+     CDS             7286..8146
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=AAAAA;rbs_spacer=8bp;gc_cont=0.491;conf=100.00;score=78.00;cscore=63.91;sscore=14.09;rscore=6.25;uscore=4.37;tscore=4.12;"
+     CDS             9448..9720
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=AAA;rbs_spacer=6bp;gc_cont=0.549;conf=56.51;score=1.14;cscore=5.53;sscore=-4.39;rscore=-3.72;uscore=-4.14;tscore=4.12;"
+     CDS             complement(9973..10566)
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=AAAAA;rbs_spacer=8bp;gc_cont=0.485;conf=100.00;score=58.00;cscore=43.91;sscore=14.09;rscore=6.25;uscore=4.37;tscore=4.12;"
+     CDS             complement(12953..13813)
+                     /note="ID=1_7;partial=00;start_type=ATG;rbs_motif=AAAAA;rbs_spacer=8bp;gc_cont=0.490;conf=100.00;score=78.65;cscore=63.91;sscore=14.74;rscore=6.25;uscore=4.37;tscore=4.12;"
+//

@@ -1,0 +1,5 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_68,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,743,1531,+,100.0,100.0
+seq_68,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2704,3561,+,100.0,100.0
+seq_68,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,5018,5875,-,100.0,100.0
+seq_68,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,7810,8667,+,100.0,100.0

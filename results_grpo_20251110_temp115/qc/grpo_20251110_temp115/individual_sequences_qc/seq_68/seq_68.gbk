@@ -1,0 +1,19 @@
+DEFINITION  seqnum=1;seqlen=6588;seqhdr="seq_68";version=Prodigal.v2.6.3;run_type=Metagenomic;model="34|Prochlorococcus_marinus_MIT_9313|B|50.7|11|0";gc_cont=50.70;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             30..272
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.588;conf=76.65;score=5.17;cscore=-0.38;sscore=5.55;rscore=0.00;uscore=1.63;tscore=4.42;"
+     CDS             complement(364..582)
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.393;conf=66.11;score=2.91;cscore=-2.05;sscore=4.96;rscore=0.00;uscore=0.26;tscore=3.98;"
+     CDS             complement(588..1217)
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.584;conf=99.98;score=37.31;cscore=32.22;sscore=5.10;rscore=0.00;uscore=1.15;tscore=4.60;"
+     CDS             complement(1946..2806)
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.492;conf=100.00;score=66.90;cscore=64.50;sscore=2.40;rscore=0.00;uscore=-1.55;tscore=4.60;"
+     CDS             complement(3227..3385)
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.472;conf=72.95;score=4.32;cscore=1.97;sscore=2.35;rscore=0.00;uscore=0.13;tscore=2.87;"
+     CDS             3734..4459
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.468;conf=98.43;score=18.00;cscore=11.35;sscore=6.64;rscore=0.00;uscore=2.04;tscore=4.60;"
+     CDS             complement(4945..5421)
+                     /note="ID=1_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.392;conf=96.50;score=14.43;cscore=10.17;sscore=4.27;rscore=0.00;uscore=0.32;tscore=4.60;"
+     CDS             5507..6385
+                     /note="ID=1_8;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.660;conf=93.37;score=11.50;cscore=15.01;sscore=-3.51;rscore=0.00;uscore=0.02;tscore=-3.53;"
+//

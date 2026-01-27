@@ -1,0 +1,2 @@
+sequence,qseqid,ori_type,pct_identity,pct_cov_subject,q_start,q_end,strand,qlen,sstart,send,slen,length,bitscore,evalue
+seq_54,seq_54,Col440I_1__CP023920,94.737,100.0,1259,1372,-,5458,114,1,114,114,179,1.57e-45

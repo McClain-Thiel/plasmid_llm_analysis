@@ -1,0 +1,7 @@
+DEFINITION  seqnum=1;seqlen=1595;seqhdr="seq_39";version=Prodigal.v2.6.3;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             921..1100
+                     /note="ID=1_1;partial=00;start_type=TTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.428;conf=85.21;score=7.62;cscore=26.04;sscore=-18.42;rscore=-3.58;uscore=-0.86;tscore=-13.99;"
+     CDS             1280..1489
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.490;conf=95.15;score=12.95;cscore=11.82;sscore=1.13;rscore=-3.06;uscore=2.54;tscore=2.30;"
+//

@@ -1,0 +1,9 @@
+DEFINITION  seqnum=1;seqlen=1517;seqhdr="seq_7";version=Prodigal.v2.6.3;run_type=Metagenomic;model="42|Synechococcus_CC9605|B|59.2|11|0";gc_cont=59.20;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             351..449
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.626;conf=65.67;score=2.82;cscore=0.62;sscore=2.20;rscore=0.00;uscore=0.48;tscore=1.72;"
+     CDS             499..1026
+                     /note="ID=1_2;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.538;conf=100.00;score=44.28;cscore=46.18;sscore=-1.90;rscore=0.00;uscore=1.02;tscore=-3.66;"
+     CDS             1032..1241
+                     /note="ID=1_3;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.538;conf=93.63;score=11.69;cscore=13.99;sscore=-2.30;rscore=0.00;uscore=0.90;tscore=-4.42;"
+//

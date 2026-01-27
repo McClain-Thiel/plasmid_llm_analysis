@@ -1,0 +1,5 @@
+DEFINITION  seqnum=1;seqlen=2721;seqhdr="seq_51";version=Prodigal.v2.6.3;run_type=Metagenomic;model="44|Thermoplasma_volcanium_GSS1|A|39.9|11|1";gc_cont=39.90;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             62..598
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.376;conf=100.00;score=54.12;cscore=49.04;sscore=5.08;rscore=4.93;uscore=-2.51;tscore=2.66;"
+//

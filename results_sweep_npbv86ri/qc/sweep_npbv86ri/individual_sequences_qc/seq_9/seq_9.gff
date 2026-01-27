@@ -1,0 +1,6 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=5452;seqhdr="seq_9"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="35|Pyrobaculum_aerophilum_IM2|A|51.4|11|0";gc_cont=51.40;transl_table=11;uses_sd=0
+seq_9	Prodigal_v2.6.3	CDS	496	633	0.9	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.507;conf=55.24;score=0.91;cscore=-3.05;sscore=3.97;rscore=0.26;uscore=1.92;tscore=2.29;
+seq_9	Prodigal_v2.6.3	CDS	3688	3969	37.7	+	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.574;conf=99.98;score=37.69;cscore=30.01;sscore=7.68;rscore=0.48;uscore=2.96;tscore=4.24;
+seq_9	Prodigal_v2.6.3	CDS	4695	5255	6.1	-	0	ID=1_3;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.547;conf=80.36;score=6.13;cscore=4.63;sscore=1.50;rscore=0.48;uscore=2.40;tscore=-1.39;

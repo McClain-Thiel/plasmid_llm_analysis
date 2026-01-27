@@ -1,0 +1,6 @@
+Protein id	Contig id	Start	Stop	Strand	Element symbol	Element name	Scope	Type	Subtype	Class	Subclass	Method	Target length	Reference sequence length	% Coverage of reference	% Identity to reference	Alignment length	Closest reference accession	Closest reference name	HMM accession	HMM description
+NA	seq_50	3266	3922	-	catA1	type A-1 chloramphenicol O-acetyltransferase	core	AMR	AMR	PHENICOL	CHLORAMPHENICOL	EXACTX	219	219	100.00	100.00	219	WP_000412211.1	type A-1 chloramphenicol O-acetyltransferase	NA	NA
+NA	seq_50	5911	6567	-	catA1	type A-1 chloramphenicol O-acetyltransferase	core	AMR	AMR	PHENICOL	CHLORAMPHENICOL	EXACTX	219	219	100.00	100.00	219	WP_000412211.1	type A-1 chloramphenicol O-acetyltransferase	NA	NA
+NA	seq_50	8556	9212	-	catA1	type A-1 chloramphenicol O-acetyltransferase	core	AMR	AMR	PHENICOL	CHLORAMPHENICOL	EXACTX	219	219	100.00	100.00	219	WP_000412211.1	type A-1 chloramphenicol O-acetyltransferase	NA	NA
+NA	seq_50	11201	11857	-	catA1	type A-1 chloramphenicol O-acetyltransferase	core	AMR	AMR	PHENICOL	CHLORAMPHENICOL	EXACTX	219	219	100.00	100.00	219	WP_000412211.1	type A-1 chloramphenicol O-acetyltransferase	NA	NA
+NA	seq_50	13846	14502	-	catA1	type A-1 chloramphenicol O-acetyltransferase	core	AMR	AMR	PHENICOL	CHLORAMPHENICOL	EXACTX	219	219	100.00	100.00	219	WP_000412211.1	type A-1 chloramphenicol O-acetyltransferase	NA	NA

@@ -1,0 +1,5 @@
+DEFINITION  seqnum=1;seqlen=1780;seqhdr="seq_12";version=Prodigal.v2.6.3;run_type=Metagenomic;model="35|Pyrobaculum_aerophilum_IM2|A|51.4|11|0";gc_cont=51.40;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             18..200
+                     /note="ID=1_1;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.552;conf=89.55;score=9.35;cscore=10.51;sscore=-1.16;rscore=0.35;uscore=0.42;tscore=-1.93;"
+//

@@ -1,0 +1,12 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=6924;seqhdr="seq_95"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="48|Xylella_fastidiosa_Temecula1|B|51.8|11|1";gc_cont=51.80;transl_table=11;uses_sd=1
+seq_95	Prodigal_v2.6.3	CDS	207	905	15.5	+	0	ID=1_1;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.535;conf=97.23;score=15.47;cscore=20.78;sscore=-5.31;rscore=2.00;uscore=-2.12;tscore=-5.19;
+seq_95	Prodigal_v2.6.3	CDS	961	1089	8.1	-	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.620;conf=88.27;score=8.78;cscore=-0.30;sscore=9.08;rscore=6.59;uscore=-0.10;tscore=2.41;
+seq_95	Prodigal_v2.6.3	CDS	1144	1512	14.9	-	0	ID=1_3;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.512;conf=96.40;score=14.30;cscore=6.87;sscore=7.43;rscore=2.27;uscore=1.04;tscore=4.77;
+seq_95	Prodigal_v2.6.3	CDS	1544	1717	1.6	+	0	ID=1_4;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.523;conf=59.01;score=1.59;cscore=4.13;sscore=-2.55;rscore=4.96;uscore=0.08;tscore=-7.59;
+seq_95	Prodigal_v2.6.3	CDS	1899	2339	22.9	+	0	ID=1_5;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.569;conf=99.40;score=22.21;cscore=10.47;sscore=11.74;rscore=9.16;uscore=-1.54;tscore=4.77;
+seq_95	Prodigal_v2.6.3	CDS	2424	3023	10.0	-	0	ID=1_6;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.757;conf=89.65;score=9.39;cscore=8.16;sscore=1.23;rscore=-2.96;uscore=0.07;tscore=4.77;
+seq_95	Prodigal_v2.6.3	CDS	3162	3527	12.8	+	0	ID=1_7;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.634;conf=95.00;score=12.80;cscore=3.46;sscore=9.34;rscore=9.16;uscore=-4.59;tscore=4.77;
+seq_95	Prodigal_v2.6.3	CDS	4076	4690	21.0	-	0	ID=1_8;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=3-4bp;gc_cont=0.502;conf=99.08;score=20.34;cscore=8.09;sscore=12.25;rscore=8.74;uscore=-0.62;tscore=4.77;
+seq_95	Prodigal_v2.6.3	CDS	6111	6320	4.2	-	0	ID=1_9;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.414;conf=72.65;score=4.25;cscore=3.55;sscore=0.70;rscore=-3.57;uscore=0.32;tscore=3.95;

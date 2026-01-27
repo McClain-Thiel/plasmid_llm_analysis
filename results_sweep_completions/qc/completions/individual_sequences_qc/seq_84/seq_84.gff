@@ -1,0 +1,5 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=2422;seqhdr="seq_84"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="42|Synechococcus_CC9605|B|59.2|11|0";gc_cont=59.20;transl_table=11;uses_sd=0
+seq_84	Prodigal_v2.6.3	CDS	152	733	2.7	-	0	ID=1_1;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.545;conf=61.60;score=2.06;cscore=5.86;sscore=-3.81;rscore=0.00;uscore=0.50;tscore=-3.66;
+seq_84	Prodigal_v2.6.3	CDS	1436	1774	5.6	+	0	ID=1_2;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.575;conf=78.23;score=5.57;cscore=7.59;sscore=-2.03;rscore=0.00;uscore=1.63;tscore=-3.66;

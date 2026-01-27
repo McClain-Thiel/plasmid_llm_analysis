@@ -1,0 +1,5 @@
+model,length_mean,length_std,length_min,length_max,gc_content_mean,gc_content_std,longest_orf_atg_both_mean,longest_orf_atg_both_max,num_orfs_100aa_mean,num_orfs_100aa_max
+McClain_PlasmidGPT_RL,3001.4,3441.784,9,7132,0.532,0.097,143.58,371,3.4,10
+McClain_PlasmidGPT_RL_GFP,8002.98,108.261,7613,8110,0.506,0.006,319.0,319,8.64,11
+UCL_CSSB_PlasmidGPT,11.58,26.329,6,193,0.489,0.115,0.34,6,0.0,0
+UCL_CSSB_PlasmidGPT_GFP,5003.9,3735.317,2094,16619,0.5,0.065,263.42,505,7.48,24

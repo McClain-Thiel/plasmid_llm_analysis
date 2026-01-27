@@ -1,0 +1,19 @@
+DEFINITION  seqnum=1;seqlen=6531;seqhdr="seq_76";version=Prodigal.v2.6.3;run_type=Metagenomic;model="20|Escherichia_coli_UMN026|B|50.7|11|1";gc_cont=50.70;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             complement(947..1762)
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.435;conf=100.00;score=44.30;cscore=34.92;sscore=9.38;rscore=2.79;uscore=3.29;tscore=3.95;"
+     CDS             complement(2899..3090)
+                     /note="ID=1_2;partial=00;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.526;conf=89.38;score=9.26;cscore=9.15;sscore=0.11;rscore=9.59;uscore=-0.71;tscore=-8.77;"
+     CDS             complement(3194..3457)
+                     /note="ID=1_3;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.523;conf=84.61;score=7.41;cscore=10.41;sscore=-2.99;rscore=2.79;uscore=-0.11;tscore=-6.63;"
+     CDS             complement(3487..3843)
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.616;conf=96.69;score=14.69;cscore=7.17;sscore=7.51;rscore=2.79;uscore=0.10;tscore=3.95;"
+     CDS             complement(3899..4990)
+                     /note="ID=1_5;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.563;conf=100.00;score=124.90;cscore=132.75;sscore=-7.85;rscore=2.79;uscore=-3.36;tscore=-6.63;"
+     CDS             5157..5396
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.617;conf=95.96;score=13.78;cscore=4.63;sscore=9.16;rscore=10.15;uscore=-4.74;tscore=3.74;"
+     CDS             5455..5625
+                     /note="ID=1_7;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.637;conf=92.30;score=10.81;cscore=-3.94;sscore=14.75;rscore=9.97;uscore=2.62;tscore=2.65;"
+     CDS             5968..6420
+                     /note="ID=1_8;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.576;conf=88.24;score=8.77;cscore=5.03;sscore=3.74;rscore=2.79;uscore=-2.35;tscore=3.95;"
+//

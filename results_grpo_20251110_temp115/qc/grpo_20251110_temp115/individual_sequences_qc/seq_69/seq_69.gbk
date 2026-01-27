@@ -1,0 +1,15 @@
+DEFINITION  seqnum=1;seqlen=3937;seqhdr="seq_69";version=Prodigal.v2.6.3;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             62..598
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.376;conf=100.00;score=49.20;cscore=40.56;sscore=8.65;rscore=7.65;uscore=-1.78;tscore=2.78;"
+     CDS             complement(839..1069)
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.537;conf=65.29;score=2.75;cscore=-3.57;sscore=6.32;rscore=3.00;uscore=-3.15;tscore=2.53;"
+     CDS             1626..2039
+                     /note="ID=1_3;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.614;conf=93.96;score=11.94;cscore=5.24;sscore=6.70;rscore=7.65;uscore=-0.61;tscore=-0.34;"
+     CDS             2155..2478
+                     /note="ID=1_4;partial=00;start_type=TTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.494;conf=75.53;score=4.90;cscore=5.44;sscore=-0.54;rscore=7.65;uscore=1.72;tscore=-9.90;"
+     CDS             2736..3161
+                     /note="ID=1_5;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.432;conf=95.91;score=13.72;cscore=18.90;sscore=-5.18;rscore=-2.53;uscore=-1.65;tscore=-0.34;"
+     CDS             3415..3666
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.472;conf=53.23;score=0.56;cscore=-3.98;sscore=4.54;rscore=3.27;uscore=-0.34;tscore=2.76;"
+//

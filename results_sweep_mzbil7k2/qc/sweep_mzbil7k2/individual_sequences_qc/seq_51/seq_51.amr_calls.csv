@@ -1,0 +1,4 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_51,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1687,2544,-,100.0,100.0
+seq_51,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,4102,4959,+,100.0,100.0
+seq_51,tet(C),tetracycline efflux MFS transporter Tet(C),6981,7601,-,100.0,52.27

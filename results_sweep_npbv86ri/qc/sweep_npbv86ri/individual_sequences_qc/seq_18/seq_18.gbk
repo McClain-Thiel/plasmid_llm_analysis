@@ -1,0 +1,11 @@
+DEFINITION  seqnum=1;seqlen=8218;seqhdr="seq_18";version=Prodigal.v2.6.3;run_type=Metagenomic;model="16|Chlorobium_tepidum_TLS|B|56.5|11|1";gc_cont=56.50;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             1110..1868
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.681;conf=100.00;score=106.05;cscore=101.61;sscore=4.44;rscore=-0.18;uscore=0.64;tscore=3.98;"
+     CDS             3121..3930
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.437;conf=98.90;score=19.58;cscore=10.83;sscore=8.75;rscore=-0.18;uscore=5.60;tscore=3.98;"
+     CDS             complement(5130..5990)
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.490;conf=99.83;score=27.69;cscore=11.79;sscore=15.90;rscore=6.39;uscore=6.18;tscore=3.98;"
+     CDS             6866..7597
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.619;conf=99.99;score=185.22;cscore=178.83;sscore=6.39;rscore=-0.18;uscore=2.59;tscore=3.98;"
+//

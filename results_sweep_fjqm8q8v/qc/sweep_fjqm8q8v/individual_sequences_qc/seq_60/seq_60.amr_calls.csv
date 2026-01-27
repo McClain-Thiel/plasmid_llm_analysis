@@ -1,0 +1,8 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_60,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,5814,6671,+,100.0,100.0
+seq_60,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,7968,8759,+,99.62,100.0
+seq_60,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,13209,14066,-,100.0,100.0
+seq_60,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,15628,16485,-,100.0,100.0
+seq_60,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,17219,18076,-,100.0,100.0
+seq_60,ble-Sh,phleomycin/bleomycin binding protein Ble-Sh,19789,20160,+,100.0,100.0
+seq_60,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,21949,22806,-,100.0,100.0

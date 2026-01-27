@@ -1,0 +1,78 @@
+Plasmid_ID,reason failed
+seq_12,"ORI low-threshold count 0 outside [1,1]"
+seq_13,"ORI low-threshold count 0 outside [1,1]; repeat ≥ 50"
+seq_16,No ORI; No ARG
+seq_17,repeat ≥ 50
+seq_19,repeat ≥ 50
+seq_22,"ARG strict count 0 < required 1 (ID≥100.0, Cov≥100.0); repeat ≥ 50"
+seq_23,No ORI; No ARG; repeat ≥ 50
+seq_24,"ORI low-threshold count 0 outside [1,1]"
+seq_25,"ORI low-threshold count 0 outside [1,1]"
+seq_27,"ORI low-threshold count 0 outside [1,1]"
+seq_30,"ORI low-threshold count 0 outside [1,1]; repeat ≥ 50"
+seq_31,repeat ≥ 50
+seq_34,repeat ≥ 50
+seq_37,"ORI low-threshold count 0 outside [1,1]"
+seq_39,No ORI; No ARG; repeat ≥ 50
+seq_4,"ORI low-threshold count 0 outside [1,1]"
+seq_43,"ORI low-threshold count 0 outside [1,1]"
+seq_44,"ORI low-threshold count 0 outside [1,1]; repeat ≥ 50"
+seq_45,repeat ≥ 50
+seq_46,"ORI low-threshold count 0 outside [1,1]"
+seq_48,No ORI; No ARG; repeat ≥ 50
+seq_49,"ARG low-threshold count 2 outside [1,1]"
+seq_5,No ORI; No ARG; repeat ≥ 50
+seq_50,No ORI; No ARG; repeat ≥ 50
+seq_51,No ORI; No ARG; repeat ≥ 50
+seq_52,repeat ≥ 50
+seq_53,No ORI; No ARG; repeat ≥ 50
+seq_54,No ORI; No ARG; repeat ≥ 50
+seq_55,No ORI; No ARG; repeat ≥ 50
+seq_56,"ARG strict count 0 < required 1 (ID≥100.0, Cov≥100.0); repeat ≥ 50"
+seq_57,No ORI; No ARG; repeat ≥ 50
+seq_58,No ORI; No ARG; repeat ≥ 50
+seq_59,repeat ≥ 50
+seq_6,"ORI low-threshold count 0 outside [1,1]; repeat ≥ 50"
+seq_60,No ORI; No ARG; repeat ≥ 50
+seq_61,No ORI; No ARG; repeat ≥ 50
+seq_62,"ARG strict count 0 < required 1 (ID≥100.0, Cov≥100.0); repeat ≥ 50"
+seq_63,No ORI; No ARG; repeat ≥ 50
+seq_64,"ARG strict count 0 < required 1 (ID≥100.0, Cov≥100.0); repeat ≥ 50"
+seq_65,No ORI; No ARG; repeat ≥ 50
+seq_66,"ARG strict count 0 < required 1 (ID≥100.0, Cov≥100.0); repeat ≥ 50"
+seq_67,No ORI; No ARG; repeat ≥ 50
+seq_68,repeat ≥ 50
+seq_69,"ARG strict count 0 < required 1 (ID≥100.0, Cov≥100.0); repeat ≥ 50"
+seq_7,"ORI low-threshold count 0 outside [1,1]; repeat ≥ 50"
+seq_70,No ORI; No ARG; repeat ≥ 50
+seq_71,"ORI low-threshold count 0 outside [1,1]; repeat ≥ 50"
+seq_72,No ORI; No ARG; repeat ≥ 50
+seq_73,No ORI; No ARG; repeat ≥ 50
+seq_74,"ARG strict count 0 < required 1 (ID≥100.0, Cov≥100.0); repeat ≥ 50"
+seq_75,No ORI; No ARG; repeat ≥ 50
+seq_76,No ORI; No ARG; repeat ≥ 50
+seq_77,repeat ≥ 50
+seq_78,No ORI; No ARG; repeat ≥ 50
+seq_79,No ORI; No ARG; repeat ≥ 50
+seq_8,"ORI low-threshold count 0 outside [1,1]; repeat ≥ 50"
+seq_80,No ORI; No ARG; repeat ≥ 50
+seq_81,No ORI; No ARG; repeat ≥ 50
+seq_82,"ARG strict count 0 < required 1 (ID≥100.0, Cov≥100.0); repeat ≥ 50"
+seq_83,No ORI; No ARG; repeat ≥ 50
+seq_84,No ORI; No ARG; repeat ≥ 50
+seq_85,"ARG strict count 0 < required 1 (ID≥100.0, Cov≥100.0); repeat ≥ 50"
+seq_86,"ARG strict count 0 < required 1 (ID≥100.0, Cov≥100.0); repeat ≥ 50"
+seq_87,"ARG low-threshold count 0 outside [1,1]; repeat ≥ 50"
+seq_88,"ORI low-threshold count 0 outside [1,1]; repeat ≥ 50"
+seq_89,"ORI low-threshold count 0 outside [1,1]; repeat ≥ 50"
+seq_9,repeat ≥ 50
+seq_90,No ORI; No ARG; repeat ≥ 50
+seq_91,No ORI; No ARG; repeat ≥ 50
+seq_92,"ARG strict count 0 < required 1 (ID≥100.0, Cov≥100.0); repeat ≥ 50"
+seq_93,No ORI; No ARG; repeat ≥ 50
+seq_94,"ARG strict count 0 < required 1 (ID≥100.0, Cov≥100.0); repeat ≥ 50"
+seq_95,"ARG strict count 0 < required 1 (ID≥100.0, Cov≥100.0); repeat ≥ 50"
+seq_96,repeat ≥ 50
+seq_97,No ORI; No ARG; repeat ≥ 50
+seq_98,repeat ≥ 50
+seq_99,"ARG strict count 0 < required 1 (ID≥100.0, Cov≥100.0); repeat ≥ 50"

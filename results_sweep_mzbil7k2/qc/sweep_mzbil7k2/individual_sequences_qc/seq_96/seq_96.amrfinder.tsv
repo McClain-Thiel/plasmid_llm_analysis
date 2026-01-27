@@ -1,0 +1,8 @@
+Protein id	Contig id	Start	Stop	Strand	Element symbol	Element name	Scope	Type	Subtype	Class	Subclass	Method	Target length	Reference sequence length	% Coverage of reference	% Identity to reference	Alignment length	Closest reference accession	Closest reference name	HMM accession	HMM description
+NA	seq_96	685	1056	+	ble-Sh	phleomycin/bleomycin binding protein Ble-Sh	core	AMR	AMR	BLEOMYCIN	BLEOMYCIN	EXACTX	124	124	100.00	100.00	124	WP_063842998.1	phleomycin/bleomycin binding protein Ble-Sh	NA	NA
+NA	seq_96	2289	3146	-	blaTEM-116	broad-spectrum class A beta-lactamase TEM-116	core	AMR	AMR	BETA-LACTAM	BETA-LACTAM	ALLELEX	286	286	100.00	100.00	286	WP_000027050.1	broad-spectrum class A beta-lactamase TEM-116	NA	NA
+NA	seq_96	5114	5905	+	aph(3')-IIa	aminoglycoside O-phosphotransferase APH(3')-IIa	core	AMR	AMR	AMINOGLYCOSIDE	KANAMYCIN	BLASTX	264	264	100.00	99.62	264	WP_000572405.1	aminoglycoside O-phosphotransferase APH(3')-IIa	NA	NA
+NA	seq_96	6114	6485	+	ble-Sh	phleomycin/bleomycin binding protein Ble-Sh	core	AMR	AMR	BLEOMYCIN	BLEOMYCIN	EXACTX	124	124	100.00	100.00	124	WP_063842998.1	phleomycin/bleomycin binding protein Ble-Sh	NA	NA
+NA	seq_96	6932	7516	+	blaTEM	TEM family class A beta-lactamase	core	AMR	AMR	BETA-LACTAM	BETA-LACTAM	PARTIALX	195	286	68.18	94.87	195	WP_000027050.1	broad-spectrum class A beta-lactamase TEM-116	NA	NA
+NA	seq_96	12617	13474	+	blaTEM-116	broad-spectrum class A beta-lactamase TEM-116	core	AMR	AMR	BETA-LACTAM	BETA-LACTAM	ALLELEX	286	286	100.00	100.00	286	WP_000027050.1	broad-spectrum class A beta-lactamase TEM-116	NA	NA
+NA	seq_96	17783	18439	-	catA1	type A-1 chloramphenicol O-acetyltransferase	core	AMR	AMR	PHENICOL	CHLORAMPHENICOL	EXACTX	219	219	100.00	100.00	219	WP_000412211.1	type A-1 chloramphenicol O-acetyltransferase	NA	NA

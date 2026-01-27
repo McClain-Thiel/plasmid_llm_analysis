@@ -1,0 +1,5 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_59,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,1000,1788,+,100.0,100.0
+seq_59,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,3817,4605,+,100.0,100.0
+seq_59,ble-Sh,phleomycin/bleomycin binding protein Ble-Sh,9464,9835,+,100.0,100.0
+seq_59,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,11302,12159,-,100.0,100.0

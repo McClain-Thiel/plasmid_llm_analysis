@@ -1,0 +1,19 @@
+DEFINITION  seqnum=1;seqlen=10082;seqhdr="seq_76";version=Prodigal.v2.6.3;run_type=Metagenomic;model="16|Chlorobium_tepidum_TLS|B|56.5|11|1";gc_cont=56.50;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             2749..3543
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.596;conf=99.98;score=38.28;cscore=31.18;sscore=7.11;rscore=2.32;uscore=0.80;tscore=3.98;"
+     CDS             3828..4439
+                     /note="ID=1_2;partial=00;start_type=TTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.614;conf=100.00;score=110.96;cscore=119.34;sscore=-8.38;rscore=-0.18;uscore=4.07;tscore=-11.61;"
+     CDS             4660..5064
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.578;conf=99.98;score=37.43;cscore=32.23;sscore=5.20;rscore=2.32;uscore=-0.45;tscore=3.98;"
+     CDS             5267..5491
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=AGxAG;rbs_spacer=5-10bp;gc_cont=0.538;conf=78.55;score=5.65;cscore=1.35;sscore=4.30;rscore=1.31;uscore=0.11;tscore=3.54;"
+     CDS             5842..6261
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.595;conf=100.00;score=105.22;cscore=100.63;sscore=4.59;rscore=-0.18;uscore=1.44;tscore=3.98;"
+     CDS             6258..6761
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.595;conf=100.00;score=132.16;cscore=126.88;sscore=5.28;rscore=-0.18;uscore=-3.63;tscore=3.98;"
+     CDS             6752..7336
+                     /note="ID=1_7;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.585;conf=99.65;score=24.56;cscore=32.36;sscore=-7.80;rscore=-0.18;uscore=-1.71;tscore=-7.14;"
+     CDS             complement(8738..9598)
+                     /note="ID=1_8;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.490;conf=99.85;score=28.34;cscore=11.79;sscore=16.56;rscore=6.39;uscore=6.18;tscore=3.98;"
+//

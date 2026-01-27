@@ -1,0 +1,2 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_64,aph(4)-Ia,aminoglycoside O-phosphotransferase APH(4)-Ia,4878,5897,+,99.12,99.71

@@ -1,0 +1,5 @@
+DEFINITION  seqnum=1;seqlen=4286;seqhdr="seq_82";version=Prodigal.v2.6.3;run_type=Metagenomic;model="47|Xenorhabdus_nematophila_ATCC_19061|B|44.1|11|1";gc_cont=44.20;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             2552..3412
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.491;conf=100.00;score=86.18;cscore=69.86;sscore=16.32;rscore=9.79;uscore=2.54;tscore=3.99;"
+//

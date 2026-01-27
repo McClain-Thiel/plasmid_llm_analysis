@@ -1,0 +1,6 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=7606;seqhdr="seq_28"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="33|Pelotomaculum_thermopropionicum_SI|B|53.0|11|1";gc_cont=53.00;transl_table=11;uses_sd=1
+seq_28	Prodigal_v2.6.3	CDS	314	772	75.4	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.651;conf=100.00;score=75.42;cscore=66.43;sscore=8.99;rscore=6.26;uscore=0.03;tscore=2.70;
+seq_28	Prodigal_v2.6.3	CDS	1212	1508	36.6	+	0	ID=1_2;partial=00;start_type=TTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.680;conf=99.97;score=35.94;cscore=37.57;sscore=-1.63;rscore=-0.59;uscore=1.49;tscore=-1.88;
+seq_28	Prodigal_v2.6.3	CDS	5406	5696	45.2	-	0	ID=1_3;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.577;conf=100.00;score=45.23;cscore=50.82;sscore=-5.59;rscore=-10.21;uscore=1.92;tscore=2.70;

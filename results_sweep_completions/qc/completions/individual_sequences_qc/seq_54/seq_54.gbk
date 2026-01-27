@@ -1,0 +1,9 @@
+DEFINITION  seqnum=1;seqlen=4542;seqhdr="seq_54";version=Prodigal.v2.6.3;run_type=Metagenomic;model="17|Desulfotomaculum_acetoxidans_DSM_771|B|41.5|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             1321..1980
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.448;conf=100.00;score=48.87;cscore=39.45;sscore=9.43;rscore=2.89;uscore=3.70;tscore=2.83;"
+     CDS             complement(2255..2467)
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.455;conf=96.72;score=14.71;cscore=9.42;sscore=5.29;rscore=2.43;uscore=1.13;tscore=2.38;"
+     CDS             3546..4349
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=4Base/6BMM;rbs_spacer=13-15bp;gc_cont=0.430;conf=100.00;score=84.26;cscore=85.81;sscore=-1.55;rscore=-2.07;uscore=-2.32;tscore=2.83;"
+//

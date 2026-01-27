@@ -1,0 +1,4 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=2679;seqhdr="seq_36"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="14|Cenarchaeum_symbiosum_B|A|57.2|11|0";gc_cont=57.20;transl_table=11;uses_sd=0
+seq_36	Prodigal_v2.6.3	CDS	368	1261	292.4	+	0	ID=1_1;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.666;conf=99.99;score=292.42;cscore=297.47;sscore=-5.06;rscore=-0.97;uscore=1.18;tscore=-5.27;

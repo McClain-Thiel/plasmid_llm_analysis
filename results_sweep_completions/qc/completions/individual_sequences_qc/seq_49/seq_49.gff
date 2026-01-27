@@ -1,0 +1,5 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=3935;seqhdr="seq_49"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="48|Xylella_fastidiosa_Temecula1|B|51.8|11|1";gc_cont=51.80;transl_table=11;uses_sd=1
+seq_49	Prodigal_v2.6.3	CDS	1149	2009	72.8	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.491;conf=100.00;score=72.81;cscore=57.30;sscore=15.51;rscore=9.16;uscore=1.57;tscore=4.77;
+seq_49	Prodigal_v2.6.3	CDS	3543	3908	22.6	-	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.672;conf=99.44;score=22.56;cscore=11.23;sscore=11.33;rscore=7.25;uscore=-0.69;tscore=4.77;

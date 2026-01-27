@@ -1,0 +1,24 @@
+# Configuration for SFT+GRPO checkpoint-1700 evaluation
+
+output_dir: "results_sftgrpo_ckpt1700"
+
+models:
+  SFT_GRPO_ckpt1700: "/mnt/s3/phd-research-storage-1758274488/checkpoints/grpo-production/grpo-production-20251203_194829/checkpoint-1700"
+
+generation:
+  prompts:
+    - "ATG"
+    - "tttacggctagctcagtcctaggtatagtgctagcTACTagagaaagaggagaaatactaAATGatgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagatcacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataaAGGTccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata"
+  samples_per_prompt: 50
+  gpu_utilization: 0.8
+  temperature: 0.95
+  repetition_penalty: 1.0
+
+real_plasmids_dir: "assets/annotations"
+oridb_ref: "assets/oriV_refs.fasta"
+oridb_prefix: "data/oridb_nucl"
+
+qc:
+  threads: 8
+  ori_strict_id: 99.0
+  amr_strict_id: 100.0

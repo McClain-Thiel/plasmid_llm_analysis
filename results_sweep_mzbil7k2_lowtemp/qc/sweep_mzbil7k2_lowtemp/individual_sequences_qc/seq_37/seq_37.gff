@@ -1,0 +1,10 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=11387;seqhdr="seq_37"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="4|Akkermansia_muciniphila_ATCC_BAA_835|B|55.8|11|0";gc_cont=55.80;transl_table=11;uses_sd=0
+seq_37	Prodigal_v2.6.3	CDS	1008	1607	88.9	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.728;conf=100.00;score=88.88;cscore=81.42;sscore=7.46;rscore=1.53;uscore=2.35;tscore=3.58;
+seq_37	Prodigal_v2.6.3	CDS	1911	2771	20.0	-	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.492;conf=98.85;score=19.36;cscore=11.24;sscore=8.12;rscore=1.53;uscore=3.66;tscore=3.58;
+seq_37	Prodigal_v2.6.3	CDS	3702	4421	170.4	+	0	ID=1_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.615;conf=100.00;score=170.37;cscore=166.43;sscore=3.94;rscore=1.53;uscore=-1.17;tscore=3.58;
+seq_37	Prodigal_v2.6.3	CDS	6390	7184	45.9	+	0	ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.596;conf=100.00;score=45.20;cscore=36.40;sscore=8.80;rscore=1.53;uscore=4.35;tscore=3.58;
+seq_37	Prodigal_v2.6.3	CDS	7707	8567	22.4	+	0	ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.491;conf=99.33;score=21.74;cscore=12.11;sscore=9.63;rscore=1.53;uscore=5.17;tscore=3.58;
+seq_37	Prodigal_v2.6.3	CDS	9788	9955	4.3	+	0	ID=1_6;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.506;conf=69.61;score=3.61;cscore=0.02;sscore=3.59;rscore=1.01;uscore=0.87;tscore=2.36;
+seq_37	Prodigal_v2.6.3	CDS	10522	11226	161.2	+	0	ID=1_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.627;conf=100.00;score=160.57;cscore=156.23;sscore=4.34;rscore=1.53;uscore=-0.11;tscore=3.58;

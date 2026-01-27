@@ -1,0 +1,12 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=7586;seqhdr="seq_39"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="34|Prochlorococcus_marinus_MIT_9313|B|50.7|11|0";gc_cont=50.70;transl_table=11;uses_sd=0
+seq_39	Prodigal_v2.6.3	CDS	65	598	41.4	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.376;conf=99.99;score=41.41;cscore=37.40;sscore=4.00;rscore=0.00;uscore=-0.60;tscore=4.60;
+seq_39	Prodigal_v2.6.3	CDS	1112	1330	1.7	-	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.393;conf=66.11;score=2.91;cscore=-2.05;sscore=4.96;rscore=0.00;uscore=0.26;tscore=3.98;
+seq_39	Prodigal_v2.6.3	CDS	1336	1965	38.0	-	0	ID=1_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.584;conf=99.98;score=37.31;cscore=32.22;sscore=5.10;rscore=0.00;uscore=1.15;tscore=4.60;
+seq_39	Prodigal_v2.6.3	CDS	2694	3554	67.5	-	0	ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.492;conf=100.00;score=66.90;cscore=64.50;sscore=2.40;rscore=0.00;uscore=-1.55;tscore=4.60;
+seq_39	Prodigal_v2.6.3	CDS	3975	4133	5.0	-	0	ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.472;conf=72.95;score=4.32;cscore=1.97;sscore=2.35;rscore=0.00;uscore=0.13;tscore=2.87;
+seq_39	Prodigal_v2.6.3	CDS	4482	5207	18.0	+	0	ID=1_6;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.468;conf=98.43;score=18.00;cscore=11.35;sscore=6.64;rscore=0.00;uscore=2.04;tscore=4.60;
+seq_39	Prodigal_v2.6.3	CDS	5693	6169	15.1	-	0	ID=1_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.392;conf=96.50;score=14.43;cscore=10.17;sscore=4.27;rscore=0.00;uscore=0.32;tscore=4.60;
+seq_39	Prodigal_v2.6.3	CDS	6341	6661	14.7	+	0	ID=1_8;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.660;conf=96.73;score=14.74;cscore=10.84;sscore=3.90;rscore=0.00;uscore=-0.70;tscore=4.60;
+seq_39	Prodigal_v2.6.3	CDS	7151	7360	5.6	-	0	ID=1_9;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.629;conf=78.23;score=5.56;cscore=0.69;sscore=4.87;rscore=0.00;uscore=1.06;tscore=3.81;

@@ -1,0 +1,5 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=3395;seqhdr="seq_43"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="46|Tropheryma_whipplei_TW08_27|B|46.3|11|1";gc_cont=46.30;transl_table=11;uses_sd=1
+seq_43	Prodigal_v2.6.3	CDS	994	1854	72.7	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.492;conf=100.00;score=72.70;cscore=63.90;sscore=8.80;rscore=5.00;uscore=1.67;tscore=2.13;
+seq_43	Prodigal_v2.6.3	CDS	3023	3166	14.6	+	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=3-4bp;gc_cont=0.451;conf=98.08;score=17.12;cscore=11.91;sscore=5.21;rscore=2.72;uscore=-1.21;tscore=1.20;

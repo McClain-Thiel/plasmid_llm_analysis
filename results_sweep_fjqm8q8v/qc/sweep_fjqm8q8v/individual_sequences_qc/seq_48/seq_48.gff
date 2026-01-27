@@ -1,0 +1,12 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=11608;seqhdr="seq_48"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="46|Tropheryma_whipplei_TW08_27|B|46.3|11|1";gc_cont=46.30;transl_table=11;uses_sd=1
+seq_48	Prodigal_v2.6.3	CDS	146	508	7.8	-	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.383;conf=85.81;score=7.83;cscore=7.19;sscore=0.64;rscore=-3.16;uscore=1.67;tscore=2.13;
+seq_48	Prodigal_v2.6.3	CDS	676	1242	43.8	-	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.480;conf=100.00;score=43.12;cscore=34.98;sscore=8.14;rscore=5.00;uscore=1.67;tscore=2.13;
+seq_48	Prodigal_v2.6.3	CDS	1675	2403	12.5	-	0	ID=1_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.506;conf=97.99;score=16.90;cscore=13.18;sscore=3.71;rscore=-3.16;uscore=0.30;tscore=2.13;
+seq_48	Prodigal_v2.6.3	CDS	2403	3110	108.2	-	0	ID=1_4;partial=00;start_type=GTG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.603;conf=100.00;score=107.57;cscore=102.49;sscore=5.08;rscore=6.88;uscore=-1.80;tscore=0.66;
+seq_48	Prodigal_v2.6.3	CDS	3626	4039	2.4	-	0	ID=1_5;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.531;conf=59.83;score=1.73;cscore=4.73;sscore=-3.00;rscore=-3.16;uscore=0.16;tscore=0.66;
+seq_48	Prodigal_v2.6.3	CDS	4108	4863	13.9	+	0	ID=1_6;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.561;conf=96.11;score=13.95;cscore=14.00;sscore=-0.05;rscore=-0.36;uscore=-1.83;tscore=2.13;
+seq_48	Prodigal_v2.6.3	CDS	5096	5344	9.1	+	0	ID=1_7;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.474;conf=87.37;score=8.41;cscore=3.59;sscore=4.82;rscore=3.49;uscore=-0.11;tscore=2.10;
+seq_48	Prodigal_v2.6.3	CDS	6703	7563	73.1	-	0	ID=1_8;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.490;conf=100.00;score=72.49;cscore=64.34;sscore=8.14;rscore=5.00;uscore=1.67;tscore=2.13;
+seq_48	Prodigal_v2.6.3	CDS	10187	11047	73.1	-	0	ID=1_9;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.490;conf=100.00;score=73.14;cscore=64.34;sscore=8.80;rscore=5.00;uscore=1.67;tscore=2.13;

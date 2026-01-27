@@ -1,0 +1,4 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_98,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1106,1918,-,100.0,100.0
+seq_98,tet(C),tetracycline efflux MFS transporter Tet(C),4732,5352,-,100.0,52.27
+seq_98,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,7860,8672,-,100.0,100.0

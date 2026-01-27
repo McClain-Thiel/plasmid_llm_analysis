@@ -1,0 +1,19 @@
+DEFINITION  seqnum=1;seqlen=7745;seqhdr="seq_47";version=Prodigal.v2.6.3;run_type=Metagenomic;model="48|Xylella_fastidiosa_Temecula1|B|51.8|11|1";gc_cont=51.80;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             161..1135
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.565;conf=99.99;score=40.17;cscore=36.36;sscore=3.81;rscore=-2.96;uscore=2.00;tscore=4.77;"
+     CDS             1547..1657
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.450;conf=79.63;score=5.93;cscore=3.42;sscore=2.51;rscore=0.86;uscore=0.24;tscore=2.06;"
+     CDS             1651..1800
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.393;conf=76.22;score=5.07;cscore=5.10;sscore=-0.03;rscore=-5.03;uscore=0.93;tscore=2.81;"
+     CDS             complement(2036..2359)
+                     /note="ID=1_4;partial=00;start_type=TTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.441;conf=50.00;score=-1.05;cscore=8.40;sscore=-9.45;rscore=1.65;uscore=1.41;tscore=-12.51;"
+     CDS             complement(2509..2790)
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.504;conf=74.83;score=4.74;cscore=0.63;sscore=4.11;rscore=2.00;uscore=-2.01;tscore=4.77;"
+     CDS             4511..5320
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.437;conf=100.00;score=58.90;cscore=51.47;sscore=7.44;rscore=2.00;uscore=0.66;tscore=4.77;"
+     CDS             6079..6351
+                     /note="ID=1_7;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.502;conf=57.85;score=1.38;cscore=-10.56;sscore=11.94;rscore=9.16;uscore=-0.84;tscore=4.77;"
+     CDS             6399..7259
+                     /note="ID=1_8;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.491;conf=100.00;score=73.57;cscore=57.30;sscore=16.27;rscore=9.16;uscore=1.57;tscore=4.77;"
+//

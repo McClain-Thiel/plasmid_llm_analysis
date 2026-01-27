@@ -1,0 +1,3 @@
+sequence,qseqid,ori_type,pct_identity,pct_cov_subject,q_start,q_end,strand,qlen,sstart,send,slen,length,bitscore,evalue
+seq_82,seq_82,ColE1,99.83,100.0,1401,1989,-,7609,589,1,589,589,1058,0.0
+seq_82,seq_82,ColE1,99.491,100.0,5011,5599,-,7609,589,1,589,589,1049,0.0

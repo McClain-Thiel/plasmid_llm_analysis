@@ -1,0 +1,21 @@
+DEFINITION  seqnum=1;seqlen=13115;seqhdr="seq_38";version=Prodigal.v2.6.3;run_type=Metagenomic;model="40|Rothia_dentocariosa_ATCC_17931|B|53.7|11|1";gc_cont=53.70;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             complement(1109..1924)
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.435;conf=100.00;score=45.80;cscore=37.37;sscore=8.44;rscore=1.61;uscore=3.90;tscore=3.58;"
+     CDS             complement(3061..3252)
+                     /note="ID=1_2;partial=00;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.526;conf=96.18;score=14.03;cscore=9.58;sscore=4.45;rscore=8.02;uscore=0.76;tscore=-3.68;"
+     CDS             3284..3652
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.515;conf=95.30;score=13.09;cscore=4.84;sscore=8.24;rscore=4.52;uscore=0.14;tscore=3.58;"
+     CDS             complement(3649..4005)
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.616;conf=98.78;score=19.10;cscore=13.31;sscore=5.80;rscore=1.61;uscore=-0.07;tscore=3.58;"
+     CDS             complement(4061..4477)
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.573;conf=99.87;score=28.89;cscore=22.77;sscore=6.12;rscore=1.61;uscore=1.59;tscore=3.58;"
+     CDS             4897..5067
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.544;conf=55.12;score=0.89;cscore=-5.14;sscore=6.04;rscore=4.05;uscore=0.09;tscore=2.40;"
+     CDS             6116..6910
+                     /note="ID=1_7;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.596;conf=100.00;score=73.89;cscore=64.65;sscore=9.25;rscore=6.02;uscore=0.30;tscore=3.58;"
+     CDS             complement(8415..9275)
+                     /note="ID=1_8;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.490;conf=100.00;score=72.96;cscore=56.04;sscore=16.92;rscore=10.64;uscore=3.35;tscore=3.58;"
+     CDS             10133..12808
+                     /note="ID=1_9;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.575;conf=99.99;score=290.24;cscore=291.11;sscore=-0.87;rscore=-5.94;uscore=1.49;tscore=3.58;"
+//

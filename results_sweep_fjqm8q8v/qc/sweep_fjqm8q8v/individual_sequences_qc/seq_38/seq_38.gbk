@@ -1,0 +1,19 @@
+DEFINITION  seqnum=1;seqlen=11505;seqhdr="seq_38";version=Prodigal.v2.6.3;run_type=Metagenomic;model="4|Akkermansia_muciniphila_ATCC_BAA_835|B|55.8|11|0";gc_cont=55.80;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             471..1001
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.591;conf=95.91;score=13.73;cscore=5.71;sscore=8.02;rscore=1.53;uscore=2.91;tscore=3.58;"
+     CDS             2428..3288
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.491;conf=99.33;score=21.74;cscore=12.11;sscore=9.63;rscore=1.53;uscore=5.17;tscore=3.58;"
+     CDS             4445..4564
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.533;conf=53.58;score=0.62;cscore=-2.00;sscore=2.63;rscore=0.72;uscore=1.39;tscore=1.67;"
+     CDS             4581..4820
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.575;conf=71.22;score=3.94;cscore=-1.20;sscore=5.14;rscore=1.45;uscore=-0.30;tscore=3.39;"
+     CDS             6485..7237
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.612;conf=100.00;score=174.92;cscore=170.71;sscore=4.21;rscore=1.53;uscore=-0.24;tscore=3.58;"
+     CDS             8326..9792
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.493;conf=99.74;score=25.95;cscore=23.87;sscore=2.09;rscore=1.53;uscore=-2.37;tscore=3.58;"
+     CDS             9845..10387
+                     /note="ID=1_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.587;conf=100.00;score=124.31;cscore=114.79;sscore=9.52;rscore=1.53;uscore=3.71;tscore=3.58;"
+     CDS             complement(11082..11384)
+                     /note="ID=1_8;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.545;conf=57.29;score=1.28;cscore=-5.01;sscore=6.28;rscore=1.53;uscore=1.68;tscore=3.58;"
+//

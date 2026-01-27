@@ -1,0 +1,23 @@
+DEFINITION  seqnum=1;seqlen=6711;seqhdr="seq_48";version=Prodigal.v2.6.3;run_type=Metagenomic;model="34|Prochlorococcus_marinus_MIT_9313|B|50.7|11|0";gc_cont=50.70;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             complement(202..384)
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.470;conf=50.00;score=-0.46;cscore=-1.34;sscore=0.88;rscore=0.00;uscore=-1.94;tscore=3.31;"
+     CDS             complement(356..646)
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.478;conf=69.93;score=3.67;cscore=0.75;sscore=2.92;rscore=0.00;uscore=-2.71;tscore=4.60;"
+     CDS             complement(764..982)
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.393;conf=66.11;score=2.91;cscore=-2.05;sscore=4.96;rscore=0.00;uscore=0.26;tscore=3.98;"
+     CDS             complement(988..1617)
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.584;conf=99.98;score=37.31;cscore=32.22;sscore=5.10;rscore=0.00;uscore=1.15;tscore=4.60;"
+     CDS             complement(2346..3206)
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.492;conf=100.00;score=66.90;cscore=64.50;sscore=2.40;rscore=0.00;uscore=-1.55;tscore=4.60;"
+     CDS             complement(3627..3785)
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.472;conf=72.95;score=4.32;cscore=1.97;sscore=2.35;rscore=0.00;uscore=0.13;tscore=2.87;"
+     CDS             4134..4859
+                     /note="ID=1_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.468;conf=98.43;score=18.00;cscore=11.35;sscore=6.64;rscore=0.00;uscore=2.04;tscore=4.60;"
+     CDS             complement(5345..5821)
+                     /note="ID=1_8;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.392;conf=96.98;score=15.08;cscore=10.17;sscore=4.92;rscore=0.00;uscore=0.32;tscore=4.60;"
+     CDS             complement(5882..6073)
+                     /note="ID=1_9;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.568;conf=61.71;score=2.08;cscore=-0.25;sscore=2.33;rscore=0.00;uscore=0.00;tscore=3.48;"
+     CDS             6444..6674
+                     /note="ID=1_10;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.623;conf=92.80;score=11.12;cscore=8.56;sscore=2.55;rscore=0.00;uscore=-1.64;tscore=4.20;"
+//

@@ -1,0 +1,3 @@
+Protein id	Contig id	Start	Stop	Strand	Element symbol	Element name	Scope	Type	Subtype	Class	Subclass	Method	Target length	Reference sequence length	% Coverage of reference	% Identity to reference	Alignment length	Closest reference accession	Closest reference name	HMM accession	HMM description
+NA	seq_84	1272	1775	+	blaTEM	TEM family class A beta-lactamase	core	AMR	AMR	BETA-LACTAM	BETA-LACTAM	PARTIALX	168	286	58.74	97.62	168	WP_242934125.1	class A beta-lactamase TEM-245	NA	NA
+NA	seq_84	2842	3699	+	blaTEM-1	broad-spectrum class A beta-lactamase TEM-1	core	AMR	AMR	BETA-LACTAM	BETA-LACTAM	ALLELEX	286	286	100.00	100.00	286	WP_000027057.1	broad-spectrum class A beta-lactamase TEM-1	NA	NA

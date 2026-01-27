@@ -1,0 +1,3 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_50,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,339,1127,-,100.0,100.0
+seq_50,catA1,type A-1 chloramphenicol O-acetyltransferase,4484,5002,+,100.0,79.0

@@ -1,0 +1,11 @@
+DEFINITION  seqnum=1;seqlen=5056;seqhdr="seq_59";version=Prodigal.v2.6.3;run_type=Metagenomic;model="20|Escherichia_coli_UMN026|B|50.7|11|1";gc_cont=50.70;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             129..764
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.406;conf=100.00;score=44.70;cscore=24.89;sscore=19.81;rscore=12.68;uscore=3.18;tscore=3.95;"
+     CDS             1022..1150
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.543;conf=89.56;score=9.35;cscore=-0.63;sscore=9.98;rscore=7.48;uscore=1.67;tscore=1.99;"
+     CDS             complement(1461..2276)
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.438;conf=100.00;score=51.96;cscore=34.71;sscore=17.25;rscore=10.71;uscore=3.25;tscore=3.95;"
+     CDS             complement(3329..4420)
+                     /note="ID=1_4;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.564;conf=100.00;score=124.98;cscore=132.18;sscore=-7.20;rscore=2.79;uscore=-3.36;tscore=-6.63;"
+//

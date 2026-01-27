@@ -1,0 +1,11 @@
+DEFINITION  seqnum=1;seqlen=11822;seqhdr="seq_34";version=Prodigal.v2.6.3;run_type=Metagenomic;model="46|Tropheryma_whipplei_TW08_27|B|46.3|11|1";gc_cont=46.30;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             1109..1888
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.512;conf=100.00;score=44.36;cscore=45.90;sscore=-1.54;rscore=-3.16;uscore=-0.51;tscore=2.13;"
+     CDS             2852..3136
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=11-12bp;gc_cont=0.512;conf=80.84;score=6.26;cscore=3.74;sscore=2.53;rscore=2.33;uscore=-1.28;tscore=2.13;"
+     CDS             6217..7077
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.491;conf=100.00;score=72.49;cscore=64.34;sscore=8.14;rscore=5.00;uscore=1.67;tscore=2.13;"
+     CDS             complement(10313..10474)
+                     /note="ID=1_4;partial=00;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.525;conf=72.50;score=4.22;cscore=-3.07;sscore=7.28;rscore=6.77;uscore=0.59;tscore=0.42;"
+//

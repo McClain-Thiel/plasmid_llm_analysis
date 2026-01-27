@@ -1,0 +1,10 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=6467;seqhdr="seq_10"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="41|Shigella_dysenteriae_Sd197|B|51.2|11|1";gc_cont=51.20;transl_table=11;uses_sd=1
+seq_10	Prodigal_v2.6.3	CDS	1182	1997	36.3	-	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.435;conf=99.97;score=35.67;cscore=29.94;sscore=5.72;rscore=2.34;uscore=0.72;tscore=3.32;
+seq_10	Prodigal_v2.6.3	CDS	3134	3325	15.3	-	0	ID=1_2;partial=00;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.526;conf=97.11;score=15.28;cscore=9.16;sscore=6.12;rscore=9.19;uscore=0.55;tscore=-3.61;
+seq_10	Prodigal_v2.6.3	CDS	3429	3692	9.5	-	0	ID=1_3;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.523;conf=91.63;score=10.41;cscore=9.36;sscore=1.05;rscore=2.34;uscore=0.49;tscore=-2.73;
+seq_10	Prodigal_v2.6.3	CDS	3722	4078	17.7	-	0	ID=1_4;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.616;conf=98.56;score=18.37;cscore=10.67;sscore=7.71;rscore=2.34;uscore=1.38;tscore=3.32;
+seq_10	Prodigal_v2.6.3	CDS	4134	5225	125.1	-	0	ID=1_5;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.563;conf=100.00;score=124.47;cscore=127.68;sscore=-3.21;rscore=2.34;uscore=-2.16;tscore=-2.73;
+seq_10	Prodigal_v2.6.3	CDS	5392	5631	10.0	+	0	ID=1_6;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.617;conf=90.95;score=10.04;cscore=1.72;sscore=8.32;rscore=9.91;uscore=-4.74;tscore=3.15;
+seq_10	Prodigal_v2.6.3	CDS	5779	6384	8.8	+	0	ID=1_7;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.658;conf=88.38;score=8.83;cscore=5.77;sscore=3.05;rscore=2.34;uscore=-2.60;tscore=3.32;

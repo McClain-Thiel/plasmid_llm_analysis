@@ -1,0 +1,17 @@
+DEFINITION  seqnum=1;seqlen=17703;seqhdr="seq_9";version=Prodigal.v2.6.3;run_type=Metagenomic;model="33|Pelotomaculum_thermopropionicum_SI|B|53.0|11|1";gc_cont=53.00;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             1554..2348
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.594;conf=100.00;score=51.66;cscore=42.03;sscore=9.62;rscore=6.26;uscore=0.66;tscore=2.70;"
+     CDS             4939..5748
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.437;conf=97.87;score=16.65;cscore=12.35;sscore=4.30;rscore=-2.06;uscore=4.31;tscore=2.70;"
+     CDS             complement(6939..7259)
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.455;conf=63.25;score=2.36;cscore=-7.26;sscore=9.62;rscore=8.35;uscore=-0.28;tscore=2.70;"
+     CDS             8740..9852
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.596;conf=99.99;score=194.81;cscore=182.10;sscore=12.71;rscore=6.26;uscore=3.75;tscore=2.70;"
+     CDS             9884..10045
+                     /note="ID=1_5;partial=00;start_type=GTG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.519;conf=59.24;score=1.63;cscore=4.70;sscore=-3.07;rscore=5.31;uscore=-4.24;tscore=-5.07;"
+     CDS             complement(11341..12201)
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.489;conf=98.79;score=19.16;cscore=13.45;sscore=5.71;rscore=0.52;uscore=3.14;tscore=2.70;"
+     CDS             13111..17529
+                     /note="ID=1_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.561;conf=99.99;score=884.58;cscore=891.84;sscore=-7.26;rscore=-11.04;uscore=1.08;tscore=2.70;"
+//

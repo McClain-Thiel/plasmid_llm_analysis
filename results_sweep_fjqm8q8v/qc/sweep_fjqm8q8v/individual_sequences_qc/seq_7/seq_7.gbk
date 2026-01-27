@@ -1,0 +1,17 @@
+DEFINITION  seqnum=1;seqlen=8777;seqhdr="seq_7";version=Prodigal.v2.6.3;run_type=Metagenomic;model="40|Rothia_dentocariosa_ATCC_17931|B|53.7|11|1";gc_cont=53.70;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             242..628
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.553;conf=99.87;score=29.06;cscore=25.24;sscore=3.81;rscore=1.61;uscore=-1.38;tscore=3.58;"
+     CDS             990..1124
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AGxAG;rbs_spacer=5-10bp;gc_cont=0.630;conf=73.77;score=4.50;cscore=2.99;sscore=1.50;rscore=0.20;uscore=0.07;tscore=1.89;"
+     CDS             1663..1821
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=AGxAG;rbs_spacer=5-10bp;gc_cont=0.503;conf=88.67;score=8.95;cscore=6.18;sscore=2.76;rscore=0.24;uscore=0.95;tscore=2.23;"
+     CDS             2138..2338
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=4Base/6BMM;rbs_spacer=13-15bp;gc_cont=0.652;conf=96.87;score=14.93;cscore=19.56;sscore=-4.62;rscore=-1.90;uscore=-4.90;tscore=2.83;"
+     CDS             2480..2716
+                     /note="ID=1_5;partial=00;start_type=TTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.409;conf=64.42;score=2.58;cscore=6.38;sscore=-3.80;rscore=5.64;uscore=0.79;tscore=-10.23;"
+     CDS             complement(5714..6025)
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.506;conf=97.78;score=16.47;cscore=16.08;sscore=0.39;rscore=-5.94;uscore=3.41;tscore=3.58;"
+     CDS             complement(6847..7158)
+                     /note="ID=1_7;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.506;conf=98.75;score=19.00;cscore=15.05;sscore=3.95;rscore=1.61;uscore=-1.24;tscore=3.58;"
+//

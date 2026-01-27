@@ -1,0 +1,15 @@
+DEFINITION  seqnum=1;seqlen=4723;seqhdr="seq_74";version=Prodigal.v2.6.3;run_type=Metagenomic;model="34|Prochlorococcus_marinus_MIT_9313|B|50.7|11|0";gc_cont=50.70;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             352..918
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.540;conf=94.27;score=12.18;cscore=7.63;sscore=4.56;rscore=0.00;uscore=-0.05;tscore=4.60;"
+     CDS             complement(1101..1286)
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.543;conf=57.62;score=1.34;cscore=-0.90;sscore=2.23;rscore=0.00;uscore=0.02;tscore=3.37;"
+     CDS             1774..2076
+                     /note="ID=1_3;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.640;conf=60.53;score=1.86;cscore=4.78;sscore=-2.92;rscore=0.00;uscore=0.61;tscore=-3.53;"
+     CDS             2895..3755
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.491;conf=100.00;score=68.09;cscore=65.69;sscore=2.40;rscore=0.00;uscore=-1.55;tscore=4.60;"
+     CDS             4299..4469
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.550;conf=87.65;score=8.53;cscore=4.55;sscore=3.97;rscore=0.00;uscore=1.53;tscore=3.09;"
+     CDS             complement(4415..4567)
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.595;conf=66.68;score=3.02;cscore=-0.53;sscore=3.55;rscore=0.00;uscore=1.29;tscore=2.76;"
+//

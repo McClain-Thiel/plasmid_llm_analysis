@@ -1,0 +1,5 @@
+DEFINITION  seqnum=1;seqlen=3197;seqhdr="seq_52";version=Prodigal.v2.6.3;run_type=Metagenomic;model="20|Escherichia_coli_UMN026|B|50.7|11|1";gc_cont=50.70;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             complement(1294..1953)
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.442;conf=100.00;score=66.10;cscore=49.92;sscore=16.18;rscore=10.71;uscore=1.52;tscore=3.95;"
+//

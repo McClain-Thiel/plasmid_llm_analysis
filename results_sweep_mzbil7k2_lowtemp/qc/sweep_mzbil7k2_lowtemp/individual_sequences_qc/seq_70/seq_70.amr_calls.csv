@@ -1,0 +1,4 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_70,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,689,1495,+,99.26,100.0
+seq_70,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,4225,5031,+,99.26,100.0
+seq_70,blaTEM-171,class A beta-lactamase TEM-171,7693,8550,+,100.0,100.0

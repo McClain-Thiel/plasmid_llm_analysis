@@ -1,0 +1,4 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=1519;seqhdr="seq_10"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="35|Pyrobaculum_aerophilum_IM2|A|51.4|11|0";gc_cont=51.40;transl_table=11;uses_sd=0
+seq_10	Prodigal_v2.6.3	CDS	33	257	13.7	-	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.489;conf=95.88;score=13.69;cscore=9.08;sscore=4.61;rscore=0.43;uscore=0.42;tscore=3.76;

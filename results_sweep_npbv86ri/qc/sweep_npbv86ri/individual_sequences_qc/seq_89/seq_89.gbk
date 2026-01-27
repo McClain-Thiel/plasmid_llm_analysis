@@ -1,0 +1,31 @@
+DEFINITION  seqnum=1;seqlen=18170;seqhdr="seq_89";version=Prodigal.v2.6.3;run_type=Metagenomic;model="40|Rothia_dentocariosa_ATCC_17931|B|53.7|11|1";gc_cont=53.70;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             complement(1006..1866)
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.490;conf=100.00;score=72.96;cscore=56.04;sscore=16.92;rscore=10.64;uscore=3.35;tscore=3.58;"
+     CDS             complement(3163..3336)
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.563;conf=78.78;score=5.71;cscore=10.41;sscore=-4.70;rscore=1.10;uscore=-8.25;tscore=2.45;"
+     CDS             complement(3449..3652)
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.593;conf=52.32;score=0.40;cscore=-9.63;sscore=10.03;rscore=8.56;uscore=-0.25;tscore=2.87;"
+     CDS             3678..5039
+                     /note="ID=1_4;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.623;conf=100.00;score=104.99;cscore=107.60;sscore=-2.60;rscore=1.61;uscore=-1.44;tscore=-2.78;"
+     CDS             5990..6853
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.438;conf=99.92;score=31.08;cscore=13.17;sscore=17.91;rscore=15.25;uscore=-0.27;tscore=3.58;"
+     CDS             7055..7657
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.726;conf=100.00;score=68.10;cscore=57.90;sscore=10.21;rscore=6.02;uscore=1.26;tscore=3.58;"
+     CDS             complement(8253..8873)
+                     /note="ID=1_7;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.634;conf=93.17;score=11.37;cscore=8.06;sscore=3.31;rscore=1.61;uscore=-1.23;tscore=3.58;"
+     CDS             10639..10905
+                     /note="ID=1_8;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.581;conf=58.32;score=1.46;cscore=-2.48;sscore=3.94;rscore=1.61;uscore=-0.75;tscore=3.58;"
+     CDS             complement(10927..11166)
+                     /note="ID=1_9;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=3-4bp;gc_cont=0.529;conf=61.11;score=1.97;cscore=10.95;sscore=-8.99;rscore=-5.07;uscore=-0.33;tscore=-2.93;"
+     CDS             complement(11746..11955)
+                     /note="ID=1_10;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.571;conf=66.34;score=2.95;cscore=4.50;sscore=-1.55;rscore=-7.17;uscore=3.32;tscore=2.96;"
+     CDS             12116..12895
+                     /note="ID=1_11;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.529;conf=100.00;score=63.54;cscore=58.30;sscore=5.24;rscore=6.02;uscore=2.00;tscore=-2.78;"
+     CDS             complement(14987..15640)
+                     /note="ID=1_12;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.596;conf=100.00;score=91.99;cscore=101.93;sscore=-9.94;rscore=-5.94;uscore=-0.57;tscore=-2.78;"
+     CDS             complement(16502..17362)
+                     /note="ID=1_13;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.490;conf=100.00;score=72.96;cscore=56.04;sscore=16.92;rscore=10.64;uscore=3.35;tscore=3.58;"
+     CDS             17931..18122
+                     /note="ID=1_14;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.427;conf=70.40;score=3.77;cscore=-11.23;sscore=15.00;rscore=11.53;uscore=1.26;tscore=2.70;"
+//

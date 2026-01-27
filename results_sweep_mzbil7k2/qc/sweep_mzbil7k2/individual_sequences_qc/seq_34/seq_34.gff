@@ -1,0 +1,12 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=11254;seqhdr="seq_34"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="40|Rothia_dentocariosa_ATCC_17931|B|53.7|11|1";gc_cont=53.70;transl_table=11;uses_sd=1
+seq_34	Prodigal_v2.6.3	CDS	1449	1958	10.7	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.596;conf=92.12;score=10.70;cscore=7.96;sscore=2.74;rscore=-0.86;uscore=0.02;tscore=3.58;
+seq_34	Prodigal_v2.6.3	CDS	3419	4279	73.6	+	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.491;conf=100.00;score=72.96;cscore=56.04;sscore=16.92;rscore=10.64;uscore=3.35;tscore=3.58;
+seq_34	Prodigal_v2.6.3	CDS	5436	5681	5.0	+	0	ID=1_3;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.463;conf=72.96;score=4.32;cscore=-9.01;sscore=13.33;rscore=10.35;uscore=0.66;tscore=3.48;
+seq_34	Prodigal_v2.6.3	CDS	6457	7320	31.7	+	0	ID=1_4;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.438;conf=99.92;score=31.08;cscore=13.17;sscore=17.91;rscore=15.25;uscore=-0.27;tscore=3.58;
+seq_34	Prodigal_v2.6.3	CDS	7512	7922	27.6	+	0	ID=1_5;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.555;conf=99.80;score=26.96;cscore=16.87;sscore=10.08;rscore=6.02;uscore=1.13;tscore=3.58;
+seq_34	Prodigal_v2.6.3	CDS	8534	9154	12.0	-	0	ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.634;conf=93.17;score=11.37;cscore=8.06;sscore=3.31;rscore=1.61;uscore=-1.23;tscore=3.58;
+seq_34	Prodigal_v2.6.3	CDS	9478	9627	7.4	+	0	ID=1_7;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.573;conf=84.64;score=7.42;cscore=0.81;sscore=6.62;rscore=3.54;uscore=0.97;tscore=2.10;
+seq_34	Prodigal_v2.6.3	CDS	9646	9828	11.5	+	0	ID=1_8;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.525;conf=94.75;score=12.58;cscore=3.29;sscore=9.30;rscore=7.64;uscore=-1.99;tscore=2.57;
+seq_34	Prodigal_v2.6.3	CDS	10399	11088	109.4	-	0	ID=1_9;partial=00;start_type=GTG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.614;conf=100.00;score=109.44;cscore=108.42;sscore=1.02;rscore=4.52;uscore=-0.72;tscore=-2.78;

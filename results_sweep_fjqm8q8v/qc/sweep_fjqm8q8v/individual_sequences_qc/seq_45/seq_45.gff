@@ -1,0 +1,12 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=11847;seqhdr="seq_45"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="40|Rothia_dentocariosa_ATCC_17931|B|53.7|11|1";gc_cont=53.70;transl_table=11;uses_sd=1
+seq_45	Prodigal_v2.6.3	CDS	48	536	4.2	-	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.397;conf=72.57;score=4.23;cscore=5.29;sscore=-1.06;rscore=-5.94;uscore=1.31;tscore=3.58;
+seq_45	Prodigal_v2.6.3	CDS	484	642	9.1	-	0	ID=1_2;partial=00;start_type=GTG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.333;conf=87.54;score=8.48;cscore=11.51;sscore=-3.03;rscore=0.99;uscore=1.09;tscore=-4.45;
+seq_45	Prodigal_v2.6.3	CDS	1735	2580	109.9	-	0	ID=1_3;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.610;conf=100.00;score=109.29;cscore=113.67;sscore=-4.38;rscore=1.61;uscore=-2.56;tscore=-2.78;
+seq_45	Prodigal_v2.6.3	CDS	3012	3194	6.5	+	0	ID=1_4;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.497;conf=81.75;score=6.52;cscore=3.46;sscore=3.06;rscore=1.16;uscore=-0.68;tscore=2.57;
+seq_45	Prodigal_v2.6.3	CDS	3396	4256	73.6	+	0	ID=1_5;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.491;conf=100.00;score=72.96;cscore=56.04;sscore=16.92;rscore=10.64;uscore=3.35;tscore=3.58;
+seq_45	Prodigal_v2.6.3	CDS	7715	8467	115.1	-	0	ID=1_6;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.620;conf=100.00;score=114.46;cscore=116.00;sscore=-1.54;rscore=1.61;uscore=0.28;tscore=-2.78;
+seq_45	Prodigal_v2.6.3	CDS	8469	8849	11.9	+	0	ID=1_7;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.449;conf=93.88;score=11.88;cscore=18.99;sscore=-7.12;rscore=-5.94;uscore=1.60;tscore=-2.78;
+seq_45	Prodigal_v2.6.3	CDS	9791	10651	73.6	-	0	ID=1_8;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.490;conf=100.00;score=72.96;cscore=56.04;sscore=16.92;rscore=10.64;uscore=3.35;tscore=3.58;
+seq_45	Prodigal_v2.6.3	CDS	11083	11235	6.7	-	0	ID=1_9;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.595;conf=82.25;score=6.67;cscore=10.37;sscore=-3.70;rscore=-7.33;uscore=1.48;tscore=2.15;

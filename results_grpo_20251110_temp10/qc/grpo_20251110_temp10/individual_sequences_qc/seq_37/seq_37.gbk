@@ -1,0 +1,11 @@
+DEFINITION  seqnum=1;seqlen=4212;seqhdr="seq_37";version=Prodigal.v2.6.3;run_type=Metagenomic;model="1|Mycoplasma_pneumoniae_M129|B|40.0|4|0";gc_cont=40.00;transl_table=4;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             62..598
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.376;conf=99.77;score=26.40;cscore=21.20;sscore=5.19;rscore=0.02;uscore=-0.23;tscore=5.40;"
+     CDS             complement(769..1242)
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.515;conf=91.44;score=10.30;cscore=5.42;sscore=4.88;rscore=0.02;uscore=-0.54;tscore=5.40;"
+     CDS             complement(1212..2378)
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=TATAA;rbs_spacer=13bp;gc_cont=0.550;conf=99.95;score=33.47;cscore=20.41;sscore=13.06;rscore=4.50;uscore=3.81;tscore=5.40;"
+     CDS             2709..4052
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.408;conf=99.99;score=179.37;cscore=179.72;sscore=-0.35;rscore=0.02;uscore=-5.77;tscore=5.40;"
+//

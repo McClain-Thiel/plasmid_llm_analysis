@@ -1,0 +1,9 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=6692;seqhdr="seq_92"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="47|Xenorhabdus_nematophila_ATCC_19061|B|44.1|11|1";gc_cont=44.20;transl_table=11;uses_sd=1
+seq_92	Prodigal_v2.6.3	CDS	524	1129	38.6	-	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.579;conf=99.98;score=37.95;cscore=32.78;sscore=5.17;rscore=3.64;uscore=-1.81;tscore=3.99;
+seq_92	Prodigal_v2.6.3	CDS	1882	2742	85.6	-	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.492;conf=100.00;score=84.96;cscore=69.29;sscore=15.67;rscore=9.79;uscore=2.54;tscore=3.99;
+seq_92	Prodigal_v2.6.3	CDS	3667	4395	12.9	+	0	ID=1_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.468;conf=95.07;score=12.87;cscore=14.14;sscore=-1.26;rscore=-7.00;uscore=1.75;tscore=3.99;
+seq_92	Prodigal_v2.6.3	CDS	4881	5357	4.5	-	0	ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.392;conf=70.93;score=3.88;cscore=6.86;sscore=-2.98;rscore=-7.00;uscore=0.68;tscore=3.99;
+seq_92	Prodigal_v2.6.3	CDS	5585	5845	19.6	+	0	ID=1_5;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.651;conf=98.91;score=19.61;cscore=5.88;sscore=13.73;rscore=11.01;uscore=-1.26;tscore=3.99;
+seq_92	Prodigal_v2.6.3	CDS	6030	6425	13.9	+	0	ID=1_6;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.641;conf=95.46;score=13.25;cscore=2.71;sscore=10.54;rscore=11.01;uscore=-3.80;tscore=3.99;

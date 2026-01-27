@@ -1,0 +1,3 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_25,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,5052,5909,+,100.0,100.0
+seq_25,aac(3)-Ia,aminoglycoside N-acetyltransferase AAC(3)-Ia,7296,7757,-,100.0,100.0

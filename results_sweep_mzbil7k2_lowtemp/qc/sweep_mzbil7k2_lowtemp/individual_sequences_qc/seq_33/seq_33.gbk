@@ -1,0 +1,15 @@
+DEFINITION  seqnum=1;seqlen=43095;seqhdr="seq_33";version=Prodigal.v2.6.3;run_type=Single;model="Ab initio";gc_cont=54.61;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             477..4574
+                     /note="ID=1_1;partial=00;start_type=GTG;rbs_motif=ACCAAC;rbs_spacer=15bp;gc_cont=0.558;conf=99.99;score=1745.92;cscore=1691.89;sscore=54.03;rscore=17.40;uscore=35.20;tscore=1.42;"
+     CDS             8983..13650
+                     /note="ID=1_2;partial=00;start_type=GTG;rbs_motif=ACCAAC;rbs_spacer=15bp;gc_cont=0.578;conf=99.99;score=1908.71;cscore=1855.33;sscore=53.38;rscore=17.40;uscore=35.20;tscore=1.42;"
+     CDS             18061..22725
+                     /note="ID=1_3;partial=00;start_type=GTG;rbs_motif=ACCAAC;rbs_spacer=15bp;gc_cont=0.577;conf=99.99;score=1909.36;cscore=1855.98;sscore=53.38;rscore=17.40;uscore=35.20;tscore=1.42;"
+     CDS             24158..28921
+                     /note="ID=1_4;partial=00;start_type=GTG;rbs_motif=ACCAAC;rbs_spacer=15bp;gc_cont=0.581;conf=99.99;score=1924.62;cscore=1871.57;sscore=53.06;rscore=17.40;uscore=34.88;tscore=1.42;"
+     CDS             33333..38195
+                     /note="ID=1_5;partial=00;start_type=GTG;rbs_motif=ACCAAC;rbs_spacer=15bp;gc_cont=0.577;conf=99.99;score=1921.71;cscore=1868.66;sscore=53.06;rscore=17.40;uscore=34.88;tscore=1.42;"
+     CDS             38239..38823
+                     /note="ID=1_6;partial=00;start_type=GTG;rbs_motif=ACC;rbs_spacer=15bp;gc_cont=0.687;conf=100.00;score=99.55;cscore=117.60;sscore=-18.05;rscore=-0.16;uscore=-20.12;tscore=1.42;"
+//

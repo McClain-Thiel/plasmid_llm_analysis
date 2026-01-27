@@ -1,0 +1,19 @@
+DEFINITION  seqnum=1;seqlen=11793;seqhdr="seq_36";version=Prodigal.v2.6.3;run_type=Metagenomic;model="40|Rothia_dentocariosa_ATCC_17931|B|53.7|11|1";gc_cont=53.70;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             complement(704..1312)
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.768;conf=72.86;score=4.29;cscore=7.81;sscore=-3.52;rscore=-5.94;uscore=-0.50;tscore=3.58;"
+     CDS             1451..1735
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.632;conf=71.92;score=4.09;cscore=-3.75;sscore=7.84;rscore=10.64;uscore=-5.88;tscore=3.58;"
+     CDS             complement(3151..4011)
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.490;conf=100.00;score=72.96;cscore=56.04;sscore=16.92;rscore=10.64;uscore=3.35;tscore=3.58;"
+     CDS             complement(5251..6111)
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.490;conf=100.00;score=72.96;cscore=56.04;sscore=16.92;rscore=10.64;uscore=3.35;tscore=3.58;"
+     CDS             complement(7391..7696)
+                     /note="ID=1_5;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.595;conf=94.53;score=12.39;cscore=6.86;sscore=5.53;rscore=6.02;uscore=2.94;tscore=-2.78;"
+     CDS             9647..10246
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.728;conf=100.00;score=69.28;cscore=55.99;sscore=13.28;rscore=6.02;uscore=3.68;tscore=3.58;"
+     CDS             complement(10550..11410)
+                     /note="ID=1_7;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.492;conf=100.00;score=69.44;cscore=55.79;sscore=13.65;rscore=10.64;uscore=0.08;tscore=3.58;"
+     CDS             11466..11756
+                     /note="ID=1_8;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.471;conf=91.37;score=10.26;cscore=4.49;sscore=5.78;rscore=6.02;uscore=2.53;tscore=-2.78;"
+//

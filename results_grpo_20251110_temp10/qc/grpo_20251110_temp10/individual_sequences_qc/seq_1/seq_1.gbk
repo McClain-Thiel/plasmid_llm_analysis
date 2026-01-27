@@ -1,0 +1,19 @@
+DEFINITION  seqnum=1;seqlen=7216;seqhdr="seq_1";version=Prodigal.v2.6.3;run_type=Metagenomic;model="41|Shigella_dysenteriae_Sd197|B|51.2|11|1";gc_cont=51.20;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             62..598
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.376;conf=99.97;score=35.67;cscore=16.34;sscore=19.33;rscore=14.75;uscore=1.27;tscore=3.32;"
+     CDS             complement(1490..2305)
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.435;conf=99.97;score=35.67;cscore=29.94;sscore=5.72;rscore=2.34;uscore=0.72;tscore=3.32;"
+     CDS             complement(3442..3633)
+                     /note="ID=1_3;partial=00;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.526;conf=97.11;score=15.28;cscore=9.16;sscore=6.12;rscore=9.19;uscore=0.55;tscore=-3.61;"
+     CDS             complement(3737..4000)
+                     /note="ID=1_4;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.523;conf=91.63;score=10.41;cscore=9.36;sscore=1.05;rscore=2.34;uscore=0.49;tscore=-2.73;"
+     CDS             complement(4030..4386)
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.616;conf=98.56;score=18.37;cscore=10.67;sscore=7.71;rscore=2.34;uscore=1.38;tscore=3.32;"
+     CDS             complement(4442..5533)
+                     /note="ID=1_6;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.563;conf=100.00;score=124.47;cscore=127.68;sscore=-3.21;rscore=2.34;uscore=-2.16;tscore=-2.73;"
+     CDS             5700..5939
+                     /note="ID=1_7;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.617;conf=90.95;score=10.04;cscore=1.72;sscore=8.32;rscore=9.91;uscore=-4.74;tscore=3.15;"
+     CDS             6469..7005
+                     /note="ID=1_8;partial=00;start_type=GTG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.642;conf=92.66;score=11.03;cscore=5.36;sscore=5.67;rscore=10.46;uscore=-1.40;tscore=-2.73;"
+//

@@ -1,0 +1,4 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_46,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2490,3296,+,99.26,100.0
+seq_46,catA1,type A-1 chloramphenicol O-acetyltransferase,5038,5694,+,100.0,100.0
+seq_46,blaTEM,TEM family class A beta-lactamase,7784,8536,+,100.0,87.76

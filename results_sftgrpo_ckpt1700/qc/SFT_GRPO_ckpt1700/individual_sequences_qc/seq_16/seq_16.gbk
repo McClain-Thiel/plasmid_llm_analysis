@@ -1,0 +1,7 @@
+DEFINITION  seqnum=1;seqlen=1460;seqhdr="seq_16";version=Prodigal.v2.6.3;run_type=Metagenomic;model="34|Prochlorococcus_marinus_MIT_9313|B|50.7|11|0";gc_cont=50.70;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             329..493
+                     /note="ID=1_1;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.564;conf=66.48;score=2.98;cscore=8.35;sscore=-5.37;rscore=0.00;uscore=0.08;tscore=-5.44;"
+     CDS             complement(852..1397)
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.511;conf=94.79;score=12.62;cscore=7.21;sscore=5.41;rscore=0.00;uscore=0.81;tscore=4.60;"
+//

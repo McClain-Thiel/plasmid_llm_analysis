@@ -1,0 +1,2 @@
+sequence,qseqid,ori_type,pct_identity,pct_cov_subject,q_start,q_end,strand,qlen,sstart,send,slen,length,bitscore,evalue
+seq_50,seq_50,ColRNAI_1__DQ298019,97.71,100.76923076923077,1616,1746,+,5648,1,130,130,131,220,1.85e-57

@@ -1,0 +1,65 @@
+Plasmid_ID,reason failed
+seq_0,No ORI; No ARG
+seq_1,No ORI; No ARG
+seq_10,No ORI; No ARG
+seq_11,No ORI; No ARG
+seq_12,"ORI low-threshold count 0 outside [1,10]"
+seq_13,No ORI; No ARG
+seq_17,No ORI; No ARG
+seq_18,"ORI low-threshold count 0 outside [1,10]"
+seq_19,No ORI; No ARG
+seq_2,No ORI; No ARG
+seq_20,No ORI; No ARG
+seq_21,No ORI; No ARG
+seq_22,No ORI; No ARG
+seq_23,No ORI; No ARG
+seq_24,"ORI low-threshold count 0 outside [1,10]"
+seq_25,"ORI low-threshold count 0 outside [1,10]"
+seq_26,No ORI; No ARG
+seq_27,No ORI; No ARG
+seq_28,No ORI; No ARG
+seq_29,"ORI low-threshold count 0 outside [1,10]"
+seq_3,No ORI; No ARG
+seq_30,No ORI; No ARG
+seq_31,No ORI; No ARG
+seq_32,No ORI; No ARG
+seq_33,No ORI; No ARG
+seq_35,No ORI; No ARG
+seq_36,No ORI; No ARG
+seq_37,No ORI; No ARG
+seq_38,No ORI; No ARG
+seq_39,No ORI; No ARG
+seq_4,No ORI; No ARG
+seq_40,No ORI; No ARG
+seq_41,No ORI; No ARG
+seq_42,No ORI; No ARG
+seq_44,No ORI; No ARG
+seq_45,No ORI; No ARG
+seq_5,"ORI low-threshold count 0 outside [1,10]"
+seq_51,No ORI; No ARG
+seq_55,No ORI; No ARG
+seq_61,No ORI; No ARG
+seq_62,No ORI; No ARG
+seq_63,No ORI; No ARG
+seq_64,No ORI; No ARG
+seq_66,No ORI; No ARG
+seq_67,No ORI; No ARG
+seq_68,No ORI; No ARG
+seq_69,No ORI; No ARG
+seq_7,No ORI; No ARG
+seq_70,No ORI; No ARG
+seq_71,No ORI; No ARG
+seq_76,No ORI; No ARG
+seq_78,No ORI; No ARG
+seq_79,No ORI; No ARG
+seq_80,No ORI; No ARG
+seq_81,No ORI; No ARG
+seq_84,No ORI; No ARG
+seq_87,No ORI; No ARG
+seq_88,No ORI; No ARG
+seq_9,No ORI; No ARG
+seq_90,No ORI; No ARG
+seq_93,No ORI; No ARG
+seq_94,No ORI; No ARG
+seq_95,No ORI; No ARG
+seq_96,"ORI low-threshold count 0 outside [1,10]"

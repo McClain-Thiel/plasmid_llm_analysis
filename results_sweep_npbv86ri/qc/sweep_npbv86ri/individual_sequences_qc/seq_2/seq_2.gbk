@@ -1,0 +1,13 @@
+DEFINITION  seqnum=1;seqlen=4191;seqhdr="seq_2";version=Prodigal.v2.6.3;run_type=Metagenomic;model="23|Hyperthermus_butylicus_DSM_5456|A|53.7|11|1";gc_cont=53.70;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             36..218
+                     /note="ID=1_1;partial=00;start_type=TTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.470;conf=94.13;score=12.07;cscore=9.94;sscore=2.12;rscore=0.76;uscore=0.01;tscore=1.35;"
+     CDS             655..864
+                     /note="ID=1_2;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.600;conf=89.67;score=9.40;cscore=11.30;sscore=-1.90;rscore=0.88;uscore=0.29;tscore=-2.41;"
+     CDS             1357..1470
+                     /note="ID=1_3;partial=00;start_type=TTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.281;conf=53.71;score=0.65;cscore=0.44;sscore=0.21;rscore=0.25;uscore=-0.22;tscore=0.83;"
+     CDS             1539..1754
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.435;conf=92.62;score=11.01;cscore=8.64;sscore=2.37;rscore=0.47;uscore=1.89;tscore=0.01;"
+     CDS             2412..2816
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.484;conf=99.94;score=32.53;cscore=38.70;sscore=-6.17;rscore=-5.16;uscore=-0.38;tscore=0.01;"
+//

@@ -1,0 +1,2 @@
+Protein id	Contig id	Start	Stop	Strand	Element symbol	Element name	Scope	Type	Subtype	Class	Subclass	Method	Target length	Reference sequence length	% Coverage of reference	% Identity to reference	Alignment length	Closest reference accession	Closest reference name	HMM accession	HMM description
+NA	seq_62	2729	3517	+	aadA1	ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1	core	AMR	AMR	AMINOGLYCOSIDE	STREPTOMYCIN	EXACTX	263	263	100.00	100.00	263	WP_001206316.1	ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1	NA	NA

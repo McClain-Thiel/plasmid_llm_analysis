@@ -1,0 +1,9 @@
+DEFINITION  seqnum=1;seqlen=3048;seqhdr="seq_87";version=Prodigal.v2.6.3;run_type=Metagenomic;model="46|Tropheryma_whipplei_TW08_27|B|46.3|11|1";gc_cont=46.30;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             62..598
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.376;conf=100.00;score=51.57;cscore=40.43;sscore=11.14;rscore=8.39;uscore=0.62;tscore=2.13;"
+     CDS             938..1369
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.562;conf=86.61;score=8.12;cscore=5.22;sscore=2.90;rscore=-0.36;uscore=1.78;tscore=2.13;"
+     CDS             complement(1684..2958)
+                     /note="ID=1_3;partial=00;start_type=TTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.469;conf=98.62;score=18.58;cscore=28.06;sscore=-9.47;rscore=-3.16;uscore=-2.18;tscore=-4.13;"
+//

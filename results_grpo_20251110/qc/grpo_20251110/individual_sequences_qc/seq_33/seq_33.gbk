@@ -1,0 +1,11 @@
+DEFINITION  seqnum=1;seqlen=2937;seqhdr="seq_33";version=Prodigal.v2.6.3;run_type=Metagenomic;model="49|_Nostoc_azollae__0708|B|38.5|11|1";gc_cont=38.40;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             62..598
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.376;conf=100.00;score=50.30;cscore=35.42;sscore=14.88;rscore=10.75;uscore=-0.08;tscore=4.21;"
+     CDS             1526..1699
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.443;conf=63.86;score=2.48;cscore=3.69;sscore=-1.21;rscore=0.63;uscore=-4.06;tscore=2.88;"
+     CDS             1684..1989
+                     /note="ID=1_3;partial=00;start_type=TTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.467;conf=84.42;score=7.35;cscore=18.17;sscore=-10.82;rscore=-1.19;uscore=-1.70;tscore=-9.10;"
+     CDS             1974..2312
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.451;conf=76.24;score=5.07;cscore=-5.52;sscore=10.59;rscore=6.90;uscore=-1.18;tscore=4.21;"
+//

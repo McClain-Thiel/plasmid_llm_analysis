@@ -1,0 +1,4 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_59,catA1,type A-1 chloramphenicol O-acetyltransferase,1983,2639,-,100.0,100.0
+seq_59,catA1,type A-1 chloramphenicol O-acetyltransferase,4752,5408,-,100.0,100.0
+seq_59,tet(C),tetracycline efflux MFS transporter Tet(C),6553,7740,+,100.0,100.0

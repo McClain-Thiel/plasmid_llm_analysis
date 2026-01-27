@@ -7,7 +7,6 @@ models:
   Base: "UCL-CSSB/PlasmidGPT"
   SFT: "UCL-CSSB/PlasmidGPT-SFT"
   RL: "UCL-CSSB/PlasmidGPT-GRPO"
-  SFT_GRPO: "McClain/PlasmidGPT-RL"
 
 generation:
   prompts:

@@ -1,0 +1,4 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_46,ble-Sh,phleomycin/bleomycin binding protein Ble-Sh,1802,2173,+,100.0,100.0
+seq_46,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,3243,4100,+,100.0,100.0
+seq_46,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,14929,15786,+,100.0,100.0

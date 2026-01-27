@@ -1,0 +1,108 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_0,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,980,1792,-,100.0,100.0
+seq_1,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1649,2461,-,100.0,100.0
+seq_10,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,904,1716,-,100.0,100.0
+seq_11,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,4548,5405,+,100.0,100.0
+seq_12,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,824,1636,-,100.0,100.0
+seq_13,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2081,2893,-,100.0,100.0
+seq_14,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1185,1997,-,100.0,100.0
+seq_15,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1662,2474,-,100.0,100.0
+seq_16,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1086,1898,-,100.0,100.0
+seq_17,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1656,2468,-,100.0,100.0
+seq_18,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,874,1686,-,100.0,100.0
+seq_19,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,1425,2282,+,100.0,100.0
+seq_19,tet(C),tetracycline efflux MFS transporter Tet(C),4304,4924,-,100.0,52.27
+seq_2,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1439,2251,-,100.0,100.0
+seq_20,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,943,1755,-,100.0,100.0
+seq_21,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2474,3286,-,100.0,100.0
+seq_22,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2069,2926,-,100.0,100.0
+seq_23,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1653,2465,-,100.0,100.0
+seq_24,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1350,2162,-,100.0,100.0
+seq_26,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,972,1784,-,100.0,100.0
+seq_27,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1886,2743,-,100.0,100.0
+seq_28,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1074,1886,-,100.0,100.0
+seq_29,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2617,3474,-,100.0,100.0
+seq_3,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1567,2379,-,100.0,100.0
+seq_30,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,891,1703,-,100.0,100.0
+seq_31,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1669,2481,-,100.0,100.0
+seq_32,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,825,1637,-,100.0,100.0
+seq_33,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1671,2483,-,100.0,100.0
+seq_34,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,1969,2826,-,100.0,100.0
+seq_35,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,3515,4327,-,100.0,100.0
+seq_36,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2029,2886,-,100.0,100.0
+seq_37,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1646,2458,-,100.0,100.0
+seq_38,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,862,1674,-,100.0,100.0
+seq_39,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2697,3554,-,100.0,100.0
+seq_4,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1469,2281,-,100.0,100.0
+seq_40,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2589,3446,-,100.0,100.0
+seq_41,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1915,2727,-,100.0,100.0
+seq_42,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,882,1694,-,100.0,100.0
+seq_43,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1581,2393,-,100.0,100.0
+seq_44,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1031,1843,-,100.0,100.0
+seq_45,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1668,2480,-,100.0,100.0
+seq_46,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1131,1943,-,100.0,100.0
+seq_47,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1664,2476,-,100.0,100.0
+seq_48,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2349,3206,-,100.0,100.0
+seq_49,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1829,2641,-,100.0,100.0
+seq_5,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,1486,2343,+,100.0,100.0
+seq_5,tet(C),tetracycline efflux MFS transporter Tet(C),4365,4985,-,100.0,52.27
+seq_50,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1198,2010,-,100.0,100.0
+seq_51,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1759,2571,-,100.0,100.0
+seq_52,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,913,1725,-,100.0,100.0
+seq_53,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,1390,2247,+,100.0,100.0
+seq_53,tet(C),tetracycline efflux MFS transporter Tet(C),4269,4889,-,100.0,52.27
+seq_54,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,862,1674,-,100.0,100.0
+seq_55,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1654,2466,-,100.0,100.0
+seq_56,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1507,2319,-,100.0,100.0
+seq_57,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1780,2592,-,100.0,100.0
+seq_58,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,987,1799,-,100.0,100.0
+seq_59,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2414,3226,-,100.0,100.0
+seq_6,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1155,1967,-,100.0,100.0
+seq_60,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1078,1890,-,100.0,100.0
+seq_61,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1517,2329,-,100.0,100.0
+seq_62,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2126,2983,-,100.0,100.0
+seq_63,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,1475,2332,+,100.0,100.0
+seq_63,tet(C),tetracycline efflux MFS transporter Tet(C),4354,4974,-,100.0,52.27
+seq_64,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,856,1668,-,100.0,100.0
+seq_65,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1886,2743,-,100.0,100.0
+seq_66,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,832,1644,-,100.0,100.0
+seq_67,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1485,2297,-,100.0,100.0
+seq_68,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,930,1742,-,100.0,100.0
+seq_69,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2395,3252,+,100.0,100.0
+seq_7,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1654,2466,-,100.0,100.0
+seq_70,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,813,1625,-,100.0,100.0
+seq_71,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1655,2467,-,100.0,100.0
+seq_72,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,826,1638,-,100.0,100.0
+seq_73,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1644,2456,-,100.0,100.0
+seq_74,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1281,2093,-,100.0,100.0
+seq_75,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,1995,2852,+,100.0,100.0
+seq_75,tet(C),tetracycline efflux MFS transporter Tet(C),4874,5494,-,100.0,52.27
+seq_76,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,950,1762,-,100.0,100.0
+seq_77,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1305,2111,+,100.0,100.0
+seq_77,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,4220,5032,-,100.0,100.0
+seq_78,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2087,2944,-,100.0,100.0
+seq_79,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1305,2111,+,100.0,100.0
+seq_79,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,5289,6101,-,100.0,100.0
+seq_8,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,909,1721,-,100.0,100.0
+seq_80,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2662,3519,-,100.0,100.0
+seq_81,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1681,2493,-,100.0,100.0
+seq_82,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,794,1606,-,100.0,100.0
+seq_83,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1487,2299,-,100.0,100.0
+seq_84,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1142,1954,-,100.0,100.0
+seq_85,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2169,2981,-,100.0,100.0
+seq_86,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1008,1820,-,100.0,100.0
+seq_87,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2019,2876,+,100.0,100.0
+seq_88,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1164,1976,-,100.0,100.0
+seq_89,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1305,2111,+,100.0,100.0
+seq_89,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2972,3784,-,100.0,100.0
+seq_9,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1650,2462,-,100.0,100.0
+seq_90,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,869,1681,-,100.0,100.0
+seq_91,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1506,2318,-,100.0,100.0
+seq_92,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1062,1874,-,100.0,100.0
+seq_93,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1526,2338,-,100.0,100.0
+seq_94,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1101,1913,-,100.0,100.0
+seq_95,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2323,3135,-,100.0,100.0
+seq_96,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,988,1800,-,100.0,100.0
+seq_97,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1673,2485,-,100.0,100.0
+seq_98,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,1819,2676,-,100.0,100.0
+seq_99,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2736,3593,-,100.0,100.0

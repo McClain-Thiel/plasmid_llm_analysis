@@ -1,0 +1,10 @@
+Running: amrfinder --nucleotide sequences.fasta --output UCL_CSSB_PlasmidGPT_GFP_cassette.amr_hits.tsv --threads 4 --name UCL_CSSB_PlasmidGPT_GFP_cassette
+Software directory: /opt/conda/bin/
+Software version: 4.2.5
+Database directory: /opt/conda/share/amrfinderplus/data/2025-12-03.1
+Database version: 2025-12-03.1
+AMRFinder translated nucleotide search
+  - include -O ORGANISM, --organism ORGANISM option to add mutation searches and suppress common proteins
+Running blastx
+Making report
+amrfinder took 6 seconds to complete

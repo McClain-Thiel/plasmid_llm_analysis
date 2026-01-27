@@ -1,0 +1,13 @@
+DEFINITION  seqnum=1;seqlen=5125;seqhdr="seq_65";version=Prodigal.v2.6.3;run_type=Metagenomic;model="21|Haloquadratum_walsbyi_DSM_16790|A|47.9|11|0";gc_cont=47.90;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             62..598
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=4bp;gc_cont=0.376;conf=100.00;score=59.76;cscore=49.46;sscore=10.31;rscore=7.06;uscore=-1.02;tscore=4.27;"
+     CDS             complement(839..1480)
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=4bp;gc_cont=0.514;conf=99.16;score=20.76;cscore=10.37;sscore=10.39;rscore=7.06;uscore=-0.28;tscore=4.27;"
+     CDS             1709..2518
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=11bp;gc_cont=0.437;conf=100.00;score=63.59;cscore=55.37;sscore=8.22;rscore=1.18;uscore=2.77;tscore=4.27;"
+     CDS             3830..3955
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.460;conf=66.33;score=2.95;cscore=6.38;sscore=-3.43;rscore=-0.50;uscore=-4.37;tscore=2.10;"
+     CDS             4059..4196
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.413;conf=99.85;score=28.42;cscore=31.74;sscore=-3.32;rscore=-0.46;uscore=-5.17;tscore=2.30;"
+//

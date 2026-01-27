@@ -1,0 +1,15 @@
+DEFINITION  seqnum=1;seqlen=6003;seqhdr="seq_21";version=Prodigal.v2.6.3;run_type=Metagenomic;model="48|Xylella_fastidiosa_Temecula1|B|51.8|11|1";gc_cont=51.80;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             62..598
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.376;conf=100.00;score=51.14;cscore=33.98;sscore=17.16;rscore=13.08;uscore=-0.69;tscore=4.77;"
+     CDS             complement(1066..1242)
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.520;conf=89.69;score=9.41;cscore=1.34;sscore=8.07;rscore=6.38;uscore=-0.98;tscore=3.32;"
+     CDS             1305..2333
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.580;conf=100.00;score=68.33;cscore=64.80;sscore=3.52;rscore=-2.96;uscore=1.71;tscore=4.77;"
+     CDS             3258..4484
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.448;conf=100.00;score=71.58;cscore=72.84;sscore=-1.26;rscore=-2.96;uscore=-2.42;tscore=4.77;"
+     CDS             4524..4784
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.460;conf=99.83;score=27.76;cscore=11.41;sscore=16.35;rscore=9.16;uscore=1.57;tscore=4.77;"
+     CDS             5735..5992
+                     /note="ID=1_6;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.527;conf=58.91;score=1.57;cscore=-7.18;sscore=8.75;rscore=7.25;uscore=-2.12;tscore=4.77;"
+//

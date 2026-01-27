@@ -1,0 +1,5 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_84,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,939,1751,-,100.0,100.0
+seq_84,tet(C),tetracycline efflux MFS transporter Tet(C),3725,4345,-,100.0,52.27
+seq_84,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,7531,8388,-,100.0,100.0
+seq_84,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,11660,12517,+,100.0,100.0

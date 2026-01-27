@@ -1,0 +1,4 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_90,ble-Sh,phleomycin/bleomycin binding protein Ble-Sh,8920,9291,+,100.0,100.0
+seq_90,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,9982,10794,-,100.0,100.0
+seq_90,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,12347,13138,+,99.62,100.0

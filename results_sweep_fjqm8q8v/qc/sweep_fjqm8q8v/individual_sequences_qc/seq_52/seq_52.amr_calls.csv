@@ -1,0 +1,5 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_52,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,1646,2437,+,99.62,100.0
+seq_52,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,5165,5953,+,100.0,100.0
+seq_52,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,9592,10104,-,100.0,63.57
+seq_52,blaTEM-181,class A beta-lactamase TEM-181,11670,12527,+,100.0,100.0

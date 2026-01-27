@@ -1,0 +1,9 @@
+DEFINITION  seqnum=1;seqlen=2481;seqhdr="seq_60";version=Prodigal.v2.6.3;run_type=Metagenomic;model="5|Anaplasma_marginale_Maries|B|49.8|11|1";gc_cont=49.80;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             55..771
+                     /note="ID=1_1;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.495;conf=99.96;score=34.26;cscore=30.36;sscore=3.89;rscore=6.85;uscore=-1.10;tscore=-1.85;"
+     CDS             974..1672
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.571;conf=99.83;score=27.64;cscore=29.38;sscore=-1.74;rscore=-2.78;uscore=-1.99;tscore=3.68;"
+     CDS             1890..2225
+                     /note="ID=1_3;partial=00;start_type=GTG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.604;conf=88.06;score=8.69;cscore=7.24;sscore=1.45;rscore=3.99;uscore=-0.04;tscore=-1.85;"
+//

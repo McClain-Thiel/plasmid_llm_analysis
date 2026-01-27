@@ -1,0 +1,7 @@
+DEFINITION  seqnum=1;seqlen=1451;seqhdr="seq_39";version=Prodigal.v2.6.3;run_type=Metagenomic;model="1|Mycoplasma_pneumoniae_M129|B|40.0|4|0";gc_cont=40.00;transl_table=4;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             305..751
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=TTAA;rbs_spacer=15bp;gc_cont=0.400;conf=93.57;score=11.65;cscore=0.29;sscore=11.36;rscore=3.87;uscore=2.09;tscore=5.40;"
+     CDS             744..1184
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=TTA;rbs_spacer=13bp;gc_cont=0.490;conf=75.72;score=4.95;cscore=0.22;sscore=4.72;rscore=2.51;uscore=-4.44;tscore=5.40;"
+//

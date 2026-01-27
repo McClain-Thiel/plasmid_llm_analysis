@@ -1,0 +1,2 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_24,blaTEM-171,class A beta-lactamase TEM-171,1308,2165,+,100.0,100.0

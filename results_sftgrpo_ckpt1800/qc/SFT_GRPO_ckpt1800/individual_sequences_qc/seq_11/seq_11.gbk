@@ -1,0 +1,9 @@
+DEFINITION  seqnum=1;seqlen=1529;seqhdr="seq_11";version=Prodigal.v2.6.3;run_type=Metagenomic;model="48|Xylella_fastidiosa_Temecula1|B|51.8|11|1";gc_cont=51.80;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             41..328
+                     /note="ID=1_1;partial=00;start_type=GTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.542;conf=98.52;score=18.25;cscore=11.55;sscore=6.70;rscore=13.08;uscore=-1.19;tscore=-5.19;"
+     CDS             713..934
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.518;conf=86.23;score=7.98;cscore=7.44;sscore=0.54;rscore=-3.38;uscore=0.39;tscore=4.18;"
+     CDS             986..1231
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.500;conf=98.62;score=18.56;cscore=16.64;sscore=1.92;rscore=-3.04;uscore=-0.39;tscore=4.64;"
+//

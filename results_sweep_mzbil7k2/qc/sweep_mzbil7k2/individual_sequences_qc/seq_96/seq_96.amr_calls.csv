@@ -1,0 +1,8 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_96,ble-Sh,phleomycin/bleomycin binding protein Ble-Sh,685,1056,+,100.0,100.0
+seq_96,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2289,3146,-,100.0,100.0
+seq_96,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,5114,5905,+,99.62,100.0
+seq_96,ble-Sh,phleomycin/bleomycin binding protein Ble-Sh,6114,6485,+,100.0,100.0
+seq_96,blaTEM,TEM family class A beta-lactamase,6932,7516,+,94.87,68.18
+seq_96,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,12617,13474,+,100.0,100.0
+seq_96,catA1,type A-1 chloramphenicol O-acetyltransferase,17783,18439,-,100.0,100.0

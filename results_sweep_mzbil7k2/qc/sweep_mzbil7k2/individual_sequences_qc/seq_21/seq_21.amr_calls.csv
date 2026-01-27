@@ -1,0 +1,5 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_21,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,2312,3103,+,100.0,100.0
+seq_21,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,4614,5471,-,100.0,100.0
+seq_21,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,8323,9180,+,100.0,100.0
+seq_21,ble-Sh,phleomycin/bleomycin binding protein Ble-Sh,10792,11163,+,100.0,100.0

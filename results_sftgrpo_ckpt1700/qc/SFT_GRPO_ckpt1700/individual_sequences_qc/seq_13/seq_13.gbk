@@ -1,0 +1,9 @@
+DEFINITION  seqnum=1;seqlen=3450;seqhdr="seq_13";version=Prodigal.v2.6.3;run_type=Metagenomic;model="49|_Nostoc_azollae__0708|B|38.5|11|1";gc_cont=38.40;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             761..934
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGxAG;rbs_spacer=5-10bp;gc_cont=0.339;conf=72.37;score=4.19;cscore=2.80;sscore=1.39;rscore=-1.72;uscore=0.23;tscore=2.88;"
+     CDS             1808..2668
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.492;conf=100.00;score=81.83;cscore=72.13;sscore=9.70;rscore=5.71;uscore=0.43;tscore=4.21;"
+     CDS             complement(2920..3141)
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.495;conf=76.96;score=5.25;cscore=2.56;sscore=2.69;rscore=-1.36;uscore=0.36;tscore=3.68;"
+//

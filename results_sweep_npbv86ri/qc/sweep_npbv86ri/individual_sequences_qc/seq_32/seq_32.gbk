@@ -1,0 +1,11 @@
+DEFINITION  seqnum=1;seqlen=6709;seqhdr="seq_32";version=Prodigal.v2.6.3;run_type=Metagenomic;model="34|Prochlorococcus_marinus_MIT_9313|B|50.7|11|0";gc_cont=50.70;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             11..679
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.490;conf=100.00;score=50.26;cscore=46.67;sscore=3.58;rscore=0.00;uscore=-1.02;tscore=4.60;"
+     CDS             841..1386
+                     /note="ID=1_2;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.482;conf=58.70;score=1.53;cscore=5.59;sscore=-4.06;rscore=0.00;uscore=-0.53;tscore=-3.53;"
+     CDS             complement(3628..4128)
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.709;conf=99.99;score=42.42;cscore=36.93;sscore=5.49;rscore=0.00;uscore=1.54;tscore=4.60;"
+     CDS             complement(5638..6498)
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.490;conf=100.00;score=68.32;cscore=65.26;sscore=3.05;rscore=0.00;uscore=-1.55;tscore=4.60;"
+//

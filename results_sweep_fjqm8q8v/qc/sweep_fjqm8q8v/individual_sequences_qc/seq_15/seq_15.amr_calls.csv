@@ -1,0 +1,4 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_15,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,3636,4427,+,99.62,100.0
+seq_15,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,5719,6252,+,99.44,67.42
+seq_15,blaTEM,TEM family class A beta-lactamase,7442,7987,-,100.0,63.64

@@ -1,0 +1,5 @@
+DEFINITION  seqnum=1;seqlen=1526;seqhdr="seq_55";version=Prodigal.v2.6.3;run_type=Metagenomic;model="4|Akkermansia_muciniphila_ATCC_BAA_835|B|55.8|11|0";gc_cont=55.80;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             348..467
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.550;conf=83.96;score=7.20;cscore=4.16;sscore=3.04;rscore=0.72;uscore=0.65;tscore=1.67;"
+//

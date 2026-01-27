@@ -1,0 +1,13 @@
+DEFINITION  seqnum=1;seqlen=5195;seqhdr="seq_69";version=Prodigal.v2.6.3;run_type=Metagenomic;model="41|Shigella_dysenteriae_Sd197|B|51.2|11|1";gc_cont=51.20;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             complement(336..1127)
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.532;conf=100.00;score=75.21;cscore=60.55;sscore=14.67;rscore=10.46;uscore=1.54;tscore=3.32;"
+     CDS             1326..2003
+                     /note="ID=1_2;partial=00;start_type=GTG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.543;conf=95.23;score=13.02;cscore=10.12;sscore=2.90;rscore=3.45;uscore=2.18;tscore=-2.73;"
+     CDS             complement(2215..3306)
+                     /note="ID=1_3;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.564;conf=100.00;score=124.04;cscore=127.25;sscore=-3.21;rscore=2.34;uscore=-2.16;tscore=-2.73;"
+     CDS             3662..4081
+                     /note="ID=1_4;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.510;conf=100.00;score=54.06;cscore=64.16;sscore=-10.11;rscore=-4.78;uscore=-2.60;tscore=-2.73;"
+     CDS             4487..4792
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.507;conf=99.98;score=36.93;cscore=29.00;sscore=7.92;rscore=2.34;uscore=1.01;tscore=3.32;"
+//

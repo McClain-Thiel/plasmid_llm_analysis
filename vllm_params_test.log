@@ -1,0 +1,60 @@
+N E X T F L O W  ~  version 25.10.2
+Launching `main.nf` [silly_lichterman] DSL2 - revision: adf54427b8
+
+    ╔═══════════════════════════════════════════════════════════════╗
+    ║           P L A S M I D   A N A L Y T I C S                   ║
+    ║                                                               ║
+    ║   Generation • Quality Control • Evaluation                   ║
+    ╚═══════════════════════════════════════════════════════════════╝
+
+    Mode        : full
+    Output      : ./results
+    
+
+    Models      : UCL-CSSB/PlasmidGPT, McClain/PlasmidGPT-RL
+    Prompts     : ATG, GFP_cassette
+    Samples     : 50 per model/prompt
+        
+───────────────────────────────────────────────────────────────
+[skipping] Stored process > QC:MAKE_BLAST_DB (1)
+[dc/a3376f] Submitted process > GENERATE:PREPARE_PROMPTS (ATG)
+[86/be52a1] Submitted process > GENERATE:PREPARE_PROMPTS (GFP_cassette)
+[03/0681ee] Submitted process > GENERATE:SAMPLE_MODEL (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[17/281f18] Submitted process > GENERATE:SAMPLE_MODEL (McClain_PlasmidGPT_RL_ATG)
+[12/4d2a26] Submitted process > GENERATE:SAMPLE_MODEL (UCL_CSSB_PlasmidGPT_ATG)
+[31/6da6bc] Submitted process > GENERATE:SAMPLE_MODEL (McClain_PlasmidGPT_RL_GFP_cassette)
+[bd/45dc52] Submitted process > EVAL:COMPUTE_METRICS (UCL_CSSB_PlasmidGPT_ATG)
+[4b/57536f] Submitted process > QC:PRODIGAL (UCL_CSSB_PlasmidGPT_ATG)
+[a9/f3aea1] Submitted process > EVAL:MFE_CIRCULAR (UCL_CSSB_PlasmidGPT_ATG)
+[63/110de4] Submitted process > EVAL:KMER_DIVERGENCE (UCL_CSSB_PlasmidGPT_ATG)
+[79/624195] Submitted process > QC:FIND_REPEATS (UCL_CSSB_PlasmidGPT_ATG)
+[80/81a482] Submitted process > QC:AMRFINDER (UCL_CSSB_PlasmidGPT_ATG)
+[ba/935126] Submitted process > QC:MOB_TYPER (UCL_CSSB_PlasmidGPT_ATG)
+[9e/cc0e1e] Submitted process > QC:BLAST_ORI (UCL_CSSB_PlasmidGPT_ATG)
+[e1/1b775a] Submitted process > EVAL:MFE_CIRCULAR (McClain_PlasmidGPT_RL_ATG)
+[62/b2882f] Submitted process > QC:PRODIGAL (McClain_PlasmidGPT_RL_ATG)
+[af/442ee8] Submitted process > QC:FIND_REPEATS (McClain_PlasmidGPT_RL_ATG)
+[22/19d016] Submitted process > EVAL:COMPUTE_METRICS (McClain_PlasmidGPT_RL_ATG)
+[e6/afadac] Submitted process > EVAL:MFE_CIRCULAR (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[b0/2cd09d] Submitted process > QC:FIND_REPEATS (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[7c/f29133] Submitted process > QC:MOB_TYPER (McClain_PlasmidGPT_RL_ATG)
+[4d/98ff33] Submitted process > QC:AMRFINDER (McClain_PlasmidGPT_RL_ATG)
+[7f/76d646] Submitted process > EVAL:COMPUTE_METRICS (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[2a/aebf94] Submitted process > QC:PRODIGAL (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[d4/659188] Submitted process > EVAL:MFE_CIRCULAR (McClain_PlasmidGPT_RL_GFP_cassette)
+[59/4d66e0] Submitted process > EVAL:COMPUTE_METRICS (McClain_PlasmidGPT_RL_GFP_cassette)
+[4b/d552ce] Submitted process > QC:BLAST_ORI (McClain_PlasmidGPT_RL_ATG)
+[9a/91eaf2] Submitted process > QC:PRODIGAL (McClain_PlasmidGPT_RL_GFP_cassette)
+[67/f241be] Submitted process > QC:FIND_REPEATS (McClain_PlasmidGPT_RL_GFP_cassette)
+[75/bbbccc] Submitted process > QC:AMRFINDER (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[c9/ad810f] Submitted process > QC:MOB_TYPER (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[18/9cc1d1] Submitted process > QC:BLAST_ORI (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[7b/188a4c] Submitted process > QC:AMRFINDER (McClain_PlasmidGPT_RL_GFP_cassette)
+[17/721918] Submitted process > EVAL:AGGREGATE_METRICS
+[a6/eb674c] Submitted process > QC:AGGREGATE_REPEATS
+[d3/beeaeb] Submitted process > QC:MOB_TYPER (McClain_PlasmidGPT_RL_GFP_cassette)
+[63/6f66e9] Submitted process > QC:BLAST_ORI (McClain_PlasmidGPT_RL_GFP_cassette)
+[54/c27c0d] Submitted process > QC:AGGREGATE_AMR
+[7d/bf9ba9] Submitted process > QC:AGGREGATE_ORI
+[e7/50be5e] Submitted process > QC:FILTER_QC
+[29/3e1c99] Submitted process > EVAL:COMPARE_MODELS

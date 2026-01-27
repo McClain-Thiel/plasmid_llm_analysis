@@ -1,0 +1,11 @@
+Plasmid_ID,reason failed
+seq_11,"ORI low-threshold count 0 outside [1,1]; repeat ≥ 50"
+seq_25,"ARG low-threshold count 0 outside [1,1]; repeat ≥ 50"
+seq_27,repeat ≥ 50
+seq_65,"ORI low-threshold count 2 outside [1,1]; repeat ≥ 50"
+seq_69,"ORI strict count 0 < required 1 (ID≥99.0, Cov≥99.0); repeat ≥ 50"
+seq_75,repeat ≥ 50
+seq_77,"ARG low-threshold count 2 outside [1,1]; repeat ≥ 50"
+seq_79,"ARG low-threshold count 2 outside [1,1]; repeat ≥ 50"
+seq_87,"ORI low-threshold count 0 outside [1,1]; repeat ≥ 50"
+seq_89,"ARG low-threshold count 2 outside [1,1]"

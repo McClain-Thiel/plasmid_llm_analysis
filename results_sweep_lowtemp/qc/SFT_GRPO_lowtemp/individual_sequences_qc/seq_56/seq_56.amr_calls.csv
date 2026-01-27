@@ -1,0 +1,3 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_56,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1916,2773,+,100.0,100.0
+seq_56,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,6770,7579,-,100.0,99.63

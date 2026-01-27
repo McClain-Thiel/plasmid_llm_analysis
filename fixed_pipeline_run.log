@@ -1,0 +1,81 @@
+N E X T F L O W  ~  version 25.10.2
+Launching `main.nf` [distraught_hugle] DSL2 - revision: adf54427b8
+
+    ╔═══════════════════════════════════════════════════════════════╗
+    ║           P L A S M I D   A N A L Y T I C S                   ║
+    ║                                                               ║
+    ║   Generation • Quality Control • Evaluation                   ║
+    ╚═══════════════════════════════════════════════════════════════╝
+
+    Mode        : full
+    Output      : ./results
+    
+
+    Models      : UCL-CSSB/PlasmidGPT, McClain/PlasmidGPT-RL
+    Prompts     : ATG, GFP_cassette
+    Samples     : 50 per model/prompt
+        
+───────────────────────────────────────────────────────────────
+[skipping] Stored process > QC:MAKE_BLAST_DB (1)
+[86/be52a1] Submitted process > GENERATE:PREPARE_PROMPTS (GFP_cassette)
+[dc/a3376f] Submitted process > GENERATE:PREPARE_PROMPTS (ATG)
+[68/27478b] Submitted process > GENERATE:SAMPLE_MODEL (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[1a/480a8e] Submitted process > GENERATE:SAMPLE_MODEL (McClain_PlasmidGPT_RL_ATG)
+[cc/2b3528] Submitted process > GENERATE:SAMPLE_MODEL (UCL_CSSB_PlasmidGPT_ATG)
+[8d/938457] Submitted process > GENERATE:SAMPLE_MODEL (McClain_PlasmidGPT_RL_GFP_cassette)
+[89/6134c7] Submitted process > EVAL:MFE_CIRCULAR (UCL_CSSB_PlasmidGPT_ATG)
+[da/3210f1] Submitted process > EVAL:COMPUTE_METRICS (UCL_CSSB_PlasmidGPT_ATG)
+[32/570b83] Submitted process > QC:PRODIGAL (UCL_CSSB_PlasmidGPT_ATG)
+[47/d2957c] Submitted process > EVAL:KMER_DIVERGENCE (UCL_CSSB_PlasmidGPT_ATG)
+[31/4d9058] Submitted process > QC:FIND_REPEATS (UCL_CSSB_PlasmidGPT_ATG)
+[74/61b798] Submitted process > QC:AMRFINDER (UCL_CSSB_PlasmidGPT_ATG)
+[b2/46e882] Submitted process > QC:MOB_TYPER (UCL_CSSB_PlasmidGPT_ATG)
+[b4/a31c84] Submitted process > QC:BLAST_ORI (UCL_CSSB_PlasmidGPT_ATG)
+[5b/4fc6ec] Submitted process > QC:PRODIGAL (McClain_PlasmidGPT_RL_ATG)
+[9f/1313f0] Submitted process > QC:FIND_REPEATS (McClain_PlasmidGPT_RL_ATG)
+[67/7e6da4] Submitted process > QC:AMRFINDER (McClain_PlasmidGPT_RL_ATG)
+[47/e37dd6] Submitted process > QC:BLAST_ORI (McClain_PlasmidGPT_RL_ATG)
+[c1/b9c611] Submitted process > EVAL:MFE_CIRCULAR (McClain_PlasmidGPT_RL_ATG)
+[f7/cb6f59] Submitted process > QC:MOB_TYPER (McClain_PlasmidGPT_RL_ATG)
+[28/e727bb] Submitted process > EVAL:COMPUTE_METRICS (McClain_PlasmidGPT_RL_ATG)
+[95/4a2666] Submitted process > EVAL:COMPUTE_METRICS (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[97/0a45c9] Submitted process > EVAL:MFE_CIRCULAR (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[d5/a56548] Submitted process > QC:FIND_REPEATS (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[28/f704c3] Submitted process > QC:MOB_TYPER (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[84/345cef] Submitted process > QC:PRODIGAL (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[a2/78630c] Submitted process > QC:PRODIGAL (McClain_PlasmidGPT_RL_GFP_cassette)
+[72/881ce3] Submitted process > QC:AMRFINDER (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[be/d5dbf4] Submitted process > QC:FIND_REPEATS (McClain_PlasmidGPT_RL_GFP_cassette)
+[7e/143998] Submitted process > EVAL:COMPUTE_METRICS (McClain_PlasmidGPT_RL_GFP_cassette)
+[d4/488c31] Submitted process > EVAL:MFE_CIRCULAR (McClain_PlasmidGPT_RL_GFP_cassette)
+[90/1fcef6] Submitted process > QC:BLAST_ORI (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[9e/ea7166] Submitted process > QC:BLAST_ORI (McClain_PlasmidGPT_RL_GFP_cassette)
+[11/3dc4b3] Submitted process > QC:AMRFINDER (McClain_PlasmidGPT_RL_GFP_cassette)
+[62/99621d] Submitted process > QC:MOB_TYPER (McClain_PlasmidGPT_RL_GFP_cassette)
+[f1/8e21a8] Submitted process > EVAL:AGGREGATE_METRICS
+[32/db486d] Submitted process > QC:AGGREGATE_ORI
+[a1/e0ef17] Submitted process > QC:AGGREGATE_REPEATS
+[a1/0e207c] Submitted process > QC:AGGREGATE_AMR
+[57/d473ac] Submitted process > QC:FILTER_QC
+[1f/8ae1bc] Submitted process > EVAL:COMPARE_MODELS
+WARN: Killing running tasks (3)
+
+    ───────────────────────────────────────────────────────────────
+    Pipeline completed!
+
+    Status    : FAILED
+    Duration  : 9m 57s
+    Output    : ./results
+    ───────────────────────────────────────────────────────────────
+    
+WARN: Failed to render execution report -- see the log file for details
+WARN: Failed to render execution timeline -- see the log file for details
+ERROR ~ 
+    Pipeline failed!
+
+    Error: SIGTERM
+    
+
+ -- Check '.nextflow.log' file for details
+WARN: Failed to render execution report -- see the log file for details
+WARN: Failed to render execution timeline -- see the log file for details

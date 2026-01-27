@@ -1,0 +1,9 @@
+DEFINITION  seqnum=1;seqlen=5500;seqhdr="seq_87";version=Prodigal.v2.6.3;run_type=Metagenomic;model="8|Bacteroides_fragilis_NCTC_9343|B|43.2|11|0";gc_cont=43.20;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             complement(13..258)
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=TAAAAA;rbs_spacer=5bp;gc_cont=0.549;conf=67.89;score=3.26;cscore=-6.20;sscore=9.45;rscore=11.81;uscore=-5.22;tscore=4.01;"
+     CDS             2279..3139
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AAAAA;rbs_spacer=8bp;gc_cont=0.491;conf=100.00;score=78.65;cscore=63.91;sscore=14.74;rscore=6.25;uscore=4.37;tscore=4.12;"
+     CDS             4427..4951
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=TAAA;rbs_spacer=12bp;gc_cont=0.533;conf=99.88;score=29.13;cscore=12.13;sscore=17.00;rscore=11.00;uscore=2.53;tscore=4.12;"
+//

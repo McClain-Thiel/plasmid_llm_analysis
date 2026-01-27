@@ -1,0 +1,4 @@
+Protein id	Contig id	Start	Stop	Strand	Element symbol	Element name	Scope	Type	Subtype	Class	Subclass	Method	Target length	Reference sequence length	% Coverage of reference	% Identity to reference	Alignment length	Closest reference accession	Closest reference name	HMM accession	HMM description
+NA	seq_98	1106	1918	-	aph(3')-Ia	aminoglycoside O-phosphotransferase APH(3')-Ia	core	AMR	AMR	AMINOGLYCOSIDE	KANAMYCIN	EXACTX	271	271	100.00	100.00	271	WP_000018329.1	aminoglycoside O-phosphotransferase APH(3')-Ia	NA	NA
+NA	seq_98	4732	5352	-	tet(C)	tetracycline efflux MFS transporter Tet(C)	core	AMR	AMR	TETRACYCLINE	TETRACYCLINE	PARTIALX	207	396	52.27	100.00	207	WP_001297013.1	tetracycline efflux MFS transporter Tet(C)	NA	NA
+NA	seq_98	7860	8672	-	aph(3')-Ia	aminoglycoside O-phosphotransferase APH(3')-Ia	core	AMR	AMR	AMINOGLYCOSIDE	KANAMYCIN	EXACTX	271	271	100.00	100.00	271	WP_000018329.1	aminoglycoside O-phosphotransferase APH(3')-Ia	NA	NA

@@ -1,0 +1,6 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=2806;seqhdr="seq_65"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="44|Thermoplasma_volcanium_GSS1|A|39.9|11|1";gc_cont=39.90;transl_table=11;uses_sd=1
+seq_65	Prodigal_v2.6.3	CDS	62	598	54.1	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.376;conf=100.00;score=54.12;cscore=49.04;sscore=5.08;rscore=4.93;uscore=-2.51;tscore=2.66;
+seq_65	Prodigal_v2.6.3	CDS	1644	2027	4.0	+	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.471;conf=68.12;score=3.30;cscore=4.17;sscore=-0.86;rscore=-0.52;uscore=-2.35;tscore=2.66;
+seq_65	Prodigal_v2.6.3	CDS	2029	2301	22.3	-	0	ID=1_3;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.374;conf=99.42;score=22.34;cscore=29.10;sscore=-6.76;rscore=-0.52;uscore=-1.89;tscore=-4.35;

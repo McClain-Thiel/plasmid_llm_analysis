@@ -1,0 +1,9 @@
+DEFINITION  seqnum=1;seqlen=5126;seqhdr="seq_76";version=Prodigal.v2.6.3;run_type=Metagenomic;model="20|Escherichia_coli_UMN026|B|50.7|11|1";gc_cont=50.70;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             405..710
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.503;conf=99.98;score=36.87;cscore=30.22;sscore=6.66;rscore=2.79;uscore=-0.09;tscore=3.95;"
+     CDS             complement(1109..1924)
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.438;conf=100.00;score=51.96;cscore=34.71;sscore=17.25;rscore=10.71;uscore=3.25;tscore=3.95;"
+     CDS             complement(2977..4068)
+                     /note="ID=1_3;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.564;conf=100.00;score=124.98;cscore=132.18;sscore=-7.20;rscore=2.79;uscore=-3.36;tscore=-6.63;"
+//

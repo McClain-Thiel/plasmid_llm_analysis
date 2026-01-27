@@ -1,0 +1,54 @@
+Plasmid_ID,reason failed
+seq_44,repeat ≥ 50
+seq_45,repeat ≥ 50
+seq_47,repeat ≥ 50
+seq_50,repeat ≥ 50
+seq_51,repeat ≥ 50
+seq_52,repeat ≥ 50
+seq_53,No ORI; No ARG; repeat ≥ 50
+seq_54,"ORI strict count 0 < required 1 (ID≥95.0, Cov≥95.0)"
+seq_55,repeat ≥ 50
+seq_56,"ARG low-threshold count 0 outside [1,10]; repeat ≥ 50"
+seq_57,repeat ≥ 50
+seq_58,repeat ≥ 50
+seq_59,"ORI strict count 0 < required 1 (ID≥95.0, Cov≥95.0); repeat ≥ 50"
+seq_60,repeat ≥ 50
+seq_61,"ORI low-threshold count 0 outside [1,10]; ARG low-threshold count 0 outside [1,10]; repeat ≥ 50"
+seq_62,"ORI strict count 0 < required 1 (ID≥95.0, Cov≥95.0); repeat ≥ 50"
+seq_63,No ORI; No ARG
+seq_64,repeat ≥ 50
+seq_65,repeat ≥ 50
+seq_66,repeat ≥ 50
+seq_67,repeat ≥ 50
+seq_68,repeat ≥ 50
+seq_70,repeat ≥ 50
+seq_71,repeat ≥ 50
+seq_72,No ORI; No ARG
+seq_73,repeat ≥ 50
+seq_74,repeat ≥ 50
+seq_75,repeat ≥ 50
+seq_76,"ORI strict count 0 < required 1 (ID≥95.0, Cov≥95.0); repeat ≥ 50"
+seq_77,repeat ≥ 50
+seq_78,repeat ≥ 50
+seq_79,No ORI; No ARG; repeat ≥ 50
+seq_8,repeat ≥ 50
+seq_80,"ARG low-threshold count 0 outside [1,10]"
+seq_81,No ORI; No ARG; repeat ≥ 50
+seq_82,repeat ≥ 50
+seq_83,"ORI low-threshold count 0 outside [1,10]"
+seq_84,No ORI; No ARG; repeat ≥ 50
+seq_85,repeat ≥ 50
+seq_86,repeat ≥ 50
+seq_87,No ORI; No ARG; repeat ≥ 50
+seq_88,"ORI low-threshold count 0 outside [1,10]; repeat ≥ 50"
+seq_89,repeat ≥ 50
+seq_90,repeat ≥ 50
+seq_91,repeat ≥ 50
+seq_92,repeat ≥ 50
+seq_93,repeat ≥ 50
+seq_94,repeat ≥ 50
+seq_95,repeat ≥ 50
+seq_96,repeat ≥ 50
+seq_97,repeat ≥ 50
+seq_98,repeat ≥ 50
+seq_99,repeat ≥ 50

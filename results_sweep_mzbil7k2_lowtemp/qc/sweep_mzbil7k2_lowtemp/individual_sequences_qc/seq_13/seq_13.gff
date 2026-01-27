@@ -1,0 +1,4 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=2354;seqhdr="seq_13"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="5|Anaplasma_marginale_Maries|B|49.8|11|1";gc_cont=49.80;transl_table=11;uses_sd=1
+seq_13	Prodigal_v2.6.3	CDS	1136	1471	9.3	+	0	ID=1_1;partial=00;start_type=GTG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.604;conf=89.55;score=9.34;cscore=7.24;sscore=2.10;rscore=3.99;uscore=-0.04;tscore=-1.85;

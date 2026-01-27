@@ -1,0 +1,9 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_85,blaTEM,TEM family class A beta-lactamase,1372,1935,-,97.87,65.73
+seq_85,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,3097,3885,+,100.0,100.0
+seq_85,aph(4)-Ia,aminoglycoside O-phosphotransferase APH(4)-Ia,5661,6674,+,100.0,99.12
+seq_85,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,8141,8998,-,100.0,100.0
+seq_85,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,12391,13248,+,100.0,100.0
+seq_85,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,22563,23420,+,100.0,100.0
+seq_85,catA1,type A-1 chloramphenicol O-acetyltransferase,26543,27199,-,100.0,100.0
+seq_85,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,28462,29319,+,100.0,100.0

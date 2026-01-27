@@ -1,0 +1,9 @@
+DEFINITION  seqnum=1;seqlen=4674;seqhdr="seq_32";version=Prodigal.v2.6.3;run_type=Metagenomic;model="47|Xenorhabdus_nematophila_ATCC_19061|B|44.1|11|1";gc_cont=44.20;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             complement(108..461)
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.353;conf=76.27;score=5.08;cscore=7.56;sscore=-2.48;rscore=-7.00;uscore=1.18;tscore=3.99;"
+     CDS             1501..1770
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.585;conf=74.53;score=4.67;cscore=-10.10;sscore=14.77;rscore=14.77;uscore=-3.50;tscore=3.99;"
+     CDS             2952..3812
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.491;conf=100.00;score=85.53;cscore=69.86;sscore=15.67;rscore=9.79;uscore=2.54;tscore=3.99;"
+//

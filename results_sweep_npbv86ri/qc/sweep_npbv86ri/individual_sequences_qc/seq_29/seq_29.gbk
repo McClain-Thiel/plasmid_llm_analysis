@@ -1,0 +1,11 @@
+DEFINITION  seqnum=1;seqlen=4720;seqhdr="seq_29";version=Prodigal.v2.6.3;run_type=Metagenomic;model="48|Xylella_fastidiosa_Temecula1|B|51.8|11|1";gc_cont=51.80;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             433..561
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.488;conf=85.25;score=7.63;cscore=3.86;sscore=3.77;rscore=1.01;uscore=0.36;tscore=2.41;"
+     CDS             1372..1593
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=AGxAG;rbs_spacer=5-10bp;gc_cont=0.446;conf=67.25;score=3.13;cscore=1.75;sscore=1.38;rscore=-0.61;uscore=-1.54;tscore=4.18;"
+     CDS             1809..2138
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.621;conf=99.28;score=21.42;cscore=15.06;sscore=6.36;rscore=2.00;uscore=0.24;tscore=4.77;"
+     CDS             complement(3551..4345)
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.597;conf=100.00;score=74.36;cscore=65.40;sscore=8.96;rscore=7.25;uscore=-3.06;tscore=4.77;"
+//

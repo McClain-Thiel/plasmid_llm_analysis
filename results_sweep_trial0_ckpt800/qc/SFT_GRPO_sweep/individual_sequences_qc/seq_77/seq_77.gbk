@@ -1,0 +1,11 @@
+DEFINITION  seqnum=1;seqlen=6266;seqhdr="seq_77";version=Prodigal.v2.6.3;run_type=Metagenomic;model="21|Haloquadratum_walsbyi_DSM_16790|A|47.9|11|0";gc_cont=47.90;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             62..598
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=4bp;gc_cont=0.376;conf=100.00;score=59.76;cscore=49.46;sscore=10.31;rscore=7.06;uscore=-1.02;tscore=4.27;"
+     CDS             1072..1191
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.425;conf=74.47;score=4.66;cscore=2.11;sscore=2.54;rscore=-0.53;uscore=1.73;tscore=2.00;"
+     CDS             complement(1454..1645)
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.464;conf=76.03;score=5.02;cscore=0.26;sscore=4.76;rscore=-0.33;uscore=2.52;tscore=3.23;"
+     CDS             3235..4044
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=11bp;gc_cont=0.437;conf=100.00;score=63.59;cscore=55.37;sscore=8.22;rscore=1.18;uscore=2.77;tscore=4.27;"
+//

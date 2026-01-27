@@ -1,0 +1,17 @@
+Plasmid_ID,reason failed
+seq_53,No ORI; No ARG
+seq_54,"ORI strict count 0 < required 1 (ID≥95.0, Cov≥95.0)"
+seq_56,"ARG low-threshold count 0 outside [1,10]"
+seq_59,"ORI strict count 0 < required 1 (ID≥95.0, Cov≥95.0)"
+seq_61,"ORI low-threshold count 0 outside [1,10]; ARG low-threshold count 0 outside [1,10]"
+seq_62,"ORI strict count 0 < required 1 (ID≥95.0, Cov≥95.0)"
+seq_63,No ORI; No ARG
+seq_72,No ORI; No ARG
+seq_76,"ORI strict count 0 < required 1 (ID≥95.0, Cov≥95.0)"
+seq_79,No ORI; No ARG
+seq_80,"ARG low-threshold count 0 outside [1,10]"
+seq_81,No ORI; No ARG
+seq_83,"ORI low-threshold count 0 outside [1,10]"
+seq_84,No ORI; No ARG
+seq_87,No ORI; No ARG
+seq_88,"ORI low-threshold count 0 outside [1,10]"

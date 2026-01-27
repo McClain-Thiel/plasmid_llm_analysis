@@ -1,0 +1,19 @@
+DEFINITION  seqnum=1;seqlen=6147;seqhdr="seq_25";version=Prodigal.v2.6.3;run_type=Metagenomic;model="21|Haloquadratum_walsbyi_DSM_16790|A|47.9|11|0";gc_cont=47.90;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             62..598
+                     /note="ID=1_1;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=4bp;gc_cont=0.376;conf=100.00;score=59.76;cscore=49.46;sscore=10.31;rscore=7.06;uscore=-1.02;tscore=4.27;"
+     CDS             complement(1883..2194)
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.510;conf=99.69;score=25.10;cscore=20.87;sscore=4.24;rscore=-0.25;uscore=0.87;tscore=4.27;"
+     CDS             2351..2740
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=11bp;gc_cont=0.467;conf=99.01;score=20.02;cscore=11.80;sscore=8.22;rscore=1.18;uscore=2.77;tscore=4.27;"
+     CDS             complement(2634..3194)
+                     /note="ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.560;conf=99.98;score=36.50;cscore=35.77;sscore=0.73;rscore=-0.25;uscore=-2.63;tscore=4.27;"
+     CDS             3218..3517
+                     /note="ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.467;conf=96.73;score=14.73;cscore=15.42;sscore=-0.69;rscore=-0.25;uscore=-4.71;tscore=4.27;"
+     CDS             complement(3452..3859)
+                     /note="ID=1_6;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.426;conf=87.23;score=8.36;cscore=14.10;sscore=-5.75;rscore=-0.25;uscore=0.53;tscore=-5.38;"
+     CDS             3947..4528
+                     /note="ID=1_7;partial=00;start_type=TTG;rbs_motif=ATA;rbs_spacer=10bp;gc_cont=0.459;conf=50.00;score=-5.16;cscore=8.83;sscore=-13.98;rscore=4.35;uscore=-0.93;tscore=-17.40;"
+     CDS             4528..5433
+                     /note="ID=1_8;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=5bp;gc_cont=0.506;conf=99.80;score=26.99;cscore=17.09;sscore=9.90;rscore=4.35;uscore=-2.22;tscore=4.27;"
+//

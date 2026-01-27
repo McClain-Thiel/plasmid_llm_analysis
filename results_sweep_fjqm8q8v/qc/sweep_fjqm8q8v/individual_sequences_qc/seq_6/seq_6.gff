@@ -1,0 +1,13 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=10404;seqhdr="seq_6"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="16|Chlorobium_tepidum_TLS|B|56.5|11|1";gc_cont=56.50;transl_table=11;uses_sd=1
+seq_6	Prodigal_v2.6.3	CDS	467	730	12.1	-	0	ID=1_1;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.519;conf=95.28;score=13.07;cscore=17.42;sscore=-4.34;rscore=-0.18;uscore=2.04;tscore=-7.14;
+seq_6	Prodigal_v2.6.3	CDS	762	1025	3.1	-	0	ID=1_2;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.523;conf=63.68;score=2.44;cscore=9.39;sscore=-6.95;rscore=-0.18;uscore=1.02;tscore=-7.14;
+seq_6	Prodigal_v2.6.3	CDS	1113	1241	5.4	+	0	ID=1_3;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.612;conf=77.76;score=5.44;cscore=2.97;sscore=2.47;rscore=4.73;uscore=-4.27;tscore=2.01;
+seq_6	Prodigal_v2.6.3	CDS	2195	2977	24.1	+	0	ID=1_4;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.437;conf=99.55;score=23.49;cscore=10.32;sscore=13.17;rscore=13.26;uscore=-3.42;tscore=3.98;
+seq_6	Prodigal_v2.6.3	CDS	4249	4953	168.8	+	0	ID=1_5;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.610;conf=100.00;score=168.19;cscore=175.63;sscore=-7.44;rscore=-0.18;uscore=0.53;tscore=-7.14;
+seq_6	Prodigal_v2.6.3	CDS	5124	5516	20.8	+	0	ID=1_6;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.623;conf=99.16;score=20.76;cscore=17.07;sscore=3.69;rscore=2.32;uscore=-2.61;tscore=3.98;
+seq_6	Prodigal_v2.6.3	CDS	5562	6206	166.1	+	0	ID=1_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.636;conf=100.00;score=166.87;cscore=159.28;sscore=7.59;rscore=-0.18;uscore=3.00;tscore=3.98;
+seq_6	Prodigal_v2.6.3	CDS	6962	7735	175.4	+	0	ID=1_8;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.607;conf=100.00;score=174.72;cscore=182.12;sscore=-7.40;rscore=-0.18;uscore=0.57;tscore=-7.14;
+seq_6	Prodigal_v2.6.3	CDS	9236	9403	3.2	+	0	ID=1_9;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.488;conf=64.30;score=2.56;cscore=0.85;sscore=1.71;rscore=-0.28;uscore=0.01;tscore=2.63;
+seq_6	Prodigal_v2.6.3	CDS	10003	10170	3.2	+	0	ID=1_10;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.488;conf=64.30;score=2.56;cscore=0.85;sscore=1.71;rscore=-0.28;uscore=0.01;tscore=2.63;

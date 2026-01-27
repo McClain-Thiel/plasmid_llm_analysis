@@ -1,0 +1,4 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=1643;seqhdr="seq_35"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="47|Xenorhabdus_nematophila_ATCC_19061|B|44.1|11|1";gc_cont=44.20;transl_table=11;uses_sd=1
+seq_35	Prodigal_v2.6.3	CDS	1282	1587	24.1	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.461;conf=99.61;score=24.09;cscore=28.97;sscore=-4.88;rscore=-7.00;uscore=-1.87;tscore=3.99;

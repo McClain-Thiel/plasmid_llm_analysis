@@ -1,0 +1,52 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_12,blaTEM-171,class A beta-lactamase TEM-171,2142,2999,+,100.0,100.0
+seq_14,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,1304,2161,+,100.0,100.0
+seq_14,tet(C),tetracycline efflux MFS transporter Tet(C),4183,4803,-,100.0,52.27
+seq_15,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1135,1947,-,100.0,100.0
+seq_16,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2335,3192,-,100.0,100.0
+seq_18,blaTEM-171,class A beta-lactamase TEM-171,2226,3083,+,100.0,100.0
+seq_24,blaTEM-171,class A beta-lactamase TEM-171,1672,2529,+,100.0,100.0
+seq_25,blaTEM-171,class A beta-lactamase TEM-171,1559,2416,+,100.0,100.0
+seq_29,blaTEM-171,class A beta-lactamase TEM-171,1485,2342,+,100.0,100.0
+seq_34,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,1673,2530,+,100.0,100.0
+seq_34,tet(C),tetracycline efflux MFS transporter Tet(C),4552,5172,-,100.0,52.27
+seq_43,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,857,1714,+,100.0,100.0
+seq_43,tet(C),tetracycline efflux MFS transporter Tet(C),3736,4356,-,100.0,52.27
+seq_46,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,1416,2273,+,100.0,100.0
+seq_46,tet(C),tetracycline efflux MFS transporter Tet(C),4295,4915,-,100.0,52.27
+seq_47,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2162,3019,-,100.0,100.0
+seq_48,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2603,3460,-,100.0,100.0
+seq_49,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2273,3130,+,100.0,100.0
+seq_49,tet(C),tetracycline efflux MFS transporter Tet(C),5152,5772,-,100.0,52.27
+seq_5,blaTEM-171,class A beta-lactamase TEM-171,843,1700,+,100.0,100.0
+seq_50,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2821,3678,-,100.0,100.0
+seq_52,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2132,2989,-,100.0,100.0
+seq_53,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2699,3556,-,100.0,100.0
+seq_54,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2951,3808,-,100.0,100.0
+seq_56,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,3684,4541,-,100.0,100.0
+seq_57,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2859,3716,-,100.0,100.0
+seq_58,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2848,3705,-,100.0,100.0
+seq_59,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,3341,4198,-,100.0,100.0
+seq_6,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,1754,2611,+,100.0,100.0
+seq_6,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,3325,4182,+,100.0,100.0
+seq_6,tet(C),tetracycline efflux MFS transporter Tet(C),6204,6824,-,100.0,52.27
+seq_60,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,4805,5662,-,100.0,100.0
+seq_65,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1709,2515,+,99.26,100.0
+seq_72,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1498,2310,-,100.0,100.0
+seq_73,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,4679,5536,-,100.0,100.0
+seq_74,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,3257,4114,-,100.0,100.0
+seq_75,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2024,2881,-,100.0,100.0
+seq_77,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,3376,4233,-,100.0,100.0
+seq_8,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2664,3521,-,100.0,100.0
+seq_82,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2775,3632,-,100.0,100.0
+seq_83,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1887,2744,-,100.0,100.0
+seq_85,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,3360,4217,-,100.0,100.0
+seq_86,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1899,2756,-,100.0,100.0
+seq_89,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2868,3725,-,100.0,100.0
+seq_91,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,3472,4329,-,100.0,100.0
+seq_92,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1188,1994,+,99.26,100.0
+seq_92,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,4850,5707,-,100.0,100.0
+seq_96,blaTEM-171,class A beta-lactamase TEM-171,1848,2705,+,100.0,100.0
+seq_97,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2654,3511,-,100.0,100.0
+seq_98,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2899,3756,-,100.0,100.0
+seq_99,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,3013,3870,-,100.0,100.0

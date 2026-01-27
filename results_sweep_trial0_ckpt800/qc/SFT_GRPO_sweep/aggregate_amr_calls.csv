@@ -1,0 +1,168 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_0,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1197,2054,+,100.0,100.0
+seq_1,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1179,2036,+,100.0,100.0
+seq_10,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1280,2137,+,100.0,100.0
+seq_11,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1308,2165,+,100.0,100.0
+seq_12,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1176,2033,+,100.0,100.0
+seq_13,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1182,2039,+,100.0,100.0
+seq_14,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1153,2010,+,100.0,100.0
+seq_15,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1277,2134,+,100.0,100.0
+seq_16,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1169,2026,+,100.0,100.0
+seq_17,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,101,856,+,100.0,95.82
+seq_17,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1895,2752,+,100.0,100.0
+seq_18,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1239,2096,+,100.0,100.0
+seq_19,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1292,2149,+,100.0,100.0
+seq_2,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1258,2115,+,100.0,100.0
+seq_20,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1191,2048,+,100.0,100.0
+seq_21,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1267,2124,+,100.0,100.0
+seq_22,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1537,2394,+,100.0,100.0
+seq_23,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1353,2210,+,100.0,100.0
+seq_24,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1152,2009,+,100.0,100.0
+seq_25,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,196,951,+,100.0,95.82
+seq_25,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2151,3008,+,100.0,100.0
+seq_26,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,100,861,+,99.21,96.58
+seq_26,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1922,2779,+,100.0,100.0
+seq_27,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1200,2057,+,100.0,100.0
+seq_28,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1435,2292,+,100.0,100.0
+seq_29,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1349,2206,+,100.0,100.0
+seq_3,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1268,2125,+,100.0,100.0
+seq_30,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1315,2172,+,100.0,100.0
+seq_31,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1270,2127,+,100.0,100.0
+seq_32,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1199,2056,+,100.0,100.0
+seq_33,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1236,2093,+,100.0,100.0
+seq_34,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1224,2081,+,100.0,100.0
+seq_35,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1212,2069,+,100.0,100.0
+seq_36,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1249,2106,+,100.0,100.0
+seq_37,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,90,872,+,96.96,100.0
+seq_37,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1931,2788,+,100.0,100.0
+seq_38,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1516,2373,+,100.0,100.0
+seq_39,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1567,2424,+,100.0,100.0
+seq_4,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1169,2026,+,100.0,100.0
+seq_40,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1495,2352,+,100.0,100.0
+seq_41,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1455,2312,+,100.0,100.0
+seq_42,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,10,765,+,100.0,95.82
+seq_42,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1994,2851,+,100.0,100.0
+seq_43,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1353,2210,+,100.0,100.0
+seq_44,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,96,857,+,99.61,96.58
+seq_44,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,869,1660,+,96.97,99.62
+seq_44,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2649,3506,+,100.0,100.0
+seq_45,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1437,2294,+,100.0,100.0
+seq_46,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1191,2048,+,100.0,100.0
+seq_47,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,67,822,+,100.0,95.82
+seq_47,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,841,1632,+,96.97,99.62
+seq_47,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2621,3478,+,100.0,100.0
+seq_48,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,61,816,+,100.0,95.82
+seq_48,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1925,2782,+,100.0,100.0
+seq_49,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1152,2009,+,100.0,100.0
+seq_5,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1289,2146,+,100.0,100.0
+seq_50,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,1255,2043,-,100.0,100.0
+seq_50,catA1,type A-1 chloramphenicol O-acetyltransferase,5400,5918,+,100.0,79.0
+seq_51,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2897,3709,-,100.0,100.0
+seq_52,catA1,type A-1 chloramphenicol O-acetyltransferase,2213,2869,-,100.0,100.0
+seq_54,catA1,type A-1 chloramphenicol O-acetyltransferase,2237,2893,+,99.54,100.0
+seq_55,catA1,type A-1 chloramphenicol O-acetyltransferase,2708,3364,-,100.0,100.0
+seq_55,catA1,type A-1 chloramphenicol O-acetyltransferase,5361,6017,-,100.0,100.0
+seq_55,catA1,type A-1 chloramphenicol O-acetyltransferase,8006,8662,-,100.0,100.0
+seq_55,catA1,type A-1 chloramphenicol O-acetyltransferase,10651,11307,-,100.0,100.0
+seq_55,catA1,type A-1 chloramphenicol O-acetyltransferase,13296,13952,-,100.0,100.0
+seq_56,tet(C),tetracycline efflux MFS transporter Tet(C),3685,4305,-,100.0,52.27
+seq_57,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,5196,6053,+,100.0,100.0
+seq_58,catA1,type A-1 chloramphenicol O-acetyltransferase,2155,2811,-,100.0,100.0
+seq_58,catA1,type A-1 chloramphenicol O-acetyltransferase,4800,5456,-,100.0,100.0
+seq_58,catA1,type A-1 chloramphenicol O-acetyltransferase,7445,8101,-,100.0,100.0
+seq_58,catA1,type A-1 chloramphenicol O-acetyltransferase,10090,10746,-,100.0,100.0
+seq_58,catA1,type A-1 chloramphenicol O-acetyltransferase,12735,13391,-,100.0,100.0
+seq_59,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2380,3192,-,100.0,100.0
+seq_6,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1175,2032,+,100.0,100.0
+seq_60,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,1255,2043,-,100.0,100.0
+seq_61,blaTEM,TEM family class A beta-lactamase,1117,1605,+,100.0,56.99
+seq_62,catA1,type A-1 chloramphenicol O-acetyltransferase,2008,2664,-,100.0,100.0
+seq_64,catA1,type A-1 chloramphenicol O-acetyltransferase,2708,3364,-,100.0,100.0
+seq_64,catA1,type A-1 chloramphenicol O-acetyltransferase,5353,6009,-,100.0,100.0
+seq_64,catA1,type A-1 chloramphenicol O-acetyltransferase,7998,8654,-,100.0,100.0
+seq_64,catA1,type A-1 chloramphenicol O-acetyltransferase,10643,11299,-,100.0,100.0
+seq_64,catA1,type A-1 chloramphenicol O-acetyltransferase,13288,13944,-,100.0,100.0
+seq_65,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2099,2911,-,100.0,100.0
+seq_65,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,5198,6004,+,100.0,100.0
+seq_65,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,7353,8210,-,100.0,100.0
+seq_66,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1073,1930,+,100.0,100.0
+seq_67,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1305,2111,+,100.0,100.0
+seq_67,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,3460,4317,-,100.0,100.0
+seq_67,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,6209,7015,+,100.0,100.0
+seq_68,catA1,type A-1 chloramphenicol O-acetyltransferase,2015,2671,-,100.0,100.0
+seq_68,catA1,type A-1 chloramphenicol O-acetyltransferase,4660,5316,-,100.0,100.0
+seq_68,catA1,type A-1 chloramphenicol O-acetyltransferase,7305,7961,-,100.0,100.0
+seq_68,catA1,type A-1 chloramphenicol O-acetyltransferase,9950,10606,-,100.0,100.0
+seq_68,catA1,type A-1 chloramphenicol O-acetyltransferase,12595,13251,-,100.0,100.0
+seq_69,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,1255,2043,-,100.0,100.0
+seq_7,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1156,2013,+,100.0,100.0
+seq_70,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,1255,2043,-,100.0,100.0
+seq_71,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2134,2991,-,100.0,100.0
+seq_71,tet(C),tetracycline efflux MFS transporter Tet(C),3285,4472,+,100.0,100.0
+seq_71,blaTEM,TEM family class A beta-lactamase,7001,7726,-,100.0,84.62
+seq_73,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1305,2111,+,100.0,100.0
+seq_73,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,3460,4317,-,100.0,100.0
+seq_74,catA1,type A-1 chloramphenicol O-acetyltransferase,3353,4009,-,100.0,100.0
+seq_74,catA1,type A-1 chloramphenicol O-acetyltransferase,5998,6654,-,100.0,100.0
+seq_74,catA1,type A-1 chloramphenicol O-acetyltransferase,8643,9299,-,100.0,100.0
+seq_74,catA1,type A-1 chloramphenicol O-acetyltransferase,11288,11944,-,100.0,100.0
+seq_75,catA1,type A-1 chloramphenicol O-acetyltransferase,2777,3433,-,100.0,100.0
+seq_75,catA1,type A-1 chloramphenicol O-acetyltransferase,5422,6078,-,100.0,100.0
+seq_75,catA1,type A-1 chloramphenicol O-acetyltransferase,8067,8723,-,100.0,100.0
+seq_75,catA1,type A-1 chloramphenicol O-acetyltransferase,10712,11368,-,100.0,100.0
+seq_75,catA1,type A-1 chloramphenicol O-acetyltransferase,13357,14013,-,100.0,100.0
+seq_76,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2028,2840,-,100.0,100.0
+seq_77,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,3235,4041,+,99.26,100.0
+seq_78,catA1,type A-1 chloramphenicol O-acetyltransferase,4297,4953,-,100.0,100.0
+seq_8,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,10,795,+,97.72,100.0
+seq_8,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,835,1590,+,100.0,95.82
+seq_8,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2815,3672,+,100.0,100.0
+seq_82,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2074,2931,-,100.0,100.0
+seq_82,catA1,type A-1 chloramphenicol O-acetyltransferase,5900,6556,-,100.0,100.0
+seq_83,catA1,type A-1 chloramphenicol O-acetyltransferase,2662,3318,+,100.0,100.0
+seq_85,catA1,type A-1 chloramphenicol O-acetyltransferase,2708,3364,-,100.0,100.0
+seq_85,catA1,type A-1 chloramphenicol O-acetyltransferase,5353,6009,-,100.0,100.0
+seq_85,catA1,type A-1 chloramphenicol O-acetyltransferase,7998,8654,-,100.0,100.0
+seq_85,catA1,type A-1 chloramphenicol O-acetyltransferase,10643,11299,-,100.0,100.0
+seq_85,catA1,type A-1 chloramphenicol O-acetyltransferase,13288,13944,-,100.0,100.0
+seq_86,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1394,2251,+,100.0,100.0
+seq_86,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,5880,6737,+,100.0,100.0
+seq_88,catA1,type A-1 chloramphenicol O-acetyltransferase,1250,1906,+,100.0,100.0
+seq_89,catA1,type A-1 chloramphenicol O-acetyltransferase,3059,3715,-,100.0,100.0
+seq_89,catA1,type A-1 chloramphenicol O-acetyltransferase,5823,6479,-,100.0,100.0
+seq_89,catA1,type A-1 chloramphenicol O-acetyltransferase,8468,9124,-,100.0,100.0
+seq_89,catA1,type A-1 chloramphenicol O-acetyltransferase,11113,11769,-,100.0,100.0
+seq_89,catA1,type A-1 chloramphenicol O-acetyltransferase,13758,14414,-,100.0,100.0
+seq_9,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,51,815,+,99.22,96.96
+seq_9,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1947,2804,+,100.0,100.0
+seq_90,catA1,type A-1 chloramphenicol O-acetyltransferase,2255,2911,-,100.0,100.0
+seq_90,catA1,type A-1 chloramphenicol O-acetyltransferase,4903,5559,-,100.0,100.0
+seq_90,catA1,type A-1 chloramphenicol O-acetyltransferase,7548,8204,-,100.0,100.0
+seq_90,catA1,type A-1 chloramphenicol O-acetyltransferase,10193,10849,-,100.0,100.0
+seq_90,catA1,type A-1 chloramphenicol O-acetyltransferase,12838,13494,-,100.0,100.0
+seq_91,catA1,type A-1 chloramphenicol O-acetyltransferase,2708,3364,-,100.0,100.0
+seq_92,catA1,type A-1 chloramphenicol O-acetyltransferase,1152,1808,+,100.0,100.0
+seq_93,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,1255,2043,-,100.0,100.0
+seq_94,catA1,type A-1 chloramphenicol O-acetyltransferase,2015,2671,-,100.0,100.0
+seq_94,catA1,type A-1 chloramphenicol O-acetyltransferase,4660,5316,-,100.0,100.0
+seq_94,catA1,type A-1 chloramphenicol O-acetyltransferase,7305,7961,-,100.0,100.0
+seq_94,catA1,type A-1 chloramphenicol O-acetyltransferase,9950,10606,-,100.0,100.0
+seq_94,catA1,type A-1 chloramphenicol O-acetyltransferase,12595,13251,-,100.0,100.0
+seq_95,catA1,type A-1 chloramphenicol O-acetyltransferase,2910,3566,-,100.0,100.0
+seq_95,catA1,type A-1 chloramphenicol O-acetyltransferase,5555,6211,-,100.0,100.0
+seq_95,catA1,type A-1 chloramphenicol O-acetyltransferase,8200,8856,-,100.0,100.0
+seq_95,catA1,type A-1 chloramphenicol O-acetyltransferase,10845,11501,-,100.0,100.0
+seq_95,catA1,type A-1 chloramphenicol O-acetyltransferase,13490,14146,-,100.0,100.0
+seq_96,catA1,type A-1 chloramphenicol O-acetyltransferase,2708,3364,-,100.0,100.0
+seq_96,catA1,type A-1 chloramphenicol O-acetyltransferase,5353,6009,-,100.0,100.0
+seq_96,catA1,type A-1 chloramphenicol O-acetyltransferase,7998,8654,-,100.0,100.0
+seq_96,catA1,type A-1 chloramphenicol O-acetyltransferase,10643,11299,-,100.0,100.0
+seq_96,catA1,type A-1 chloramphenicol O-acetyltransferase,13288,13944,-,100.0,100.0
+seq_97,catA1,type A-1 chloramphenicol O-acetyltransferase,2030,2686,-,100.0,100.0
+seq_97,catA1,type A-1 chloramphenicol O-acetyltransferase,4675,5331,-,100.0,100.0
+seq_97,catA1,type A-1 chloramphenicol O-acetyltransferase,7320,7976,-,100.0,100.0
+seq_97,catA1,type A-1 chloramphenicol O-acetyltransferase,9965,10621,-,100.0,100.0
+seq_97,catA1,type A-1 chloramphenicol O-acetyltransferase,12610,13266,-,100.0,100.0
+seq_98,catA1,type A-1 chloramphenicol O-acetyltransferase,1998,2654,-,100.0,100.0
+seq_99,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1451,2263,-,100.0,100.0
+seq_99,tet(C),tetracycline efflux MFS transporter Tet(C),4233,5405,-,94.37,98.74

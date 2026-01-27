@@ -1,0 +1,65 @@
+Jan-09 23:25:40.260 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf -c run_working_models.config -profile local,docker -resume
+Jan-09 23:25:40.372 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 25.10.2
+Jan-09 23:25:40.395 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/ubuntu/.nextflow/plugins; core-plugins: nf-amazon@3.4.2,nf-azure@1.20.2,nf-cloudcache@0.5.0,nf-codecommit@0.5.0,nf-console@1.3.0,nf-google@1.23.3,nf-k8s@1.2.2,nf-tower@1.17.3,nf-wave@1.16.1
+Jan-09 23:25:40.434 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jan-09 23:25:40.435 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jan-09 23:25:40.439 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Jan-09 23:25:40.456 [main] DEBUG nextflow.util.RetryConfig - Missing nextflow session - using default retry config
+Jan-09 23:25:40.628 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jan-09 23:25:40.657 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/ubuntu/plasmid_llm_analysis/nextflow.config
+Jan-09 23:25:40.661 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /home/ubuntu/plasmid_llm_analysis/run_working_models.config
+Jan-09 23:25:40.662 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/ubuntu/plasmid_llm_analysis/nextflow.config
+Jan-09 23:25:40.663 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/ubuntu/plasmid_llm_analysis/run_working_models.config
+Jan-09 23:25:40.691 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `local,docker`
+Jan-09 23:25:41.710 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `local,docker`
+Jan-09 23:25:41.732 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [standard, test, singularity, aws, local, docker]
+Jan-09 23:25:41.763 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jan-09 23:25:41.763 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jan-09 23:25:41.787 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/ubuntu/.nextflow/secrets/store.json
+Jan-09 23:25:41.791 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@64387c17] - activable => nextflow.secret.LocalSecretsProvider@64387c17
+Jan-09 23:25:41.803 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Jan-09 23:25:41.819 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [awesome_thompson] DSL2 - revision: adf54427b8
+Jan-09 23:25:41.867 [main] DEBUG nextflow.Session - Session UUID: ce9b50f2-01ba-42f6-b535-1e44ad545df0
+Jan-09 23:25:41.868 [main] DEBUG nextflow.Session - Run name: awesome_thompson
+Jan-09 23:25:41.868 [main] DEBUG nextflow.Session - Executor pool size: 16
+Jan-09 23:25:41.876 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jan-09 23:25:41.881 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=48; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Jan-09 23:25:41.908 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 25.10.2 build 10555
+  Created: 28-11-2025 19:24 UTC 
+  System: Linux 6.14.0-1014-aws
+  Runtime: Groovy 4.0.28 on OpenJDK 64-Bit Server VM 21.0.8+9-LTS
+  Encoding: UTF-8 (UTF-8)
+  Process: 2046625@ip-172-31-90-236 [172.31.90.236]
+  CPUs: 16 - Mem: 60.5 GB (30.2 GB) - Swap: 0 (0)
+Jan-09 23:25:41.936 [main] DEBUG nextflow.Session - Work-dir: /home/ubuntu/plasmid_llm_analysis/work [ext2/ext3]
+Jan-09 23:25:41.966 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jan-09 23:25:41.975 [main] DEBUG nextflow.Session - Observer factory (v2): LinObserverFactory
+Jan-09 23:25:41.977 [main] DEBUG nextflow.Session - Observer factory (v2): DefaultObserverFactory
+Jan-09 23:25:42.026 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jan-09 23:25:42.035 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 17; maxThreads: 1000
+Jan-09 23:25:42.044 [main] ERROR nextflow.cli.Launcher - Unable to acquire lock on session with ID ce9b50f2-01ba-42f6-b535-1e44ad545df0
+
+Common reasons for this error are:
+ - You are trying to resume the execution of an already running pipeline
+ - A previous execution was abruptly interrupted, leaving the session open
+
+You can see which process is holding the lock file by using the following command:
+ - lsof /home/ubuntu/plasmid_llm_analysis/.nextflow/cache/ce9b50f2-01ba-42f6-b535-1e44ad545df0/db/LOCK
+java.io.IOException: Unable to acquire lock on session with ID ce9b50f2-01ba-42f6-b535-1e44ad545df0
+
+Common reasons for this error are:
+ - You are trying to resume the execution of an already running pipeline
+ - A previous execution was abruptly interrupted, leaving the session open
+
+You can see which process is holding the lock file by using the following command:
+ - lsof /home/ubuntu/plasmid_llm_analysis/.nextflow/cache/ce9b50f2-01ba-42f6-b535-1e44ad545df0/db/LOCK
+	at nextflow.cache.DefaultCacheStore.openDb(DefaultCacheStore.groovy:91)
+	at nextflow.cache.DefaultCacheStore.open(DefaultCacheStore.groovy:106)
+	at nextflow.cache.DefaultCacheStore.open(DefaultCacheStore.groovy)
+	at nextflow.cache.CacheDB.open(CacheDB.groovy:59)
+	at nextflow.Session.init(Session.groovy:470)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:130)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:429)
+	at nextflow.cli.Launcher.run(Launcher.groovy:515)
+	at nextflow.cli.Launcher.main(Launcher.groovy:675)

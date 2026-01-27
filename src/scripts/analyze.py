@@ -22,8 +22,8 @@ except ImportError:
     pass
 
 # --- Configuration ---
-MODEL_MAP = {'Base': 'Base', 'SFT': 'SFT', 'RL': 'GRPO', 'SFT_GRPO': 'SFT+GRPO'}
-ORDER = ['Base', 'SFT', 'GRPO', 'SFT+GRPO']
+MODEL_MAP = {'Base': 'Base', 'SFT': 'SFT', 'RL': 'GRPO'}
+ORDER = ['Base', 'SFT', 'GRPO']
 ORDER_WITH_REAL = ['Real'] + ORDER
 
 def gc_content(seq: str) -> float:

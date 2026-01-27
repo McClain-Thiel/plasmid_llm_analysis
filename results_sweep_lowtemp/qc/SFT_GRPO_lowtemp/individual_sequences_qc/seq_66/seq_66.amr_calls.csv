@@ -1,0 +1,6 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_66,catA1,type A-1 chloramphenicol O-acetyltransferase,2095,2751,-,100.0,100.0
+seq_66,catA1,type A-1 chloramphenicol O-acetyltransferase,4740,5396,-,100.0,100.0
+seq_66,catA1,type A-1 chloramphenicol O-acetyltransferase,7385,8041,-,100.0,100.0
+seq_66,catA1,type A-1 chloramphenicol O-acetyltransferase,10030,10686,-,100.0,100.0
+seq_66,catA1,type A-1 chloramphenicol O-acetyltransferase,12675,13331,-,100.0,100.0

@@ -1,0 +1,9 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=10275;seqhdr="seq_2"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="46|Tropheryma_whipplei_TW08_27|B|46.3|11|1";gc_cont=46.30;transl_table=11;uses_sd=1
+seq_2	Prodigal_v2.6.3	CDS	1649	2443	56.6	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.594;conf=100.00;score=56.56;cscore=48.14;sscore=8.42;rscore=6.17;uscore=0.12;tscore=2.13;
+seq_2	Prodigal_v2.6.3	CDS	2464	2913	6.1	+	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.582;conf=83.92;score=7.19;cscore=5.71;sscore=1.48;rscore=-0.36;uscore=-1.35;tscore=2.13;
+seq_2	Prodigal_v2.6.3	CDS	5050	5703	101.0	-	0	ID=1_3;partial=00;start_type=GTG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.615;conf=100.00;score=100.39;cscore=99.93;sscore=0.46;rscore=-0.36;uscore=0.81;tscore=0.66;
+seq_2	Prodigal_v2.6.3	CDS	6304	6483	6.7	-	0	ID=1_4;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.372;conf=80.16;score=6.07;cscore=1.17;sscore=4.90;rscore=3.54;uscore=0.51;tscore=1.51;
+seq_2	Prodigal_v2.6.3	CDS	7985	8845	73.1	-	0	ID=1_5;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.490;conf=100.00;score=72.49;cscore=64.34;sscore=8.14;rscore=5.00;uscore=1.67;tscore=2.13;
+seq_2	Prodigal_v2.6.3	CDS	9231	9710	4.2	+	0	ID=1_6;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.644;conf=72.47;score=4.21;cscore=5.87;sscore=-1.66;rscore=-3.16;uscore=-0.63;tscore=2.13;

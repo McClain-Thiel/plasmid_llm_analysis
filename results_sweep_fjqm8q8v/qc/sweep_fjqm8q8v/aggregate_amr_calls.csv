@@ -1,0 +1,282 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_0,aph(3')-IIIa,aminoglycoside O-phosphotransferase APH(3')-IIIa,28,819,-,100.0,100.0
+seq_0,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,11114,11971,+,100.0,100.0
+seq_1,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2178,3035,+,100.0,100.0
+seq_1,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,5752,6543,+,99.62,100.0
+seq_1,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,11016,11807,+,100.0,100.0
+seq_1,blaTEM-181,class A beta-lactamase TEM-181,13222,14079,+,100.0,100.0
+seq_1,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,16886,17743,-,100.0,100.0
+seq_1,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,22017,22547,+,100.0,67.05
+seq_10,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1091,1948,-,100.0,100.0
+seq_10,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,6603,7391,+,100.0,100.0
+seq_11,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,498,1289,+,99.62,100.0
+seq_11,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2713,3525,-,100.0,100.0
+seq_12,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,3667,4458,+,99.62,100.0
+seq_12,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,11355,12146,+,100.0,100.0
+seq_14,ble-Sh,phleomycin/bleomycin binding protein Ble-Sh,2084,2455,+,100.0,100.0
+seq_14,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,5458,6249,+,99.62,100.0
+seq_14,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,9699,10556,+,100.0,100.0
+seq_15,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,3636,4427,+,99.62,100.0
+seq_15,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,5719,6252,+,99.44,67.42
+seq_15,blaTEM,TEM family class A beta-lactamase,7442,7987,-,100.0,63.64
+seq_16,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2832,3689,-,100.0,100.0
+seq_16,blaTEM,TEM family class A beta-lactamase,7085,7636,-,98.91,64.34
+seq_16,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,10162,10953,+,100.0,100.0
+seq_17,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,1003,1791,+,100.0,100.0
+seq_17,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,5173,5964,+,99.62,100.0
+seq_17,aph(3')-IIIa,aminoglycoside O-phosphotransferase APH(3')-IIIa,7995,8786,-,100.0,100.0
+seq_17,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,10454,11245,+,99.62,100.0
+seq_17,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,14351,15142,+,99.62,100.0
+seq_17,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,22645,23436,+,100.0,100.0
+seq_19,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,10071,10928,+,100.0,100.0
+seq_19,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,13371,14162,+,99.62,100.0
+seq_19,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,17550,18407,-,100.0,100.0
+seq_21,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2834,3691,-,100.0,100.0
+seq_21,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,5214,6026,-,100.0,100.0
+seq_22,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,402,1259,+,100.0,100.0
+seq_22,blaTEM,TEM family class A beta-lactamase,2593,3138,-,100.0,63.64
+seq_22,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,11491,12348,-,100.0,100.0
+seq_22,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,16048,16905,+,100.0,100.0
+seq_22,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,20089,20880,+,100.0,100.0
+seq_23,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,3090,3881,+,99.62,100.0
+seq_23,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,5593,6405,-,100.0,100.0
+seq_23,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,11161,12018,-,100.0,100.0
+seq_23,aph(3')-IIIa,aminoglycoside O-phosphotransferase APH(3')-IIIa,13056,13847,-,100.0,100.0
+seq_24,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,2093,2884,+,100.0,100.0
+seq_24,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,4584,5441,+,100.0,100.0
+seq_24,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,11661,12518,+,100.0,100.0
+seq_24,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,14445,15302,+,100.0,100.0
+seq_25,ble-Sh,phleomycin/bleomycin binding protein Ble-Sh,2883,3254,+,100.0,100.0
+seq_25,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,6895,7752,+,100.0,100.0
+seq_26,ble-Sh,phleomycin/bleomycin binding protein Ble-Sh,1983,2354,+,100.0,100.0
+seq_26,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,5824,6615,+,100.0,100.0
+seq_27,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2280,3137,-,100.0,100.0
+seq_27,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,4782,5639,+,100.0,100.0
+seq_27,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,10065,10871,+,99.26,100.0
+seq_27,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,13464,14321,-,100.0,100.0
+seq_28,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,8632,9489,-,100.0,100.0
+seq_28,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,12044,12901,+,100.0,100.0
+seq_29,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,4123,4911,+,100.0,100.0
+seq_29,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,6517,7374,-,100.0,100.0
+seq_29,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,7853,8710,+,100.0,100.0
+seq_29,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,12403,13260,-,100.0,100.0
+seq_3,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2544,3350,+,99.26,100.0
+seq_3,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,4827,5684,-,100.0,100.0
+seq_3,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,9099,9956,-,100.0,100.0
+seq_3,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,12788,13645,+,100.0,100.0
+seq_3,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,17920,18777,-,100.0,100.0
+seq_30,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,3466,4323,+,100.0,100.0
+seq_30,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,10298,11089,+,99.62,100.0
+seq_30,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,15435,16292,+,100.0,100.0
+seq_32,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,6399,7190,+,100.0,100.0
+seq_32,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,9481,10338,+,100.0,100.0
+seq_32,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,12455,13312,-,100.0,100.0
+seq_32,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,14981,15772,+,99.62,100.0
+seq_33,aph(4)-Ia,aminoglycoside O-phosphotransferase APH(4)-Ia,796,1815,+,100.0,99.71
+seq_33,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2299,3105,+,99.26,100.0
+seq_33,blaTEM-181,class A beta-lactamase TEM-181,6516,7373,+,100.0,100.0
+seq_33,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,11060,11917,-,100.0,100.0
+seq_34,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,8915,9772,+,100.0,100.0
+seq_35,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,4105,4896,+,100.0,100.0
+seq_35,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,6525,7382,+,100.0,100.0
+seq_35,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,12273,13064,+,99.62,100.0
+seq_36,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,3029,3820,+,100.0,100.0
+seq_36,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,4104,4895,+,100.0,100.0
+seq_36,blaTEM,TEM family class A beta-lactamase,7202,7765,-,96.81,65.73
+seq_36,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,7827,8639,-,100.0,100.0
+seq_37,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,2837,3628,+,99.62,100.0
+seq_38,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2428,3285,+,100.0,100.0
+seq_39,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,3236,4093,+,100.0,100.0
+seq_39,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,4734,5540,+,99.26,100.0
+seq_39,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,9158,10015,+,100.0,100.0
+seq_39,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,17208,17996,+,100.0,100.0
+seq_4,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,3136,3993,+,100.0,100.0
+seq_4,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,6486,7343,+,100.0,100.0
+seq_4,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,12054,12911,-,100.0,100.0
+seq_4,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,13402,14208,+,99.26,100.0
+seq_4,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,17793,18584,+,100.0,100.0
+seq_40,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,5415,6206,+,100.0,100.0
+seq_40,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,7557,8348,+,100.0,100.0
+seq_41,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2864,3721,-,100.0,100.0
+seq_41,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,10009,10866,-,100.0,100.0
+seq_41,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,11037,11579,+,98.34,68.56
+seq_42,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,3818,4675,-,100.0,100.0
+seq_42,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,12943,13749,+,99.26,100.0
+seq_42,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,16052,16843,+,99.62,100.0
+seq_43,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,5492,6304,-,100.0,100.0
+seq_44,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,6118,6975,+,100.0,100.0
+seq_45,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,3396,4253,+,100.0,100.0
+seq_45,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,9794,10651,-,100.0,100.0
+seq_46,ble-Sh,phleomycin/bleomycin binding protein Ble-Sh,1802,2173,+,100.0,100.0
+seq_46,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,3243,4100,+,100.0,100.0
+seq_46,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,14929,15786,+,100.0,100.0
+seq_47,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,1769,2560,+,100.0,100.0
+seq_47,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,5903,6760,-,100.0,100.0
+seq_47,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,9790,10647,+,100.0,100.0
+seq_47,blaTEM-181,class A beta-lactamase TEM-181,13610,14467,+,100.0,100.0
+seq_47,blaTEM,TEM family class A beta-lactamase,16038,16583,+,100.0,63.64
+seq_48,blaTEM,TEM family class A beta-lactamase,685,1242,-,98.92,65.03
+seq_48,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,6706,7563,-,100.0,100.0
+seq_48,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,10190,11047,-,100.0,100.0
+seq_49,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,6899,7756,-,100.0,100.0
+seq_5,catA1,type A-1 chloramphenicol O-acetyltransferase,1011,1445,+,100.0,66.21
+seq_50,blaTEM,TEM family class A beta-lactamase,695,1240,-,100.0,63.64
+seq_50,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,5974,6540,+,94.71,71.21
+seq_50,blaTEM,TEM family class A beta-lactamase,12638,13183,-,100.0,63.64
+seq_50,blaTEM-181,class A beta-lactamase TEM-181,15544,16401,+,100.0,100.0
+seq_51,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,4441,5253,-,100.0,100.0
+seq_51,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,6766,7557,+,99.62,100.0
+seq_52,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,1646,2437,+,99.62,100.0
+seq_52,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,5165,5953,+,100.0,100.0
+seq_52,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,9592,10104,-,100.0,63.57
+seq_52,blaTEM-181,class A beta-lactamase TEM-181,11670,12527,+,100.0,100.0
+seq_53,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,2296,3102,+,99.26,100.0
+seq_54,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,4365,5222,+,100.0,100.0
+seq_54,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,13487,14344,-,100.0,100.0
+seq_55,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,1256,2113,+,100.0,100.0
+seq_56,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,4760,5617,+,100.0,100.0
+seq_56,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,9332,10189,-,100.0,100.0
+seq_56,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,12526,13317,+,99.62,100.0
+seq_56,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,18583,19440,+,100.0,100.0
+seq_56,blaTEM,TEM family class A beta-lactamase,23182,23727,-,100.0,63.64
+seq_57,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2226,3083,-,100.0,100.0
+seq_57,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,12077,12934,+,100.0,100.0
+seq_57,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,15059,15850,+,99.62,100.0
+seq_57,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,18236,19093,-,100.0,100.0
+seq_58,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2863,3720,-,100.0,100.0
+seq_59,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,5227,6084,-,100.0,100.0
+seq_59,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,11218,12075,+,100.0,100.0
+seq_59,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,17874,18731,+,100.0,100.0
+seq_59,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,21151,22008,+,100.0,100.0
+seq_59,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,25363,26220,-,100.0,100.0
+seq_60,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,5814,6671,+,100.0,100.0
+seq_60,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,7968,8759,+,99.62,100.0
+seq_60,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,13209,14066,-,100.0,100.0
+seq_60,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,15628,16485,-,100.0,100.0
+seq_60,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,17219,18076,-,100.0,100.0
+seq_60,ble-Sh,phleomycin/bleomycin binding protein Ble-Sh,19789,20160,+,100.0,100.0
+seq_60,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,21949,22806,-,100.0,100.0
+seq_61,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,1849,2706,-,100.0,100.0
+seq_61,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,4852,5658,+,99.26,100.0
+seq_61,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,8220,9077,+,100.0,100.0
+seq_61,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,17888,18700,-,100.0,100.0
+seq_62,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,2729,3517,+,100.0,100.0
+seq_63,ble-Sh,phleomycin/bleomycin binding protein Ble-Sh,519,890,+,100.0,100.0
+seq_63,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,5310,6167,-,100.0,100.0
+seq_63,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,10336,11127,+,99.62,100.0
+seq_63,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,13057,13845,+,100.0,100.0
+seq_64,aph(4)-Ia,aminoglycoside O-phosphotransferase APH(4)-Ia,2116,3135,+,100.0,99.71
+seq_64,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,4640,5452,-,100.0,100.0
+seq_64,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,13357,14148,+,99.62,100.0
+seq_64,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,17525,18382,-,100.0,100.0
+seq_65,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,351,1142,+,100.0,100.0
+seq_65,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,4752,5609,+,100.0,100.0
+seq_65,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,7014,7826,-,100.0,100.0
+seq_66,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,1850,2641,+,100.0,100.0
+seq_66,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,3808,4665,+,100.0,100.0
+seq_66,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,6953,7810,+,100.0,100.0
+seq_66,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,11892,12683,+,99.62,100.0
+seq_67,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,2301,3092,+,100.0,100.0
+seq_67,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,4560,5348,+,100.0,100.0
+seq_68,ble-Sh,phleomycin/bleomycin binding protein Ble-Sh,4638,5009,+,100.0,100.0
+seq_68,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,5830,6687,-,100.0,100.0
+seq_68,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,9271,10128,+,100.0,100.0
+seq_68,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,14338,15195,-,100.0,100.0
+seq_69,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,6370,7227,-,100.0,100.0
+seq_69,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,8526,9383,-,100.0,100.0
+seq_69,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,11612,12469,-,100.0,100.0
+seq_69,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,15868,16725,+,100.0,100.0
+seq_69,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,21904,22761,+,100.0,100.0
+seq_70,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,5295,6152,-,100.0,100.0
+seq_70,aph(4)-Ia,aminoglycoside O-phosphotransferase APH(4)-Ia,7007,8026,+,100.0,99.71
+seq_70,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,10223,11080,+,100.0,100.0
+seq_70,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,13177,14034,-,100.0,100.0
+seq_70,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,15982,16839,-,100.0,100.0
+seq_70,aph(4)-Ia,aminoglycoside O-phosphotransferase APH(4)-Ia,17927,18946,+,100.0,99.71
+seq_70,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,19806,20597,+,99.62,100.0
+seq_70,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,22481,23272,+,100.0,100.0
+seq_71,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1261,2067,+,99.26,100.0
+seq_71,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,3715,4572,-,100.0,100.0
+seq_71,blaTEM,TEM family class A beta-lactamase,5944,6489,+,100.0,63.64
+seq_71,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,9882,10739,+,100.0,100.0
+seq_71,blaTEM,TEM family class A beta-lactamase,18836,19381,-,100.0,63.64
+seq_71,ble-Sh,phleomycin/bleomycin binding protein Ble-Sh,21905,22276,+,100.0,100.0
+seq_72,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,347,1204,+,100.0,100.0
+seq_72,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,4108,4896,+,100.0,100.0
+seq_72,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,7879,8691,-,100.0,100.0
+seq_72,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,11840,12697,+,100.0,100.0
+seq_73,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,9236,10093,+,100.0,100.0
+seq_73,aph(4)-Ia,aminoglycoside O-phosphotransferase APH(4)-Ia,13032,14051,+,100.0,99.71
+seq_73,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,15476,16267,+,99.62,100.0
+seq_73,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,19503,20360,-,100.0,100.0
+seq_73,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,21359,22216,-,100.0,100.0
+seq_74,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,4908,5765,-,100.0,100.0
+seq_74,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,9113,9970,-,100.0,100.0
+seq_74,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,11547,12404,-,100.0,100.0
+seq_74,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,13565,14371,+,99.26,100.0
+seq_75,aph(4)-Ia,aminoglycoside O-phosphotransferase APH(4)-Ia,830,1849,+,100.0,99.71
+seq_75,aph(4)-Ia,aminoglycoside O-phosphotransferase APH(4)-Ia,2563,3582,+,100.0,99.71
+seq_75,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,5181,6038,+,100.0,100.0
+seq_75,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,7658,8446,+,100.0,100.0
+seq_75,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,9571,10428,-,100.0,100.0
+seq_75,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,13054,13845,+,99.62,100.0
+seq_76,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,2749,3540,+,100.0,100.0
+seq_76,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,8741,9598,-,100.0,100.0
+seq_77,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,4726,5583,-,100.0,100.0
+seq_79,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,1249,2055,+,99.26,100.0
+seq_79,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,5756,6613,-,100.0,100.0
+seq_79,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,8075,8863,+,100.0,100.0
+seq_79,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,12099,12956,-,100.0,100.0
+seq_8,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,10086,10877,+,99.62,100.0
+seq_8,blaTEM-181,class A beta-lactamase TEM-181,12314,13171,+,100.0,100.0
+seq_80,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2863,3720,-,100.0,100.0
+seq_80,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,4677,5534,-,100.0,100.0
+seq_81,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,3033,3890,+,100.0,100.0
+seq_81,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,6698,7489,+,100.0,100.0
+seq_81,aph(3')-IIIa,aminoglycoside O-phosphotransferase APH(3')-IIIa,8296,9087,-,100.0,100.0
+seq_81,aph(4)-Ia,aminoglycoside O-phosphotransferase APH(4)-Ia,10819,11838,+,100.0,99.71
+seq_83,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,771,1454,-,98.25,87.02
+seq_83,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,4877,5668,+,99.62,100.0
+seq_83,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,7618,8475,-,100.0,100.0
+seq_83,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,10911,11768,-,100.0,100.0
+seq_83,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,13035,13826,+,100.0,100.0
+seq_84,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,2982,3773,+,100.0,100.0
+seq_84,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,6947,7804,-,100.0,100.0
+seq_84,aph(4)-Ia,aminoglycoside O-phosphotransferase APH(4)-Ia,8864,9883,+,100.0,99.71
+seq_84,catA1,type A-1 chloramphenicol O-acetyltransferase,10794,11450,+,100.0,100.0
+seq_84,aadA1,ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1,12812,13600,+,100.0,100.0
+seq_85,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,6857,7648,+,99.62,100.0
+seq_85,aph(3')-IIIa,aminoglycoside O-phosphotransferase APH(3')-IIIa,12093,12884,-,100.0,100.0
+seq_86,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,4182,5039,+,100.0,100.0
+seq_86,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,8070,8927,-,100.0,100.0
+seq_86,blaTEM-181,class A beta-lactamase TEM-181,12214,13071,+,100.0,100.0
+seq_86,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,17087,17944,-,100.0,100.0
+seq_87,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,7132,7989,+,100.0,100.0
+seq_88,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,1835,2626,+,99.62,100.0
+seq_89,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,6838,7695,-,100.0,100.0
+seq_89,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,15477,16334,-,100.0,100.0
+seq_9,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,2036,2893,+,100.0,100.0
+seq_9,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,10746,11603,+,100.0,100.0
+seq_90,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,4320,5111,+,99.62,100.0
+seq_90,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,7266,8123,-,100.0,100.0
+seq_90,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,14475,15002,+,100.0,66.67
+seq_91,ble-Sh,phleomycin/bleomycin binding protein Ble-Sh,1896,2267,+,100.0,100.0
+seq_92,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,521,1378,+,100.0,100.0
+seq_92,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,7813,8604,+,99.62,100.0
+seq_92,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,9750,10556,+,99.26,100.0
+seq_92,blaTEM-1,broad-spectrum class A beta-lactamase TEM-1,14859,15716,-,100.0,100.0
+seq_92,aph(4)-Ia,aminoglycoside O-phosphotransferase APH(4)-Ia,17293,18111,+,94.18,80.65
+seq_92,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,20203,21060,+,100.0,100.0
+seq_93,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,4733,5590,-,100.0,100.0
+seq_93,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,7301,8092,+,99.62,100.0
+seq_93,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,9149,9673,-,98.86,65.06
+seq_94,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,911,1768,+,100.0,100.0
+seq_94,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,8899,9756,-,100.0,100.0
+seq_96,blaTEM-181,class A beta-lactamase TEM-181,6029,6886,+,100.0,100.0
+seq_97,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,8748,9605,+,100.0,100.0
+seq_97,aph(4)-Ia,aminoglycoside O-phosphotransferase APH(4)-Ia,12114,13133,+,100.0,99.71
+seq_97,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,14101,14958,-,100.0,100.0
+seq_97,aph(3')-Ia,aminoglycoside O-phosphotransferase APH(3')-Ia,15258,16070,-,100.0,100.0
+seq_99,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,2636,3493,-,100.0,100.0
+seq_99,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,4529,5386,-,100.0,100.0
+seq_99,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,11579,12436,+,100.0,100.0

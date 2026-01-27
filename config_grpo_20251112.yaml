@@ -1,0 +1,26 @@
+# Configuration for GRPO production 20251112_134036 checkpoint evaluation
+# This file should completely override config.yaml when passed via --configfile
+
+output_dir: "results_grpo_20251112"
+
+# Only evaluate our specific checkpoint
+models:
+  GRPO_20251112: "/mnt/s3/phd-research-storage-1758274488/checkpoints/grpo-production/grpo-production-20251112_134036/checkpoint-2300"
+
+generation:
+  prompts:
+    - "ATG"
+    - "tttacggctagctcagtcctaggtatagtgctagcTACTagagaaagaggagaaatactaAATGatgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagatcacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataaAGGTccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata"
+  samples_per_prompt: 50
+  gpu_utilization: 0.8
+  temperature: 0.95
+  repetition_penalty: 1.0
+
+real_plasmids_dir: "assets/annotations"
+oridb_ref: "assets/oriV_refs.fasta"
+oridb_prefix: "data/oridb_nucl"
+
+qc:
+  threads: 8
+  ori_strict_id: 99.0
+  amr_strict_id: 100.0

@@ -1,0 +1,11 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=12866;seqhdr="seq_11"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="40|Rothia_dentocariosa_ATCC_17931|B|53.7|11|1";gc_cont=53.70;transl_table=11;uses_sd=1
+seq_11	Prodigal_v2.6.3	CDS	498	1292	71.4	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.594;conf=100.00;score=71.35;cscore=62.14;sscore=9.21;rscore=6.02;uscore=-0.39;tscore=3.58;
+seq_11	Prodigal_v2.6.3	CDS	2710	3525	46.5	-	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.435;conf=100.00;score=45.80;cscore=37.37;sscore=8.44;rscore=1.61;uscore=3.90;tscore=3.58;
+seq_11	Prodigal_v2.6.3	CDS	4662	4853	14.7	-	0	ID=1_3;partial=00;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.526;conf=96.18;score=14.03;cscore=9.58;sscore=4.45;rscore=8.02;uscore=0.76;tscore=-3.68;
+seq_11	Prodigal_v2.6.3	CDS	4885	5253	13.1	+	0	ID=1_4;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.515;conf=95.30;score=13.09;cscore=4.84;sscore=8.24;rscore=4.52;uscore=0.14;tscore=3.58;
+seq_11	Prodigal_v2.6.3	CDS	5250	5606	18.4	-	0	ID=1_5;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.616;conf=98.78;score=19.10;cscore=13.31;sscore=5.80;rscore=1.61;uscore=-0.07;tscore=3.58;
+seq_11	Prodigal_v2.6.3	CDS	5662	6753	88.1	-	0	ID=1_6;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.563;conf=100.00;score=87.42;cscore=92.83;sscore=-5.41;rscore=1.61;uscore=-3.59;tscore=-2.78;
+seq_11	Prodigal_v2.6.3	CDS	8959	9153	1.3	-	0	ID=1_7;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.615;conf=53.43;score=0.60;cscore=5.68;sscore=-5.08;rscore=-1.12;uscore=0.31;tscore=-3.62;
+seq_11	Prodigal_v2.6.3	CDS	9540	10442	110.9	-	0	ID=1_8;partial=00;start_type=TTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.594;conf=100.00;score=110.90;cscore=128.27;sscore=-17.37;rscore=-5.94;uscore=-1.85;tscore=-9.57;

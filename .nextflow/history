@@ -1,0 +1,24 @@
+2026-01-09 19:48:26	-	suspicious_boltzmann	-	adf54427b8c5b90e270201a62c5bfba9	6764345e-48e0-491e-9cab-61482f73b156	nextflow run main.nf --mode full --models UCL-CSSB/PlasmidGPT,UCL-CSSB/PlasmidGPT-SFT,UCL-CSSB/PlasmidGPT-GRPO,McClain/PlasmidGPT-RL --prompt_types ATG,GFP_cassette --num_samples 50 -profile local,docker
+2026-01-09 19:49:52	3.6s	nasty_goodall	ERR	adf54427b8c5b90e270201a62c5bfba9	0b447e85-d89a-4d58-900e-b0e65e1b0814	nextflow run main.nf -c run_all_models.config -profile local,docker
+2026-01-09 20:00:44	11.4s	naughty_austin	ERR	adf54427b8c5b90e270201a62c5bfba9	aca2fe25-f0d4-4096-88b9-d70408799727	nextflow run main.nf -c run_all_models.config -profile local,docker
+2026-01-09 20:03:19	10.1s	curious_golick	ERR	adf54427b8c5b90e270201a62c5bfba9	3979b6f9-4806-40b2-a27a-c1fc747746b7	nextflow run main.nf -c run_all_models.config -profile local,docker
+2026-01-09 20:04:24	2m 33s	irreverent_brenner	ERR	adf54427b8c5b90e270201a62c5bfba9	3979b6f9-4806-40b2-a27a-c1fc747746b7	nextflow run main.nf -c run_all_models.config -profile local,docker -resume
+2026-01-09 20:07:38	8m 24s	chaotic_mandelbrot	ERR	adf54427b8c5b90e270201a62c5bfba9	3979b6f9-4806-40b2-a27a-c1fc747746b7	nextflow run main.nf -c run_all_models.config -profile local,docker -resume
+2026-01-09 20:16:18	1h 20m 46s	ecstatic_watson	ERR	adf54427b8c5b90e270201a62c5bfba9	3979b6f9-4806-40b2-a27a-c1fc747746b7	nextflow run main.nf -c run_all_models.config -profile local,docker -resume
+2026-01-09 20:17:45	-	lonely_almeida	-	adf54427b8c5b90e270201a62c5bfba9	3979b6f9-4806-40b2-a27a-c1fc747746b7	nextflow run main.nf -c run_working_models.config -profile local,docker -resume
+2026-01-09 20:19:12	-	mad_thompson	-	adf54427b8c5b90e270201a62c5bfba9	3979b6f9-4806-40b2-a27a-c1fc747746b7	nextflow run main.nf -c run_working_models.config -profile local,docker -resume
+2026-01-09 20:19:24	6m 32s	compassionate_franklin	ERR	adf54427b8c5b90e270201a62c5bfba9	3979b6f9-4806-40b2-a27a-c1fc747746b7	nextflow run main.nf -c run_working_models.config -profile local,docker -resume
+2026-01-09 20:26:51	9m 59s	boring_bohr	ERR	adf54427b8c5b90e270201a62c5bfba9	3979b6f9-4806-40b2-a27a-c1fc747746b7	nextflow run main.nf -c run_working_models.config -profile local,docker -resume
+2026-01-09 21:06:47	9m 59s	dreamy_mercator	ERR	adf54427b8c5b90e270201a62c5bfba9	3979b6f9-4806-40b2-a27a-c1fc747746b7	nextflow run main.nf -c run_working_models.config -profile local,docker -resume
+2026-01-09 22:13:23	19m 59s	high_bhaskara	ERR	adf54427b8c5b90e270201a62c5bfba9	9b206437-0f8e-472a-944e-93d2b8b4469e	nextflow run main.nf -c run_working_models.config -profile local,docker
+2026-01-09 23:12:09	11m 19s	condescending_sax	ERR	adf54427b8c5b90e270201a62c5bfba9	ce9b50f2-01ba-42f6-b535-1e44ad545df0	nextflow run main.nf -c run_working_models.config -profile local,docker
+2026-01-09 23:23:32	-	backstabbing_cajal	-	adf54427b8c5b90e270201a62c5bfba9	ce9b50f2-01ba-42f6-b535-1e44ad545df0	nextflow run main.nf -c run_working_models.config -profile local,docker -resume
+2026-01-09 23:25:41	-	awesome_thompson	-	adf54427b8c5b90e270201a62c5bfba9	ce9b50f2-01ba-42f6-b535-1e44ad545df0	nextflow run main.nf -c run_working_models.config -profile local,docker -resume
+2026-01-09 23:28:18	-	marvelous_kimura	-	adf54427b8c5b90e270201a62c5bfba9	ce9b50f2-01ba-42f6-b535-1e44ad545df0	nextflow run main.nf -c run_working_models.config -profile local,docker -resume
+2026-01-09 23:29:54	4.5s	grave_borg	ERR	adf54427b8c5b90e270201a62c5bfba9	ce9b50f2-01ba-42f6-b535-1e44ad545df0	nextflow run main.nf -c run_working_models.config -profile local,docker -resume
+2026-01-09 23:34:13	10m	naughty_kimura	ERR	adf54427b8c5b90e270201a62c5bfba9	ce9b50f2-01ba-42f6-b535-1e44ad545df0	nextflow run main.nf -c run_working_models.config -profile local,docker -resume
+2026-01-09 23:51:35	9m 59s	distraught_hugle	ERR	adf54427b8c5b90e270201a62c5bfba9	ce9b50f2-01ba-42f6-b535-1e44ad545df0	nextflow run main.nf -c run_working_models.config -profile local,docker -resume
+2026-01-10 00:05:37	14m 59s	admiring_stallman	ERR	adf54427b8c5b90e270201a62c5bfba9	ce9b50f2-01ba-42f6-b535-1e44ad545df0	nextflow run main.nf -c run_working_models.config -profile local,docker -resume
+2026-01-10 00:21:45	14m 58s	adoring_euclid	ERR	adf54427b8c5b90e270201a62c5bfba9	ce9b50f2-01ba-42f6-b535-1e44ad545df0	nextflow run main.nf -c run_working_models.config -profile local,docker -resume
+2026-01-10 00:46:04	14m 59s	silly_lichterman	ERR	adf54427b8c5b90e270201a62c5bfba9	ce9b50f2-01ba-42f6-b535-1e44ad545df0	nextflow run main.nf -c run_working_models.config -profile local,docker -resume
+2026-01-10 01:05:44	29s	intergalactic_kalam	OK	adf54427b8c5b90e270201a62c5bfba9	d60db3b1-7ae0-4345-b47f-998e7dd4ee5a	nextflow run main.nf -c run_qc_only.config -profile local,docker

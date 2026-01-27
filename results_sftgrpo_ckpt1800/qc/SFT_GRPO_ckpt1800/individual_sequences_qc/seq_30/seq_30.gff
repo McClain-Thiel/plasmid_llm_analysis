@@ -1,0 +1,4 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=1635;seqhdr="seq_30"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="40|Rothia_dentocariosa_ATCC_17931|B|53.7|11|1";gc_cont=53.70;transl_table=11;uses_sd=1
+seq_30	Prodigal_v2.6.3	CDS	402	905	20.9	-	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.532;conf=99.18;score=20.85;cscore=5.60;sscore=15.25;rscore=10.64;uscore=1.03;tscore=3.58;

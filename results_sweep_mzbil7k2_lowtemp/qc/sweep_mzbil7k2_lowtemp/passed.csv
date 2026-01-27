@@ -1,0 +1,3 @@
+Plasmid_ID,Ori's present,Identity of each ori,Cov of each ori,ARG's present,Identity of ARGs,Cov of ARGs
+seq_55,ColE1,99.66,100.00,aph(3')-Ia,100.00,100.00
+seq_97,ColE1,99.49,100.00,blaTEM-116,100.00,100.00

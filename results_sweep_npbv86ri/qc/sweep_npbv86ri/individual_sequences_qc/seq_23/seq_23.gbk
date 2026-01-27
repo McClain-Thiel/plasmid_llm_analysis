@@ -1,0 +1,9 @@
+DEFINITION  seqnum=1;seqlen=6606;seqhdr="seq_23";version=Prodigal.v2.6.3;run_type=Metagenomic;model="25|Marinobacter_aquaeolei_VT8|B|57.3|11|1";gc_cont=57.30;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             946..1974
+                     /note="ID=1_1;partial=00;start_type=TTG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.582;conf=100.00;score=53.88;cscore=48.19;sscore=5.69;rscore=8.62;uscore=4.33;tscore=-7.25;"
+     CDS             2056..3015
+                     /note="ID=1_2;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.610;conf=100.00;score=175.03;cscore=171.85;sscore=3.17;rscore=1.44;uscore=-2.10;tscore=3.83;"
+     CDS             3449..3730
+                     /note="ID=1_3;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.514;conf=93.23;score=11.41;cscore=5.55;sscore=5.86;rscore=1.44;uscore=1.25;tscore=3.83;"
+//

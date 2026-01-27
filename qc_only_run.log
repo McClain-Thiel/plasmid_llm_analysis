@@ -1,0 +1,50 @@
+N E X T F L O W  ~  version 25.10.2
+Launching `main.nf` [intergalactic_kalam] DSL2 - revision: adf54427b8
+
+    ╔═══════════════════════════════════════════════════════════════╗
+    ║           P L A S M I D   A N A L Y T I C S                   ║
+    ║                                                               ║
+    ║   Generation • Quality Control • Evaluation                   ║
+    ╚═══════════════════════════════════════════════════════════════╝
+
+    Mode        : qc
+    Output      : ./results
+    
+
+    Input       : /home/ubuntu/plasmid_llm_analysis/results/generated
+        
+───────────────────────────────────────────────────────────────
+[skipping] Stored process > QC:MAKE_BLAST_DB (1)
+[32/25988f] Submitted process > QC:AMRFINDER (McClain_PlasmidGPT_RL_ATG)
+[96/c28eb3] Submitted process > QC:MOB_TYPER (UCL_CSSB_PlasmidGPT_ATG)
+[b9/b9e0b6] Submitted process > QC:MOB_TYPER (McClain_PlasmidGPT_RL_ATG)
+[3a/4d633d] Submitted process > QC:MOB_TYPER (McClain_PlasmidGPT_RL_GFP_cassette)
+[50/74b47e] Submitted process > QC:AMRFINDER (McClain_PlasmidGPT_RL_GFP_cassette)
+[ed/74a44e] Submitted process > QC:AMRFINDER (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[1a/1031ca] Submitted process > QC:MOB_TYPER (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[eb/798d4b] Submitted process > QC:FIND_REPEATS (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[12/a1b26c] Submitted process > QC:FIND_REPEATS (McClain_PlasmidGPT_RL_ATG)
+[7b/197f69] Submitted process > QC:PRODIGAL (McClain_PlasmidGPT_RL_GFP_cassette)
+[e6/9452fb] Submitted process > QC:PRODIGAL (McClain_PlasmidGPT_RL_ATG)
+[23/9d2040] Submitted process > QC:PRODIGAL (UCL_CSSB_PlasmidGPT_ATG)
+[a4/626584] Submitted process > QC:FIND_REPEATS (McClain_PlasmidGPT_RL_GFP_cassette)
+[cd/f70190] Submitted process > QC:FIND_REPEATS (UCL_CSSB_PlasmidGPT_ATG)
+[69/0133dc] Submitted process > QC:PRODIGAL (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[a6/f1d6ef] Submitted process > QC:AMRFINDER (UCL_CSSB_PlasmidGPT_ATG)
+[06/16a1bb] Submitted process > QC:BLAST_ORI (McClain_PlasmidGPT_RL_GFP_cassette)
+[72/582bb3] Submitted process > QC:BLAST_ORI (UCL_CSSB_PlasmidGPT_ATG)
+[14/521d3c] Submitted process > QC:AGGREGATE_AMR
+[99/742fc2] Submitted process > QC:BLAST_ORI (McClain_PlasmidGPT_RL_ATG)
+[e1/8f2274] Submitted process > QC:BLAST_ORI (UCL_CSSB_PlasmidGPT_GFP_cassette)
+[4e/f82a71] Submitted process > QC:AGGREGATE_ORI
+[fb/df74af] Submitted process > QC:AGGREGATE_REPEATS
+[57/a435d8] Submitted process > QC:FILTER_QC
+
+    ───────────────────────────────────────────────────────────────
+    Pipeline completed!
+
+    Status    : SUCCESS
+    Duration  : 28.3s
+    Output    : ./results
+    ───────────────────────────────────────────────────────────────
+    

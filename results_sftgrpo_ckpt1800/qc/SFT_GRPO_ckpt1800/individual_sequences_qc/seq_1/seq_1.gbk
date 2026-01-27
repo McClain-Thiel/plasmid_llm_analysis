@@ -1,0 +1,5 @@
+DEFINITION  seqnum=1;seqlen=1516;seqhdr="seq_1";version=Prodigal.v2.6.3;run_type=Metagenomic;model="46|Tropheryma_whipplei_TW08_27|B|46.3|11|1";gc_cont=46.30;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             748..1344
+                     /note="ID=1_1;partial=00;start_type=GTG;rbs_motif=AGxAG;rbs_spacer=5-10bp;gc_cont=0.523;conf=99.96;score=34.02;cscore=34.76;sscore=-0.74;rscore=-0.51;uscore=-0.88;tscore=0.66;"
+//

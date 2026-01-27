@@ -1,0 +1,8 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=9225;seqhdr="seq_25"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="20|Escherichia_coli_UMN026|B|50.7|11|1";gc_cont=50.70;transl_table=11;uses_sd=1
+seq_25	Prodigal_v2.6.3	CDS	220	1098	100.9	+	0	ID=1_1;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.553;conf=100.00;score=100.86;cscore=108.06;sscore=-7.20;rscore=2.79;uscore=-3.36;tscore=-6.63;
+seq_25	Prodigal_v2.6.3	CDS	2883	3257	55.4	+	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.699;conf=100.00;score=54.73;cscore=39.08;sscore=15.65;rscore=11.19;uscore=1.16;tscore=3.95;
+seq_25	Prodigal_v2.6.3	CDS	4162	4476	27.6	+	0	ID=1_3;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.619;conf=99.80;score=27.00;cscore=22.04;sscore=4.96;rscore=2.79;uscore=-1.13;tscore=3.95;
+seq_25	Prodigal_v2.6.3	CDS	6895	7755	66.5	+	0	ID=1_4;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.491;conf=100.00;score=65.80;cscore=48.55;sscore=17.25;rscore=10.71;uscore=3.25;tscore=3.95;
+seq_25	Prodigal_v2.6.3	CDS	8508	9119	15.8	+	0	ID=1_5;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.650;conf=96.99;score=15.11;cscore=8.12;sscore=6.99;rscore=3.78;uscore=-0.09;tscore=3.95;

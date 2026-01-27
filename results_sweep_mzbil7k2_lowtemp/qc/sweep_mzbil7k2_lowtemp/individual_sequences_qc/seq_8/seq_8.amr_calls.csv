@@ -1,0 +1,6 @@
+sequence,symbol,name,start,end,strand,pct_identity,pct_cov
+seq_8,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,1644,2435,+,100.0,100.0
+seq_8,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,3946,4803,-,100.0,100.0
+seq_8,aph(3')-IIa,aminoglycoside O-phosphotransferase APH(3')-IIa,8592,9383,+,100.0,100.0
+seq_8,blaTEM-116,broad-spectrum class A beta-lactamase TEM-116,10891,11748,-,100.0,100.0
+seq_8,catA1,type A-1 chloramphenicol O-acetyltransferase,14421,15077,+,100.0,100.0
