@@ -119,8 +119,8 @@ def run_blast_batch(seq_dict, db_path):
             if len(parts) < 4: continue
             qid, pident, length, qlen = parts[0], float(parts[1]), float(parts[2]), float(parts[3])
             cov = length / qlen
-            if pident > 95 and cov > 0.90: cls = "Exact Match"
-            elif pident > 80: cls = "Similar"
+            if pident >= 99 and cov >= 0.95: cls = "Exists"
+            elif pident >= 95 and cov >= 0.80: cls = "Similar"
             else: cls = "Novel"
             results_map[qid] = cls
     except Exception as e:
@@ -139,7 +139,10 @@ def process_single_plasmid(args):
     return {"Model": model_tag, "Prompt": prompt_tag, "Name": name_tag, "Length": len(seq_str), "GC": gc, "Num_ORFs_>=100AA": n_orfs, "JS_3mer_vs_real": js3, "Longest_ORF_ATG_both": both, "MFE_Density": mfe_density}
 
 def save_plot(filename):
-    plt.tight_layout(); plt.savefig(filename, dpi=300); plt.close()
+    plt.tight_layout()
+    plt.savefig(filename, dpi=300)
+    plt.savefig(filename.replace('.png', '.pdf'))
+    plt.close()
 
 def main(sm):
     try:
@@ -147,7 +150,7 @@ def main(sm):
         out_dir = os.path.dirname(sm.output.summary)
         data_dir = os.path.join(out_dir, "../../data")
         db_path = os.path.join(data_dir, "refseq_data/refseq_plasmids")
-        sns.set_theme(style="whitegrid", context="paper", font_scale=1.4)
+        sns.set_theme(style="white", context="paper", font_scale=1.4)
 
         print("[STATUS] Loading data...", flush=True)
         summary_rows = []; model_sequences = {m: [] for m in sm.params.models}; blast_candidates = {}

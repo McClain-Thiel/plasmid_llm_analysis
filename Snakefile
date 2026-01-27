@@ -10,7 +10,8 @@ rule all:
         f"{OUT}/analysis/surprisal_benchmark.csv",
         f"{OUT}/analysis/pass_rate.png",
         f"{OUT}/analysis/metrics_plots.png",
-        f"{OUT}/analysis/report.html"
+        f"{OUT}/analysis/report.html",
+        f"{OUT}/publication/"
 
 # ... (existing rules) ...
 
@@ -145,3 +146,34 @@ rule analyze:
         f"{OUT}/benchmarks/analyze_rule.tsv"
     script:
         "src/scripts/analyze.py"
+
+# --- 6. Publication Figures ---
+rule publication_figures:
+    input:
+        qc_pass_csvs = expand(f"{OUT}/qc/{{model}}/passed.csv", model=MODELS),
+        generations = expand(f"{OUT}/generations/{{model}}/outputs.csv", model=MODELS),
+        summary = f"{OUT}/analysis/model_comparison_summary.csv"
+    output:
+        pub_dir = directory(f"{OUT}/publication/")
+    params:
+        results_dir = OUT
+    shell:
+        """
+        RESULTS_DIR={params.results_dir} python src/scripts/publication_figures.py
+        RESULTS_DIR={params.results_dir} python src/scripts/distribution_grid.py
+        """
+
+# --- 7. NCBI BLAST Novelty Charts (Optional) ---
+# Run this rule manually if you have NCBI BLAST results:
+#   snakemake --cores 1 ncbi_blast_novelty
+rule ncbi_blast_novelty:
+    input:
+        blast_results = expand(f"{OUT}/ncbi_blast/{{model}}_blast_results.tsv", model=MODELS)
+    output:
+        counts = f"{OUT}/publication/novelty_counts.csv"
+    params:
+        results_dir = OUT
+    shell:
+        """
+        RESULTS_DIR={params.results_dir} python src/scripts/generate_novelty_charts.py
+        """
