@@ -1,5 +1,0 @@
-model,n_sequences,n_passed,n_failed,pass_rate,generation_success_rate
-McClain_PlasmidGPT_RL,50,0,50,0.0,
-McClain_PlasmidGPT_RL_GFP,50,0,50,0.0,
-UCL_CSSB_PlasmidGPT,50,0,50,0.0,
-UCL_CSSB_PlasmidGPT_GFP,50,0,50,0.0,

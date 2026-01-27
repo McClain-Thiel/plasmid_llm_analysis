@@ -1,7 +1,0 @@
-model_a,model_b,metric,mean_a,mean_b,test_statistic,p_value,significant
-McClain_PlasmidGPT_RL,McClain_PlasmidGPT_RL_GFP,pass_rate,0.0,0.0,1250.0,1.0,False
-McClain_PlasmidGPT_RL,UCL_CSSB_PlasmidGPT,pass_rate,0.0,0.0,1250.0,1.0,False
-McClain_PlasmidGPT_RL,UCL_CSSB_PlasmidGPT_GFP,pass_rate,0.0,0.0,1250.0,1.0,False
-McClain_PlasmidGPT_RL_GFP,UCL_CSSB_PlasmidGPT,pass_rate,0.0,0.0,1250.0,1.0,False
-McClain_PlasmidGPT_RL_GFP,UCL_CSSB_PlasmidGPT_GFP,pass_rate,0.0,0.0,1250.0,1.0,False
-UCL_CSSB_PlasmidGPT,UCL_CSSB_PlasmidGPT_GFP,pass_rate,0.0,0.0,1250.0,1.0,False

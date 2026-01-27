@@ -1,1 +1,0 @@
-/home/ubuntu/plasmid_llm_analysis/assets/databases/ori_db.njs
