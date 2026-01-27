@@ -17,8 +17,12 @@ import seaborn as sns
 from pathlib import Path
 from collections import Counter
 from scipy.spatial.distance import jensenshannon
+from multiprocessing import Pool, cpu_count
 import warnings
 warnings.filterwarnings('ignore')
+
+# Number of parallel workers for MFE computation (leave some cores free)
+MFE_WORKERS = min(8, max(1, cpu_count() - 4))
 
 # Try to import ViennaRNA for MFE calculation
 try:
@@ -36,6 +40,7 @@ PROJECT_ROOT = SCRIPT_DIR.parent.parent
 BASE_DIR = Path(os.environ.get('RESULTS_DIR', PROJECT_ROOT / 'results'))
 PUB_DIR = BASE_DIR / 'publication'
 REAL_DIR = Path(os.environ.get('REAL_PLASMIDS_DIR', PROJECT_ROOT / 'assets' / 'annotations'))
+ADDGENE_DIR = Path(os.environ.get('ADDGENE_DIR', PROJECT_ROOT.parent / 'addgene_reconcile'))
 
 PUB_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -67,11 +72,10 @@ def compute_gc(seq):
 
 def compute_mfe_density(seq):
     """Compute MFE density (MFE / length) for circular DNA."""
-    if not HAS_RNA:
-        return np.nan
     if pd.isna(seq) or len(seq) < 100:
         return np.nan
     try:
+        import RNA  # Import inside function for multiprocessing
         seq = seq.upper().replace('N', 'A')  # Replace N with A
         md = RNA.md()
         md.circ = 1  # Circular
@@ -80,6 +84,12 @@ def compute_mfe_density(seq):
         return mfe / len(seq)
     except:
         return np.nan
+
+
+def _compute_mfe_worker(args):
+    """Worker function for parallel MFE computation."""
+    idx, seq = args
+    return idx, compute_mfe_density(seq)
 
 
 def kmer_distribution(seq, k=3):
@@ -110,8 +120,46 @@ def load_data():
     """Load all sequences from real plasmids and generated models."""
     all_data = []
 
-    # Load real plasmids
-    if REAL_DIR.exists():
+    # Load real plasmids from Addgene with pre-calculated MFE
+    addgene_mfe_csv = ADDGENE_DIR / 'addgene_consolidated_mfe.csv'
+    addgene_seq_dir = ADDGENE_DIR / 'sequences'
+
+    if addgene_mfe_csv.exists() and addgene_seq_dir.exists():
+        print(f"Loading Addgene plasmids from: {ADDGENE_DIR}")
+        mfe_df = pd.read_csv(addgene_mfe_csv)
+
+        # Create lookup for pre-calculated MFE (only rows with Status=ok)
+        mfe_lookup = {}
+        for _, row in mfe_df[mfe_df['Status'] == 'ok'].iterrows():
+            mfe_lookup[int(row['VectorID'])] = row['MFE_per_nt']
+
+        # Load all FASTA files
+        for f in addgene_seq_dir.glob('*.fasta'):
+            try:
+                vector_id = int(f.stem)
+            except ValueError:
+                continue
+
+            with open(f) as fh:
+                seq = ''.join(line.strip() for line in fh if not line.startswith('>'))
+
+            if seq and len(seq) > 1000:
+                entry = {
+                    'model': 'Real',
+                    'full': seq.upper(),
+                    'seq_length': len(seq),
+                }
+                # Use pre-calculated MFE if available
+                if vector_id in mfe_lookup:
+                    entry['mfe_density'] = mfe_lookup[vector_id]
+                    entry['precomputed_mfe'] = True
+                all_data.append(entry)
+
+        print(f"  Loaded {sum(1 for d in all_data if d['model'] == 'Real')} Addgene plasmids")
+        print(f"  ({sum(1 for d in all_data if d.get('precomputed_mfe'))} with pre-calculated MFE)")
+
+    # Fallback to legacy real plasmids directory if Addgene not found
+    elif REAL_DIR.exists():
         print(f"Loading real plasmids from: {REAL_DIR}")
         for f in REAL_DIR.glob('*.fasta'):
             # Skip cassette files if present
@@ -127,7 +175,7 @@ def load_data():
                     })
         print(f"  Loaded {sum(1 for d in all_data if d['model'] == 'Real')} real plasmids")
     else:
-        print(f"Warning: Real plasmids directory not found: {REAL_DIR}")
+        print(f"Warning: No real plasmids directory found (checked {ADDGENE_DIR} and {REAL_DIR})")
 
     # Load generated sequences
     for model_dir in ['Base', 'SFT', 'RL']:
@@ -165,7 +213,8 @@ def main():
     print("Creating Distribution Grid")
     print("=" * 60)
     print(f"Results directory: {BASE_DIR}")
-    print(f"Real plasmids directory: {REAL_DIR}")
+    print(f"Addgene directory: {ADDGENE_DIR}")
+    print(f"Legacy real plasmids: {REAL_DIR}")
     print(f"Publication output: {PUB_DIR}")
 
     print("\nLoading data...")
@@ -183,18 +232,38 @@ def main():
     df['gc'] = df['full'].apply(compute_gc)
 
     # Compute MFE density (can be slow)
-    if HAS_RNA:
-        print("Computing MFE density (this may take a while)...")
-        total = len(df)
-        mfe_values = []
-        for i, seq in enumerate(df['full']):
-            if i % 20 == 0:
-                print(f"  MFE progress: {i}/{total} ({100*i/total:.0f}%)", flush=True)
-            mfe_values.append(compute_mfe_density(seq))
-        df['mfe_density'] = mfe_values
-        print(f"  MFE progress: {total}/{total} (100%)")
-    else:
+    # Skip sequences that already have pre-calculated MFE
+    if 'mfe_density' not in df.columns:
         df['mfe_density'] = np.nan
+
+    if HAS_RNA:
+        # Only compute MFE for sequences that don't have pre-calculated values
+        needs_mfe = df['mfe_density'].isna()
+        precomputed_count = (~needs_mfe).sum()
+        to_compute_count = needs_mfe.sum()
+
+        if precomputed_count > 0:
+            print(f"Using {precomputed_count} pre-calculated MFE values")
+
+        if to_compute_count > 0:
+            print(f"Computing MFE density for {to_compute_count} sequences using {MFE_WORKERS} workers...")
+            # Prepare work items: (index, sequence) tuples
+            work_items = [(idx, row['full']) for idx, row in df[needs_mfe].iterrows()]
+
+            # Parallel computation
+            with Pool(MFE_WORKERS) as pool:
+                results = []
+                for i, result in enumerate(pool.imap_unordered(_compute_mfe_worker, work_items, chunksize=5)):
+                    results.append(result)
+                    if (i + 1) % 20 == 0 or (i + 1) == to_compute_count:
+                        print(f"  MFE progress: {i+1}/{to_compute_count} ({100*(i+1)/to_compute_count:.0f}%)", flush=True)
+
+            # Apply results back to dataframe
+            for idx, mfe_val in results:
+                df.at[idx, 'mfe_density'] = mfe_val
+    else:
+        # Only set NaN for rows without pre-calculated MFE
+        df.loc[df['mfe_density'].isna(), 'mfe_density'] = np.nan
 
     # Compute 3-mer JS divergence
     print("Computing 3-mer JS divergence...")
