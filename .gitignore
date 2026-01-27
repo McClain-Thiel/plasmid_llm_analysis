@@ -11,3 +11,4 @@ __pycache__/
 
 # BLAST DB files generated in data/
 data/oridb_nucl*
+assets/ori_db.fasta
