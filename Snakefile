@@ -161,6 +161,7 @@ rule publication_figures:
         """
         RESULTS_DIR={params.results_dir} python src/scripts/publication_figures.py
         RESULTS_DIR={params.results_dir} python src/scripts/distribution_grid.py
+        RESULTS_DIR={params.results_dir} python src/scripts/generate_paper_stats.py
         """
 
 # --- 7. NCBI BLAST Novelty Charts (Optional) ---
