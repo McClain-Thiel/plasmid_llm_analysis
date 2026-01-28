@@ -1,0 +1,637 @@
+VectorID,Name,Vector Type,Source,Sequence Available,URL,Length,MFE,MFE_per_nt,Status
+1447,EMSV,Mammalian Expression,,No,https://www.addgene.org/vector-database/1447/,9450,-3506.5,-0.37105820105820103,ok
+1454,GFP-RV-DV,Mammalian Expression,,No,https://www.addgene.org/vector-database/1454/,9423,-3430.2,-0.36402419611588666,ok
+8116,gWIZ,Mammalian Expression,Genlantis,Yes,https://www.addgene.org/vector-database/8116/,,,,
+1462,JP1520,Mammalian Expression,Harvard Institute of Proteomics,Yes,https://www.addgene.org/vector-database/1462/,12144,-3993.27,-0.328826581027668,ok
+1605,MU6PRO,Mammalian Expression,David Turner lab,Yes,https://www.addgene.org/vector-database/1605/,3436,-1168.1,-0.3399592549476135,ok
+1611,p1318,Mammalian Expression,,No,https://www.addgene.org/vector-database/1611/,8042,-3434.1,-0.42702064163143494,ok
+1617,p2xFLAG-CMV2,Mammalian Expression,from Marius Sudol lab,No,https://www.addgene.org/vector-database/1617/,6141,-2229.4,-0.36303533626445206,ok
+1619,p3xFLAG-CMV-10,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/1619/,9274,-3230.8,-0.3483717921069657,ok
+1620,p3xFLAG-CMV-13,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/1620/,8824,-3145.2,-0.35643699002719853,ok
+1621,p3xFLAG-CMV-14,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/1621/,8571,-2983.2,-0.3480574028701435,ok
+1622,p3xFlag-CMV-7.1,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/1622/,6425,-2232.1,-0.34740856031128403,ok
+1623,p3xFlag-CMV7,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/1623/,7057,-2757.4,-0.39073260592319686,ok
+1624,p3xFLAG-CMV8,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/1624/,,,,
+6164,p3xFLAG-CMV™-7,Mammalian Expression,Sigma-Aldrich,Yes,https://www.addgene.org/vector-database/6164/,7057,-2757.4,-0.39073260592319686,ok
+6165,p3xFLAG-CMV™-9,Mammalian Expression,Sigma-Aldrich,Yes,https://www.addgene.org/vector-database/6165/,,,,
+1625,p3xFLAG-Myc-CMV-23,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/1625/,,,,
+1626,p3xFLAG-Myc-CMV-24,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/1626/,8736,-3003.9,-0.343853021978022,ok
+1627,p3xFLAG-Myc-CMV-25,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/1627/,,,,
+1628,p3xFLAG-Myc-CMV-26,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/1628/,,,,
+1661,pAcGFP1-1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/1661/,5137,-1763.0,-0.34319641814288493,ok
+1662,pAcGFP1-Actin,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/1662/,,,,
+1663,pAcGFP1-C1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/1663/,8835,-3618.3,-0.40954159592529715,ok
+1666,pAcGFP1-N1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/1666/,5395,-1975.2,-0.3661167747914736,ok
+1671,pACT,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/1671/,17680,-5418.5,-0.3064762443438914,ok
+1672,pACT-MyoD,Mammalian Expression,Promega,No,https://www.addgene.org/vector-database/1672/,,,,
+1683,pAd/CMV/V5 DEST Gateway (ViraPower),Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/1683/,,,,
+1689,pAdeno-X,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/1689/,35000,,,fail
+1691,pAdTrack-CMV,"Mammalian Expression, Adenoviral",ATCC,Yes,https://www.addgene.org/vector-database/1691/,9237,-3394.1,-0.36744614052181446,ok
+1732,pAmCyan1-C1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/1732/,8200,-3244.4,-0.39565853658536587,ok
+1733,pAmCyan1-N1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/1733/,,,,
+1776,pAsRed2-C1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/1776/,,,,
+1777,pAsRed2-N1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/1777/,,,,
+7085,pB,"Retroviral, Mammalian Expression","Bogan Lab, Yale",Yes,https://www.addgene.org/vector-database/7085/,,,,
+1814,pBABE puroL,"Mammalian Expression, Retroviral",,No,https://www.addgene.org/vector-database/1814/,6357,-2165.4,-0.34063237376120814,ok
+1815,pBABE puroL Flag HA,"Mammalian Expression, Retroviral",,No,https://www.addgene.org/vector-database/1815/,,,,
+1816,pBABE-MN-IRES-E-GFP,"Mammalian Expression, Retroviral",Nolan lab,Yes,https://www.addgene.org/vector-database/1816/,7086,-2513.1,-0.3546570702794242,ok
+1817,pBabe-X,"Mammalian Expression, Retroviral",,No,https://www.addgene.org/vector-database/1817/,,,,
+1885,pbgal-Basic,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/1885/,,,,
+7868,pBGSA,Mammalian Expression,"Bruce Granger, PMID 8867788",No,https://www.addgene.org/vector-database/7868/,,,,
+1907,pBI,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/1907/,9672,-5084.9,-0.5257340777502068,ok
+6166,pBI-CMV1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6166/,,,,
+6167,pBI-CMV2,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6167/,,,,
+6168,pBI-CMV3,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6168/,,,,
+6169,pBI-CMV4,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6169/,,,,
+6291,pBI-CMV5,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6291/,,,,
+1908,pBI-EGFP,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/1908/,7047,-2601.5,-0.36916418334042855,ok
+1909,pBI-G,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/1909/,4341,-1859.2,-0.42828841280810875,ok
+7086,pBICD2,"Mammalian Expression, Retroviral",,Yes,https://www.addgene.org/vector-database/7086/,,,,
+1919,pBIND,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/1919/,,,,
+1920,pBIND-Id Control,Mammalian Expression,Promega,No,https://www.addgene.org/vector-database/1920/,,,,
+1922,pBJ,Mammalian Expression,,Yes,https://www.addgene.org/vector-database/1922/,4603,-1795.7,-0.39011514229850097,ok
+1923,pBJ1-Neo,Mammalian Expression,,No,https://www.addgene.org/vector-database/1923/,7135,-2743.1,-0.38445690259285215,ok
+1924,pBJ5,Mammalian Expression,,No,https://www.addgene.org/vector-database/1924/,3981,-1348.0,-0.33860838985179603,ok
+1925,pBJ5-stop,Mammalian Expression,,No,https://www.addgene.org/vector-database/1925/,5267,-1776.8,-0.3373457376115436,ok
+1926,pBK-CMV,Mammalian Expression,Stratagene,Yes,https://www.addgene.org/vector-database/1926/,7626,-2550.3,-0.33442171518489383,ok
+1936,pBlue TOPO,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/1936/,,,,
+1938,pBlueBac His2,Mammalian Expression,Invitrogen,No,https://www.addgene.org/vector-database/1938/,,,,
+2009,pBROAD3-mcs,Mammalian Expression,Invivogen,Yes,https://www.addgene.org/vector-database/2009/,,,,
+2034,pBudCE4.1,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2034/,,,,
+738,pBV-Luc,"Mammalian Expression, Luciferase",Bert Vogelstein Lab,Yes,https://www.addgene.org/vector-database/738/,5339,-1806.5,-0.33835924330398953,ok
+2042,pCAGGS,Mammalian Expression,BCCM,Yes,https://www.addgene.org/vector-database/2042/,5832,-2225.6,-0.38161865569272974,ok
+2043,pCAGGS-Svoboda,Mammalian Expression,Svoboda lab,Yes,https://www.addgene.org/vector-database/2043/,,,,
+2057,pCAT3-Basic,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/2057/,,,,
+2058,pCAT3-Control,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/2058/,,,,
+2059,pCAT3-Enhancer,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/2059/,,,,
+2060,pCAT3-Promoter,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/2060/,,,,
+2062,pCAX,Mammalian Expression,,Yes,https://www.addgene.org/vector-database/2062/,6742,-2641.8,-0.3918421833283892,ok
+2071,pCB6 (Mammalian Expression),Mammalian Expression,,Yes,https://www.addgene.org/vector-database/2071/,,,,
+2079,pCDF1-MCS2-EF1-Puro,Mammalian Expression,System Biosciences,Yes,https://www.addgene.org/vector-database/2079/,8608,-3158.2,-0.3668912639405204,ok
+2082,pCDH-CMV-MCS-EF1-Puro,"Mammalian Expression, RNAi",System Biosciences,Yes,https://www.addgene.org/vector-database/2082/,8595,-3116.5,-0.36259453170447936,ok
+2083,pCDH1-MCS2-EF1-copGFP,Mammalian Expression,System Biosciences,Yes,https://www.addgene.org/vector-database/2083/,,,,
+2084,pcDL-SRa296,Mammalian Expression,,No,https://www.addgene.org/vector-database/2084/,,,,
+2085,pCDM8,Mammalian Expression,BCCM/LMBP,Yes,https://www.addgene.org/vector-database/2085/,5831,-2153.7,-0.36935345566798145,ok
+2086,pcDNA DEST40,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2086/,7130,-2677.2,-0.3754838709677419,ok
+2087,pcDNA-DEST47,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2087/,8667,-3207.7,-0.3701049959616938,ok
+2088,pcDNA-DEST53,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2088/,7720,-2881.3,-0.37322538860103627,ok
+2089,pcDNA1,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2089/,3649,-1335.1,-0.3658810633050151,ok
+2092,pcDNA3,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2092/,5933,-2179.7,-0.3673858081914714,ok
+2093,pcDNA3.1(+),Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2093/,5897,-2143.3,-0.36345599457351196,ok
+2094,pcDNA3.1(+)/myc-His A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2094/,6409,-2426.4,-0.3785926041504135,ok
+2095,pcDNA3.1(+)/myc-His B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2095/,8539,-2988.4,-0.3499707225670453,ok
+2096,pcDNA3.1(+)/myc-His C,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2096/,,,,
+2097,pcDNA3.1(-),Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2097/,8373,-2957.7,-0.35324256538874954,ok
+2098,pcDNA3.1/CT-GFP Fusion,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2098/,,,,
+2099,pcDNA3.1/CT-GFP TOPO,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2099/,8782,-2865.6,-0.32630380323388747,ok
+2100,pcDNA3.1/GS,Mammalian Expression,Invitrogen,No,https://www.addgene.org/vector-database/2100/,,,,
+2101,pcDNA3.1/His A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2101/,,,,
+2102,pcDNA3.1/His B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2102/,10745,-3963.5,-0.36886924150767797,ok
+2103,pcDNA3.1/His C,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2103/,6803,-2534.7,-0.3725856239894164,ok
+2104,pcDNA3.1/Hygro(+),Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2104/,7328,-2826.7,-0.3857396288209607,ok
+2105,pcDNA3.1/Hygro(-),Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2105/,9405,-3676.5,-0.39090909090909093,ok
+2106,pcDNA3.1/NT-GFP Fusion,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2106/,,,,
+2107,pcDNA3.1/NT-GFP-TOPO,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2107/,,,,
+2108,pcDNA3.1/nV5-DEST,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2108/,11370,-4359.9,-0.3834564643799472,ok
+5587,pcDNA3.1/V5-His-TOPO,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/5587/,,,,
+2109,pcDNA3.1/V5-His-TOPO/lacZ,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2109/,,,,
+2110,pcDNA3.1/Zeo(+),Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2110/,6755,-2526.3,-0.3739896373056995,ok
+2111,pcDNA3.1/Zeo(-),Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2111/,6348,-2249.5,-0.3543635790800252,ok
+2112,pcDNA3.1D V5-His-TOPO,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2112/,7520,-2713.3,-0.360811170212766,ok
+2113,pcDNA3.2/V5-DEST,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2113/,7449,-2732.7,-0.36685461135722913,ok
+2114,pcDNA3.2/V5-GW/Directional TOPO,Mammalian Expression,Invitrogen,No,https://www.addgene.org/vector-database/2114/,,,,
+2115,pcDNA3.3 TOPO TA,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2115/,6377,-2278.4,-0.3572839893366787,ok
+2117,pcDNA4/His A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2117/,,,,
+2118,pcDNA4/His B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2118/,,,,
+2119,pcDNA4/His C,Mammalian Expression,Invirtogen,Yes,https://www.addgene.org/vector-database/2119/,,,,
+2120,pcDNA4/His-Max A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2120/,,,,
+2121,pcDNA4/His-Max B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2121/,6634,-2513.0,-0.37880615013566477,ok
+2122,pcDNA4/His-Max C,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2122/,9310,-3323.1,-0.3569387755102041,ok
+2123,pcDNA4/myc-His A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2123/,7943,-2988.3,-0.37621805363212896,ok
+2124,pcDNA4/myc-His B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2124/,,,,
+2125,pcDNA4/myc-His C,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2125/,,,,
+5705,pcDNA4/TO,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/5705/,,,,
+2126,pcDNA4/TO/Myc-His A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2126/,6515,-2427.4,-0.3725863392171911,ok
+2127,pcDNA4/TO/Myc-His B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2127/,,,,
+2128,pcDNA4/TO/Myc-His C,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2128/,,,,
+2129,pcDNA4/V5-His A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2129/,,,,
+2130,pcDNA4/V5-His B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2130/,,,,
+2131,pcDNA4/V5-His C,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2131/,,,,
+2132,pcDNA5/FRT,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2132/,7524,-2759.4,-0.3667464114832536,ok
+2133,pcDNA5/FRT/TO,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2133/,9658,-3352.3,-0.3471008490370677,ok
+2134,pcDNA5/FRT/TO-E,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2134/,,,,
+2135,pcDNA5/FRT/TO-TOPO,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2135/,,,,
+2136,pcDNA5/FRT/V5 His TOPO,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2136/,,,,
+2137,pcDNA5/FRT/V5-His TOPO,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2137/,,,,
+2138,pcDNA5/FRT/V5-His/CAT,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2138/,,,,
+5373,pcDNA5/TO,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/5373/,,,,
+2139,pcDNA6 BioEase-DEST,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2139/,,,,
+2140,pcDNA6.2/C-EmGFP-DEST,"Mammalian Expression, Gateway Destination Vector",Invitrogen,Yes,https://www.addgene.org/vector-database/2140/,7680,-2570.9,-0.3347526041666667,ok
+2141,pcDNA6.2/V5-DEST,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2141/,7294,-2537.5,-0.3478886756238004,ok
+2142,pcDNA6.2/V5-GW/Directional TOPO,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2142/,,,,
+2143,pcDNA6/His A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2143/,,,,
+2144,pcDNA6/His B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2144/,,,,
+2145,pcDNA6/His C,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2145/,,,,
+2146,pcDNA6/myc-His A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2146/,9537,-3600.2,-0.37749816504141764,ok
+2147,pcDNA6/myc-His B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2147/,,,,
+2148,pcDNA6/myc-His C,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2148/,,,,
+2149,pcDNA6/V5-His B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2149/,7549,-2622.6,-0.3474102530136442,ok
+2150,pcDNAI neo,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2150/,,,,
+6173,pcDNA™3.1/myc-His A,Mammalian Expression,Invitrogen (Life Technologies),Yes,https://www.addgene.org/vector-database/6173/,,,,
+6174,pcDNA™3.1/myc-His B,Mammalian Expression,Invitrogen (Life Technologies),Yes,https://www.addgene.org/vector-database/6174/,,,,
+6175,pcDNA™3.1/myc-His C,Mammalian Expression,Invitrogen (Life Technologies),Yes,https://www.addgene.org/vector-database/6175/,,,,
+6170,pcDNA™3.1/myc-His(-) A,Mammalian Expression,Invitrogen (Life Technologies),Yes,https://www.addgene.org/vector-database/6170/,,,,
+6171,pcDNA™3.1/myc-His(-) B,Mammalian Expression,Invitrogen (Life Technologies),Yes,https://www.addgene.org/vector-database/6171/,,,,
+6172,pcDNA™3.1/myc-His(-) C,Mammalian Expression,Invitrogen (Life Technologies),Yes,https://www.addgene.org/vector-database/6172/,,,,
+6176,pcDNA™3.1/V5-His A,Mammalian Expression,Invitrogen (Life Technologies),Yes,https://www.addgene.org/vector-database/6176/,,,,
+6177,pcDNA™3.1/V5-His B,Mammalian Expression,Invitrogen (Life Technologies),Yes,https://www.addgene.org/vector-database/6177/,,,,
+6178,pcDNA™3.1/V5-His C,Mammalian Expression,Invitrogen (Life Technologies),Yes,https://www.addgene.org/vector-database/6178/,,,,
+6179,pcDNA™4/HisMax A,Mammalian Expression,Invitrogen (Life Technologies),Yes,https://www.addgene.org/vector-database/6179/,,,,
+6180,pcDNA™4/HisMax B,Mammalian Expression,Invitrogen (Life Technologies),Yes,https://www.addgene.org/vector-database/6180/,6634,-2513.0,-0.37880615013566477,ok
+6181,pcDNA™4/HisMax C,Mammalian Expression,Invitrogen (Life Technologies),Yes,https://www.addgene.org/vector-database/6181/,,,,
+6182,pcDNA™4/myc-His A,Mammalian Expression,Invitrogen (Life Technologies),Yes,https://www.addgene.org/vector-database/6182/,,,,
+6183,pcDNA™4/myc-His B,Mammalian Expression,Invitrogen (Life Technologies),Yes,https://www.addgene.org/vector-database/6183/,,,,
+6184,pcDNA™4/myc-His C,Mammalian Expression,Invitrogen (Life Technologies),Yes,https://www.addgene.org/vector-database/6184/,,,,
+6185,pcDNA™6/V5-His C,Mammalian Expression,Invitrogen (Life Technologies),Yes,https://www.addgene.org/vector-database/6185/,,,,
+2156,pCEP4,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2156/,12916,-4704.8,-0.3642613812325798,ok
+2168,pCGN,Mammalian Expression,,No,https://www.addgene.org/vector-database/2168/,6678,-2429.5,-0.3638065289008685,ok
+2183,pCI,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/2183/,5528,-2016.3,-0.36474312590448627,ok
+2184,pCI-neo,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/2184/,7614,-2646.1,-0.3475308641975309,ok
+2185,pCIG,Mammalian Expression,,No,https://www.addgene.org/vector-database/2185/,13845,-5201.5,-0.3756951968219574,ok
+2186,pCIN,Mammalian Expression,,No,https://www.addgene.org/vector-database/2186/,16409,-4570.1,-0.27851179230909867,ok
+2189,pCl,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/2189/,4683,-1614.2,-0.3446935724962631,ok
+6295,pCLuc Mini-TK 2,"Mammalian Expression, Luciferase",New England Biolabs,Yes,https://www.addgene.org/vector-database/6295/,,,,
+2198,pCMS-EGFP,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2198/,7271,-2811.0,-0.38660431852564986,ok
+2199,pCMV Sport 2.2,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2199/,,,,
+2200,pCMV Sport 3,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2200/,,,,
+2201,pCMV Sport 4,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2201/,,,,
+5863,pCMV SPORT6,Mammalian Expression,Invitrogen (Life Technologies),Yes,https://www.addgene.org/vector-database/5863/,,,,
+5864,pCMV SPORT6.1,Mammalian Expression,Invitrogen (Life Technologies),Yes,https://www.addgene.org/vector-database/5864/,,,,
+6186,pCMV-(DYKDDDDK)-C,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6186/,,,,
+6187,pCMV-(DYKDDDDK)-N,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6187/,,,,
+2202,pCMV-3Tag-1A,Mammalian Expression,Stratagene,Yes,https://www.addgene.org/vector-database/2202/,,,,
+2203,pCMV-3Tag-1B,Mammalian Expression,Stratagene,Yes,https://www.addgene.org/vector-database/2203/,,,,
+2204,pCMV-3Tag-1C,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/2204/,,,,
+2205,pCMV-3Tag-2A,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/2205/,,,,
+2206,pCMV-3Tag-2B,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/2206/,,,,
+2207,pCMV-3Tag-2C,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/2207/,,,,
+2208,pCMV-3Tag-3A,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/2208/,,,,
+2209,pCMV-3Tag-3B,Mammalian Expression,Stratagene,Yes,https://www.addgene.org/vector-database/2209/,,,,
+2210,pCMV-3Tag-3C,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/2210/,,,,
+2211,pCMV-3Tag-4A,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/2211/,,,,
+2212,pCMV-3Tag-4B,Mammalian Expression,Stratagene,Yes,https://www.addgene.org/vector-database/2212/,,,,
+2213,pCMV-3Tag-4C,Mammalian Expression,Stratagene,Yes,https://www.addgene.org/vector-database/2213/,,,,
+2214,pCMV-3Tag-6,Mammalian Expression,Stratagene,Yes,https://www.addgene.org/vector-database/2214/,,,,
+2215,pCMV-3Tag-7,Mammalian Expression,Stratagene,Yes,https://www.addgene.org/vector-database/2215/,,,,
+2216,pCMV-3Tag-8,Mammalian Expression,Stratagene,Yes,https://www.addgene.org/vector-database/2216/,10493,-3370.2,-0.3211855522729439,ok
+2217,pCMV-3Tag-9,Mammalian Expression,Stratagene,Yes,https://www.addgene.org/vector-database/2217/,,,,
+2218,pCMV-BD,"Mammalian Expression, 2-hybrid",Stratagene,Yes,https://www.addgene.org/vector-database/2218/,,,,
+6296,pCMV-CLuc 2,"Mammalian Expression, Luciferase",New England Biolabs,Yes,https://www.addgene.org/vector-database/6296/,,,,
+2222,pCMV-HA,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2222/,4191,-1482.5,-0.3537341923168695,ok
+6188,pCMV-HA-C,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6188/,,,,
+6189,pCMV-HA-N,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6189/,6411,-2437.1,-0.38014350335361097,ok
+2223,pCMV-Myc,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2223/,4164,-1487.9,-0.35732468780019216,ok
+6190,pCMV-Myc-C,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6190/,,,,
+6191,pCMV-Myc-N,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6191/,,,,
+2224,pCMV-Script,Mammalian Expression,Stratagene,Yes,https://www.addgene.org/vector-database/2224/,4363,-1560.9,-0.35775842310336925,ok
+6192,pCMV-Script EX,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/6192/,,,,
+2226,pCMV-Sport 6,"Mammalian Expression,",Invitrogen,Yes,https://www.addgene.org/vector-database/2226/,8337,-3213.8,-0.3854863859901643,ok
+2227,pCMV-Sport 6.1,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2227/,,,,
+2228,pCMV-Sport2,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2228/,,,,
+6193,pCMV-Tag 2A,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/6193/,,,,
+6194,pCMV-Tag 2C,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/6194/,,,,
+6195,pCMV-Tag 3A,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/6195/,,,,
+6196,pCMV-Tag 3B,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/6196/,,,,
+6197,pCMV-Tag 3C,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/6197/,,,,
+5471,pCMV-Tag 4A,Mammalian Expression,Stratagene,Yes,https://www.addgene.org/vector-database/5471/,,,,
+6198,pCMV-Tag 4B,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/6198/,,,,
+6199,pCMV-Tag 4C,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/6199/,,,,
+6200,pCMV-Tag 5A,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/6200/,,,,
+6201,pCMV-Tag 5B,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/6201/,,,,
+6202,pCMV-Tag 5C,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/6202/,,,,
+2229,pCMV-Tag1,"Mammalian Expression, Bacterial Expression",Stratagene,Yes,https://www.addgene.org/vector-database/2229/,,,,
+2230,pCMV-Tag2,"Mammalian Expression,",Stratagene,Yes,https://www.addgene.org/vector-database/2230/,9847,-3876.4,-0.3936630445821062,ok
+5803,pCMV-Tag2B,Mammalian Expression,Stratagene,Yes,https://www.addgene.org/vector-database/5803/,4645,-1695.1,-0.3649300322927879,ok
+2231,pCMV-Tag3,"Mammalian Expression,",Stratagene,Yes,https://www.addgene.org/vector-database/2231/,,,,
+2232,pCMV-Tag4,"Mammalian Expression,",Stratagene,Yes,https://www.addgene.org/vector-database/2232/,5870,-1986.4,-0.3383986371379898,ok
+2233,pCMV-Tag5,"Mammalian Expression,",Stratagene,Yes,https://www.addgene.org/vector-database/2233/,,,,
+6203,pCMV-Tet3G,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6203/,,,,
+2234,pCMV-TnT,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/2234/,5383,-1700.4,-0.3158833364295003,ok
+2235,pCMV/myc/cyto,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2235/,,,,
+2236,pCMV/myc/ER,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2236/,6299,-2308.5,-0.36648674392760755,ok
+2237,pCMV/myc/mito,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2237/,6407,-2409.0,-0.3759950054627751,ok
+2238,pCMV/myc/nuc,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2238/,6490,-2361.2,-0.3638212634822804,ok
+2239,pCMV2,Mammalian Expression,"Dr. David Russell, UTSW",Yes,https://www.addgene.org/vector-database/2239/,7193,-2605.3,-0.3621993604893647,ok
+2241,pCMV4,Mammalian Expression,"Dr. David Russell, UTSW",Yes,https://www.addgene.org/vector-database/2241/,6817,-2205.7,-0.3235587501833651,ok
+2242,pCMV5,Mammalian Expression,"Dr. David Russell, UTSW",Yes,https://www.addgene.org/vector-database/2242/,5882,-2036.6,-0.34624277456647395,ok
+2243,pCMV6,Mammalian Expression,"Dr. David Russell, UTSW",Yes,https://www.addgene.org/vector-database/2243/,4968,-2090.2,-0.42073268921095003,ok
+6725,pCMV6-AN-GFP,Mammalian Expression,,Yes,https://www.addgene.org/vector-database/6725/,,,,
+7482,pCMV6-Entry,Mammalian Expression,Origene,Yes,https://www.addgene.org/vector-database/7482/,,,,
+5211,pCMV6-XL5,Mammalian Expression,Origene,Yes,https://www.addgene.org/vector-database/5211/,,,,
+2245,pCMVbeta,Mammalian Expression,"ATCC, Clontech",Yes,https://www.addgene.org/vector-database/2245/,4732,-1614.8,-0.341251056635672,ok
+2249,pCMX,Mammalian Expression,,No,https://www.addgene.org/vector-database/2249/,5584,-1949.2,-0.3490687679083095,ok
+2250,pCMX Gal4,Mammalian Expression,,No,https://www.addgene.org/vector-database/2250/,,,,
+2292,pCruz HA,Mammalian Expression,Santa Cruz Biotechnology,No,https://www.addgene.org/vector-database/2292/,8977,-3333.4,-0.3713267238498385,ok
+2295,pCS2+,"Mammalian Expression, xenopus//avian/zebrafish",RZPD,Yes,https://www.addgene.org/vector-database/2295/,5224,-1964.3,-0.3760145482388974,ok
+2296,pCS2+MT,"Mammalian Expression, xenopus//avian/zebrafish",Dave Turner lab (UMich),Yes,https://www.addgene.org/vector-database/2296/,5562,-1998.3,-0.359277238403452,ok
+2297,pCS2-,"Mammalian Expression, xenopus//avian/zebrafish",,Yes,https://www.addgene.org/vector-database/2297/,5356,-1798.1,-0.3357169529499626,ok
+6204,pCTAP-A,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/6204/,,,,
+6206,pCTAP-B,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/6206/,,,,
+6207,pCTAP-C,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/6207/,,,,
+2309,pCX4pur,"Mammalian Expression, Retroviral","Tsuyoshi Akagi, Osaka Bioscience Institute",Yes,https://www.addgene.org/vector-database/2309/,,,,
+2310,pCXneo,Mammalian Expression,,Yes,https://www.addgene.org/vector-database/2310/,,,,
+2327,pd1EGFP-N1,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/2327/,,,,
+2328,pd2ECFP-1,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/2328/,,,,
+2329,pd2ECFP-N1,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/2329/,,,,
+2331,pd2EGFP-N1,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/2331/,,,,
+2332,pd2EYFP-1,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/2332/,,,,
+2333,pd2EYFP-N1,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/2333/,,,,
+2335,pd4EGFP-N1,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/2335/,,,,
+2344,pDCR,Mammalian Expression,,No,https://www.addgene.org/vector-database/2344/,,,,
+2352,pDEST12.2,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2352/,7522,-2675.0,-0.3556235043871311,ok
+2358,pDEST26,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2358/,11048,-4098.0,-0.3709268645908762,ok
+2359,pDEST27,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2359/,7216,-2842.6,-0.393930155210643,ok
+2374,pDisplay,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2374/,6405,-2404.8,-0.37545667447306796,ok
+2381,pDNR-CMV,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2381/,,,,
+2389,pDOL,Mammalian Expression,,No,https://www.addgene.org/vector-database/2389/,,,,
+2402,pDRIVE-CAG,Mammalian Expression,Invivogen,Yes,https://www.addgene.org/vector-database/2402/,3848,-1704.9,-0.44306133056133057,ok
+2417,pDsRed-Express-1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2417/,,,,
+2418,pDsRed-Express-C1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2418/,,,,
+2419,pDsREd-Express-DR,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2419/,6024,-2549.5,-0.4232237715803453,ok
+2420,pDsRed-Express-N1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2420/,,,,
+2421,pDsRed-Monomer-C1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2421/,6276,-2189.2,-0.34882090503505414,ok
+2423,pDsRed1-N1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2423/,6498,-2519.1,-0.3876731301939058,ok
+2425,pDsRed2-1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2425/,6864,-2322.2,-0.3383158508158508,ok
+2426,pDsRed2-C1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2426/,5369,-1952.8,-0.36371763829390946,ok
+2427,pDsRed2-N1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2427/,,,,
+2439,pEBB,Mammalian Expression,,No,https://www.addgene.org/vector-database/2439/,6989,-2467.3,-0.353026184003434,ok
+2444,pECFP-1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2444/,,,,
+2445,pECFP-C1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2445/,6305,-2336.5,-0.37057890563045204,ok
+2446,pECFP-N1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2446/,5250,-1958.0,-0.372952380952381,ok
+2448,pED,Mammalian Expression,,No,https://www.addgene.org/vector-database/2448/,8871,-3281.6,-0.36992447300191633,ok
+2449,pED4,Mammalian Expression,,No,https://www.addgene.org/vector-database/2449/,,,,
+2450,pEF-BOS,Mammalian Expression,,Yes,https://www.addgene.org/vector-database/2450/,8211,-2772.3,-0.3376324442820607,ok
+2451,pEF-DEST51,"Mammalian Expression, Destination Vector",Invitrogen,Yes,https://www.addgene.org/vector-database/2451/,8891,-3396.1,-0.38197053199865033,ok
+5810,pEF/myc/cyto,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/5810/,,,,
+2452,pEF/myc/ER,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2452/,6509,-2573.6,-0.3953909970809648,ok
+2453,pEF1-puro,Mammalian Expression,Springer lab,No,https://www.addgene.org/vector-database/2453/,9384,-3844.6,-0.40969735720375106,ok
+2454,pEF1/His A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2454/,,,,
+2455,pEF1/His B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2455/,,,,
+2456,pEF1/His C,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2456/,,,,
+2457,pEF1/myc-His A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2457/,4804,-1708.8,-0.35570358034970856,ok
+2458,pEF1/myc-His B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2458/,7681,-2932.0,-0.38172113006118996,ok
+2459,pEF1/myc-His C,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2459/,,,,
+2460,pEF1/V5 His A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2460/,9318,-3772.1,-0.40481863060742646,ok
+2461,pEF1/V5 His B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2461/,,,,
+2462,pEF1/V5 His C,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2462/,,,,
+6208,pEF1α-IRES,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6208/,,,,
+6209,pEF1α-IRES-AcGFP1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6209/,,,,
+6210,pEF1α-IRES-DsRed-Express2,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6210/,,,,
+6211,pEF1α-IRES-ZsGreen1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6211/,,,,
+6212,pEF1α-Tet3G,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6212/,,,,
+2463,pEF4/His A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2463/,,,,
+2464,pEF4/His B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2464/,,,,
+2465,pEF4/His C,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2465/,,,,
+2466,pEF4/myc-His A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2466/,,,,
+2467,pEF4/myc-His B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2467/,,,,
+2468,pEF4/myc-His C,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2468/,,,,
+2469,pEF4/V5 His A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2469/,,,,
+2470,pEF4/V5 His B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2470/,,,,
+2471,pEF4/V5 His C,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2471/,,,,
+2472,pEF5/FRT/V5 D-TOPO,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2472/,,,,
+2473,pEF5/FRT/V5 DEST Gateway,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2473/,,,,
+2474,pEF5/FRT/V5 TOPO,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2474/,,,,
+2475,pEF6/His A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2475/,,,,
+2476,pEF6/His B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2476/,,,,
+2477,pEF6/His C,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2477/,,,,
+2478,pEF6/myc-His A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2478/,,,,
+2479,pEF6/myc-His B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2479/,12732,-5418.04,-0.42554508325479107,ok
+2480,pEF6/myc-His C,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2480/,,,,
+2481,pEF6/V5 His TOPO,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2481/,,,,
+2486,pEGFP-1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2486/,5259,-1904.5,-0.3621410914622552,ok
+2487,pEGFP-C1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2487/,5283,-1995.9,-0.3777967064168086,ok
+2488,pEGFP-C2,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2488/,5060,-1868.0,-0.3691699604743083,ok
+2489,pEGFP-C3,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2489/,10603,-4091.6,-0.3858907856267094,ok
+2491,pEGFP-N1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2491/,6100,-2198.5,-0.36040983606557375,ok
+2492,pEGFP-N2,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2492/,4915,-1829.7,-0.3722685656154629,ok
+2493,pEGFP-N3,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2493/,6185,-2335.5,-0.37760711398544866,ok
+2669,pEVRF1,Mammalian Expression,,No,https://www.addgene.org/vector-database/2669/,,,,
+2679,pEXP1,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/2679/,4149,-1375.7,-0.33157387322246323,ok
+5871,pExpress-1,Mammalian Expression,Express Genomics,Yes,https://www.addgene.org/vector-database/5871/,,,,
+2687,pEYFP-1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2687/,,,,
+2688,pEYFP-C1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2688/,6518,-2483.9,-0.38108315434182266,ok
+2689,pEYFP-N1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/2689/,6418,-2447.2,-0.3813025864755375,ok
+2696,pF4A CMV,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/2696/,,,,
+2698,pF5A CMV-neo Flexi,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/2698/,,,,
+2699,pF5K CMV-neo Flexi,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/2699/,,,,
+2716,pFB (ViraPort),Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/2716/,,,,
+7516,pFB-CMV-SV40,Mammalian Expression,,Yes,https://www.addgene.org/vector-database/7516/,,,,
+2717,pFB-Luc (ViraPort),Mammalian Expression,Stratagene,Yes,https://www.addgene.org/vector-database/2717/,,,,
+2718,pFB-Neo (ViraPort),Mammalian Expression,Stratagene,Yes,https://www.addgene.org/vector-database/2718/,,,,
+2719,pFB-Neo-LacZ (ViraPort),Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/2719/,,,,
+2724,pFC8A (HaloTag) CMV,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/2724/,,,,
+2725,pFC8K (HaloTag) CMV,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/2725/,,,,
+2740,pFIV-H1/U6-copGFP siRNA,"Mammalian Expression, siRNA",System Biosciences,Yes,https://www.addgene.org/vector-database/2740/,,,,
+2741,pFIV-H1/U6-Puro siRNA,"Mammalian Expression, siRNA",System Biosciences,Yes,https://www.addgene.org/vector-database/2741/,,,,
+2764,pFLAG CMV 5.1,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/2764/,9035,-3280.0,-0.36303265080243496,ok
+2767,pFLAG-CMV-1,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/2767/,7017,-2334.8,-0.33273478694598835,ok
+2770,pFLAG-CMV-2,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/2770/,5561,-1990.6,-0.35795720194209674,ok
+2771,pFLAG-CMV-3,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/2771/,9872,-3470.3,-0.35152957860615885,ok
+2772,pFLAG-CMV-4,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/2772/,7066,-2598.3,-0.36771865270308524,ok
+2768,pFLAG-CMV-6-BAP,Mammalian Expression,Sigma,No,https://www.addgene.org/vector-database/2768/,,,,
+2769,pFLAG-CMV-Myc-24,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/2769/,,,,
+2773,pFLAG-CMV5.1,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/2773/,9035,-3280.0,-0.36303265080243496,ok
+2777,pFLAG-Myc-CMV-19,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/2777/,,,,
+2778,pFLAG-Myc-CMV-20,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/2778/,,,,
+2779,pFLAG-Myc-CMV-21,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/2779/,,,,
+2780,pFLAG-Myc-CMV-22,Mammalian Expression,Sigma,Yes,https://www.addgene.org/vector-database/2780/,,,,
+6413,pFLAGCB,Mammalian Expression,PKC Lab http://www.pkclab.org/index.htm,No,https://www.addgene.org/vector-database/6413/,,,,
+6412,pFLAGCE,Mammalian Expression,PKC Lab http://www.pkclab.org/index.htm,No,https://www.addgene.org/vector-database/6412/,,,,
+2784,pFN10A (ACT) Flexi,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/2784/,,,,
+2785,pFN11A (BIND) Flexi,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/2785/,,,,
+6213,pGen2.1,Mammalian Expression,GenScript,Yes,https://www.addgene.org/vector-database/6213/,,,,
+2857,pGene/V5-His A (GeneSwitch),Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2857/,,,,
+2858,pGene/V5-His B (GeneSwitch),Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2858/,,,,
+2859,pGene/V5-His C (GeneSwitch),Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2859/,,,,
+2861,pGeneClip Basic,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/2861/,,,,
+2862,pGeneClip hMGFP,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/2862/,,,,
+2863,pGeneClip Hygromycin,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/2863/,,,,
+2864,pGeneClip Neomycin,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/2864/,,,,
+2865,pGeneClip Puromycin,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/2865/,,,,
+6415,pGFP3,Mammalian Expression,PKC Lab http://www.pkclab.org/index.htm,No,https://www.addgene.org/vector-database/6415/,,,,
+2918,pGIPZ,Mammalian Expression,Open Biosystems,Yes,https://www.addgene.org/vector-database/2918/,12666,-4635.0,-0.3659403126480341,ok
+2960,pGlow TOPO,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/2960/,,,,
+2989,pGV-BM2,"Mammalian Expression, Luciferase",Yamanaka lab,Yes,https://www.addgene.org/vector-database/2989/,9855,-3729.9,-0.3784779299847793,ok
+6409,pHACB,Mammalian Expression,PKC Lab http://www.pkclab.org/index.htm,No,https://www.addgene.org/vector-database/6409/,,,,
+6408,pHACE,Mammalian Expression,PKC Lab http://www.pkclab.org/index.htm,No,https://www.addgene.org/vector-database/6408/,7491,-2694.5,-0.35969830463222535,ok
+6411,pHANB,Mammalian Expression,PKC Lab http://www.pkclab.org/index.htm,No,https://www.addgene.org/vector-database/6411/,,,,
+6410,pHANE,Mammalian Expression,PKC Lab http://www.pkclab.org/index.htm,No,https://www.addgene.org/vector-database/6410/,,,,
+6214,phCMV1,Mammalian Expression,MoBiTec,Yes,https://www.addgene.org/vector-database/6214/,,,,
+6215,phCMV2,Mammalian Expression,MoBiTec,Yes,https://www.addgene.org/vector-database/6215/,,,,
+6216,phCMV3,Mammalian Expression,MoBiTec,Yes,https://www.addgene.org/vector-database/6216/,,,,
+3020,pHcRed1-1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3020/,,,,
+3021,pHcRed1-C1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3021/,6490,-2480.9,-0.38226502311248073,ok
+3022,pHcRed1-N1/1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3022/,7153,-2471.6,-0.3455333426534321,ok
+3044,pHM6,Mammalian Expression,Roche,Yes,https://www.addgene.org/vector-database/3044/,6095,-2154.8,-0.3535356849876949,ok
+3061,phr-GFP-Mito (Vitality),Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/3061/,,,,
+3062,phrG-B,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/3062/,,,,
+3063,phRG-TK,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/3063/,,,,
+3064,phrGFP II-1,Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/3064/,,,,
+3065,phrGFP II-C,Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/3065/,,,,
+3066,phrGFP II-N,Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/3066/,,,,
+3067,phrGFP Promoterless (Vitality),Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/3067/,,,,
+3068,phrGFP-1 (Vitality),Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/3068/,,,,
+3069,phrGFP-C (Vitality),Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/3069/,,,,
+3070,phrGFP-Golgi (Vitality),Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/3070/,,,,
+3071,phrGFP-N (Vitality),Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/3071/,,,,
+3072,phrGFP-Nuc (Vitality),Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/3072/,,,,
+3073,phrGFP-Perox (Vitality),Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/3073/,,,,
+3074,phRL-CMV,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/3074/,,,,
+3075,phRL-null,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/3075/,3776,-1337.3,-0.3541578389830508,ok
+3076,phRL-SV40,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/3076/,4052,-1404.6,-0.3466436327739388,ok
+3077,phRL-TK,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/3077/,,,,
+3078,phRL-TK(Int-),Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/3078/,,,,
+7047,pHTN HaloTag CMV-neo,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/7047/,,,,
+5849,pIND/hygro,Mammalian Expression,Invitrogen,No,https://www.addgene.org/vector-database/5849/,,,,
+3171,pIRES,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3171/,6078,-2334.5,-0.3840901612372491,ok
+3172,pIRES-EYFP,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/3172/,6970,-2488.7,-0.35705882352941176,ok
+3173,pIRES-hrGFP II,Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/3173/,,,,
+3174,pIRES-hrGFP-1 (Vitality),Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/3174/,,,,
+3175,pIRES-hrGFP-2 (Vitality),Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/3175/,,,,
+5697,pIRES1neo (pCIN4),Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/5697/,,,,
+6219,pIRES2 DsRed-Express2,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6219/,,,,
+6217,pIRES2-AcGFP1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6217/,,,,
+3176,pIRES2-DsRed-Express,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3176/,,,,
+3177,pIRES2-DsRed2,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3177/,6157,-2278.8,-0.370115315900601,ok
+3178,pIRES2-EGFP,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3178/,,,,
+6218,pIRES2-ZsGreen1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6218/,,,,
+3179,pIRESbleo3,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3179/,,,,
+3180,pIRESHyg2,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3180/,,,,
+3181,pIREShyg3,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3181/,7038,-2618.5,-0.37205171923842,ok
+3183,pIRESneo3,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3183/,6939,-2587.7,-0.37292117019743476,ok
+3193,pJ3H,Mammalian Expression,,No,https://www.addgene.org/vector-database/3193/,5001,-1557.0,-0.3113377324535093,ok
+3194,pJ3M,Mammalian Expression,,No,https://www.addgene.org/vector-database/3194/,5161,-1636.3,-0.3170509591164503,ok
+3195,pJ3omega,Mammalian Expression,ATCC,No,https://www.addgene.org/vector-database/3195/,5445,-1677.9,-0.3081542699724518,ok
+3305,pKaede-MC1,Mammalian Expression,Amalgaam,No,https://www.addgene.org/vector-database/3305/,,,,
+3408,pLEGFP-C1,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/3408/,,,,
+3409,pLEGFP-N1,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/3409/,,,,
+6720,pLenti4/TO/V5-DEST,"Mammalian Expression, Lentiviral",Invitrogen,No,https://www.addgene.org/vector-database/6720/,,,,
+3411,pLenti4/V5-DEST Gateway (ViraPower),Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/3411/,,,,
+3413,pLenti6/V5 D-TOPO Gateway (ViraPower),Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/3413/,,,,
+3415,pLentiLox EV,Mammalian Expression,University of Michigan Vector Core,Yes,https://www.addgene.org/vector-database/3415/,,,,
+3416,pLentiLox RSV,Mammalian Expression,University of Michigan Vector Core,No,https://www.addgene.org/vector-database/3416/,,,,
+3419,pLEX,Mammalian Expression,Thermo Scientific,No,https://www.addgene.org/vector-database/3419/,12356,-4592.4,-0.3716736808028488,ok
+3431,pLIB,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/3431/,5066,-1745.7,-0.34459139360442165,ok
+3433,pLJM1,"Lentiviral, Mammalian Expression",,Yes,https://www.addgene.org/vector-database/3433/,,,,
+6096,pLKO.1,"Lentiviral, Mammalian Expression",The RNAi Consortium,Yes,https://www.addgene.org/vector-database/6096/,,,,
+7656,pLKO_TRC005,"Mammalian Expression, RNAi, Lentiviral",The RNAi Consortium - Broad Institute,Yes,https://www.addgene.org/vector-database/7656/,,,,
+3451,pLNCX,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3451/,,,,
+3455,pLP-Adeno-X-CMV,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/3455/,,,,
+3456,pLP-Adeno-X-TRE,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/3456/,,,,
+3457,pLP-BacPAK9,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/3457/,,,,
+3458,pLP-BacPAK9-6xHN,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3458/,,,,
+3459,pLP-CMV-HA,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3459/,,,,
+3460,pLP-CMV-Myc,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3460/,,,,
+3461,pLP-CMV-neo,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3461/,,,,
+3462,pLP-ECFP-C1,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/3462/,,,,
+3463,pLP-EGFP-C1,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/3463/,,,,
+3464,pLP-EYFP-C1,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/3464/,,,,
+3467,pLP-IRES2-EGFP,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3467/,,,,
+3468,pLP-IRESneo,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3468/,,,,
+3469,pLP-LNCX,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3469/,,,,
+3471,pLP-RevTRE,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3471/,,,,
+3472,pLP-TRE2,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3472/,,,,
+6711,pLPS-3'EGFP,"Mammalian Expression, Cre/Lox, Acceptor Vector",Clontech,Yes,https://www.addgene.org/vector-database/6711/,,,,
+3491,pLXRN,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3491/,,,,
+3498,pM5 neo,Mammalian Expression,,No,https://www.addgene.org/vector-database/3498/,,,,
+3523,pmaxCloning,Mammalian Expression,Amaxa,Yes,https://www.addgene.org/vector-database/3523/,,,,
+3524,pmaxFP-Green-C,Mammalian Expression,Amaxa,Yes,https://www.addgene.org/vector-database/3524/,,,,
+3525,pmaxFP-Green-N,Mammalian Expression,Amaxa,Yes,https://www.addgene.org/vector-database/3525/,,,,
+3526,pmaxFP-Red-C,Mammalian Expression,Amaxa,Yes,https://www.addgene.org/vector-database/3526/,,,,
+3527,pmaxFP-Red-N,Mammalian Expression,Amaxa,Yes,https://www.addgene.org/vector-database/3527/,,,,
+3528,pmaxFP-Yellow-C,Mammalian Expression,Amaxa,Yes,https://www.addgene.org/vector-database/3528/,,,,
+3529,pmaxFP-Yellow-N,Mammalian Expression,Amaxa,Yes,https://www.addgene.org/vector-database/3529/,,,,
+3552,pmCherry-C1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3552/,,,,
+3553,pmCherry-N1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3553/,6292,-2242.9,-0.35646853146853147,ok
+6220,pME-HA (linearized),Mammalian Expression,Lucigen,Yes,https://www.addgene.org/vector-database/6220/,,,,
+3558,pME18S-FL,Mammalian Expression,,Yes,https://www.addgene.org/vector-database/3558/,,,,
+3582,pMIR-report,Mammalian Expression,Ambion,Yes,https://www.addgene.org/vector-database/3582/,6673,-2268.7,-0.3399820170837704,ok
+5778,pMM2,Mammalian Expression,,Yes,https://www.addgene.org/vector-database/5778/,,,,
+3627,pMRB101,Mammalian Expression,,No,https://www.addgene.org/vector-database/3627/,8153,-3159.0,-0.3874647369066601,ok
+6221,pmRi-mCherry,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6221/,,,,
+6222,pmRi-ZsGreen1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/6222/,,,,
+3650,PMT2,Mammalian Expression,unknown,Yes,https://www.addgene.org/vector-database/3650/,8019,-2896.6,-0.3612171093652575,ok
+3651,pMT21,Mammalian Expression,,No,https://www.addgene.org/vector-database/3651/,,,,
+3652,PMT2VA-,Mammalian Expression,Unknown,No,https://www.addgene.org/vector-database/3652/,,,,
+3655,pMTH,Mammalian Expression,,No,https://www.addgene.org/vector-database/3655/,,,,
+3671,pMX,"Mammalian Expression, Retroviral",,No,https://www.addgene.org/vector-database/3671/,8920,-3193.1,-0.3579708520179372,ok
+3672,pMX-EGFP-gw-IP,"Mammalian Expression, Retroviral",,No,https://www.addgene.org/vector-database/3672/,,,,
+3673,pMX-IRES-GFP,"Mammalian Expression, Retroviral",,No,https://www.addgene.org/vector-database/3673/,,,,
+3674,pMXs,"Mammalian Expression, Retroviral",,Yes,https://www.addgene.org/vector-database/3674/,7828,-2979.0,-0.380556974961676,ok
+3675,pMXs-GW,"Mammalian Expression, Retroviral",,Yes,https://www.addgene.org/vector-database/3675/,,,,
+3676,pMXs-IP,"Mammalian Expression, Retroviral",,Yes,https://www.addgene.org/vector-database/3676/,,,,
+7103,pMyc-CMV1,Mammalian Expression,Sigma (Flag to Myc modified by Dr. Golenbock),Yes,https://www.addgene.org/vector-database/7103/,,,,
+6414,pMyc3,Mammalian Expression,PKC Lab http://www.pkclab.org/index.htm,No,https://www.addgene.org/vector-database/6414/,,,,
+3678,pN3,Mammalian Expression,Guntram Suske,Yes,https://www.addgene.org/vector-database/3678/,,,,
+3688,pNeoEGFP,Mammalian Expression,Clontech (discontinued),Yes,https://www.addgene.org/vector-database/3688/,,,,
+6223,pNTAP-A,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/6223/,,,,
+6224,pNTAP-B,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/6224/,,,,
+6205,pNTAP-C,Mammalian Expression,Agilent Technologies,Yes,https://www.addgene.org/vector-database/6205/,,,,
+3743,pOCAT,Mammalian Expression,,No,https://www.addgene.org/vector-database/3743/,,,,
+8608,pOPRSVICat,Mammalian Expression,,Yes,https://www.addgene.org/vector-database/8608/,,,,
+3781,pOZ-N,Mammalian Expression,Created by Yoshihiro Nakatani,No,https://www.addgene.org/vector-database/3781/,,,,
+3825,pPNT,Mammalian Expression,,Yes,https://www.addgene.org/vector-database/3825/,,,,
+3907,pRc/CMV,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/3907/,,,,
+3908,pRc/RSV,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/3908/,6702,-2536.5,-0.37846911369740377,ok
+3916,pRDI292,"Mammalian Expression, RNAi",Richard Iggo,Yes,https://www.addgene.org/vector-database/3916/,9483,-3334.2,-0.35159759569756405,ok
+3918,pREP4,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/3918/,6161,-2331.8,-0.3784775198831359,ok
+3926,pRetroSuper,"Mammalian Expression, Retroviral, RNAi",Netherlands Cancer Institute (NKI/AvL),Yes,https://www.addgene.org/vector-database/3926/,6376,-2413.1,-0.3784661229611041,ok
+3927,pRevTRE,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/3927/,,,,
+6416,pRFP3,Mammalian Expression,PKC Lab http://www.pkclab.org/index.htm,No,https://www.addgene.org/vector-database/6416/,,,,
+3944,pRK5,Mammalian Expression,,Yes,https://www.addgene.org/vector-database/3944/,,,,
+3945,pRK5-Myc,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/3945/,5291,-1850.7,-0.3497826497826498,ok
+3947,pRL-CMV,"Mammalian Expression, Luciferase",Promega,Yes,https://www.addgene.org/vector-database/3947/,,,,
+3948,pRL-null,"Mammalian Expression, Luciferase",Promega,Yes,https://www.addgene.org/vector-database/3948/,,,,
+3949,pRL-SV40,"Mammalian Expression, Luciferase",Promega,Yes,https://www.addgene.org/vector-database/3949/,,,,
+3950,pRL-TK,"Mammalian Expression, Luciferase",Promega,Yes,https://www.addgene.org/vector-database/3950/,,,,
+3958,pRNAT-CMV3.1/Puro,Mammalian Expression,GenScript,Yes,https://www.addgene.org/vector-database/3958/,,,,
+4007,pRST7,Mammalian Expression,,No,https://www.addgene.org/vector-database/4007/,,,,
+4021,pRV.GFP,Mammalian Expression,,Yes,https://www.addgene.org/vector-database/4021/,,,,
+4070,pSEAP2-Basic,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4070/,,,,
+4071,pSecTag/FRT/V5 His TOPO,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/4071/,,,,
+4072,pSecTag2,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/4072/,,,,
+4073,pSecTag2 A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/4073/,,,,
+4074,pSecTag2/Hygro A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/4074/,,,,
+4075,pSecTag2/Hygro B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/4075/,,,,
+4076,pSecTag2/Hygro C,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/4076/,,,,
+6322,pSELECT-zeo-Lucia,"Mammalian Expression, Luciferase",,Yes,https://www.addgene.org/vector-database/6322/,,,,
+6323,pSF-CMV-EMCV-FLuc,"Mammalian Expression, Luciferase",Promega,Yes,https://www.addgene.org/vector-database/6323/,,,,
+6324,pSF-CMV-EMCV-RLuc,"Mammalian Expression, Luciferase",Promega,Yes,https://www.addgene.org/vector-database/6324/,,,,
+6325,pSF-CMV-FLuc,"Mammalian Expression, Luciferase",Promega,Yes,https://www.addgene.org/vector-database/6325/,,,,
+6326,pSF-CMV-FMDV-FLuc,"Mammalian Expression, Luciferase",Promega,Yes,https://www.addgene.org/vector-database/6326/,,,,
+6327,pSF-CMV-FMDV-RLuc,"Mammalian Expression, Luciferase",Promega,Yes,https://www.addgene.org/vector-database/6327/,,,,
+6328,pSF-CMV-PGK-FLuc,"Mammalian Expression, Luciferase",Promega,Yes,https://www.addgene.org/vector-database/6328/,,,,
+6329,pSF-CMV-PGK-RLuc,"Mammalian Expression, Luciferase",Promega,Yes,https://www.addgene.org/vector-database/6329/,,,,
+6330,pSF-CMV-RLuc,"Mammalian Expression, Luciferase",Promega,Yes,https://www.addgene.org/vector-database/6330/,,,,
+6331,pSF-CMV-RSV-FLuc AscI,"Mammalian Expression, Luciferase",Oxford Genetics,Yes,https://www.addgene.org/vector-database/6331/,,,,
+6332,pSF-CMV-Ub-FLuc AscI,"Mammalian Expression, Luciferase",Oxford Genetics,Yes,https://www.addgene.org/vector-database/6332/,,,,
+6333,pSF-CMV-Ub-RLuc AscI,"Mammalian Expression, Luciferase",Oxford Genetics,Yes,https://www.addgene.org/vector-database/6333/,,,,
+4083,pSFFV-neo,Mammalian Expression,,No,https://www.addgene.org/vector-database/4083/,8069,-2766.9,-0.34290494485066303,ok
+4105,pShuttle CMV,Mammalian Expression,Stratagene,Yes,https://www.addgene.org/vector-database/4105/,4041,-1527.2,-0.3779262558772581,ok
+4106,pShuttle-CMV lacZ,Mammalian Expression,Stratagene,Yes,https://www.addgene.org/vector-database/4106/,,,,
+4107,pShuttle-IRES-hrGFP-1,Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/4107/,,,,
+4108,pShuttle-IRES-hrGFP-2,Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/4108/,,,,
+8276,psiCHECK(TM)-2,"RNAi, Mammalian Expression",Promega,Yes,https://www.addgene.org/vector-database/8276/,,,,
+4113,psiCHECK-1,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/4113/,3578,-1259.0,-0.3518725544997205,ok
+4114,psiCHECK-2,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/4114/,,,,
+4115,pSIH1-H1-copGFP,Mammalian Expression,System Biosciences,Yes,https://www.addgene.org/vector-database/4115/,,,,
+4116,pSIH1-H1-Puro,Mammalian Expression,System Biosciences,Yes,https://www.addgene.org/vector-database/4116/,,,,
+4117,pSilencer 1.0-U6,Mammalian Expression,Ambion,Yes,https://www.addgene.org/vector-database/4117/,,,,
+4118,pSilencer 2.0-U6,Mammalian Expression,Ambion,Yes,https://www.addgene.org/vector-database/4118/,,,,
+4119,pSilencer 3.0-H1,Mammalian Expression,Ambion,Yes,https://www.addgene.org/vector-database/4119/,,,,
+4120,psiLentGene Basic,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/4120/,,,,
+4121,psiLentGene Hygromycin,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/4121/,,,,
+4122,psiLentGene Neomycin,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/4122/,,,,
+4123,psiLentGene Puromycin,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/4123/,,,,
+4124,pSIREN-DNR,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4124/,,,,
+4125,pSIREN-DNR-DsRed-Express,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4125/,,,,
+4127,pSIREN-RetroQ-ZsGreen,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4127/,,,,
+4128,pSIREN-Shuttle,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4128/,,,,
+4129,psiSTRIKE Basic,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/4129/,,,,
+4130,psiSTRIKE hMGFP,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/4130/,,,,
+4131,psiSTRIKE Hygromycin,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/4131/,,,,
+4132,psiSTRIKE Neomycin,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/4132/,,,,
+4133,psiSTRIKE Puromycin,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/4133/,,,,
+4233,pSUPER,"Mammalian Expression, RNAi",OligoEngine,Yes,https://www.addgene.org/vector-database/4233/,5422,-2087.9,-0.3850793065289561,ok
+4234,pSUPER.neo,"Mammalian Expression, RNAi",OligoEngine,Yes,https://www.addgene.org/vector-database/4234/,,,,
+4235,pSUPER.neo+GFP,"Mammalian Expression, RNAi",OligoEngine,Yes,https://www.addgene.org/vector-database/4235/,,,,
+4236,pSUPER.puro,"Mammalian Expression, RNAi",OligoEngine,Yes,https://www.addgene.org/vector-database/4236/,,,,
+4237,pSUPER.retro.neo,"Mammalian Expression, RNAi",OligoEngine,Yes,https://www.addgene.org/vector-database/4237/,,,,
+4238,pSUPER.retro.neo+GFP,"Mammalian Expression, RNAi",OligoEngine,Yes,https://www.addgene.org/vector-database/4238/,,,,
+4239,pSUPER.retro.puro,"Mammalian Expression, RNAi",OligoEngine,Yes,https://www.addgene.org/vector-database/4239/,,,,
+4240,pSUPERIOR.basic,"Mammalian Expression, RNAi",OligoEngine,Yes,https://www.addgene.org/vector-database/4240/,,,,
+4241,pSUPERIOR.neo,"Mammalian Expression, RNAi",OligoEngine,Yes,https://www.addgene.org/vector-database/4241/,,,,
+4242,pSUPERIOR.neo+GFP,"Mammalian Expression, RNAi",OligoEngine,Yes,https://www.addgene.org/vector-database/4242/,,,,
+4243,pSUPERIOR.puro,"Mammalian Expression, RNAi",OligoEngine,Yes,https://www.addgene.org/vector-database/4243/,,,,
+4244,pSUPERIOR.retro.neo,"Mammalian Expression, RNAi",OligoEngine,Yes,https://www.addgene.org/vector-database/4244/,,,,
+4245,pSUPERIOR.retro.neo+gfp,"Mammalian Expression, RNAi",OligoEngine,Yes,https://www.addgene.org/vector-database/4245/,,,,
+4246,pSUPERIOR.retro.puro,"Mammalian Expression, RNAi",OligoEngine,Yes,https://www.addgene.org/vector-database/4246/,,,,
+4248,pSV-beta-Galactosidase,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/4248/,,,,
+4249,pSV-SPORT,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/4249/,,,,
+4262,pSV2neo,Mammalian Expression,ATCC,Yes,https://www.addgene.org/vector-database/4262/,8091,-2915.8,-0.36037572611543695,ok
+6352,pSV40-CLuc,"Mammalian Expression, Luciferase",New England Biolabs,Yes,https://www.addgene.org/vector-database/6352/,,,,
+4280,pSVE,Mammalian Expression,,No,https://www.addgene.org/vector-database/4280/,,,,
+4298,pT-REx-DEST30,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/4298/,7040,-2774.8,-0.3941477272727273,ok
+4299,pT-REx-DEST31,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/4299/,,,,
+4329,pTA-Luc,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4329/,5057,-1705.84,-0.33732252323511963,ok
+4330,pTA-SEAP,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4330/,,,,
+4344,pTAL-d2EGFP,Mammalian Expression,Clontech,No,https://www.addgene.org/vector-database/4344/,,,,
+4345,pTAL-Luc,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4345/,,,,
+4346,pTAL-SEAP,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4346/,,,,
+4347,pTarget Vector,Mammalian Expression,Promega,Yes,https://www.addgene.org/vector-database/4347/,,,,
+4364,pTet-Splice,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/4364/,,,,
+4376,pTimer-1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4376/,,,,
+6358,pTK-GLuc,"Mammalian Expression, Luciferase",New England Biolabs,Yes,https://www.addgene.org/vector-database/6358/,,,,
+4394,pTracer-CMV/Bsd,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/4394/,,,,
+4395,pTracer-CMV2,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/4395/,,,,
+4396,pTracer-EF/Bsd,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/4396/,,,,
+4397,pTracer-EF/V5-His A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/4397/,,,,
+4398,pTracer-EF/V5-His B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/4398/,,,,
+4399,pTracer-EF/V5-His C,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/4399/,,,,
+4400,pTracer-SV40,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/4400/,,,,
+4407,pTRE-6xHN,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4407/,,,,
+4408,pTRE-HA,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4408/,,,,
+4409,pTRE-myc,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4409/,,,,
+4410,pTRE-shuttle2,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4410/,,,,
+4411,pTRE-tight,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4411/,,,,
+4412,pTRE2,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4412/,4480,-1441.9,-0.3218526785714286,ok
+4413,pTRE2hyg,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4413/,,,,
+4414,pTRE2hyg2-6xHN,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4414/,,,,
+4415,pTRE2hyg2-HA,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4415/,,,,
+4416,pTRE2hyg2-Myc,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4416/,,,,
+4417,pTRE2pur,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4417/,,,,
+4418,pTRE2pur-6xHN,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4418/,,,,
+4419,pTRE2pur-HA,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4419/,,,,
+4420,pTRE2pur-Myc,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4420/,,,,
+4421,pTriEx-1.1,"Mammalian Expression,",Novagen,Yes,https://www.addgene.org/vector-database/4421/,,,,
+4422,pTriEx-2,"Mammalian Expression,",Novagen,Yes,https://www.addgene.org/vector-database/4422/,,,,
+4423,pTriEx-3,"Mammalian Expression,",Novagen,Yes,https://www.addgene.org/vector-database/4423/,,,,
+4424,pTriEx-4,"Mammalian expression, Bacterial Expression, Insect Expression",Novagen,Yes,https://www.addgene.org/vector-database/4424/,,,,
+4425,pTriEx-4 Hygro,"Mammalian Expression,",Novagen,Yes,https://www.addgene.org/vector-database/4425/,,,,
+4426,pTriEx-4 Neo,"Mammalian Expression,",Novagen,Yes,https://www.addgene.org/vector-database/4426/,,,,
+4427,pTriEx-5,"Mammalian Expression,",Novagen,Yes,https://www.addgene.org/vector-database/4427/,,,,
+4428,pTriEx-6,"Mammalian Expression,",Novagen,Yes,https://www.addgene.org/vector-database/4428/,,,,
+4429,pTriEx-7,"Mammalian Expression,",Novagen,Yes,https://www.addgene.org/vector-database/4429/,,,,
+4438,pTS13,Mammalian Expression,,No,https://www.addgene.org/vector-database/4438/,,,,
+7108,pTT5,Mammalian Expression,Yves Durocher,Yes,https://www.addgene.org/vector-database/7108/,,,,
+4476,pUB6/V5/His A,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/4476/,5851,-2065.5,-0.35301657836267303,ok
+4477,pUB6/V5/His B,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/4477/,6379,-2320.1,-0.3637090453049067,ok
+4478,pUB6/V5/His C,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/4478/,,,,
+4550,pUHD10-3,Mammalian Expression,Manfred Gossen,Yes,https://www.addgene.org/vector-database/4550/,5410,-1657.3,-0.3063401109057301,ok
+4551,pUHG17-1,Mammalian Expression,,Yes,https://www.addgene.org/vector-database/4551/,,,,
+4561,pUMVC3-gag-pol,Mammalian Expression,University of Michigan Vector Core,Yes,https://www.addgene.org/vector-database/4561/,,,,
+8274,pVAX1,Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/8274/,,,,
+4610,pVETL-Cmcs,Mammalian Expression,Henry L Paulson,No,https://www.addgene.org/vector-database/4610/,,,,
+7780,pVITRO2-blasti-mcs,"Mammalian Expression, bicistronic",invivogen,Yes,https://www.addgene.org/vector-database/7780/,,,,
+4616,pVITRO2-hygro-mcs,"Mammalian Expression, bicistronic",InvivoGen,Yes,https://www.addgene.org/vector-database/4616/,,,,
+7779,pVITRO2-neo-mcs,"Mammalian Expression, bicistronic",invivogen,Yes,https://www.addgene.org/vector-database/7779/,,,,
+4628,pVP16,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4628/,,,,
+4629,pVPack-10A1 (ViraPort),Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/4629/,,,,
+4630,pVPack-Ampho (ViraPort),Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/4630/,,,,
+4631,pVPack-Eco (ViraPort),Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/4631/,,,,
+4632,pVPack-GP (ViraPort),Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/4632/,,,,
+4633,pVPack-VSV-G (ViraPort),Mammalian Expression,Stratagene,No,https://www.addgene.org/vector-database/4633/,,,,
+4671,pWZL Blast,Mammalian Expression,Millenium Pharmaceuticals,No,https://www.addgene.org/vector-database/4671/,,,,
+4672,pWZL Blast2,Mammalian Expression,,No,https://www.addgene.org/vector-database/4672/,,,,
+4673,pWZL Neo,Mammalian Expression,,No,https://www.addgene.org/vector-database/4673/,6528,-2541.2,-0.3892769607843137,ok
+5708,pZeoSV2 (+),Mammalian Expression,Invitrogen,Yes,https://www.addgene.org/vector-database/5708/,9732,-3543.1,-0.3640669954788327,ok
+4752,pZIP-neoSVX1,Mammalian Expression,,No,https://www.addgene.org/vector-database/4752/,,,,
+4760,pZsGreen1-C1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4760/,,,,
+4761,pZsGreen1-DR,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4761/,,,,
+4762,pZsGreen1-N1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4762/,,,,
+4764,pZsYellow1-C1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4764/,,,,
+4765,pZsYellow1-N1,Mammalian Expression,Clontech,Yes,https://www.addgene.org/vector-database/4765/,,,,
+4820,TREx pcDNA4/TO,Mammalian Expression,Invitrogen,No,https://www.addgene.org/vector-database/4820/,,,,
+4821,TREx pcDNA4/TO/mycHis,Mammalian Expression,Invitrogen,No,https://www.addgene.org/vector-database/4821/,,,,
+4822,TREx pcDNA5/TO,Mammalian Expression,Invitrogen,No,https://www.addgene.org/vector-database/4822/,,,,
+4823,TREx pcDNA6/TR,Mammalian Expression,Invitrogen,No,https://www.addgene.org/vector-database/4823/,,,,

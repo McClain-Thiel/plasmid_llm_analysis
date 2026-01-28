@@ -18,7 +18,7 @@ generation:
   repetition_penalty: 1.0
 
 # QC and Benchmarking
-real_plasmids_dir: "assets/annotations"
+real_plasmids_dir: "data/real_plasmids"
 oridb_ref: "assets/oriV_refs.fasta"
 oridb_prefix: "data/oridb_nucl"
 

@@ -40,7 +40,8 @@ PROJECT_ROOT = SCRIPT_DIR.parent.parent
 BASE_DIR = Path(os.environ.get('RESULTS_DIR', PROJECT_ROOT / 'results'))
 PUB_DIR = BASE_DIR / 'publication'
 REAL_DIR = Path(os.environ.get('REAL_PLASMIDS_DIR', PROJECT_ROOT / 'assets' / 'annotations'))
-ADDGENE_DIR = Path(os.environ.get('ADDGENE_DIR', PROJECT_ROOT.parent / 'addgene_reconcile'))
+# Real plasmids directory - default to data/real_plasmids in the repo
+ADDGENE_DIR = Path(os.environ.get('ADDGENE_DIR', PROJECT_ROOT / 'data' / 'real_plasmids'))
 
 PUB_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -122,7 +123,8 @@ def load_data():
 
     # Load real plasmids from Addgene with pre-calculated MFE
     addgene_mfe_csv = ADDGENE_DIR / 'addgene_consolidated_mfe.csv'
-    addgene_seq_dir = ADDGENE_DIR / 'sequences'
+    # FASTAs can be in same dir or in 'sequences' subdir
+    addgene_seq_dir = ADDGENE_DIR / 'sequences' if (ADDGENE_DIR / 'sequences').exists() else ADDGENE_DIR
 
     if addgene_mfe_csv.exists() and addgene_seq_dir.exists():
         print(f"Loading Addgene plasmids from: {ADDGENE_DIR}")
