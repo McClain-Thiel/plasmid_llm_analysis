@@ -84,7 +84,10 @@ def main():
     # =========================================================================
     stats_output.append("## 2. Held-Out Continuation Task (Log-Probability)\n")
 
-    completion_csv = BASE_DIR / 'analysis' / 'completion_benchmark.csv'
+    # Try both naming conventions
+    completion_csv = BASE_DIR / 'analysis' / 'completion_benchmark_NEW.csv'
+    if not completion_csv.exists():
+        completion_csv = BASE_DIR / 'analysis' / 'completion_benchmark.csv'
     if completion_csv.exists():
         df_comp = pd.read_csv(completion_csv)
 
@@ -101,16 +104,42 @@ def main():
 
         stats_output.append("\n")
 
-        # Pairwise t-tests
-        stats_output.append("### Pairwise T-Tests (Completion)\n")
+        # Paired t-tests (using same plasmid/position pairs)
+        stats_output.append("### Paired T-Tests (Completion)\n")
+        df_comp['key'] = df_comp['Plasmid'] + '_' + df_comp['Start'].astype(str)
+        pivot_comp = df_comp.pivot(index='key', columns='Model', values='AvgLogProb')
+
         for i, m1 in enumerate(MODEL_ORDER):
             for m2 in MODEL_ORDER[i+1:]:
-                s1 = df_comp[df_comp['Model'] == m1]['AvgLogProb'].dropna()
-                s2 = df_comp[df_comp['Model'] == m2]['AvgLogProb'].dropna()
-                if len(s1) > 0 and len(s2) > 0:
-                    t_stat, p_val = stats.ttest_ind(s1, s2)
-                    sig = "***" if p_val < 0.001 else "**" if p_val < 0.01 else "*" if p_val < 0.05 else ""
-                    stats_output.append(f"- {m1} vs {m2}: t={t_stat:.3f}, p={p_val:.2e} {sig}\n")
+                if m1 in pivot_comp.columns and m2 in pivot_comp.columns:
+                    paired = pivot_comp[[m1, m2]].dropna()
+                    if len(paired) > 0:
+                        t_stat, p_val = stats.ttest_rel(paired[m1], paired[m2])
+                        sig = "***" if p_val < 0.001 else "**" if p_val < 0.01 else "*" if p_val < 0.05 else ""
+                        stats_output.append(f"- {m1} vs {m2}: t={t_stat:.3f}, p={p_val:.2e} {sig} (n={len(paired)} pairs)\n")
+
+        stats_output.append("\n")
+
+        # Alignment Tax Analysis (Base vs RL)
+        stats_output.append("### Alignment Tax Analysis\n")
+        if 'Base' in pivot_comp.columns and 'RL' in pivot_comp.columns:
+            paired = pivot_comp[['Base', 'RL']].dropna()
+            t_stat, p_val = stats.ttest_rel(paired['Base'], paired['RL'])
+            diff = paired['RL'].mean() - paired['Base'].mean()
+            sig = "***" if p_val < 0.001 else "**" if p_val < 0.01 else "*" if p_val < 0.05 else "ns"
+
+            stats_output.append(f"- **Base vs RL (paired t-test)**\n")
+            stats_output.append(f"  - N pairs: {len(paired)}\n")
+            stats_output.append(f"  - Base mean: {paired['Base'].mean():.4f}\n")
+            stats_output.append(f"  - RL mean: {paired['RL'].mean():.4f}\n")
+            stats_output.append(f"  - Difference (RL - Base): {diff:+.4f}\n")
+            stats_output.append(f"  - t-statistic: {t_stat:.4f}\n")
+            stats_output.append(f"  - p-value: {p_val:.2e} {sig}\n")
+
+            if diff > 0:
+                stats_output.append(f"  - **Interpretation: No alignment tax** (RL performs better)\n")
+            else:
+                stats_output.append(f"  - **Interpretation: Alignment tax present** (RL performs worse)\n")
 
         stats_output.append("\n")
 
@@ -119,7 +148,10 @@ def main():
     # =========================================================================
     stats_output.append("## 3. Surprisal Benchmark\n")
 
-    surprisal_csv = BASE_DIR / 'analysis' / 'surprisal_benchmark.csv'
+    # Try both naming conventions
+    surprisal_csv = BASE_DIR / 'analysis' / 'surprisal_benchmark_NEW.csv'
+    if not surprisal_csv.exists():
+        surprisal_csv = BASE_DIR / 'analysis' / 'surprisal_benchmark.csv'
     if surprisal_csv.exists():
         df_surp = pd.read_csv(surprisal_csv)
 
@@ -136,16 +168,19 @@ def main():
 
         stats_output.append("\n")
 
-        # Pairwise t-tests
-        stats_output.append("### Pairwise T-Tests (Surprisal)\n")
+        # Paired t-tests (using same plasmid/position pairs)
+        stats_output.append("### Paired T-Tests (Surprisal)\n")
+        df_surp['key'] = df_surp['Plasmid'] + '_' + df_surp['PromoterStart'].astype(str)
+        pivot_surp = df_surp.pivot(index='key', columns='Model', values='MeanLogProb')
+
         for i, m1 in enumerate(MODEL_ORDER):
             for m2 in MODEL_ORDER[i+1:]:
-                s1 = df_surp[df_surp['Model'] == m1]['MeanLogProb'].dropna()
-                s2 = df_surp[df_surp['Model'] == m2]['MeanLogProb'].dropna()
-                if len(s1) > 0 and len(s2) > 0:
-                    t_stat, p_val = stats.ttest_ind(s1, s2)
-                    sig = "***" if p_val < 0.001 else "**" if p_val < 0.01 else "*" if p_val < 0.05 else ""
-                    stats_output.append(f"- {m1} vs {m2}: t={t_stat:.3f}, p={p_val:.2e} {sig}\n")
+                if m1 in pivot_surp.columns and m2 in pivot_surp.columns:
+                    paired = pivot_surp[[m1, m2]].dropna()
+                    if len(paired) > 0:
+                        t_stat, p_val = stats.ttest_rel(paired[m1], paired[m2])
+                        sig = "***" if p_val < 0.001 else "**" if p_val < 0.01 else "*" if p_val < 0.05 else ""
+                        stats_output.append(f"- {m1} vs {m2}: t={t_stat:.3f}, p={p_val:.2e} {sig} (n={len(paired)} pairs)\n")
 
         stats_output.append("\n")
 
