@@ -128,6 +128,19 @@ def main():
             diff = paired['RL'].mean() - paired['Base'].mean()
             sig = "***" if p_val < 0.001 else "**" if p_val < 0.01 else "*" if p_val < 0.05 else "ns"
 
+            # Cohen's d for paired samples (dz): mean_diff / std_diff
+            differences = paired['RL'] - paired['Base']
+            cohens_d = differences.mean() / differences.std()
+            # Interpret effect size
+            if abs(cohens_d) < 0.2:
+                effect_interp = "negligible"
+            elif abs(cohens_d) < 0.5:
+                effect_interp = "small"
+            elif abs(cohens_d) < 0.8:
+                effect_interp = "medium"
+            else:
+                effect_interp = "large"
+
             stats_output.append(f"- **Base vs RL (paired t-test)**\n")
             stats_output.append(f"  - N pairs: {len(paired)}\n")
             stats_output.append(f"  - Base mean: {paired['Base'].mean():.4f}\n")
@@ -135,6 +148,7 @@ def main():
             stats_output.append(f"  - Difference (RL - Base): {diff:+.4f}\n")
             stats_output.append(f"  - t-statistic: {t_stat:.4f}\n")
             stats_output.append(f"  - p-value: {p_val:.2e} {sig}\n")
+            stats_output.append(f"  - Cohen's d: {cohens_d:.3f} ({effect_interp} effect)\n")
 
             if diff > 0:
                 stats_output.append(f"  - **Interpretation: No alignment tax** (RL performs better)\n")
