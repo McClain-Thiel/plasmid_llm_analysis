@@ -36,10 +36,13 @@ MODEL_FILES = {
     'RL': 'RL_blast_results.tsv',
 }
 
-MODEL_COLORS = {'Base': '#2E4057', 'SFT': '#8B5CF6', 'RL': '#E11D48'}
+# Use seaborn deep palette
+sns.set_palette("deep")
+_deep = sns.color_palette("deep")
+MODEL_COLORS = {'Base': _deep[0], 'SFT': _deep[1], 'RL': _deep[2]}
 
-# Novelty category colors
-CATEGORY_COLORS = {'Exists': '#EF4444', 'Similar': '#F59E0B', 'Novel': '#22C55E'}
+# Novelty category colors (from seaborn deep palette)
+CATEGORY_COLORS = {'Exists': _deep[0], 'Similar': _deep[1], 'Novel': _deep[2]}
 
 # Figure settings
 plt.rcParams['figure.dpi'] = 150
@@ -181,7 +184,7 @@ def main():
 
     ax.set_xlabel('Model', fontsize=12)
     ax.set_ylabel('Number of Sequences', fontsize=12)
-    ax.set_title('Sequence Novelty Classification (NCBI BLAST)', fontsize=14, fontweight='bold')
+    #ax.set_title removed - no titles
     ax.set_xticks(x)
     ax.set_xticklabels(models_present)
     ax.legend(loc='upper right', frameon=True)
@@ -210,7 +213,7 @@ def main():
 
     ax.set_xlabel('Model', fontsize=12)
     ax.set_ylabel('Percentage of Sequences', fontsize=12)
-    ax.set_title('Sequence Novelty Classification (NCBI BLAST)', fontsize=14, fontweight='bold')
+    #ax.set_title removed - no titles
     ax.set_xticks(x)
     ax.set_xticklabels(models_present)
     ax.set_ylim(0, 100)
@@ -240,7 +243,7 @@ def main():
 
     ax.set_xlabel('Model', fontsize=12)
     ax.set_ylabel('Percentage of Sequences', fontsize=12)
-    ax.set_title('Sequence Novelty by Model', fontsize=14, fontweight='bold')
+    #ax.set_title removed - no titles
     ax.set_xticks(x)
     ax.set_xticklabels(models_present)
     ax.set_ylim(0, 110)
@@ -249,6 +252,57 @@ def main():
     ax.spines['right'].set_visible(False)
 
     save_figure('fig_novelty_grouped')
+
+    # ===== FIGURE 4: Novel sequences QC pass rate =====
+    # Load QC passed sequences
+    qc_passed = {}
+    for model in MODEL_ORDER:
+        pass_file = BASE_DIR / 'qc' / model / 'passed.csv'
+        if pass_file.exists():
+            qc_df = pd.read_csv(pass_file)
+            for _, row in qc_df.iterrows():
+                qc_passed[(model, row['Plasmid_ID'])] = True
+
+    # Cross-reference Novel sequences with QC pass
+    novel_qc_data = []
+    for model in models_present:
+        model_df = df[df['model'] == model]
+        novel_seqs = model_df[model_df['category'] == 'Novel']
+
+        passed = 0
+        for _, row in novel_seqs.iterrows():
+            seq_id = row['query_id'].replace(f'{model}_', '')
+            if (model, seq_id) in qc_passed:
+                passed += 1
+
+        total = len(novel_seqs)
+        pct = (passed / total * 100) if total > 0 else 0
+        novel_qc_data.append({'Model': model, 'Pass Rate': pct})
+
+    if novel_qc_data:
+        novel_qc_df = pd.DataFrame(novel_qc_data)
+
+        fig, ax = plt.subplots(figsize=(8, 6))
+        bars = ax.bar(novel_qc_df['Model'], novel_qc_df['Pass Rate'],
+                      color=[MODEL_COLORS[m] for m in novel_qc_df['Model']],
+                      edgecolor='black', linewidth=1.5)
+
+        for bar in bars:
+            height = bar.get_height()
+            ax.annotate(f'{height:.1f}%',
+                        xy=(bar.get_x() + bar.get_width()/2, height),
+                        xytext=(0, 5), textcoords="offset points",
+                        ha='center', va='bottom', fontsize=12, fontweight='bold')
+
+        ax.set_ylabel('QC Pass Rate (%)', fontsize=14, fontweight='bold')
+        ax.set_xlabel('Model', fontsize=14, fontweight='bold')
+        ax.set_ylim(0, 80)
+        ax.yaxis.grid(True, linestyle='--', alpha=0.3)
+        ax.set_axisbelow(True)
+        ax.spines['top'].set_visible(False)
+        ax.spines['right'].set_visible(False)
+
+        save_figure('fig_novelty_qc_passrate')
 
     # Print summary
     print("\n" + "=" * 50)

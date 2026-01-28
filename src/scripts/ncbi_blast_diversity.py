@@ -15,10 +15,15 @@ import time
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from Bio import SeqIO
+from Bio import SeqIO, Entrez
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 from Bio.Blast import NCBIWWW, NCBIXML
+
+# NCBI credentials - set via environment or command line
+# With API key: 10 requests/second; without: 3 requests/second
+NCBI_EMAIL = os.environ.get('NCBI_EMAIL', None)
+NCBI_API_KEY = os.environ.get('NCBI_API_KEY', None)
 
 
 def extract_sequences_to_fasta(csv_path: Path, fasta_path: Path, model_name: str) -> int:
@@ -78,7 +83,7 @@ def blast_sequence(seq_record, db="nt", program="blastn", hitlist_size=5, timeou
         return []
 
 
-def blast_all_sequences(fasta_path: Path, output_tsv: Path, max_workers: int = 4):
+def blast_all_sequences(fasta_path: Path, output_tsv: Path, has_api_key: bool = False):
     """BLAST all sequences in a FASTA file."""
     records = list(SeqIO.parse(fasta_path, 'fasta'))
     print(f"BLASTing {len(records)} sequences against NCBI nt...")
@@ -86,8 +91,9 @@ def blast_all_sequences(fasta_path: Path, output_tsv: Path, max_workers: int = 4
     all_results = []
     completed = 0
 
-    # Rate limit: NCBI allows ~3 requests per second max
-    # With 4 workers, add small delay between batches
+    # Rate limit: 10 req/sec with API key, 3 req/sec without
+    sleep_time = 0.15 if has_api_key else 0.5
+
     for i, record in enumerate(records):
         print(f"  [{i+1}/{len(records)}] {record.id} ({len(record.seq)} bp)...", flush=True)
         results = blast_sequence(record)
@@ -96,7 +102,7 @@ def blast_all_sequences(fasta_path: Path, output_tsv: Path, max_workers: int = 4
 
         # Rate limiting - wait between requests
         if i < len(records) - 1:
-            time.sleep(3)  # NCBI rate limit
+            time.sleep(sleep_time)
 
     # Write results
     if all_results:
@@ -154,7 +160,22 @@ def main():
     parser.add_argument("--models", nargs="+", default=["Base", "SFT", "RL", "SFT_GRPO"], help="Models to process")
     parser.add_argument("--output-dir", default=None, help="Output directory (default: exp-dir/ncbi_blast)")
     parser.add_argument("--sample", type=int, default=None, help="Only process first N sequences per model")
+    parser.add_argument("--email", default=NCBI_EMAIL, help="NCBI email for rate limiting (or set NCBI_EMAIL env var)")
+    parser.add_argument("--api-key", default=NCBI_API_KEY, help="NCBI API key for higher rate limits (or set NCBI_API_KEY env var)")
     args = parser.parse_args()
+
+    # Configure NCBI credentials
+    if args.email:
+        Entrez.email = args.email
+        print(f"Using NCBI email: {args.email}")
+    else:
+        print("WARNING: No NCBI email set. Rate limits may apply. Use --email or set NCBI_EMAIL env var.")
+
+    if args.api_key:
+        Entrez.api_key = args.api_key
+        print("Using NCBI API key (10 req/sec limit)")
+    else:
+        print("No API key set (3 req/sec limit). Get one at: https://www.ncbi.nlm.nih.gov/account/settings/")
 
     exp_dir = Path(args.exp_dir)
     output_dir = Path(args.output_dir) if args.output_dir else exp_dir / "ncbi_blast"
@@ -185,10 +206,23 @@ def main():
                 SeqIO.write(records, f, 'fasta')
             n_seqs = args.sample
 
-        # BLAST
+        # BLAST (skip if results already exist)
         blast_tsv = output_dir / f"{model}_blast_results.tsv"
-        results = blast_all_sequences(fasta_path, blast_tsv)
-        print(f"  BLAST results written to {blast_tsv}")
+        if blast_tsv.exists():
+            print(f"  BLAST results already exist at {blast_tsv}, loading...")
+            results = []
+            with open(blast_tsv, 'r') as f:
+                reader = csv.DictReader(f, delimiter='\t')
+                for row in reader:
+                    # Convert numeric fields back to proper types
+                    row['pct_identity'] = float(row['pct_identity'])
+                    row['query_coverage'] = float(row['query_coverage'])
+                    row['bitscore'] = float(row['bitscore'])
+                    results.append(row)
+            print(f"  Loaded {len(results)} existing results")
+        else:
+            results = blast_all_sequences(fasta_path, blast_tsv, has_api_key=bool(args.api_key))
+            print(f"  BLAST results written to {blast_tsv}")
 
         # Calculate diversity
         metrics = calculate_diversity_metrics(results)

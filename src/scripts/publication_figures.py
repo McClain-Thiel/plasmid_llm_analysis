@@ -27,7 +27,11 @@ PUB_DIR.mkdir(parents=True, exist_ok=True)
 
 # Model order for all plots (3 models per user preference)
 MODEL_ORDER = ['Base', 'SFT', 'RL']
-MODEL_COLORS = {'Base': '#2E4057', 'SFT': '#8B5CF6', 'RL': '#E11D48'}
+
+# Use seaborn deep palette
+sns.set_palette("deep")
+_deep = sns.color_palette("deep")
+MODEL_COLORS = {'Base': _deep[0], 'SFT': _deep[1], 'RL': _deep[2]}
 
 # Mapping from directory names to display names
 DIR_TO_NAME = {'Base': 'Base', 'SFT': 'SFT', 'RL': 'RL'}
@@ -167,7 +171,7 @@ def plot_pass_rate_overall(df):
 
     ax.set_xlabel('Model', fontsize=12)
     ax.set_ylabel('QC Pass Rate (%)', fontsize=12)
-    ax.set_title('Plasmid QC Pass Rate by Model', fontsize=14, fontweight='bold')
+    #ax.set_title removed - no titles
     ax.set_ylim(0, 105)
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
@@ -201,7 +205,7 @@ def plot_pass_rate_by_prompt(df):
 
     ax.set_xlabel('Model', fontsize=12)
     ax.set_ylabel('QC Pass Rate (%)', fontsize=12)
-    ax.set_title('Plasmid QC Pass Rate by Model and Prompt Type', fontsize=14, fontweight='bold')
+    #ax.set_title removed - no titles
     ax.set_xticks(x)
     ax.set_xticklabels(MODEL_ORDER)
     ax.set_ylim(0, 110)
@@ -239,7 +243,7 @@ def plot_diversity_overall(df):
 
     ax.set_xlabel('Model', fontsize=12)
     ax.set_ylabel('Self-Diversity (Mash Distance)', fontsize=12)
-    ax.set_title('Sequence Diversity by Model', fontsize=14, fontweight='bold')
+    #ax.set_title removed - no titles
     ax.set_ylim(0, 1.05)
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
@@ -274,7 +278,7 @@ def plot_pass_rate_vs_diversity(df):
 
     ax.set_xlabel('Self-Diversity (Mash Distance)', fontsize=12)
     ax.set_ylabel('QC Pass Rate (%)', fontsize=12)
-    ax.set_title('Pass Rate vs. Diversity Trade-off', fontsize=14, fontweight='bold')
+    #ax.set_title removed - no titles
     ax.set_xlim(0.3, 1.0)
     ax.set_ylim(0, 105)
     ax.spines['top'].set_visible(False)
@@ -301,7 +305,7 @@ def plot_length_distribution(df):
 
     ax.set_xlabel('Model', fontsize=12)
     ax.set_ylabel('Sequence Length (log10 bp)', fontsize=12)
-    ax.set_title('Distribution of Generated Plasmid Lengths', fontsize=14, fontweight='bold')
+    #ax.set_title removed - no titles
 
     # Add reference lines for typical plasmid sizes
     ax.axhline(y=np.log10(3000), color='gray', linestyle='--', alpha=0.5, label='3 kb')
@@ -330,7 +334,7 @@ def plot_gc_distribution(df):
 
     ax.set_xlabel('Model', fontsize=12)
     ax.set_ylabel('GC Content (%)', fontsize=12)
-    ax.set_title('Distribution of GC Content', fontsize=14, fontweight='bold')
+    #ax.set_title removed - no titles
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
 
@@ -354,7 +358,7 @@ def plot_repeat_fraction(df):
 
     ax.set_xlabel('Model', fontsize=12)
     ax.set_ylabel('Longest Repeat Fraction', fontsize=12)
-    ax.set_title('Distribution of Repeat Content', fontsize=14, fontweight='bold')
+    #ax.set_title removed - no titles
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
 
@@ -387,7 +391,7 @@ def plot_completion_benchmark(df):
 
     ax.set_xlabel('Model', fontsize=12)
     ax.set_ylabel('Mean Log Probability', fontsize=12)
-    ax.set_title('Plasmid Completion Benchmark', fontsize=14, fontweight='bold')
+    #ax.set_title removed - no titles
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
 
@@ -424,7 +428,7 @@ def plot_surprisal_benchmark():
 
     ax.set_xlabel('Model', fontsize=12)
     ax.set_ylabel('Mean Log Probability at Functional Sites', fontsize=12)
-    ax.set_title('Surprisal at Promoter-CDS Junctions', fontsize=14, fontweight='bold')
+    #ax.set_title removed - no titles
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
 
@@ -464,7 +468,7 @@ def plot_completion_by_plasmid():
 
     ax.set_xlabel('Reference Plasmid', fontsize=12)
     ax.set_ylabel('Mean Log Probability', fontsize=12)
-    ax.set_title('Completion Benchmark by Reference Plasmid', fontsize=14, fontweight='bold')
+    #ax.set_title removed - no titles
     ax.set_xticks(x)
     ax.set_xticklabels(pivot.index, rotation=45, ha='right')
     ax.legend(loc='upper right')
@@ -492,7 +496,7 @@ def plot_ori_amr_counts(df):
                 order=MODEL_ORDER, ax=ax)
     ax.set_xlabel('Model', fontsize=12)
     ax.set_ylabel('Number of ORIs', fontsize=12)
-    ax.set_title('A) Origin of Replication Count', fontsize=12, fontweight='bold', loc='left')
+    #ax.set_title removed
     ax.axhline(y=1, color='green', linestyle='--', alpha=0.7, label='Target: 1')
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
@@ -503,7 +507,7 @@ def plot_ori_amr_counts(df):
                 order=MODEL_ORDER, ax=ax)
     ax.set_xlabel('Model', fontsize=12)
     ax.set_ylabel('Number of AMR Genes', fontsize=12)
-    ax.set_title('B) Antibiotic Resistance Gene Count', fontsize=12, fontweight='bold', loc='left')
+    #ax.set_title removed
     ax.axhline(y=1, color='green', linestyle='--', alpha=0.7, label='Target: 1')
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
@@ -536,7 +540,7 @@ def plot_combined_summary():
         ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 1,
                 f'{val:.0f}%', ha='center', va='bottom', fontsize=10, fontweight='bold')
     ax.set_ylabel('QC Pass Rate (%)', fontsize=11)
-    ax.set_title('A) QC Pass Rate', fontsize=12, fontweight='bold', loc='left')
+    #ax.set_title removed
     ax.set_ylim(0, 105)
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
@@ -550,7 +554,7 @@ def plot_combined_summary():
         ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.02,
                 f'{val:.2f}', ha='center', va='bottom', fontsize=10, fontweight='bold')
     ax.set_ylabel('Self-Diversity', fontsize=11)
-    ax.set_title('B) Sequence Diversity', fontsize=12, fontweight='bold', loc='left')
+    #ax.set_title removed
     ax.set_ylim(0, 1.05)
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
@@ -568,7 +572,7 @@ def plot_combined_summary():
                     xytext=(8, 3), textcoords='offset points', fontsize=10)
     ax.set_xlabel('Self-Diversity', fontsize=11)
     ax.set_ylabel('QC Pass Rate (%)', fontsize=11)
-    ax.set_title('C) Pass Rate vs. Diversity', fontsize=12, fontweight='bold', loc='left')
+    #ax.set_title removed
     ax.set_xlim(0.3, 1.0)
     ax.set_ylim(0, 105)
     ax.grid(True, alpha=0.3)
@@ -590,12 +594,12 @@ def plot_combined_summary():
             ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.02,
                     f'{val:.2f}', ha='center', va='bottom', fontsize=10, fontweight='bold')
         ax.set_ylabel('NCBI Diversity Ratio', fontsize=11)
-        ax.set_title('D) NCBI BLAST Uniqueness', fontsize=12, fontweight='bold', loc='left')
+        #ax.set_title removed
         ax.set_ylim(0, 1.1)
     else:
         ax.text(0.5, 0.5, 'NCBI Diversity Data\nNot Available', ha='center', va='center',
                 fontsize=12, transform=ax.transAxes)
-        ax.set_title('D) NCBI BLAST Uniqueness', fontsize=12, fontweight='bold', loc='left')
+        #ax.set_title removed
 
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
